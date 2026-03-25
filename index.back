@@ -8,7 +8,9 @@
   <style>
     :root {
       --bg: #0b1220;
+      --bg-soft: #111a2d;
       --surface: rgba(255,255,255,0.08);
+      --surface-2: rgba(255,255,255,0.12);
       --line: rgba(255,255,255,0.14);
       --text: #eef4ff;
       --muted: #b7c3d9;
@@ -33,17 +35,10 @@
       line-height: 1.65;
     }
 
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
+    a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
-    img {
-      max-width: 100%;
-      display: block;
-    }
+    img { max-width: 100%; display: block; }
 
     .container {
       width: min(calc(100% - 2rem), var(--maxw));
@@ -97,6 +92,8 @@
       padding: 3rem 0 1.4rem;
     }
 
+    
+
     .hero-main,
     .glass,
     .gallery-card,
@@ -109,15 +106,25 @@
     }
 
     .hero-main {
-      width: 100%;
+      width:100%
       padding: 2.5rem;
       position: relative;
       overflow: hidden;
+      min-height: 400px;
       background:
         linear-gradient(130deg, rgba(127,212,255,0.12), rgba(121,240,207,0.06)),
         linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
     }
+    .hero-content {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 1.5rem;
+      align-items: start;
+    }
 
+    .hero-text-block {
+      max-width: 800px;
+    }
     .hero-main::before {
       content: "";
       position: absolute;
@@ -129,34 +136,6 @@
       pointer-events: none;
     }
 
-    .hero-layout {
-      display: grid;
-      grid-template-columns: 160px 1fr;
-      gap: 1.5rem 2rem;
-      align-items: start;
-      position: relative;
-      z-index: 1;
-    }
-
-    .hero-photo {
-      grid-column: 1;
-      grid-row: 1;
-    }
-
-    .hero-info {
-      grid-column: 2;
-      grid-row: 1;
-      min-width: 0;
-    }
-
-    .portrait-main {
-      width: 160px;
-      height: auto;
-      border-radius: 14px;
-      border: 1px solid rgba(255,255,255,0.15);
-      box-shadow: 0 10px 28px rgba(0,0,0,0.3);
-    }
-
     .eyebrow {
       display: inline-flex;
       align-items: center;
@@ -165,7 +144,7 @@
       text-transform: uppercase;
       letter-spacing: 0.18em;
       color: var(--accent-2);
-      margin-bottom: 0.45rem;
+      margin-bottom: 1rem;
       font-weight: 700;
     }
 
@@ -184,36 +163,20 @@
     }
 
     .hero-text {
-      margin: 0 0 0.95rem;
+      max-width: 70ch;
+      margin: 0;
       color: #ecf3ff;
-      max-width: 78ch;
     }
 
-    .teaser {
-      display: block;
-      width: 100%;
-      max-width: 520px;
-      height: auto;
-      border-radius: 14px;
-      border: 1px solid rgba(255,255,255,0.1);
-      box-shadow: 0 10px 28px rgba(0,0,0,0.22);
-      margin: 1rem 0 1rem 0;
-    }
-
-    .cta-row,
-    .badges {
+    .badges, .cta-row, .quick-links {
       display: flex;
       flex-wrap: wrap;
       gap: 0.7rem;
     }
 
-    .cta-row {
-      margin-top: 0.25rem;
-    }
-
-    .badges {
-      margin-top: 1rem;
-    }
+    .badges { margin: 1.3rem 0 0.9rem; }
+    .cta-row { margin-top: 1.4rem; }
+    .quick-links { margin-top: 1rem; }
 
     .pill,
     .button {
@@ -244,9 +207,65 @@
       border-color: rgba(255,255,255,0.12);
     }
 
-    .button:hover {
-      text-decoration: none;
-      filter: brightness(1.03);
+    .button:hover { text-decoration: none; filter: brightness(1.03); }
+
+    .hero-side {
+      display: grid;
+      gap: 1.25rem;
+    }
+
+    .teaser-card {
+      padding: 1rem;
+      display: grid;
+      gap: 0.9rem;
+    }
+
+    .teaser {
+      width: 100%;
+      max-width:350px;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: 12px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+    }
+  .portrait {
+      width: 160px;
+      height: auto;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.15);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+      float: left;
+      margin-left: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .teaser-note {
+      padding: 0.9rem 1rem;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.8rem;
+    }
+
+    .stat {
+      padding: 1rem;
+      border-radius: 20px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 1.4rem;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 0.3rem;
     }
 
     .section {
@@ -345,8 +364,7 @@
       margin-bottom: 1rem;
     }
 
-    .pub-toolbar input,
-    .pub-toolbar select {
+    .pub-toolbar input, .pub-toolbar select {
       border: 1px solid rgba(255,255,255,0.12);
       background: rgba(255,255,255,0.08);
       color: var(--text);
@@ -430,10 +448,7 @@
       font-weight: 650;
     }
 
-    .pub-link:hover {
-      text-decoration: none;
-      background: rgba(255,255,255,0.11);
-    }
+    .pub-link:hover { text-decoration: none; background: rgba(255,255,255,0.11); }
 
     .contact-card {
       padding: 1.25rem;
@@ -456,6 +471,7 @@
     }
 
     @media (max-width: 1080px) {
+      .hero-grid,
       .gallery-grid,
       .contact-grid,
       .research-grid,
@@ -463,39 +479,15 @@
       .pub-item {
         grid-template-columns: 1fr;
       }
+
+      .stats { grid-template-columns: repeat(3, 1fr); }
     }
 
     @media (max-width: 760px) {
-      .nav {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .hero-layout {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-photo,
-      .hero-info {
-        grid-column: auto;
-        grid-row: auto;
-      }
-
-      .portrait-main {
-        width: 140px;
-      }
-
-      .gallery-card {
-        grid-template-columns: 1fr;
-      }
-
-      .pub-item {
-        padding: 0.9rem;
-      }
-
-      .hero-main {
-        padding: 1.4rem;
-      }
+      .nav { flex-direction: column; align-items: flex-start; }
+      .stats { grid-template-columns: 1fr; }
+      .gallery-card { grid-template-columns: 1fr; }
+      .pub-item { padding: 0.9rem; }
     }
   </style>
 </head>
@@ -516,106 +508,48 @@
   <main class="container">
     <section id="home" class="hero">
       <div class="hero-main">
-        <div class="hero-layout">
-          <div class="hero-photo">
-            <img class="portrait-main"
-                 src="assets/profile.jpg"
-                 alt="Edmond Boyer"
-                 onerror="this.src='myself.jpg'; this.onerror=function(){this.style.display='none';};" />
+        <div class="hero-content">
+          
+          <img class="portrait-main" src="assets/portrait.jpg" alt="Edmond Boyer">
+          <div class="eyebrow">3D Vision · Dynamic Modeling · Medical Diagnosis</div>
+          <h1>Edmond Boyer</h1>
+          
+          
+          
+          <div class="hero-subtitle">Senior researcher at INRIA working on 3D dynamic modeling from images and videos, motion perception, and immersive visual computing.</div>
+          <p class="hero-text">
+            Edmond Boyer is a senior researcher at <a href="https://www.inria.fr/" target="_blank" rel="noopener">INRIA</a>. His research interests include 3D dynamic modelling from images and videos, motion perception and analysis from videos, and computational methods for medical diagnosis from imaging and motion data. From December 2022 to December 2025 he was on leave with Meta Reality Labs in Zurich. Before that, he was at <a href="https://www.inria.fr/fr/centre-inria-de-luniversite-grenoble-alpes" target="_blank" rel="noopener">INRIA Grenoble Rhône-Alpes</a>, where he created and led the <a href="https://team.inria.fr/morpheo/" target="_blank" rel="noopener">Morpheo</a> team on the capture and analysis of moving shapes using visual cues. 
+            From 1998 to 2010, he was associate professor of computer science at Université Joseph Fourier, now part of <a href="https://www.univ-grenoble-alpes.fr/" target="_blank" rel="noopener">Université Grenoble Alpes</a>. He is also co-founder of <a href="https://www.4dviews.com/" target="_blank" rel="noopener">4DViews</a>, a company specialized in 4D acquisition.
+          </p>
           </div>
-
-          <div class="hero-info">
-            <div class="eyebrow">3D Vision · Dynamic Modeling · Medical Diagnosis</div>
-
-            <h1>Edmond Boyer</h1>
-
-            <div class="hero-subtitle">
-              Senior researcher at INRIA working on 3D dynamic modeling from images and videos, motion perception, and immersive visual computing.
-            </div>
-
-            <p class="hero-text">
-              Edmond Boyer is a senior researcher at
-              <a href="https://www.inria.fr/" target="_blank" rel="noopener">INRIA</a>.
-              His research interests include 3D dynamic modelling from images and videos, motion perception and analysis from videos, and computational methods for medical diagnosis from imaging and motion data. From December 2022 to December 2025 he was on leave with Meta Reality Labs in Zurich.
-            </p>
-
-            <p class="hero-text">
-              Before that, he was at
-              <a href="https://www.inria.fr/fr/centre-inria-de-luniversite-grenoble-alpes" target="_blank" rel="noopener">INRIA Grenoble Rhône-Alpes</a>,
-              where he created and led the
-              <a href="https://team.inria.fr/morpheo/" target="_blank" rel="noopener">Morpheo</a>
-              team on the capture and analysis of moving shapes using visual cues. From 1998 to 2010, he was associate professor of computer science at Université Joseph Fourier, now part of
-              <a href="https://www.univ-grenoble-alpes.fr/" target="_blank" rel="noopener">Université Grenoble Alpes</a>.
-              He is also co-founder of
-              <a href="https://www.4dviews.com/" target="_blank" rel="noopener">4DViews</a>,
-              a company specialized in 4D acquisition.
-            </p>
-
-            <img class="teaser"
-                 src="assets/4Drunner.png"
-                 alt="Running Sequence"
-                 onerror="this.src='myself.jpg'; this.onerror=function(){this.style.display='none';};" />
-
-            <div class="cta-row">
-              <a class="button" href="#publications">Explore publications</a>
-              <a class="button secondary" href="https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-              <a class="button secondary" href="#contact">Contact</a>
-            </div>
-
-            <div class="badges">
-              <span class="pill">INRIA</span>
-              <span class="pill">Meta Reality Labs (2022–2025)</span>
-              <span class="pill">Morpheo</span>
-              <span class="pill">3DV / CV / Graphics</span>
-            </div>
+          <div class="teaser-card">
+            <img class="teaser" src="assets/4Drunner.png" alt="Running Sequence" onerror="this.src='myself.jpg'; this.onerror=function(){this.style.display='none';};" />
+          </div>
+          <div class="cta-row">
+            <a class="button" href="#publications">Explore publications</a>
+            <a class="button secondary" href="https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="button secondary" href="#contact">Contact</a>
           </div>
         </div>
+      
+        
       </div>
     </section>
 
-    <section id="research" class="section">
-      <div class="section-head">
-        <div>
-          <h2>Research</h2>
-          <p class="lead">Topics adapted from the original INRIA page, presented in a more visual, contemporary layout.</p>
-        </div>
-      </div>
-
-      <div class="research-grid">
-        <article class="glass">
-          <h3>3D dynamic modelling</h3>
-          <p class="muted">Reconstruction and modeling of dynamic objects, humans, and scenes from images and videos.</p>
-        </article>
-
-        <article class="glass">
-          <h3>Motion perception</h3>
-          <p class="muted">Perception, tracking, and analysis of motion from monocular and multi-view video streams.</p>
-        </article>
-
-        <article class="glass">
-          <h3>Medical applications</h3>
-          <p class="muted">3D vision and motion analysis for medical diagnosis, including dynamic biomarkers and patient-specific models.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" aria-label="Visual highlights">
+    <!-- <section class="section" aria-label="Visual highlights">
       <div class="gallery-grid">
         <div class="gallery-card">
-          <img src="assets/hero_research.jpg"
-               alt="Research visual"
-               onerror="this.src='assets/4Drunner.png'; this.onerror=function(){this.style.display='none';};" />
+          <img src="assets/hero_research.jpg" alt="Research visual" onerror="this.src='https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80';" />
           <div class="gallery-caption">
-            <h3 style="margin-top:0;">Research highlights</h3>
+            <h3 style="margin-top:0;">A more visual homepage</h3>
             <p class="muted" style="margin-bottom:0;">
-              Add a capture setup, dynamic reconstruction, medical motion sequence, or teaser collage here.
+              Add one or two research visuals here: capture rigs, dynamic reconstructions, avatars, or teaser collages. The right side can be replaced with any figure or montage from your recent work.
             </p>
           </div>
         </div>
-
         <div class="glass">
           <h3>Selected themes</h3>
-          <p class="muted">The site is designed to remain simple while giving more visual presence to the research.</p>
+          <p class="muted">The current design is intentionally image-forward so the site feels closer to a modern lab or faculty page than to a plain profile page.</p>
           <div class="badges" style="margin-top:1rem;">
             <span class="pill">Human capture</span>
             <span class="pill">Dynamic scenes</span>
@@ -624,6 +558,29 @@
             <span class="pill">Interactive environments</span>
           </div>
         </div>
+      </div>
+    </section> -->
+
+    <section id="research" class="section">
+      <div class="section-head">
+        <div>
+          <h2>Research</h2>
+          <p class="lead">Topics I work on.</p>
+        </div>
+      </div>
+      <div class="research-grid">
+        <article class="glass">
+          <h3>3D dynamic modelling</h3>
+          <p class="muted">Reconstruction and modeling of dynamic objects, humans, and scenes from images and videos.</p>
+        </article>
+        <article class="glass">
+          <h3>Motion perception</h3>
+          <p class="muted">Perception, tracking, and analysis of motion from monocular and multi-view video streams.</p>
+        </article>
+        <article class="glass">
+          <h3>3D Vision for Medical Applications</h3>
+          <p class="muted">3D motion capture and analysis for medical diagnosis.</p>
+        </article>
       </div>
     </section>
 
@@ -645,7 +602,7 @@
         </div>
 
         <div id="pub-status" class="pub-status">
-          Configure <code class="inline">PUBLICATIONS_ENDPOINT</code> below or use the local <code class="inline">publications.json</code> file.
+          Configure <code class="inline">PUBLICATIONS_ENDPOINT</code> below or use the local <code class="inline">publications.json</code> file. The page is already ready to render teaser images, abstracts, PDF links, and videos.
         </div>
 
         <div id="pub-list" class="pub-grid"></div>
@@ -656,17 +613,15 @@
       <div class="section-head">
         <div>
           <h2>Teaching</h2>
-          <p class="lead">Courses currently linked from the original teaching page.</p>
+          <p class="lead">Courses I used to teach.</p>
         </div>
       </div>
-
       <div class="teaching-grid">
-        <a class="teaching-link" href="https://morpheo.inrialpes.fr/people/Boyer/teaching/Mosig1/" target="_blank" rel="noopener">
+        <a class="teaching-link" href="https://morpheo.inrialpes.fr/~Boyer/teaching/Mosig1/" target="_blank" rel="noopener">
           <strong>Introduction to Visual Computing</strong><br />
           <span class="muted">Mosig 1</span>
         </a>
-
-        <a class="teaching-link" href="https://morpheo.inrialpes.fr/people/Boyer/teaching/GVR/" target="_blank" rel="noopener">
+        <a class="teaching-link" href="https://morpheo.inrialpes.fr/~Boyer/teaching/GVR/" target="_blank" rel="noopener">
           <strong>3D Vision</strong><br />
           <span class="muted">Mosig 2 – GVR</span>
         </a>
@@ -677,10 +632,8 @@
       <div class="section-head">
         <div>
           <h2>Contact</h2>
-          <p class="lead">Institutional contact details from the original page, ready to customize if needed.</p>
         </div>
       </div>
-
       <div class="contact-grid">
         <div class="contact-card">
           <strong>INRIA Grenoble Rhône-Alpes – Morpheo Team</strong><br />
@@ -688,8 +641,12 @@
           38334 Saint Ismier – France<br /><br />
           Tel: +33 476 61 53 54<br />
           Email: <span id="email"></span>
+          <script>
+            const e = ["edmond.boyer", "inria.fr"];
+            document.getElementById("email").innerHTML =
+            `<a href="mailto:${e[0]}@${e[1]}">${e[0]}@${e[1]}</a>`;
+          </script>
         </div>
-
         <div class="contact-card">
           <strong>External profiles</strong><br /><br />
           <a href="https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a><br />
@@ -700,18 +657,45 @@
     </section>
 
     <footer>
-      Design refreshed for GitHub Pages from the structure of the original INRIA homepage.
     </footer>
   </main>
 
   <script>
-    const e = ["edmond.boyer", "inria.fr"];
-    document.getElementById("email").innerHTML =
-      `<a href="mailto:${e[0]}@${e[1]}">${e[0]}@${e[1]}</a>`;
+    /*
+      PUBLICATION SETUP
+      -----------------
+      Option A (recommended for GitHub Pages): keep a publications.json file in your repo.
+      Option B: point PUBLICATIONS_ENDPOINT to a serverless endpoint that prepares the JSON for you.
+
+      IMPORTANT ABOUT GOOGLE SCHOLAR:
+      Google Scholar does not provide an official browser-side API for profile publications,
+      and direct client-side scraping is usually blocked. For a robust GitHub Pages setup,
+      use a small pre-processing script that exports publications.json from Scholar / DBLP / OpenAlex.
+
+      Supported JSON format:
+      {
+        "items": [
+          {
+            "title": "Paper title",
+            "authors": "A. Author, E. Boyer",
+            "venue": "CVPR",
+            "year": 2025,
+            "abstract": "Optional short description",
+            "teaser": "assets/publications/paper1.jpg",
+            "pdf": "https://.../paper.pdf",
+            "video": "https://.../video",
+            "project": "https://...",
+            "scholar": "https://scholar.google.com/...",
+            "code": "https://github.com/...",
+            "keywords": ["3d", "dynamic", "human"]
+          }
+        ]
+      }
+    */
 
     const SCHOLAR_PROFILE = "https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en";
     const LOCAL_PUBLICATIONS_JSON = "publications.json";
-    const PUBLICATIONS_ENDPOINT = "";
+    const PUBLICATIONS_ENDPOINT = ""; // optional: remote JSON endpoint
 
     const pubListEl = document.getElementById("pub-list");
     const pubStatusEl = document.getElementById("pub-status");
@@ -769,28 +753,21 @@
           <div class="pub-links">${links.join("")}</div>
         </div>
       `;
-
       return article;
     }
 
     function populateYearFilter(items) {
-      const years = [...new Set(items.map((p) => p.year).filter(Boolean))]
-        .sort((a, b) => Number(b) - Number(a));
-
-      pubYearEl.innerHTML =
-        '<option value="">All years</option>' +
-        years.map((y) => `<option value="${y}">${y}</option>`).join("");
+      const years = [...new Set(items.map((p) => p.year).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
+      pubYearEl.innerHTML = '<option value="">All years</option>' + years.map((y) => `<option value="${y}">${y}</option>`).join("");
     }
 
     function renderPublications(items) {
       pubListEl.innerHTML = "";
-
       if (!items.length) {
         pubStatusEl.style.display = "block";
         pubStatusEl.innerHTML = `No publication matches the current filters. You can still browse the <a href="${SCHOLAR_PROFILE}" target="_blank" rel="noopener">Google Scholar profile</a>.`;
         return;
       }
-
       pubStatusEl.style.display = "none";
       items.forEach((pub) => pubListEl.appendChild(makePublicationCard(pub)));
     }
@@ -798,42 +775,28 @@
     function applyFilters() {
       const query = pubSearchEl.value.trim().toLowerCase();
       const year = pubYearEl.value;
-
       const filtered = publications.filter((pub) => {
-        const haystack = [
-          pub.title,
-          pub.authors,
-          pub.venue,
-          pub.abstract,
-          pub.year,
-          ...(pub.keywords || [])
-        ].join(" ").toLowerCase();
-
+        const haystack = [pub.title, pub.authors, pub.venue, pub.abstract, pub.year, ...(pub.keywords || [])].join(" ").toLowerCase();
         const qOk = !query || haystack.includes(query);
         const yOk = !year || pub.year === year;
         return qOk && yOk;
       });
-
       renderPublications(filtered);
     }
 
     async function fetchJSON(url) {
-      const response = await fetch(url, { headers: { Accept: "application/json" } });
+      const response = await fetch(url, { headers: { Accept: 'application/json' } });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.json();
     }
 
     async function loadPublications() {
       const sources = [PUBLICATIONS_ENDPOINT, LOCAL_PUBLICATIONS_JSON].filter(Boolean);
-
       for (const src of sources) {
         try {
           const data = await fetchJSON(src);
           const items = Array.isArray(data) ? data : (data.items || []);
-          publications = items
-            .map(normalizePub)
-            .sort((a, b) => Number(b.year || 0) - Number(a.year || 0));
-
+          publications = items.map(normalizePub).sort((a, b) => Number(b.year || 0) - Number(a.year || 0));
           if (publications.length) {
             populateYearFilter(publications);
             renderPublications(publications);
@@ -841,36 +804,86 @@
             return;
           }
         } catch (err) {
-          console.warn("Publication source failed:", src, err);
+          console.warn('Publication source failed:', src, err);
         }
       }
 
       publications = [
         {
-          title: "Example publication card",
-          authors: "A. Author, E. Boyer",
-          venue: "CVPR",
-          year: "2025",
-          abstract: "Replace this sample item by a generated publications.json file. The layout supports teaser images, PDFs, videos, project pages, and code links.",
-          teaser: "assets/publications/example.jpg",
-          pdf: "",
-          video: "",
-          project: "",
+          title: 'Example publication card',
+          authors: 'A. Author, E. Boyer',
+          venue: 'CVPR',
+          year: '2025',
+          abstract: 'Replace this sample item by a generated publications.json file. The layout already supports teaser images, PDFs, videos, project pages, and code links.',
+          teaser: 'assets/publications/example.jpg',
+          pdf: '',
+          video: '',
+          project: '',
           scholar: SCHOLAR_PROFILE,
-          code: "",
-          keywords: ["example"]
+          code: '',
+          keywords: ['example']
         }
       ].map(normalizePub);
-
       populateYearFilter(publications);
       renderPublications(publications);
-      pubStatusEl.style.display = "block";
+      pubStatusEl.style.display = 'block';
       pubStatusEl.innerHTML = `Using placeholder content. Add <code class="inline">publications.json</code> at the root of the repo, or set <code class="inline">PUBLICATIONS_ENDPOINT</code>.`;
     }
 
-    pubSearchEl.addEventListener("input", applyFilters);
-    pubYearEl.addEventListener("change", applyFilters);
+    pubSearchEl.addEventListener('input', applyFilters);
+    pubYearEl.addEventListener('change', applyFilters);
     loadPublications();
+
+    /*
+      OPTIONAL GENERATOR SCRIPT (Node.js)
+      -----------------------------------
+      Save the block below as scripts/build-publications.mjs and run it locally.
+      It converts a simple publications-source.json file into publications.json.
+      This is the safest GitHub Pages workflow because GitHub Pages itself remains static.
+
+      Example input file: publications-source.json
+      {
+        "items": [
+          {
+            "title": "My Paper",
+            "authors": "A. Author, Edmond Boyer",
+            "venue": "CVPR",
+            "year": 2025,
+            "abstract": "Short summary",
+            "teaser": "assets/publications/my-paper.jpg",
+            "pdf": "https://.../paper.pdf",
+            "video": "https://.../video",
+            "project": "https://.../project"
+          }
+        ]
+      }
+
+      ---------- build-publications.mjs ----------
+      import { readFile, writeFile } from 'node:fs/promises';
+
+      const source = JSON.parse(await readFile('publications-source.json', 'utf8'));
+      const items = (source.items || []).map((item) => ({
+        title: item.title || 'Untitled publication',
+        authors: item.authors || '',
+        venue: item.venue || '',
+        year: item.year || '',
+        abstract: item.abstract || '',
+        teaser: item.teaser || '',
+        pdf: item.pdf || '',
+        video: item.video || '',
+        project: item.project || '',
+        scholar: item.scholar || '',
+        code: item.code || '',
+        keywords: item.keywords || []
+      })).sort((a, b) => Number(b.year || 0) - Number(a.year || 0));
+
+      await writeFile('publications.json', JSON.stringify({ items }, null, 2));
+      console.log(`Wrote ${items.length} publications to publications.json`);
+      --------------------------------------------
+
+      If you want an actual Scholar scraper, do it outside the browser and export publications.json.
+      You can then enrich the records manually with teaser / PDF / video links when available.
+    */
   </script>
 </body>
 </html>
