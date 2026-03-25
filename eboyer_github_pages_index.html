@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edmond Boyer — 3D/4D Vision</title>
+  <meta name="description" content="Academic homepage of Edmond Boyer — 3D/4D vision, dynamic shape modeling, and visual computing." />
+  <style>
+    :root {
+      --bg: #0b1220;
+      --bg-soft: #111a2d;
+      --surface: rgba(255,255,255,0.08);
+      --surface-2: rgba(255,255,255,0.12);
+      --line: rgba(255,255,255,0.14);
+      --text: #eef4ff;
+      --muted: #b7c3d9;
+      --accent: #7fd4ff;
+      --accent-2: #79f0cf;
+      --shadow: 0 18px 50px rgba(0,0,0,0.28);
+      --radius: 24px;
+      --maxw: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 10% 10%, rgba(127,212,255,0.18), transparent 30%),
+        radial-gradient(circle at 85% 20%, rgba(121,240,207,0.14), transparent 25%),
+        linear-gradient(180deg, #08101d 0%, #0e1728 42%, #10182c 100%);
+      line-height: 1.65;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    img { max-width: 100%; display: block; }
+
+    .container {
+      width: min(calc(100% - 2rem), var(--maxw));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(16px);
+      background: rgba(8, 16, 29, 0.72);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.95rem 0;
+    }
+
+    .brand {
+      color: #fff;
+      font-weight: 800;
+      font-size: 1rem;
+      letter-spacing: 0.03em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-size: 0.95rem;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      padding: 0.45rem 0.75rem;
+      border-radius: 999px;
+    }
+
+    .nav-links a:hover {
+      color: #fff;
+      background: rgba(255,255,255,0.08);
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 3rem 0 1.4rem;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 1.25rem;
+      align-items: stretch;
+    }
+
+    .hero-main,
+    .glass,
+    .gallery-card,
+    .pub-card,
+    .contact-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+    }
+
+    .hero-main {
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+      min-height: 400px;
+      background:
+        linear-gradient(130deg, rgba(127,212,255,0.12), rgba(121,240,207,0.06)),
+        linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+    }
+
+    .hero-main::before {
+      content: "";
+      position: absolute;
+      inset: auto -60px -80px auto;
+      width: 360px;
+      height: 360px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(127,212,255,0.28), transparent 70%);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--accent-2);
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 5vw, 4.3rem);
+      line-height: 1.02;
+      margin: 0 0 0.7rem;
+      letter-spacing: -0.03em;
+    }
+
+    .hero-subtitle {
+      font-size: 1.12rem;
+      color: var(--muted);
+      margin-bottom: 1.1rem;
+      max-width: 62ch;
+    }
+
+    .hero-text {
+      max-width: 70ch;
+      margin: 0;
+      color: #ecf3ff;
+    }
+
+    .badges, .cta-row, .quick-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+    }
+
+    .badges { margin: 1.3rem 0 0.9rem; }
+    .cta-row { margin-top: 1.4rem; }
+    .quick-links { margin-top: 1rem; }
+
+    .pill,
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 0.72rem 1rem;
+      font-weight: 650;
+    }
+
+    .pill {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: #d9e7ff;
+      font-size: 0.92rem;
+    }
+
+    .button {
+      border: 1px solid transparent;
+      color: #05101f;
+      background: linear-gradient(135deg, var(--accent), #d9f4ff);
+    }
+
+    .button.secondary {
+      color: var(--text);
+      background: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.12);
+    }
+
+    .button:hover { text-decoration: none; filter: brightness(1.03); }
+
+    .hero-side {
+      display: grid;
+      gap: 1.25rem;
+    }
+
+    .portrait-card {
+      padding: 1rem;
+      display: grid;
+      gap: 0.9rem;
+    }
+
+    .portrait {
+      width: 100%;
+      aspect-ratio: 0.9 / 1;
+      object-fit: cover;
+      border-radius: 20px;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+    }
+
+    .portrait-note {
+      padding: 0.9rem 1rem;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.8rem;
+    }
+
+    .stat {
+      padding: 1rem;
+      border-radius: 20px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 1.4rem;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 0.3rem;
+    }
+
+    .section {
+      padding: 0.6rem 0 1.25rem;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .section h2 {
+      margin: 0;
+      font-size: clamp(1.6rem, 2.4vw, 2.2rem);
+      letter-spacing: -0.02em;
+    }
+
+    .section p.lead {
+      margin: 0.35rem 0 0;
+      color: var(--muted);
+      max-width: 70ch;
+    }
+
+    .research-grid,
+    .teaching-grid,
+    .contact-grid,
+    .gallery-grid,
+    .pub-grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .research-grid { grid-template-columns: repeat(3, 1fr); }
+    .teaching-grid { grid-template-columns: repeat(2, 1fr); }
+    .contact-grid { grid-template-columns: 1.1fr 0.9fr; }
+    .gallery-grid { grid-template-columns: 1.15fr 0.85fr; }
+
+    .glass {
+      padding: 1.25rem;
+    }
+
+    .glass h3 {
+      margin-top: 0;
+      margin-bottom: 0.55rem;
+      font-size: 1.08rem;
+    }
+
+    .muted { color: var(--muted); }
+
+    .teaching-link {
+      display: block;
+      padding: 1rem 1.05rem;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      transition: transform 0.18s ease, background 0.18s ease;
+    }
+
+    .teaching-link:hover {
+      text-decoration: none;
+      transform: translateY(-2px);
+      background: rgba(255,255,255,0.08);
+    }
+
+    .gallery-card {
+      overflow: hidden;
+      min-height: 220px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .gallery-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      min-height: 220px;
+    }
+
+    .gallery-caption {
+      padding: 1.25rem;
+      background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+    }
+
+    .pub-card {
+      padding: 1.35rem;
+    }
+
+    .pub-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .pub-toolbar input, .pub-toolbar select {
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.08);
+      color: var(--text);
+      border-radius: 14px;
+      padding: 0.8rem 0.9rem;
+      font: inherit;
+    }
+
+    .pub-toolbar input {
+      flex: 1 1 260px;
+      min-width: 220px;
+    }
+
+    .pub-status {
+      border-radius: 18px;
+      padding: 1rem;
+      background: rgba(255,255,255,0.05);
+      border: 1px dashed rgba(255,255,255,0.14);
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    .pub-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .pub-item {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 1rem;
+      padding: 1rem;
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255,255,255,0.05);
+    }
+
+    .pub-thumb {
+      aspect-ratio: 16 / 9;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.1);
+      background: linear-gradient(135deg, rgba(127,212,255,0.16), rgba(121,240,207,0.12));
+    }
+
+    .pub-title {
+      margin: 0 0 0.35rem;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+
+    .pub-meta {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .pub-desc {
+      margin: 0.6rem 0 0;
+      color: #dde8fb;
+      font-size: 0.97rem;
+    }
+
+    .pub-links {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin-top: 0.85rem;
+    }
+
+    .pub-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.55rem 0.78rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: #f1f6ff;
+      font-size: 0.92rem;
+      font-weight: 650;
+    }
+
+    .pub-link:hover { text-decoration: none; background: rgba(255,255,255,0.11); }
+
+    .contact-card {
+      padding: 1.25rem;
+    }
+
+    footer {
+      padding: 1rem 0 2.5rem;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    code.inline {
+      padding: 0.18rem 0.45rem;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: #fff;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.92em;
+    }
+
+    @media (max-width: 1080px) {
+      .hero-grid,
+      .gallery-grid,
+      .contact-grid,
+      .research-grid,
+      .teaching-grid,
+      .pub-item {
+        grid-template-columns: 1fr;
+      }
+
+      .stats { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (max-width: 760px) {
+      .nav { flex-direction: column; align-items: flex-start; }
+      .stats { grid-template-columns: 1fr; }
+      .gallery-card { grid-template-columns: 1fr; }
+      .pub-item { padding: 0.9rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#home">Edmond Boyer</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <div class="hero-grid">
+        <div class="hero-main">
+          <div class="eyebrow">3D Vision · Dynamic Modeling · Visual Computing</div>
+          <h1>Edmond Boyer</h1>
+          <div class="hero-subtitle">Senior researcher at INRIA working on 3D dynamic modeling from images and videos, motion perception, and immersive visual computing.</div>
+          <p class="hero-text">
+            Edmond Boyer is a senior researcher at <a href="https://www.inria.fr/" target="_blank" rel="noopener">INRIA</a>. His research interests include 3D dynamic modelling from images and videos, motion perception and analysis from videos, and immersive and interactive environments. From December 2022 to December 2025 he was on leave with Meta Reality Labs in Zurich. Before that, he was at <a href="https://www.inria.fr/fr/centre-inria-de-luniversite-grenoble-alpes" target="_blank" rel="noopener">INRIA Grenoble Rhône-Alpes</a>, where he created and led the <a href="https://team.inria.fr/morpheo/" target="_blank" rel="noopener">Morpheo</a> team on the capture and analysis of moving shapes using visual cues.
+          </p>
+          <p class="hero-text" style="margin-top:0.9rem;">
+            From 1998 to 2010, he was associate professor of computer science at Université Joseph Fourier, now part of <a href="https://www.univ-grenoble-alpes.fr/" target="_blank" rel="noopener">Université Grenoble Alpes</a>. He is also co-founder of <a href="https://www.4dviews.com/" target="_blank" rel="noopener">4DViews</a>, a company specialized in 4D acquisition.
+          </p>
+
+          <div class="badges">
+            <span class="pill">INRIA</span>
+            <span class="pill">Meta Reality Labs (2022–2025)</span>
+            <span class="pill">Morpheo</span>
+            <span class="pill">3DV / CV / Graphics</span>
+          </div>
+
+          <div class="cta-row">
+            <a class="button" href="#publications">Explore publications</a>
+            <a class="button secondary" href="https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="button secondary" href="#contact">Contact</a>
+          </div>
+
+          <div class="quick-links">
+            <span class="pill">Dynamic shape capture</span>
+            <span class="pill">Human modeling</span>
+            <span class="pill">4D acquisition</span>
+            <span class="pill">Multi-view geometry</span>
+          </div>
+        </div>
+
+        <div class="hero-side">
+          <div class="portrait-card glass">
+            <img class="portrait" src="assets/profile.jpg" alt="Portrait of Edmond Boyer" onerror="this.src='myself.jpg'; this.onerror=function(){this.style.display='none';};" />
+            <div class="portrait-note">
+              Replace <span class="inline-code">assets/profile.jpg</span> with your preferred portrait. The layout also supports a full-height vertical image.
+            </div>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong>3D/4D</strong><span class="muted">vision and dynamic modeling</span></div>
+            <div class="stat"><strong>Multi-view</strong><span class="muted">capture and reconstruction</span></div>
+            <div class="stat"><strong>Immersive</strong><span class="muted">visual computing</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Visual highlights">
+      <div class="gallery-grid">
+        <div class="gallery-card">
+          <img src="assets/hero_research.jpg" alt="Research visual" onerror="this.src='https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80';" />
+          <div class="gallery-caption">
+            <h3 style="margin-top:0;">A more visual homepage</h3>
+            <p class="muted" style="margin-bottom:0;">
+              Add one or two research visuals here: capture rigs, dynamic reconstructions, avatars, or teaser collages. The right side can be replaced with any figure or montage from your recent work.
+            </p>
+          </div>
+        </div>
+        <div class="glass">
+          <h3>Selected themes</h3>
+          <p class="muted">The current design is intentionally image-forward so the site feels closer to a modern lab or faculty page than to a plain profile page.</p>
+          <div class="badges" style="margin-top:1rem;">
+            <span class="pill">Human capture</span>
+            <span class="pill">Dynamic scenes</span>
+            <span class="pill">Neural representations</span>
+            <span class="pill">Motion analysis</span>
+            <span class="pill">Interactive environments</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="section-head">
+        <div>
+          <h2>Research</h2>
+          <p class="lead">Topics adapted from the original INRIA page, presented in a more visual, contemporary layout.</p>
+        </div>
+      </div>
+      <div class="research-grid">
+        <article class="glass">
+          <h3>3D dynamic modelling</h3>
+          <p class="muted">Reconstruction and modeling of dynamic objects, humans, and scenes from images and videos.</p>
+        </article>
+        <article class="glass">
+          <h3>Motion perception</h3>
+          <p class="muted">Perception, tracking, and analysis of motion from monocular and multi-view video streams.</p>
+        </article>
+        <article class="glass">
+          <h3>Immersive environments</h3>
+          <p class="muted">Visual computing methods for immersive, interactive, and 4D experiences.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="section-head">
+        <div>
+          <h2>Publications</h2>
+          <p class="lead">Searchable publication cards with teaser images, PDF and video links when available.</p>
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-toolbar">
+          <input id="pub-search" type="search" placeholder="Search by title, author, venue, keyword, or year" aria-label="Search publications" />
+          <select id="pub-year" aria-label="Filter by year">
+            <option value="">All years</option>
+          </select>
+          <a class="button secondary" href="https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en" target="_blank" rel="noopener">Full Google Scholar profile</a>
+        </div>
+
+        <div id="pub-status" class="pub-status">
+          Configure <code class="inline">PUBLICATIONS_ENDPOINT</code> below or use the local <code class="inline">publications.json</code> file. The page is already ready to render teaser images, abstracts, PDF links, and videos.
+        </div>
+
+        <div id="pub-list" class="pub-grid"></div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section">
+      <div class="section-head">
+        <div>
+          <h2>Teaching</h2>
+          <p class="lead">Courses currently linked from the original teaching page.</p>
+        </div>
+      </div>
+      <div class="teaching-grid">
+        <a class="teaching-link" href="https://morpheo.inrialpes.fr/people/Boyer/teaching/Mosig1/" target="_blank" rel="noopener">
+          <strong>Introduction to Visual Computing</strong><br />
+          <span class="muted">Mosig 1</span>
+        </a>
+        <a class="teaching-link" href="https://morpheo.inrialpes.fr/people/Boyer/teaching/GVR/" target="_blank" rel="noopener">
+          <strong>3D Vision</strong><br />
+          <span class="muted">Mosig 2 – GVR</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-head">
+        <div>
+          <h2>Contact</h2>
+          <p class="lead">Institutional contact details from the original page, ready to customize if needed.</p>
+        </div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <strong>INRIA Grenoble Rhône-Alpes – Morpheo Team</strong><br />
+          655, avenue de l'Europe<br />
+          38334 Saint Ismier – France<br /><br />
+          Tel: +33 476 61 53 54<br />
+          Email: <a href="mailto:edmond.boyer@inria.fr">edmond.boyer@inria.fr</a>
+        </div>
+        <div class="contact-card">
+          <strong>External profiles</strong><br /><br />
+          <a href="https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a><br />
+          <a href="https://team.inria.fr/morpheo/" target="_blank" rel="noopener">Morpheo team</a><br />
+          <a href="https://www.4dviews.com/" target="_blank" rel="noopener">4DViews</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Design refreshed for GitHub Pages from the structure of the original INRIA homepage.
+    </footer>
+  </main>
+
+  <script>
+    /*
+      PUBLICATION SETUP
+      -----------------
+      Option A (recommended for GitHub Pages): keep a publications.json file in your repo.
+      Option B: point PUBLICATIONS_ENDPOINT to a serverless endpoint that prepares the JSON for you.
+
+      IMPORTANT ABOUT GOOGLE SCHOLAR:
+      Google Scholar does not provide an official browser-side API for profile publications,
+      and direct client-side scraping is usually blocked. For a robust GitHub Pages setup,
+      use a small pre-processing script that exports publications.json from Scholar / DBLP / OpenAlex.
+
+      Supported JSON format:
+      {
+        "items": [
+          {
+            "title": "Paper title",
+            "authors": "A. Author, E. Boyer",
+            "venue": "CVPR",
+            "year": 2025,
+            "abstract": "Optional short description",
+            "teaser": "assets/publications/paper1.jpg",
+            "pdf": "https://.../paper.pdf",
+            "video": "https://.../video",
+            "project": "https://...",
+            "scholar": "https://scholar.google.com/...",
+            "code": "https://github.com/...",
+            "keywords": ["3d", "dynamic", "human"]
+          }
+        ]
+      }
+    */
+
+    const SCHOLAR_PROFILE = "https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en";
+    const LOCAL_PUBLICATIONS_JSON = "publications.json";
+    const PUBLICATIONS_ENDPOINT = ""; // optional: remote JSON endpoint
+
+    const pubListEl = document.getElementById("pub-list");
+    const pubStatusEl = document.getElementById("pub-status");
+    const pubSearchEl = document.getElementById("pub-search");
+    const pubYearEl = document.getElementById("pub-year");
+
+    let publications = [];
+
+    function safeText(value) {
+      return (value ?? "").toString();
+    }
+
+    function normalizePub(item) {
+      return {
+        title: safeText(item.title) || "Untitled publication",
+        authors: safeText(item.authors),
+        venue: safeText(item.venue || item.journal || item.booktitle),
+        year: safeText(item.year),
+        abstract: safeText(item.abstract || item.summary || item.description),
+        teaser: safeText(item.teaser || item.thumbnail || item.image),
+        pdf: safeText(item.pdf),
+        video: safeText(item.video),
+        project: safeText(item.project || item.url),
+        scholar: safeText(item.scholar),
+        code: safeText(item.code),
+        keywords: Array.isArray(item.keywords) ? item.keywords.map(String) : []
+      };
+    }
+
+    function makePublicationCard(pub) {
+      const article = document.createElement("article");
+      article.className = "pub-item";
+
+      const teaser = pub.teaser
+        ? `<img class="pub-thumb" src="${pub.teaser}" alt="Teaser for ${pub.title}" loading="lazy" />`
+        : `<div class="pub-thumb" aria-hidden="true"></div>`;
+
+      const meta = [pub.authors, pub.venue, pub.year].filter(Boolean).join(" · ");
+      const description = pub.abstract ? `<p class="pub-desc">${pub.abstract}</p>` : "";
+
+      const links = [];
+      if (pub.pdf) links.push(`<a class="pub-link" href="${pub.pdf}" target="_blank" rel="noopener">PDF</a>`);
+      if (pub.video) links.push(`<a class="pub-link" href="${pub.video}" target="_blank" rel="noopener">Video</a>`);
+      if (pub.project) links.push(`<a class="pub-link" href="${pub.project}" target="_blank" rel="noopener">Project</a>`);
+      if (pub.code) links.push(`<a class="pub-link" href="${pub.code}" target="_blank" rel="noopener">Code</a>`);
+      if (pub.scholar) links.push(`<a class="pub-link" href="${pub.scholar}" target="_blank" rel="noopener">Scholar</a>`);
+      if (!pub.scholar) links.push(`<a class="pub-link" href="${SCHOLAR_PROFILE}" target="_blank" rel="noopener">Scholar profile</a>`);
+
+      article.innerHTML = `
+        ${teaser}
+        <div>
+          <h3 class="pub-title">${pub.title}</h3>
+          <p class="pub-meta">${meta}</p>
+          ${description}
+          <div class="pub-links">${links.join("")}</div>
+        </div>
+      `;
+      return article;
+    }
+
+    function populateYearFilter(items) {
+      const years = [...new Set(items.map((p) => p.year).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
+      pubYearEl.innerHTML = '<option value="">All years</option>' + years.map((y) => `<option value="${y}">${y}</option>`).join("");
+    }
+
+    function renderPublications(items) {
+      pubListEl.innerHTML = "";
+      if (!items.length) {
+        pubStatusEl.style.display = "block";
+        pubStatusEl.innerHTML = `No publication matches the current filters. You can still browse the <a href="${SCHOLAR_PROFILE}" target="_blank" rel="noopener">Google Scholar profile</a>.`;
+        return;
+      }
+      pubStatusEl.style.display = "none";
+      items.forEach((pub) => pubListEl.appendChild(makePublicationCard(pub)));
+    }
+
+    function applyFilters() {
+      const query = pubSearchEl.value.trim().toLowerCase();
+      const year = pubYearEl.value;
+      const filtered = publications.filter((pub) => {
+        const haystack = [pub.title, pub.authors, pub.venue, pub.abstract, pub.year, ...(pub.keywords || [])].join(" ").toLowerCase();
+        const qOk = !query || haystack.includes(query);
+        const yOk = !year || pub.year === year;
+        return qOk && yOk;
+      });
+      renderPublications(filtered);
+    }
+
+    async function fetchJSON(url) {
+      const response = await fetch(url, { headers: { Accept: 'application/json' } });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    }
+
+    async function loadPublications() {
+      const sources = [PUBLICATIONS_ENDPOINT, LOCAL_PUBLICATIONS_JSON].filter(Boolean);
+      for (const src of sources) {
+        try {
+          const data = await fetchJSON(src);
+          const items = Array.isArray(data) ? data : (data.items || []);
+          publications = items.map(normalizePub).sort((a, b) => Number(b.year || 0) - Number(a.year || 0));
+          if (publications.length) {
+            populateYearFilter(publications);
+            renderPublications(publications);
+            pubStatusEl.innerHTML = `Loaded ${publications.length} publications.`;
+            return;
+          }
+        } catch (err) {
+          console.warn('Publication source failed:', src, err);
+        }
+      }
+
+      publications = [
+        {
+          title: 'Example publication card',
+          authors: 'A. Author, E. Boyer',
+          venue: 'CVPR',
+          year: '2025',
+          abstract: 'Replace this sample item by a generated publications.json file. The layout already supports teaser images, PDFs, videos, project pages, and code links.',
+          teaser: 'assets/publications/example.jpg',
+          pdf: '',
+          video: '',
+          project: '',
+          scholar: SCHOLAR_PROFILE,
+          code: '',
+          keywords: ['example']
+        }
+      ].map(normalizePub);
+      populateYearFilter(publications);
+      renderPublications(publications);
+      pubStatusEl.style.display = 'block';
+      pubStatusEl.innerHTML = `Using placeholder content. Add <code class="inline">publications.json</code> at the root of the repo, or set <code class="inline">PUBLICATIONS_ENDPOINT</code>.`;
+    }
+
+    pubSearchEl.addEventListener('input', applyFilters);
+    pubYearEl.addEventListener('change', applyFilters);
+    loadPublications();
+
+    /*
+      OPTIONAL GENERATOR SCRIPT (Node.js)
+      -----------------------------------
+      Save the block below as scripts/build-publications.mjs and run it locally.
+      It converts a simple publications-source.json file into publications.json.
+      This is the safest GitHub Pages workflow because GitHub Pages itself remains static.
+
+      Example input file: publications-source.json
+      {
+        "items": [
+          {
+            "title": "My Paper",
+            "authors": "A. Author, Edmond Boyer",
+            "venue": "CVPR",
+            "year": 2025,
+            "abstract": "Short summary",
+            "teaser": "assets/publications/my-paper.jpg",
+            "pdf": "https://.../paper.pdf",
+            "video": "https://.../video",
+            "project": "https://.../project"
+          }
+        ]
+      }
+
+      ---------- build-publications.mjs ----------
+      import { readFile, writeFile } from 'node:fs/promises';
+
+      const source = JSON.parse(await readFile('publications-source.json', 'utf8'));
+      const items = (source.items || []).map((item) => ({
+        title: item.title || 'Untitled publication',
+        authors: item.authors || '',
+        venue: item.venue || '',
+        year: item.year || '',
+        abstract: item.abstract || '',
+        teaser: item.teaser || '',
+        pdf: item.pdf || '',
+        video: item.video || '',
+        project: item.project || '',
+        scholar: item.scholar || '',
+        code: item.code || '',
+        keywords: item.keywords || []
+      })).sort((a, b) => Number(b.year || 0) - Number(a.year || 0));
+
+      await writeFile('publications.json', JSON.stringify({ items }, null, 2));
+      console.log(`Wrote ${items.length} publications to publications.json`);
+      --------------------------------------------
+
+      If you want an actual Scholar scraper, do it outside the browser and export publications.json.
+      You can then enrich the records manually with teaser / PDF / video links when available.
+    */
+  </script>
+</body>
+</html>
