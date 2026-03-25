@@ -144,6 +144,7 @@
     }
 
     .hero-info {
+      margin-top: 0;
       grid-column: 2;
       grid-row: 1;
       min-width: 0;
@@ -158,6 +159,7 @@
     }
 
     .eyebrow {
+      margin-top: 0;
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
@@ -197,7 +199,7 @@
       border-radius: 14px;
       border: 1px solid rgba(255,255,255,0.1);
       box-shadow: 0 10px 28px rgba(0,0,0,0.22);
-      margin: 1rem 0 1rem 0;
+      margin: 1rem auto;
     }
 
     .cta-row,
@@ -209,10 +211,12 @@
 
     .cta-row {
       margin-top: 0.25rem;
+      justify-content: center;
     }
 
     .badges {
       margin-top: 1rem;
+      justify-content: center;
     }
 
     .pill,
@@ -519,7 +523,7 @@
         <div class="hero-layout">
           <div class="hero-photo">
             <img class="portrait-main"
-                 src="assets/profile.jpg"
+                 src="assets/portrait.jpg"
                  alt="Edmond Boyer"
                  onerror="this.src='myself.jpg'; this.onerror=function(){this.style.display='none';};" />
           </div>
@@ -560,13 +564,6 @@
               <a class="button" href="#publications">Explore publications</a>
               <a class="button secondary" href="https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
               <a class="button secondary" href="#contact">Contact</a>
-            </div>
-
-            <div class="badges">
-              <span class="pill">INRIA</span>
-              <span class="pill">Meta Reality Labs (2022–2025)</span>
-              <span class="pill">Morpheo</span>
-              <span class="pill">3DV / CV / Graphics</span>
             </div>
           </div>
         </div>
