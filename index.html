@@ -229,7 +229,7 @@
       border-radius: 14px;
       border: 1px solid rgba(255,255,255,0.15);
       box-shadow: 0 8px 24px rgba(0,0,0,0.25);
-      float: right;
+      float: left;
       margin-left: 1.2rem;
       margin-bottom: 0.5rem;
     }
@@ -504,6 +504,8 @@
     <section id="home" class="hero">
       <div class="hero-grid">
         <div class="hero-main">
+                      <img class="portrait" src="assets/portrait.jpg" alt="portrait" onerror="this.src='myself.jpg'; this.onerror=function(){this.style.display='none';};" />
+
           <div class="eyebrow">3D Vision · Dynamic Modeling · Medical Diagnosis</div>
           <h1>Edmond Boyer</h1>
           <div class="hero-subtitle">Senior researcher at INRIA working on 3D dynamic modeling from images and videos, motion perception, and immersive visual computing.</div>
@@ -521,16 +523,7 @@
           </div>
         </div>
 
-        <div class="hero-side">
-          <div class="teaser-card glass">
-            <img class="portrait" src="assets/portrait.jpg" alt="portrait" onerror="this.src='myself.jpg'; this.onerror=function(){this.style.display='none';};" />
-          </div>
-          <div class="stats">
-            <div class="stat"><strong>3D/4D</strong><span class="muted">vision and dynamic modeling</span></div>
-            <div class="stat"><strong>Multi-view</strong><span class="muted">capture and reconstruction</span></div>
-            <div class="stat"><strong>3D Vision</strong><span class="muted">for Medical Diagnosis</span></div>
-          </div>
-        </div>
+        
       </div>
     </section>
 
