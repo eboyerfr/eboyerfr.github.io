@@ -92,12 +92,7 @@
       padding: 3rem 0 1.4rem;
     }
 
-    .hero-grid {
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 1.25rem;
-      align-items: stretch;
-    }
+    
 
     .hero-main,
     .glass,
@@ -111,7 +106,8 @@
     }
 
     .hero-main {
-      padding: 2rem;
+      width:100%
+      padding: 2.5rem;
       position: relative;
       overflow: hidden;
       min-height: 400px;
@@ -119,7 +115,16 @@
         linear-gradient(130deg, rgba(127,212,255,0.12), rgba(121,240,207,0.06)),
         linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
     }
+    .hero-content {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 1.5rem;
+      align-items: start;
+    }
 
+    .hero-text-block {
+      max-width: 800px;
+    }
     .hero-main::before {
       content: "";
       position: absolute;
@@ -502,9 +507,9 @@
 
   <main class="container">
     <section id="home" class="hero">
-      <div class="hero-grid">
-        <div class="hero-main">
-                      <img class="portrait" src="assets/portrait.jpg" alt="portrait" onerror="this.src='myself.jpg'; this.onerror=function(){this.style.display='none';};" />
+      <div class="hero-main">
+        <div class="hero-content">
+          <img class="portrait-main" src="assets/portrait.jpg" alt="Edmond Boyer">
 
           <div class="eyebrow">3D Vision · Dynamic Modeling · Medical Diagnosis</div>
           <h1>Edmond Boyer</h1>
@@ -522,7 +527,7 @@
             <a class="button secondary" href="#contact">Contact</a>
           </div>
         </div>
-
+      </div>
         
       </div>
     </section>
