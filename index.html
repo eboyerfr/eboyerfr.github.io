@@ -685,7 +685,8 @@
     const pubStatusEl = document.getElementById("pub-status");
     const pubSearchEl = document.getElementById("pub-search");
     const pubYearEl = document.getElementById("pub-year");
-
+    const defaultpubYear = "2024";
+    pubYearEl.value=defaultpubYear;
     let publications = [];
 
     function safeText(value) {
