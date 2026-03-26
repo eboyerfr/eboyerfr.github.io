@@ -1,1454 +1,3728 @@
 [
   {
+    "id": "medshapenet-a-large-scale-dataset-of-3d-medical-shapes-for-computer-vision",
     "title": "MedShapeNet – a large-scale dataset of 3D medical shapes for computer vision",
-    "authors": "",
-    "venue": "",
-    "year": "2025"
+    "authors": "Jianning Li, Antonio Pepe, C. Gsaxner, Gijs Luijten, Yuan Jin, Narmada Ambigapathy, Enrico Nasca, Naida Solak, Gian Marco Melito, A. R. Memon, Xiaojun Chen, Jan S. Kirschke, E. L. Rosa, Patrich Ferndinand Christ, Hongwei Li, David G. Ellis, M. Aizenberg, S. Gatidis, Thomas Kuestner, N. Shusharina, N. Heller, V. Andrearczyk, A. Depeursinge, M. Hatt, A. Sekuboyina, Maximilian Loeffler, H. Liebl, R. Dorent, Tom Kamiel Magda Vercauteren, J. Shapey, A. Kujawa, S. Cornelissen, Patrick Langenhuizen, A. Ben-Hamadou, Ahmed Rekik, S. Pujades, Edmond Boyer, Federico Bolelli, C. Grana, Luca Lumetti, H. Salehi, Jun Ma, Yao Zhang, R. Gharleghi, S. Beier, Eduardo A. Garza-Villarreal, T. Balducci, Diego Angeles-Valdez, R. Souza, Letícia Rittner, R. Frayne, Yuanfeng Ji, S. Chatterjee, A. Nuernberger, J. Pedrosa, Carlos A. Ferreira, Guilherme Aresta, António Cunha, A. Campilho, Yannick Suter, Jose A. Garcia, A. Lalande, E. Audenaert, C. Krebs, T. V. Leeuwen, E. Vereecke, R. Roehrig, F. Hoelzle, Vahid Badeli, Kathrin Krieger, M. Gunzer, Jianxu Chen, Amin Dada, M. Balzer, Jana Fragemann, F. Jonske, M. Rempe, Stanislav Malorodov, F. Bahnsen, Constantin Seibold, A. Jaus, A. Santos, M. Lindo, André Ferreira, V. Alves, Michael Kamp, Amr Abourayya, F. Nensa, Fabian Hoerst, Alexandra Brehmer, Lukas Heine, L. Podleska, Matthias A. Fink, Julius Keyl, K. Tserpes, Moon S Kim, Shireen Elhabian, H. Lamecker, Dženan Zukić, B. Paniagua, C. Wachinger, M. Urschler, Luc Duong, Jakob Wasserthal, P. Hoyer, O. Basu, T. Maal, Max Witjes, Ping Luo, Bjoern H Menze, M. Reyes, C. Davatzikos, B. Puladi, J. Kleesiek, Jan Egger",
+    "venue": "Biomedizinische Technik. Biomedical engineering",
+    "year": 2023,
+    "paper": "https://doi.org/10.1515/bmt-2024-0396",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1515/bmt-2024-0396",
+    "doi_url": "https://doi.org/10.1515/bmt-2024-0396",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/58722fd568e30615ce242d85ad1ecea576320c1c",
+    "citationCount": 63,
+    "influentialCitationCount": 7,
+    "externalIds": {
+      "ArXiv": "2308.16139",
+      "DBLP": "journals/corr/abs-2308-16139",
+      "DOI": "10.1515/bmt-2024-0396",
+      "CorpusId": 261339668,
+      "PubMed": "39733351"
+    },
+    "corpusId": 261339668
   },
   {
-    "title": "TSegLab: Multi-stage 3D dental scan segmentation and labeling",
-    "authors": "",
-    "venue": "",
-    "year": "2025"
+    "id": "3dteethseg-22-3d-teeth-scan-segmentation-and-labeling-challenge",
+    "title": "3DTeethSeg'22: 3D Teeth Scan Segmentation and Labeling Challenge",
+    "authors": "A. Ben-Hamadou, Oussama Smaoui, Ahmed Rekik, S. Pujades, Edmond Boyer, Ho-Kyung Lim, Minchang Kim, Minkyung Lee, M. Chung, Yeong-Gil Shin, M. Leclercq, L. Cevidanes, J. Prieto, Shaojie Zhuang, Guangshun Wei, Zhiming Cui, Yuanfeng Zhou, T. Dascalu, B. Ibragimov, Tae-Hoon Yong, Honggi Ahn, Wan-Joong Kim, Jaehwan Han, B. Choi, N. V. Nistelrooij, Steven Kempers, S. Vinayahalingam, Julien Strippoli, Aurélien Thollot, H. Setbon, Cyril Trosset, Edouard Ladroit",
+    "venue": "arXiv.org",
+    "year": 2023,
+    "paper": "http://arxiv.org/pdf/2305.18277",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.48550/arXiv.2305.18277",
+    "doi_url": "https://doi.org/10.48550/arXiv.2305.18277",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/ce8d57636a3210011878512bdc6c3278e3273016",
+    "citationCount": 28,
+    "influentialCitationCount": 3,
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2305-18277",
+      "ArXiv": "2305.18277",
+      "DOI": "10.48550/arXiv.2305.18277",
+      "CorpusId": 258959418
+    },
+    "corpusId": 258959418
   },
   {
-    "title": "Matching Shapes Under Different Topologies: A Topology-Adaptive Deformation Guided Approach",
-    "authors": "",
-    "venue": "",
-    "year": "2025"
-  },
-  {
-    "title": "VortSDF: 3D Modeling with Centroidal Voronoi Tessellation on Signed Distance Field",
-    "authors": "",
-    "venue": "",
-    "year": "2025"
-  },
-  {
-    "title": "Splatfields: Neural gaussian splats for sparse 3d and 4d reconstruction",
-    "authors": "",
-    "venue": "",
-    "year": "2024"
-  },
-  {
-    "title": "Anim: Accurate neural implicit model for human reconstruction from a single rgb-d image",
-    "authors": "",
-    "venue": "",
-    "year": "2024"
-  },
-  {
-    "title": "Millimetric Human Surface Capture in Minutes",
-    "authors": "",
-    "venue": "",
-    "year": "2024"
-  },
-  {
-    "title": "HISR: Hybrid implicit surface representation for photorealistic 3D human reconstruction",
-    "authors": "",
-    "venue": "",
-    "year": "2024"
-  },
-  {
-    "title": "Combining Neural Fields and Deformation Models for Non-Rigid 3D Motion Reconstruction from Partial Data",
-    "authors": "",
-    "venue": "",
-    "year": "2024"
-  },
-  {
-    "title": "NF3DM: Combining Neural Fields and Deformation Models for 3D Non-Rigid Motion Reconstruction",
-    "authors": "",
-    "venue": "",
-    "year": "2024"
-  },
-  {
-    "title": "3D Shape Modeling with Adaptive Centroidal Voronoi Tesselation on Signed Distance Field",
-    "authors": "",
-    "venue": "",
-    "year": "2024"
-  },
-  {
-    "title": "3DTeethSeg'22: 3D teeth scan segmentation and labeling challenge",
-    "authors": "",
-    "venue": "",
-    "year": "2023"
-  },
-  {
-    "title": "Vertebrae localization, segmentation and identification using a graph optimization and an anatomic consistency cycle",
-    "authors": "",
-    "venue": "",
-    "year": "2023"
-  },
-  {
+    "id": "4dhumanoutfit-a-multi-subject-4d-dataset-of-human-motion-sequences-in-varying-outfits-exhibiting-large-displacements",
     "title": "4DHumanOutfit: a multi-subject 4D dataset of human motion sequences in varying outfits exhibiting large displacements",
-    "authors": "",
-    "venue": "",
-    "year": "2023"
+    "authors": "M. Armando, Laurence Boissieux, Edmond Boyer, Jean-Sébastien Franco, M. Humenberger, Christophe Legras, Vincent Leroy, Mathieu Marsot, J. Pansiot, S. Pujades, Rim Rekik, Grégory Rogez, A. Swamy, Stefanie Wuhrer",
+    "venue": "Computer Vision and Image Understanding",
+    "year": 2023,
+    "paper": "http://arxiv.org/pdf/2306.07399",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.48550/arXiv.2306.07399",
+    "doi_url": "https://doi.org/10.48550/arXiv.2306.07399",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/1e53d47ca6e61326b36e521d5e2070eb06eb4063",
+    "citationCount": 26,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "DBLP": "journals/cviu/ArmandoBBFHLLMPPRRSW23",
+      "ArXiv": "2306.07399",
+      "DOI": "10.48550/arXiv.2306.07399",
+      "CorpusId": 259145175
+    },
+    "corpusId": 259145175
   },
   {
-    "title": "Multi-view reconstruction using signed ray distance functions (srdf)",
-    "authors": "",
-    "venue": "",
-    "year": "2023"
+    "id": "human-body-shape-completion-with-implicit-shape-and-flow-learning",
+    "title": "Human Body Shape Completion with Implicit Shape and Flow Learning",
+    "authors": "Boyao Zhou, Di Meng, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "Computer Vision and Pattern Recognition",
+    "year": 2023,
+    "paper": "https://inria.hal.science/hal-04045719/file/CVPR2023ShapeFlow_mainpaper.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR52729.2023.01240",
+    "doi_url": "https://doi.org/10.1109/CVPR52729.2023.01240",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/df4e01b8929618fab2f8e9828f01a2aab3d3d582",
+    "citationCount": 10,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "DBLP": "conf/cvpr/ZhouMFB23",
+      "DOI": "10.1109/CVPR52729.2023.01240",
+      "CorpusId": 260293002
+    },
+    "corpusId": 260293002
   },
   {
-    "title": "Human body shape completion with implicit shape and flow learning",
-    "authors": "",
-    "venue": "",
-    "year": "2023"
+    "id": "multi-modal-data-correspondence-for-the-4d-analysis-of-the-spine-with-adolescent-idiopathic-scoliosis",
+    "title": "Multi-Modal Data Correspondence for the 4D Analysis of the Spine with Adolescent Idiopathic Scoliosis",
+    "authors": "Nicolas Comte, S. Pujades, A. Courvoisier, O. Daniel, Jean-Sébastien Franco, François Faure, Edmond Boyer",
+    "venue": "Bioengineering",
+    "year": 2023,
+    "paper": "https://www.mdpi.com/2306-5354/10/7/874/pdf?version=1690176678",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.3390/bioengineering10070874",
+    "doi_url": "https://doi.org/10.3390/bioengineering10070874",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/e7651dcf077b336fbcbb64ce89e4a02173ae9b43",
+    "citationCount": 4,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "PubMedCentral": "10376049",
+      "DOI": "10.3390/bioengineering10070874",
+      "CorpusId": 260148463,
+      "PubMed": "37508901"
+    },
+    "corpusId": 260148463
   },
   {
-    "title": "Multi-modal data correspondence for the 4D analysis of the spine with adolescent idiopathic scoliosis",
-    "authors": "",
-    "venue": "",
-    "year": "2023"
+    "id": "teeth3ds-an-extended-benchmark-for-intraoral-3d-scans-analysis",
+    "title": "Teeth3DS+: An Extended Benchmark for Intraoral 3D Scans Analysis",
+    "authors": "A. Ben-Hamadou, Nour Neifar, Ahmed Rekik, Oussama Smaoui, Firas Bouzguenda, S. Pujades, Edmond Boyer, Edouard Ladroit",
+    "venue": "Progress in Orthodontics",
+    "year": 2022,
+    "paper": "https://link.springer.com/content/pdf/10.1186/s40510-022-00410-x.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1186/s40510-022-00410-x",
+    "doi_url": "https://doi.org/10.1186/s40510-022-00410-x",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/76ddafbf71d463076cb40608eabaac8ee27e9b4e",
+    "citationCount": 21,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "ArXiv": "2210.06094",
+      "CorpusId": 252846801
+    },
+    "corpusId": 252846801
   },
   {
-    "title": "Deformation-guided unsupervised non-rigid shape matching",
-    "authors": "",
-    "venue": "",
-    "year": "2023"
+    "id": "multi-view-reconstruction-using-signed-ray-distance-functions-srdf",
+    "title": "Multi-View Reconstruction Using Signed Ray Distance Functions (SRDF)",
+    "authors": "Pierre Zins, Yuanlu Xu, Edmond Boyer, Stefanie Wuhrer, Tony Tung",
+    "venue": "Computer Vision and Pattern Recognition",
+    "year": 2022,
+    "paper": "http://arxiv.org/pdf/2209.00082",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR52729.2023.01602",
+    "doi_url": "https://doi.org/10.1109/CVPR52729.2023.01602",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/a8b960eea7711cd0ad42f2267c56076bd9fc50e6",
+    "citationCount": 12,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "ArXiv": "2209.00082",
+      "DBLP": "journals/corr/abs-2209-00082",
+      "DOI": "10.1109/CVPR52729.2023.01602",
+      "CorpusId": 251979334
+    },
+    "corpusId": 251979334
   },
   {
-    "title": "3D inference of the scoliotic spine from depth maps of the back",
-    "authors": "",
-    "venue": "",
-    "year": "2023"
+    "id": "temporal-shape-transfer-network-for-3d-human-motion",
+    "title": "Temporal Shape Transfer Network for 3D Human Motion",
+    "authors": "João Regateiro, Edmond Boyer",
+    "venue": "International Conference on 3D Vision",
+    "year": 2022,
+    "paper": "https://inria.hal.science/hal-03782133/file/temporal_shape_transfer_network.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV57658.2022.00054",
+    "doi_url": "https://doi.org/10.1109/3DV57658.2022.00054",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/94977e607cba8a0312cdc5610e2753d3086bab53",
+    "citationCount": 9,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "DBLP": "conf/3dim/RegateiroB22",
+      "DOI": "10.1109/3DV57658.2022.00054",
+      "CorpusId": 257083212
+    },
+    "corpusId": 257083212
   },
   {
-    "title": "Teeth3ds: a benchmark for teeth segmentation and labeling from intra-oral 3d scans",
-    "authors": "",
-    "venue": "",
-    "year": "2022"
+    "id": "pyramidal-signed-distance-learning-for-spatio-temporal-human-shape-completion",
+    "title": "Pyramidal Signed Distance Learning for Spatio-Temporal Human Shape Completion",
+    "authors": "Boyao Zhou, Jean-Sébastien Franco, M. D. L. Gorce, Edmond Boyer",
+    "venue": "Asian Conference on Computer Vision",
+    "year": 2022,
+    "paper": "https://doi.org/10.1007/978-3-031-26319-4_22",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-031-26319-4_22",
+    "doi_url": "https://doi.org/10.1007/978-3-031-26319-4_22",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/4272b4b33710228cf60400c2143942437591ffb4",
+    "citationCount": 1,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/accv/ZhouFGB22",
+      "DOI": "10.1007/978-3-031-26319-4_22",
+      "CorpusId": 257406960
+    },
+    "corpusId": 257406960
   },
   {
-    "title": "Teeth3DS+: an extended benchmark for intraoral 3D scans analysis",
-    "authors": "",
-    "venue": "",
-    "year": "2022"
+    "id": "vertebrae-localization-segmentation-and-identification-using-a-graph-optimization-and-an-anatomic-consistency-cycle",
+    "title": "Vertebrae Localization, Segmentation and Identification Using a Graph Optimization and an Anatomic Consistency Cycle",
+    "authors": "Di Meng, E. Mohammed, Edmond Boyer, S. Pujades",
+    "venue": "MLMI@MICCAI",
+    "year": 2021,
+    "paper": "https://arxiv.org/pdf/2110.12177",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-031-21014-3_32",
+    "doi_url": "https://doi.org/10.1007/978-3-031-21014-3_32",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/ccdb9e69eace756984a994cb1f1cfee919337e8b",
+    "citationCount": 43,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "ArXiv": "2110.12177",
+      "DBLP": "conf/miccai/MengMBP22",
+      "DOI": "10.1007/978-3-031-21014-3_32",
+      "CorpusId": 250048473,
+      "PubMed": "37130486"
+    },
+    "corpusId": 250048473
   },
   {
-    "title": "Temporal shape transfer network for 3d human motion",
-    "authors": "",
-    "venue": "",
-    "year": "2022"
+    "id": "data-driven-3d-reconstruction-of-dressed-humans-from-sparse-views",
+    "title": "Data-Driven 3D Reconstruction of Dressed Humans From Sparse Views",
+    "authors": "Pierre Zins, Yuanlu Xu, Edmond Boyer, Stefanie Wuhrer, Tony Tung",
+    "venue": "International Conference on 3D Vision",
+    "year": 2021,
+    "paper": "https://hal.inria.fr/hal-03385107v2/file/3DV2021.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV53792.2021.00059",
+    "doi_url": "https://doi.org/10.1109/3DV53792.2021.00059",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/cf7e70808d9d072d85a38cc0b1fc675d3698877b",
+    "citationCount": 21,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/3dim/ZinsXBWT21",
+      "ArXiv": "2104.08013",
+      "DOI": "10.1109/3DV53792.2021.00059",
+      "CorpusId": 239024791
+    },
+    "corpusId": 239024791
   },
   {
-    "title": "Pyramidal signed distance learning for spatio-temporal human shape completion",
-    "authors": "",
-    "venue": "",
-    "year": "2022"
+    "id": "neural-human-deformation-transfer",
+    "title": "Neural Human Deformation Transfer",
+    "authors": "J. Basset, A. Boukhayma, Stefanie Wuhrer, F. Multon, Edmond Boyer",
+    "venue": "International Conference on 3D Vision",
+    "year": 2021,
+    "paper": "https://arxiv.org/pdf/2109.01588",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV53792.2021.00064",
+    "doi_url": "https://doi.org/10.1109/3DV53792.2021.00064",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/dd2853577d87354b9073829468303f1b756f0643",
+    "citationCount": 13,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "ArXiv": "2109.01588",
+      "DBLP": "conf/3dim/BassetBWMB21",
+      "DOI": "10.1109/3DV53792.2021.00064",
+      "CorpusId": 237416595
+    },
+    "corpusId": 237416595
   },
   {
-    "title": "Data-driven 3d reconstruction of dressed humans from sparse views",
-    "authors": "",
-    "venue": "",
-    "year": "2021"
+    "id": "spatio-temporal-human-shape-completion-with-implicit-function-networks",
+    "title": "Spatio-Temporal Human Shape Completion With Implicit Function Networks",
+    "authors": "Boyao Zhou, Jean-Sébastien Franco, Federica Bogo, Edmond Boyer",
+    "venue": "International Conference on 3D Vision",
+    "year": 2021,
+    "paper": "https://hal.inria.fr/hal-03381387/file/STIF_hal.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV53792.2021.00076",
+    "doi_url": "https://doi.org/10.1109/3DV53792.2021.00076",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/87d2276a38e18a78d38f8c31b1a30857a68ead3c",
+    "citationCount": 6,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/3dim/ZhouFBB21",
+      "DOI": "10.1109/3DV53792.2021.00076",
+      "CorpusId": 245803081
+    },
+    "corpusId": 245803081
   },
   {
-    "title": "Volume sweeping: Learning photoconsistency for multi-view shape reconstruction",
-    "authors": "",
-    "venue": "",
-    "year": "2021"
+    "id": "dual-mesh-convolutional-networks-for-human-shape-correspondence",
+    "title": "Dual Mesh Convolutional Networks for Human Shape Correspondence",
+    "authors": "Nitika Verma, A. Boukhayma, Jakob Verbeek, Edmond Boyer",
+    "venue": "International Conference on 3D Vision",
+    "year": 2021,
+    "paper": "http://arxiv.org/pdf/2103.12459",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV53792.2021.00039",
+    "doi_url": "https://doi.org/10.1109/3DV53792.2021.00039",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/fa217227207ff1fedfff3ebc100afbf2c58826c6",
+    "citationCount": 5,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/3dim/VermaBBV21",
+      "ArXiv": "2103.12459",
+      "DOI": "10.1109/3DV53792.2021.00039",
+      "CorpusId": 239017075
+    },
+    "corpusId": 239017075
   },
   {
-    "title": "Neural human deformation transfer",
-    "authors": "",
-    "venue": "",
-    "year": "2021"
+    "id": "learning-implicit-3d-representations-of-dressed-humans-from-sparse-views",
+    "title": "Learning Implicit 3D Representations of Dressed Humans from Sparse Views",
+    "authors": "Pierre Zins, Yuanlu Xu, Edmond Boyer, Stefanie Wuhrer, Tony Tung",
+    "venue": "arXiv.org",
+    "year": 2021,
+    "paper": "https://doi.org/10.1109/3dv53792.2021.00059",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3dv53792.2021.00059",
+    "doi_url": "https://doi.org/10.1109/3dv53792.2021.00059",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/bd018c00f5d149a944f8ad414170c1732f56d266",
+    "citationCount": 4,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2104-08013",
+      "CorpusId": 233289497
+    },
+    "corpusId": 233289497
   },
   {
-    "title": "Learning implicit 3d representations of dressed humans from sparse views",
-    "authors": "",
-    "venue": "",
-    "year": "2021"
+    "id": "dualconv-dual-mesh-convolutional-networks-for-shape-correspondence",
+    "title": "DualConv: Dual Mesh Convolutional Networks for Shape Correspondence",
+    "authors": "Nitika Verma, A. Boukhayma, J. Verbeek, Edmond Boyer",
+    "venue": "arXiv.org",
+    "year": 2021,
+    "paper": "https://doi.org/10.1109/3dv53792.2021.00039",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3dv53792.2021.00039",
+    "doi_url": "https://doi.org/10.1109/3dv53792.2021.00039",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/ad609805c93bbe1277475b7a7bbf5587641a136f",
+    "citationCount": 2,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2103-12459",
+      "CorpusId": 232320712
+    },
+    "corpusId": 232320712
   },
   {
-    "title": "Spatio-temporal human shape completion with implicit function networks",
-    "authors": "",
-    "venue": "",
-    "year": "2021"
+    "id": "3d-human-shape-style-transfer",
+    "title": "3D Human Shape Style Transfer",
+    "authors": "João Regateiro, Edmond Boyer",
+    "venue": "arXiv.org",
+    "year": 2021,
+    "paper": "https://doi.org/10.1109/iaecst54258.2021.9695828",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/iaecst54258.2021.9695828",
+    "doi_url": "https://doi.org/10.1109/iaecst54258.2021.9695828",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/cd736545747832492f3fd24fc84542efb2d84131",
+    "citationCount": 1,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "ArXiv": "2109.01587",
+      "DBLP": "journals/corr/abs-2109-01587",
+      "CorpusId": 237417288
+    },
+    "corpusId": 237417288
   },
   {
-    "title": "Dual mesh convolutional networks for human shape correspondence",
-    "authors": "",
-    "venue": "",
-    "year": "2021"
+    "id": "vertebrae-segmentation-identification-and-localization-using-a-graph-optimization-and-a-synergistic-cycle",
+    "title": "Vertebrae segmentation, identification and localization using a graph optimization and a synergistic cycle",
+    "authors": "Di Meng, E. Mohammed, Edmond Boyer, S. Pujades",
+    "venue": "arXiv.org",
+    "year": 2021,
+    "paper": "https://doi.org/10.1016/j.sigpro.2021.108056",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1016/j.sigpro.2021.108056",
+    "doi_url": "https://doi.org/10.1016/j.sigpro.2021.108056",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/14074c04c22c4429a182cc460150f0159bbd0fa6",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2110-12177",
+      "CorpusId": 239768193
+    },
+    "corpusId": 239768193
   },
   {
-    "title": "3D human shape style transfer",
-    "authors": "",
-    "venue": "",
-    "year": "2021"
+    "id": "3d-teeth-scan-segmentation-and-labelling-challenge",
+    "title": "3D Teeth Scan Segmentation and Labelling Challenge",
+    "authors": "A. Ben-Hamadou, Houda Chaabouni, S. Pujades, Edmond Boyer, Ahmed Rekik, Julien Strippoli, H. Setbon, Aurélein Thollot, Edouard Ladroit",
+    "venue": "Radiopaedia.org",
+    "year": 2021,
+    "paper": "https://doi.org/10.5281/ZENODO.4575211",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.5281/ZENODO.4575211",
+    "doi_url": "https://doi.org/10.5281/ZENODO.4575211",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/c07ee110a242925925ee45e02d2ee9f717cf1f42",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "3211161560",
+      "DOI": "10.5281/ZENODO.4575211",
+      "CorpusId": 244961599
+    },
+    "corpusId": 244961599
   },
   {
-    "title": "International Perspectives on Emerging Trends and Integrating Research-based Learning across the Curriculum",
-    "authors": "",
-    "venue": "",
-    "year": "2021"
+    "id": "discrete-point-flow-networks-for-efficient-point-cloud-generation",
+    "title": "Discrete Point Flow Networks for Efficient Point Cloud Generation",
+    "authors": "Roman Klokov, Edmond Boyer, J. Verbeek",
+    "venue": "European Conference on Computer Vision",
+    "year": 2020,
+    "paper": "https://doi.org/10.1007/978-3-030-58592-1_41",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-030-58592-1_41",
+    "doi_url": "https://doi.org/10.1007/978-3-030-58592-1_41",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/b6112124ff22b6f7e9a23b862a5d9a8f1f1ff742",
+    "citationCount": 128,
+    "influentialCitationCount": 12,
+    "externalIds": {
+      "DBLP": "conf/eccv/KlokovBV20",
+      "ArXiv": "2007.10170",
+      "MAG": "3052677518",
+      "DOI": "10.1007/978-3-030-58592-1_41",
+      "CorpusId": 220646711
+    },
+    "corpusId": 220646711
   },
   {
-    "title": "Vertebrae segmentation, identification and localization using a graph optimization and a synergistic cycle.",
-    "authors": "",
-    "venue": "",
-    "year": "2021"
+    "id": "human-motion-tracking-by-registering-an-articulated-surface-to-3d-points-and-normals",
+    "title": "Human Motion Tracking by Registering an Articulated Surface to 3D Points and Normals",
+    "authors": "R. Horaud, M. Niskanen, G. Dewaele, Edmond Boyer",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "year": 2020,
+    "paper": "http://arxiv.org/pdf/2012.04514",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/TPAMI.2008.108",
+    "doi_url": "https://doi.org/10.1109/TPAMI.2008.108",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/8bc96c7b2309e5321d16a5ee951bd54e7c03c35b",
+    "citationCount": 72,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "MAG": "3112772005",
+      "DBLP": "journals/corr/abs-2012-04514",
+      "ArXiv": "2012.04514",
+      "DOI": "10.1109/TPAMI.2008.108",
+      "CorpusId": 1180585,
+      "PubMed": "19029553"
+    },
+    "corpusId": 1180585
   },
   {
-    "title": "Discrete point flow networks for efficient point cloud generation",
-    "authors": "",
-    "venue": "",
-    "year": "2020"
+    "id": "cross-modal-deep-face-normals-with-deactivable-skip-connections",
+    "title": "Cross-Modal Deep Face Normals With Deactivable Skip Connections",
+    "authors": "Victoria Fernández Abrevaya, A. Boukhayma, Philip H. S. Torr, Edmond Boyer",
+    "venue": "Computer Vision and Pattern Recognition",
+    "year": 2020,
+    "paper": "https://arxiv.org/pdf/2003.09691",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR42600.2020.00503",
+    "doi_url": "https://doi.org/10.1109/CVPR42600.2020.00503",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/3e93d3b6b0cdc24ea5ee2b1b03e6a6a5a1d97f0c",
+    "citationCount": 46,
+    "influentialCitationCount": 10,
+    "externalIds": {
+      "MAG": "3012850460",
+      "DBLP": "conf/cvpr/AbrevayaBTB20",
+      "ArXiv": "2003.09691",
+      "DOI": "10.1109/CVPR42600.2020.00503",
+      "CorpusId": 214611590
+    },
+    "corpusId": 214611590
   },
   {
-    "title": "Cross-modal deep face normals with deactivable skip connections",
-    "authors": "",
-    "venue": "",
-    "year": "2020"
+    "id": "mesh-denoising-with-facet-graph-convolutions",
+    "title": "Mesh Denoising With Facet Graph Convolutions",
+    "authors": "M. Armando, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "year": 2020,
+    "paper": "https://hal.inria.fr/hal-03066322/file/tvcg2019_final_file.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/TVCG.2020.3045490",
+    "doi_url": "https://doi.org/10.1109/TVCG.2020.3045490",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/fe7d5297fb38b6ceae383ee664f30545becc8a96",
+    "citationCount": 25,
+    "influentialCitationCount": 7,
+    "externalIds": {
+      "DBLP": "journals/tvcg/ArmandoFB22",
+      "DOI": "10.1109/TVCG.2020.3045490",
+      "CorpusId": 229317093,
+      "PubMed": "33332273"
+    },
+    "corpusId": 229317093
   },
   {
-    "title": "Mesh denoising with facet graph convolutions",
-    "authors": "",
-    "venue": "",
-    "year": "2020"
-  },
-  {
+    "id": "contact-preserving-shape-transfer-retargeting-motion-from-one-shape-to-another",
     "title": "Contact preserving shape transfer: Retargeting motion from one shape to another",
-    "authors": "",
-    "venue": "",
-    "year": "2020"
+    "authors": "J. Basset, Stefanie Wuhrer, Edmond Boyer, F. Multon",
+    "venue": "Computers & graphics",
+    "year": 2020,
+    "paper": "https://www.sciencedirect.com/science/article/am/pii/S0097849320300406",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1016/j.cag.2020.04.002",
+    "doi_url": "https://doi.org/10.1016/j.cag.2020.04.002",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/e0b355facaf1253bd61995539203c86654e5ad5a",
+    "citationCount": 20,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "3017572893",
+      "DBLP": "journals/cg/BassetWBM20",
+      "DOI": "10.1016/j.cag.2020.04.002",
+      "CorpusId": 219087492
+    },
+    "corpusId": 219087492
   },
   {
-    "title": "Learning a statistical full spine model from partial observations",
-    "authors": "",
-    "venue": "",
-    "year": "2020"
+    "id": "volume-sweeping-learning-photoconsistency-for-multi-view-shape-reconstruction",
+    "title": "Volume Sweeping: Learning Photoconsistency for Multi-View Shape Reconstruction",
+    "authors": "Vincent Leroy, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "International Journal of Computer Vision",
+    "year": 2020,
+    "paper": "https://hal.inria.fr/hal-02975479/file/IJCV2019submission.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/s11263-020-01377-0",
+    "doi_url": "https://doi.org/10.1007/s11263-020-01377-0",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/d5edf3246a536af4c6c36eb980299eb8204693e5",
+    "citationCount": 16,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "3085316785",
+      "DBLP": "journals/ijcv/LeroyFB21",
+      "DOI": "10.1007/s11263-020-01377-0",
+      "CorpusId": 225227837
+    },
+    "corpusId": 225227837
   },
   {
-    "title": "Reconstructing human body mesh from point clouds by adversarial gp network",
-    "authors": "",
-    "venue": "",
-    "year": "2020"
+    "id": "learning-a-statistical-full-spine-model-from-partial-observations",
+    "title": "Learning a Statistical Full Spine Model from Partial Observations",
+    "authors": "Di Meng, Marilyn Keller, Edmond Boyer, Michael J. Black, S. Pujades",
+    "venue": "ShapeMI@MICCAI",
+    "year": 2020,
+    "paper": "https://hal.inria.fr/hal-02983880/file/spine_surface_model.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-030-61056-2_10",
+    "doi_url": "https://doi.org/10.1007/978-3-030-61056-2_10",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/250591c3a2a9cc885abe4b5f328a5303bbb92dd8",
+    "citationCount": 10,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "3091093112",
+      "DBLP": "conf/miccai/MengKBBP20",
+      "DOI": "10.1007/978-3-030-61056-2_10",
+      "CorpusId": 222179860
+    },
+    "corpusId": 222179860
   },
   {
-    "title": "Note: Page numbers followed by\" n\" indicate notes. Aaltonen, P. Bell, S., 148, 149 Abazi, A., 89 Bellamy, R., 148, 149 Abbas, M., 148, 149 Abell, P.",
-    "authors": "",
-    "venue": "",
-    "year": "2020"
+    "id": "reconstructing-human-body-mesh-from-point-clouds-by-adversarial-gp-network",
+    "title": "Reconstructing Human Body Mesh from Point Clouds by Adversarial GP Network",
+    "authors": "Boyao Zhou, Jean-Sébastien Franco, Federica Bogo, Bugra Tekin, Edmond Boyer",
+    "venue": "Asian Conference on Computer Vision",
+    "year": 2020,
+    "paper": "https://doi.org/10.1007/978-3-030-69525-5_8",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-030-69525-5_8",
+    "doi_url": "https://doi.org/10.1007/978-3-030-69525-5_8",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/c08bd4541327207d6f5dae0de65e65008675892a",
+    "citationCount": 10,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/accv/ZhouFBTB20",
+      "MAG": "3109223529",
+      "DOI": "10.1007/978-3-030-69525-5_8",
+      "CorpusId": 229619136
+    },
+    "corpusId": 229619136
   },
   {
-    "title": "A decoupled 3d facial shape model by adversarial training",
-    "authors": "",
-    "venue": "",
-    "year": "2019"
+    "id": "a-decoupled-3d-facial-shape-model-by-adversarial-training",
+    "title": "A Decoupled 3D Facial Shape Model by Adversarial Training",
+    "authors": "Victoria Fernández Abrevaya, A. Boukhayma, Stefanie Wuhrer, Edmond Boyer",
+    "venue": "IEEE International Conference on Computer Vision",
+    "year": 2019,
+    "paper": "http://arxiv.org/pdf/1902.03619",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICCV.2019.00951",
+    "doi_url": "https://doi.org/10.1109/ICCV.2019.00951",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/46fb30256bb840a522d0d2deca7d0a985aad6360",
+    "citationCount": 36,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2991380014",
+      "DBLP": "conf/iccv/AbrevayaBWB19",
+      "DOI": "10.1109/ICCV.2019.00951",
+      "CorpusId": 119313959
+    },
+    "corpusId": 119313959
   },
   {
-    "title": "Contact preserving shape transfer for rigging-free motion retargeting",
-    "authors": "",
-    "venue": "",
-    "year": "2019"
+    "id": "surface-motion-capture-animation-synthesis",
+    "title": "Surface Motion Capture Animation Synthesis",
+    "authors": "A. Boukhayma, Edmond Boyer",
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "year": 2019,
+    "paper": "https://hal.inria.fr/hal-01781164/file/paper.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/TVCG.2018.2831233",
+    "doi_url": "https://doi.org/10.1109/TVCG.2018.2831233",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/aa149d1172662db637c333c9e94bfbd09f9fc3c6",
+    "citationCount": 23,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2801810226",
+      "DBLP": "journals/tvcg/BoukhaymaB19",
+      "DOI": "10.1109/TVCG.2018.2831233",
+      "CorpusId": 51612627,
+      "PubMed": "29993745"
+    },
+    "corpusId": 51612627
   },
   {
-    "title": "Probabilistic reconstruction networks for 3D shape inference from a single image",
-    "authors": "",
-    "venue": "",
-    "year": "2019"
+    "id": "contact-preserving-shape-transfer-for-rigging-free-motion-retargeting",
+    "title": "Contact Preserving Shape Transfer For Rigging-Free Motion Retargeting",
+    "authors": "J. Basset, Stefanie Wuhrer, Edmond Boyer, F. Multon",
+    "venue": "Motion in Games",
+    "year": 2019,
+    "paper": "https://hal.archives-ouvertes.fr/hal-02293308/file/paper.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1145/3359566.3360075",
+    "doi_url": "https://doi.org/10.1145/3359566.3360075",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/a9781b968fb79209af73c6fbcbb90dc169a36cba",
+    "citationCount": 18,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/mig/BassetWBM19",
+      "MAG": "2982237387",
+      "DOI": "10.1145/3359566.3360075",
+      "CorpusId": 204917477
+    },
+    "corpusId": 204917477
   },
   {
-    "title": "A generative 3D facial model by adversarial training",
-    "authors": "",
-    "venue": "",
-    "year": "2019"
+    "id": "probabilistic-reconstruction-networks-for-3d-shape-inference-from-a-single-image",
+    "title": "Probabilistic Reconstruction Networks for 3D Shape Inference from a Single Image",
+    "authors": "Roman Klokov, J. Verbeek, Edmond Boyer",
+    "venue": "British Machine Vision Conference",
+    "year": 2019,
+    "paper": "https://doi.org/10.1145/3359566.3364693",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1145/3359566.3364693",
+    "doi_url": "https://doi.org/10.1145/3359566.3364693",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/6152425c631e8288be6d9242559051429fa0472b",
+    "citationCount": 13,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2995966712",
+      "DBLP": "conf/bmvc/KlokovVB19",
+      "ArXiv": "1908.07475",
+      "CorpusId": 201106535
+    },
+    "corpusId": 201106535
   },
   {
-    "title": "Adaptive mesh texture for multi-view appearance modeling",
-    "authors": "",
-    "venue": "",
-    "year": "2019"
+    "id": "adaptive-mesh-texture-for-multi-view-appearance-modeling",
+    "title": "Adaptive Mesh Texture for Multi-View Appearance Modeling",
+    "authors": "M. Armando, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "International Conference on 3D Vision",
+    "year": 2019,
+    "paper": "https://hal.inria.fr/hal-02284101/file/3dv2019submission.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV.2019.00082",
+    "doi_url": "https://doi.org/10.1109/3DV.2019.00082",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/3de00df37735054af59faf5cd7e780f80c955636",
+    "citationCount": 9,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/3dim/ArmandoFB19",
+      "MAG": "2973103935",
+      "DOI": "10.1109/3DV.2019.00082",
+      "CorpusId": 203151395
+    },
+    "corpusId": 203151395
   },
   {
-    "title": "A decoupled 3D facial shape model by adversarial training",
-    "authors": "",
-    "venue": "",
-    "year": "2019"
+    "id": "a-generative-3d-facial-model-by-adversarial-training",
+    "title": "A Generative 3D Facial Model by Adversarial Training",
+    "authors": "Victoria Fernández Abrevaya, A. Boukhayma, Stefanie Wuhrer, Edmond Boyer",
+    "venue": "arXiv.org",
+    "year": 2019,
+    "paper": "https://doi.org/10.1109/iccv.2019.00951",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/iccv.2019.00951",
+    "doi_url": "https://doi.org/10.1109/iccv.2019.00951",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/c685f0c22f743472c39cf144386a206e966f5cc4",
+    "citationCount": 9,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2920808855",
+      "ArXiv": "1902.03619",
+      "DBLP": "journals/corr/abs-1902-03619",
+      "CorpusId": 60440594
+    },
+    "corpusId": 60440594
   },
   {
-    "title": "Feastnet: Feature-steered graph convolutions for 3d shape analysis",
-    "authors": "",
-    "venue": "",
-    "year": "2018"
+    "id": "cbct-of-a-moving-sample-from-x-rays-and-multiple-videos",
+    "title": "CBCT of a Moving Sample From X-Rays and Multiple Videos",
+    "authors": "J. Pansiot, Edmond Boyer",
+    "venue": "IEEE Transactions on Medical Imaging",
+    "year": 2019,
+    "paper": "https://hal.inria.fr/hal-01857487/file/2018_Pansiot_TMI_CBCT.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/TMI.2018.2865228",
+    "doi_url": "https://doi.org/10.1109/TMI.2018.2865228",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/85870951acccdb4ca6124a550de7b3412b573596",
+    "citationCount": 3,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "journals/tmi/PansiotB19",
+      "MAG": "2913504910",
+      "DOI": "10.1109/TMI.2018.2865228",
+      "CorpusId": 52001618,
+      "PubMed": "30106718"
+    },
+    "corpusId": 52001618
   },
   {
-    "title": "Multilinear autoencoder for 3D face model learning",
-    "authors": "",
-    "venue": "",
-    "year": "2018"
+    "id": "appreciation-to-ijcv-reviewers-of-2018",
+    "title": "Appreciation to IJCV Reviewers of 2018",
+    "authors": "Wael AbdAlmageed, Antonio Agudo, L. Akarun, Alahari Karteek, Xavier Alameda-Pineda, Cenek Albl, P. Alcantarilla, E. Alexander, Jose Alvarez, Phil Ammirato, Bjoern Andres, A. Angelova, Jeremy, T. Boult, S. Bourgeois, Edmond Boyer, Michael Brown, Darius Burschka, Andrei Bursuc, Z. Bylinskii, J. Byrne, Fabian Caba, C. C. Lerma, Sergi Caelles, Federico Camposeco, Kaidi Cao, G. Carneiro, João Carreira, Luká",
+    "venue": "International Journal of Computer Vision",
+    "year": 2019,
+    "paper": "http://link.springer.com/content/pdf/10.1007/s11263-019-01153-9.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/s11263-019-01153-9",
+    "doi_url": "https://doi.org/10.1007/s11263-019-01153-9",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/722a74d9be161fa9654e017219865e55c5a38709",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "journals/ijcv/X19",
+      "DOI": "10.1007/s11263-019-01153-9",
+      "CorpusId": 59617067
+    },
+    "corpusId": 59617067
   },
   {
-    "title": "Shape reconstruction using volume sweeping and learned photoconsistency",
-    "authors": "",
-    "venue": "",
-    "year": "2018"
+    "id": "shape-reconstruction-using-volume-sweeping-and-learned-photoconsistency",
+    "title": "Shape Reconstruction Using Volume Sweeping and Learned Photoconsistency",
+    "authors": "Vincent Leroy, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "European Conference on Computer Vision",
+    "year": 2018,
+    "paper": "https://doi.org/10.1007/978-3-030-01240-3_48",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-030-01240-3_48",
+    "doi_url": "https://doi.org/10.1007/978-3-030-01240-3_48",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/88c64c810ee981e25c493c1fa35a2f350a299c64",
+    "citationCount": 56,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/eccv/LeroyFB18",
+      "MAG": "2884556139",
+      "DOI": "10.1007/978-3-030-01240-3_48",
+      "CorpusId": 52958567
+    },
+    "corpusId": 52958567
   },
   {
-    "title": "Surface motion capture animation synthesis",
-    "authors": "",
-    "venue": "",
-    "year": "2018"
+    "id": "multilinear-autoencoder-for-3d-face-model-learning",
+    "title": "Multilinear Autoencoder for 3D Face Model Learning",
+    "authors": "Victoria Fernández Abrevaya, Stefanie Wuhrer, Edmond Boyer",
+    "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+    "year": 2018,
+    "paper": "https://hal.archives-ouvertes.fr/hal-01700934/file/mae-wacv-18.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/WACV.2018.00007",
+    "doi_url": "https://doi.org/10.1109/WACV.2018.00007",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/307ea5b84e43fb2844284571e287b6af494aae77",
+    "citationCount": 49,
+    "influentialCitationCount": 5,
+    "externalIds": {
+      "MAG": "2799465876",
+      "DBLP": "conf/wacv/AbrevayaWB18",
+      "DOI": "10.1109/WACV.2018.00007",
+      "CorpusId": 13685361
+    },
+    "corpusId": 13685361
   },
   {
-    "title": "Spatiotemporal modeling for efficient registration of dynamic 3D faces",
-    "authors": "",
-    "venue": "",
-    "year": "2018"
+    "id": "automatic-camera-calibration-using-multiple-sets-of-pairwise-correspondences",
+    "title": "Automatic Camera Calibration Using Multiple Sets of Pairwise Correspondences",
+    "authors": "F. Vasconcelos, J. Barreto, Edmond Boyer",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "year": 2018,
+    "paper": "https://hal.inria.fr/hal-01675686/file/pami2017a.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/TPAMI.2017.2699648",
+    "doi_url": "https://doi.org/10.1109/TPAMI.2017.2699648",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/6253f1c84206b4e447036c61cafb361c899832a9",
+    "citationCount": 28,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2608522798",
+      "DBLP": "journals/pami/VasconcelosBB18",
+      "DOI": "10.1109/TPAMI.2017.2699648",
+      "CorpusId": 157637,
+      "PubMed": "28463187"
+    },
+    "corpusId": 157637
   },
   {
-    "title": "CBCT of a moving sample from X-rays and multiple videos",
-    "authors": "",
-    "venue": "",
-    "year": "2018"
+    "id": "tracking-by-detection-of-3d-human-shapes-from-surfaces-to-volumes",
+    "title": "Tracking-by-Detection of 3D Human Shapes: From Surfaces to Volumes",
+    "authors": "C. Huang, Benjamin Allain, Edmond Boyer, Jean-Sébastien Franco, Federico Tombari, Nassir Navab, Slobodan Ilic",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "year": 2018,
+    "paper": "https://hal.inria.fr/hal-01588272/file/huangc2017pami.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/TPAMI.2017.2740308",
+    "doi_url": "https://doi.org/10.1109/TPAMI.2017.2740308",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/e3f6e14a2dc55a164e9c5f4d3d9e3fbcebeef5b9",
+    "citationCount": 17,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2747416250",
+      "DBLP": "journals/pami/HuangABFTNI18",
+      "DOI": "10.1109/TPAMI.2017.2740308",
+      "CorpusId": 5867055,
+      "PubMed": "28816656"
+    },
+    "corpusId": 5867055
   },
   {
-    "title": "Apprentissage de la Cohérence Photométrique pour la Reconstruction de Formes Multi-Vues",
-    "authors": "",
-    "venue": "",
-    "year": "2018"
+    "id": "spatiotemporal-modeling-for-efficient-registration-of-dynamic-3d-faces",
+    "title": "Spatiotemporal Modeling for Efficient Registration of Dynamic 3D Faces",
+    "authors": "Victoria Fernández Abrevaya, Stefanie Wuhrer, Edmond Boyer",
+    "venue": "International Conference on 3D Vision",
+    "year": 2018,
+    "paper": "https://hal.inria.fr/hal-01855955/file/3DV18-registration-dynamic-faces.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV.2018.00050",
+    "doi_url": "https://doi.org/10.1109/3DV.2018.00050",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/0ddf59fddd97a40f77ba169298bde80cd38d0d82",
+    "citationCount": 11,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/3dim/AbrevayaWB18",
+      "MAG": "2887975977",
+      "DOI": "10.1109/3DV.2018.00050",
+      "CorpusId": 52986334
+    },
+    "corpusId": 52986334
   },
   {
-    "title": "2017 Index IEEE Transactions on Pattern Analysis and Machine Intelligence Vol. 39",
-    "authors": "",
-    "venue": "",
-    "year": "2018"
+    "id": "feastnet-feature-steered-graph-convolutions-for-3d-shape-analysis",
+    "title": "FeaStNet: Feature-Steered Graph Convolutions for 3D Shape Analysis",
+    "authors": "Nitika Verma, Edmond Boyer, Jakob Verbeek",
+    "venue": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "year": 2017,
+    "paper": "https://hal.inria.fr/hal-01540389/document",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2018.00275",
+    "doi_url": "https://doi.org/10.1109/CVPR.2018.00275",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/ba2a33107afba54adc2d92aa7ad9f747d5258e95",
+    "citationCount": 357,
+    "influentialCitationCount": 33,
+    "externalIds": {
+      "DBLP": "conf/cvpr/VermaBV18",
+      "MAG": "2951269536",
+      "DOI": "10.1109/CVPR.2018.00275",
+      "CorpusId": 4383332
+    },
+    "corpusId": 4383332
   },
   {
-    "title": "Multi-view dynamic shape refinement using local temporal integration",
-    "authors": "",
-    "venue": "",
-    "year": "2017"
+    "id": "multi-view-dynamic-shape-refinement-using-local-temporal-integration",
+    "title": "Multi-view Dynamic Shape Refinement Using Local Temporal Integration",
+    "authors": "Vincent Leroy, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "IEEE International Conference on Computer Vision",
+    "year": 2017,
+    "paper": "https://hal.archives-ouvertes.fr/hal-01567758/file/paper_final.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICCV.2017.336",
+    "doi_url": "https://doi.org/10.1109/ICCV.2017.336",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/7306461bdca605881a106b18b7dcf77939925f29",
+    "citationCount": 71,
+    "influentialCitationCount": 5,
+    "externalIds": {
+      "MAG": "2737714571",
+      "DBLP": "conf/iccv/LeroyFB17",
+      "DOI": "10.1109/ICCV.2017.336",
+      "CorpusId": 9979009
+    },
+    "corpusId": 9979009
   },
   {
-    "title": "Automatic camera calibration using multiple sets of pairwise correspondences",
-    "authors": "",
-    "venue": "",
-    "year": "2017"
+    "id": "dynamic-filters-in-graph-convolutional-networks",
+    "title": "Dynamic Filters in Graph Convolutional Networks",
+    "authors": "Nitika Verma, Edmond Boyer, Jakob Verbeek",
+    "venue": "arXiv.org",
+    "year": 2017,
+    "paper": "https://doi.org/10.1109/cvpr.2017.11",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/cvpr.2017.11",
+    "doi_url": "https://doi.org/10.1109/cvpr.2017.11",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/9b9906a2cf7fe150faed8d618def803232684719",
+    "citationCount": 26,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2626744851",
+      "DBLP": "journals/corr/VermaBV17",
+      "ArXiv": "1706.05206",
+      "CorpusId": 195346136
+    },
+    "corpusId": 195346136
   },
   {
-    "title": "Tracking-by-detection of 3d human shapes: from surfaces to volumes",
-    "authors": "",
-    "venue": "",
-    "year": "2017"
+    "id": "surface-motion-capture-transfer-with-gaussian-process-regression",
+    "title": "Surface Motion Capture Transfer with Gaussian Process Regression",
+    "authors": "A. Boukhayma, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "Computer Vision and Pattern Recognition",
+    "year": 2017,
+    "paper": "https://hal.inria.fr/hal-01491386/file/SurfMoTransf.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2017.379",
+    "doi_url": "https://doi.org/10.1109/CVPR.2017.379",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/be2d452cd9e829c3e59d3c7439b81ce2b34ea6b7",
+    "citationCount": 13,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2598624846",
+      "DBLP": "conf/cvpr/BoukhaymaFB17",
+      "DOI": "10.1109/CVPR.2017.379",
+      "CorpusId": 20873360
+    },
+    "corpusId": 20873360
   },
   {
-    "title": "Surface motion capture transfer with gaussian process regression",
-    "authors": "",
-    "venue": "",
-    "year": "2017"
+    "id": "3d-modeling-using-geometric-constraints-a-parallelepiped-based-approach",
+    "title": "3D Modeling Using Geometric Constraints: A Parallelepiped Based Approach",
+    "authors": "Marta Wilczkowiak, Edmond Boyer, P. Sturm",
+    "venue": "Meshing, Geometric Modeling and Numerical Simulation 1",
+    "year": 2017,
+    "paper": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F9781119384335.ch6",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1002/9781119384335.ch6",
+    "doi_url": "https://doi.org/10.1002/9781119384335.ch6",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/1b3ef98197ea9dba99c5b6a7f328d2857d97fd3b",
+    "citationCount": 10,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "CorpusId": 9825876
+    },
+    "corpusId": 9825876
   },
   {
-    "title": "Controllable variation synthesis for surface motion capture",
-    "authors": "",
-    "venue": "",
-    "year": "2017"
+    "id": "controllable-variation-synthesis-for-surface-motion-capture",
+    "title": "Controllable Variation Synthesis for Surface Motion Capture",
+    "authors": "A. Boukhayma, Edmond Boyer",
+    "venue": "International Conference on 3D Vision",
+    "year": 2017,
+    "paper": "https://hal.inria.fr/hal-01590648/file/SurfMoVar.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV.2017.00043",
+    "doi_url": "https://doi.org/10.1109/3DV.2017.00043",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/959d8cd878b92ac7198affe67065acc90ff99944",
+    "citationCount": 4,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/3dim/BoukhaymaB17",
+      "MAG": "2764068405",
+      "DOI": "10.1109/3DV.2017.00043",
+      "CorpusId": 46963840
+    },
+    "corpusId": 46963840
   },
   {
-    "title": "System and method for three-dimensional depth imaging",
-    "authors": "",
-    "venue": "",
-    "year": "2017"
+    "id": "ct-from-motion-volumetric-capture-of-moving-shapes-with-x-rays-and-videos",
+    "title": "CT from Motion: Volumetric Capture of Moving Shapes with X-rays and Videos",
+    "authors": "J. Pansiot, Edmond Boyer",
+    "venue": "British Machine Vision Conference",
+    "year": 2017,
+    "paper": "https://doi.org/10.5244/c.31.26",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.5244/c.31.26",
+    "doi_url": "https://doi.org/10.5244/c.31.26",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/f705036352290f91c5f0e99b989f7f9526331004",
+    "citationCount": 2,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2755882332",
+      "CorpusId": 67201219
+    },
+    "corpusId": 67201219
   },
   {
-    "title": "CT from motion: Volumetric capture of moving shapes with X-rays and videos",
-    "authors": "",
-    "venue": "",
-    "year": "2017"
+    "id": "ct-from-motion-volumetric-capture-of-moving-shapes-using-x-rays",
+    "title": "CT from Motion: Volumetric Capture of Moving Shapes using X-rays",
+    "authors": "J. Pansiot, Edmond Boyer",
+    "venue": "British Machine Vision Conference",
+    "year": 2017,
+    "paper": "http://www.bmva.org/bmvc/2017/papers/paper026/paper026.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.5244/C.31.26",
+    "doi_url": "https://doi.org/10.5244/C.31.26",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/602b42f0024912fb2b6f010158a2a47a3f0251bc",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2894412018",
+      "DBLP": "conf/bmvc/PansiotB17",
+      "DOI": "10.5244/C.31.26",
+      "CorpusId": 52269544
+    },
+    "corpusId": 52269544
   },
   {
-    "title": "Super Résolution Temporelle de Formes Multi-Vues",
-    "authors": "",
-    "venue": "",
-    "year": "2017"
+    "id": "volumetric-3d-tracking-by-detection",
+    "title": "Volumetric 3D Tracking by Detection",
+    "authors": "C. Huang, Benjamin Allain, Jean-Sébastien Franco, Nassir Navab, Slobodan Ilic, Edmond Boyer",
+    "venue": "Computer Vision and Pattern Recognition",
+    "year": 2016,
+    "paper": "https://hal.inria.fr/hal-01300191/file/Huang_Allain_CVPR16.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2016.419",
+    "doi_url": "https://doi.org/10.1109/CVPR.2016.419",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/0b01362757a9acadaaa42ebb579fadffebc8ee85",
+    "citationCount": 32,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2341562032",
+      "DBLP": "conf/cvpr/HuangAFNIB16",
+      "DOI": "10.1109/CVPR.2016.419",
+      "CorpusId": 15021003
+    },
+    "corpusId": 15021003
   },
   {
-    "title": "Volumetric 3d tracking by detection",
-    "authors": "",
-    "venue": "",
-    "year": "2016"
+    "id": "a-hierarchical-approach-for-regular-centroidal-voronoi-tessellations",
+    "title": "A Hierarchical Approach for Regular Centroidal Voronoi Tessellations",
+    "authors": "Li Wang, Franck Hétroy-Wheeler, Edmond Boyer",
+    "venue": "Computer graphics forum (Print)",
+    "year": 2016,
+    "paper": "https://hal.inria.fr/hal-01185210/file/wang-CGF2015-HierarchicalRegularCVT.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1111/cgf.12716",
+    "doi_url": "https://doi.org/10.1111/cgf.12716",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/758392fbc1c005202ee3e41756ee5ca3757ed556",
+    "citationCount": 24,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "journals/cgf/WangHB16",
+      "MAG": "2102765180",
+      "DOI": "10.1111/cgf.12716",
+      "CorpusId": 28759757
+    },
+    "corpusId": 28759757
   },
   {
-    "title": "A hierarchical approach for regular centroidal Voronoi tessellations",
-    "authors": "",
-    "venue": "",
-    "year": "2016"
+    "id": "eigen-appearance-maps-of-dynamic-shapes",
+    "title": "Eigen Appearance Maps of Dynamic Shapes",
+    "authors": "A. Boukhayma, Vagia Tsiminaki, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "European Conference on Computer Vision",
+    "year": 2016,
+    "paper": "https://hal.inria.fr/hal-01348837/file/EigenAppearance.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-319-46448-0_14",
+    "doi_url": "https://doi.org/10.1007/978-3-319-46448-0_14",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/2a4e680de0667e4ddc409c95820fcb929a4f3d1d",
+    "citationCount": 13,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2518835785",
+      "DBLP": "conf/eccv/BoukhaymaTFB16",
+      "DOI": "10.1007/978-3-319-46448-0_14",
+      "CorpusId": 39151649
+    },
+    "corpusId": 39151649
   },
   {
-    "title": "Eigen appearance maps of dynamic shapes",
-    "authors": "",
-    "venue": "",
-    "year": "2016"
+    "id": "on-volumetric-shape-reconstruction-from-implicit-forms",
+    "title": "On Volumetric Shape Reconstruction from Implicit Forms",
+    "authors": "Li Wang, Franck Hétroy-Wheeler, Edmond Boyer",
+    "venue": "European Conference on Computer Vision",
+    "year": 2016,
+    "paper": "https://hal.inria.fr/hal-01349059/file/OnVolumetric%20ShapeReconstructionfromImplicitForms.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-319-46487-9_11",
+    "doi_url": "https://doi.org/10.1007/978-3-319-46487-9_11",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/a9a917bb1043dc6b4b89accf182880496a2b833b",
+    "citationCount": 10,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/eccv/WangHB16",
+      "MAG": "2519897265",
+      "DOI": "10.1007/978-3-319-46487-9_11",
+      "CorpusId": 21037720
+    },
+    "corpusId": 21037720
   },
   {
-    "title": "A bayesian approach to multi-view 4d modeling",
-    "authors": "",
-    "venue": "",
-    "year": "2016"
+    "id": "cotemporal-multi-view-video-segmentation",
+    "title": "Cotemporal Multi-View Video Segmentation",
+    "authors": "Abdelaziz Djelouah, Jean-Sébastien Franco, Edmond Boyer, P. Pérez, G. Drettakis",
+    "venue": "International Conference on 3D Vision",
+    "year": 2016,
+    "paper": "https://hal.inria.fr/hal-01367430/file/final_umvseg_3dv.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV.2016.45",
+    "doi_url": "https://doi.org/10.1109/3DV.2016.45",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/f2960fb500cb137fb44125b989e63b5d35e310aa",
+    "citationCount": 7,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "MAG": "2523106987",
+      "DBLP": "conf/3dim/DjelouahFBPD16",
+      "DOI": "10.1109/3DV.2016.45",
+      "CorpusId": 13325934
+    },
+    "corpusId": 13325934
   },
   {
-    "title": "On volumetric shape reconstruction from implicit forms",
-    "authors": "",
-    "venue": "",
-    "year": "2016"
+    "id": "3d-imaging-from-video-and-planar-radiography",
+    "title": "3D Imaging from Video and Planar Radiography",
+    "authors": "J. Pansiot, Edmond Boyer",
+    "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+    "year": 2016,
+    "paper": "https://hal.inria.fr/hal-01348939/file/2016_Pansiot_MICCAI_Xrays3d_HALv2.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-319-46726-9_52",
+    "doi_url": "https://doi.org/10.1007/978-3-319-46726-9_52",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/61949fa00854359fa0b4605bae3ce83145c34691",
+    "citationCount": 3,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/miccai/PansiotB16",
+      "MAG": "2517927793",
+      "DOI": "10.1007/978-3-319-46726-9_52",
+      "CorpusId": 44496629
+    },
+    "corpusId": 44496629
   },
   {
-    "title": "Cotemporal multi-view video segmentation",
-    "authors": "",
-    "venue": "",
-    "year": "2016"
-  },
-  {
-    "title": "3D imaging from video and planar radiography",
-    "authors": "",
-    "venue": "",
-    "year": "2016"
-  },
-  {
+    "id": "shape-animation-with-combined-captured-and-simulated-dynamics",
     "title": "Shape Animation with Combined Captured and Simulated Dynamics",
-    "authors": "",
-    "venue": "",
-    "year": "2016"
+    "authors": "Benjamin Allain, Li Wang, Jean-Sébastien Franco, Franck Hétroy, Edmond Boyer",
+    "venue": "arXiv.org",
+    "year": 2016,
+    "paper": "https://doi.org/10.1021/acs.jpclett.2c03097.s001",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1021/acs.jpclett.2c03097.s001",
+    "doi_url": "https://doi.org/10.1021/acs.jpclett.2c03097.s001",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/c7ce491faa76097515ad19d3455bd87c747e384d",
+    "citationCount": 2,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "ArXiv": "1601.01232",
+      "MAG": "2228300024",
+      "DBLP": "journals/corr/AllainWFHB16",
+      "CorpusId": 19031557
+    },
+    "corpusId": 19031557
   },
   {
-    "title": "2015 Index IEEE Transactions on Pattern Analysis and Machine Intelligence Vol. 37",
-    "authors": "",
-    "venue": "",
-    "year": "2016"
+    "id": "appreciation-to-ijcv-reviewers-of-2016",
+    "title": "Appreciation to IJCV Reviewers of 2016",
+    "authors": "Supreeth Achar, H. Ackermann, Antonio Agudo, N. Ahuja, Zeynep Akata, Alahari Karteek, P. Aljabar, Y. Aloimonos, Jose Alvarez, Alexander Andreopoulos, Bjoern Andres, A. Angelova, Stanislaw Antol, Relja Arandjelović, P. Arbelaez, Devansh Arpit, S. Asif, Freddie Åström, L. Astola, V. Athitsos, Mathieu Aubry, S. Avidan, Arunava Banerjee, J. Barreto, Jorge Batista, Dhruv Batra, Maximilian Baust, Vasileios Belagiannis, Samy Bengio, Fabian Benitez-Quiroz, S. Biasotti, Hakan Bilen, Guillaume-Alexandre Bilodeau, Federica Bogo, Lubomir D. Bourdev, Y-Lan Boureau, Edmond Boyer, Steve Branson, Ernesto Brau, José Henrique Brito, G. Brostow, Michael Brown, Z. Bylinskii, Martin Byröd, Octavia Camps, Liangliang Cao, Guillaume Caron, João Carreira, D. Casas, Luka Cehovin, Hakan Cevikalp, Antonin Chambolle, Jason Chang, G. Charpiat, B. Chaudhuri, R. Chellappa, Jie Chen, A. Cherian, Guilhem Chéron, Cheng-Chieh Chiang, J. Chiverton, Minsu Cho, Wongun Choi, Yejin Choi, W. Chu, Yu Chuang, R. G. Cinbis, T. Cootes, J. Corso, Andrew Cotter, Aaron C. Courville, David J. Crandall, Rozenn Dahyot, Yuchao Dai, Jifeng Dai, M. Daoudi",
+    "venue": "International Journal of Computer Vision",
+    "year": 2016,
+    "paper": "http://link.springer.com/content/pdf/10.1007/s11263-016-0973-7.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/s11263-016-0973-7",
+    "doi_url": "https://doi.org/10.1007/s11263-016-0973-7",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/6477881b6bae80423b69a8d8a24b7f4b1f1f068a",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "journals/ijcv/X17",
+      "DOI": "10.1007/s11263-016-0973-7",
+      "CorpusId": 52847658
+    },
+    "corpusId": 52847658
   },
   {
+    "id": "volumetric-3-d-tracking-by-detection-supplementary-material",
+    "title": "Volumetric 3 D Tracking by Detection Supplementary Material",
+    "authors": "C. Huang, Benjamin Allain, Jean-Sébastien Franco, Nassir Navab, Slobodan Ilic, Edmond Boyer",
+    "venue": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "year": 2016,
+    "paper": "https://doi.org/10.1109/cvpr.2016.419",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/cvpr.2016.419",
+    "doi_url": "https://doi.org/10.1109/cvpr.2016.419",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/7decd8a76bd646b7e7f69b7031d78011fc9a74bb",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "CorpusId": 23902892
+    },
+    "corpusId": 23902892
+  },
+  {
+    "id": "an-efficient-volumetric-framework-for-shape-tracking",
     "title": "An efficient volumetric framework for shape tracking",
-    "authors": "",
-    "venue": "",
-    "year": "2015"
+    "authors": "Benjamin Allain, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "Computer Vision and Pattern Recognition",
+    "year": 2015,
+    "paper": "https://hal.inria.fr/hal-01141207/file/1399.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2015.7298623",
+    "doi_url": "https://doi.org/10.1109/CVPR.2015.7298623",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/3122daa432c75d8c3c9d1b82863fefd1f8697c6c",
+    "citationCount": 60,
+    "influentialCitationCount": 7,
+    "externalIds": {
+      "MAG": "1939319527",
+      "DBLP": "conf/cvpr/AllainFB15",
+      "DOI": "10.1109/CVPR.2015.7298623",
+      "CorpusId": 11551357
+    },
+    "corpusId": 11551357
   },
   {
+    "id": "implicit-b-spline-surface-reconstruction",
+    "title": "Implicit B-Spline Surface Reconstruction",
+    "authors": "Mohammad Rouhani, A. Sappa, Edmond Boyer",
+    "venue": "IEEE Transactions on Image Processing",
+    "year": 2015,
+    "paper": "https://hal.inria.fr/hal-01101037/file/TIP_2014_v4_double_column.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/TIP.2014.2366374",
+    "doi_url": "https://doi.org/10.1109/TIP.2014.2366374",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/edfdc4050d54aed065bc8a95a76709c6c10f2f22",
+    "citationCount": 46,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "journals/tip/RouhaniSB15",
+      "MAG": "2044397339",
+      "DOI": "10.1109/TIP.2014.2366374",
+      "CorpusId": 15795685,
+      "PubMed": "25373084"
+    },
+    "corpusId": 15795685
+  },
+  {
+    "id": "sparse-multi-view-consistency-for-object-segmentation",
+    "title": "Sparse Multi-View Consistency for Object Segmentation",
+    "authors": "Abdelaziz Djelouah, Jean-Sébastien Franco, Edmond Boyer, F. Clerc, P. Pérez",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "year": 2015,
+    "paper": "https://hal.inria.fr/hal-01115557/file/paper_V3.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/TPAMI.2014.2385704",
+    "doi_url": "https://doi.org/10.1109/TPAMI.2014.2385704",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/5d233b6472e4dfe65d16fe24518014af8e840719",
+    "citationCount": 36,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "DBLP": "journals/pami/DjelouahFBCP15",
+      "MAG": "2070926764",
+      "DOI": "10.1109/TPAMI.2014.2385704",
+      "CorpusId": 8600256,
+      "PubMed": "26353134"
+    },
+    "corpusId": 8600256
+  },
+  {
+    "id": "toward-user-specific-tracking-by-detection-of-human-shapes-in-multi-cameras",
     "title": "Toward user-specific tracking by detection of human shapes in multi-cameras",
-    "authors": "",
-    "venue": "",
-    "year": "2015"
+    "authors": "C. Huang, Edmond Boyer, Bibiana do Canto Angonese, Nassir Navab, Slobodan Ilic",
+    "venue": "Computer Vision and Pattern Recognition",
+    "year": 2015,
+    "paper": "http://campar.in.tum.de/pub/huangc2015cvpr/huangc2015cvpr.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2015.7299029",
+    "doi_url": "https://doi.org/10.1109/CVPR.2015.7299029",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/2a399537bf487c6e01fd3651d47aed1733eceb14",
+    "citationCount": 16,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/cvpr/HuangBANI15",
+      "MAG": "1907131778",
+      "DOI": "10.1109/CVPR.2015.7299029",
+      "CorpusId": 10169922
+    },
+    "corpusId": 10169922
   },
   {
-    "title": "Segmentation of a foreground object in a 3d scene",
-    "authors": "",
-    "venue": "",
-    "year": "2015"
+    "id": "video-based-animation-synthesis-with-the-essential-graph",
+    "title": "Video Based Animation Synthesis with the Essential Graph",
+    "authors": "A. Boukhayma, Edmond Boyer",
+    "venue": "International Conference on 3D Vision",
+    "year": 2015,
+    "paper": "https://hal.inria.fr/hal-01212168/file/EssentialGraph.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV.2015.60",
+    "doi_url": "https://doi.org/10.1109/3DV.2015.60",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/b6f5730df0ac1debcc72a31f5a0beefd0808998a",
+    "citationCount": 12,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "DBLP": "conf/3dim/BoukhaymaB15",
+      "MAG": "2172529265",
+      "DOI": "10.1109/3DV.2015.60",
+      "CorpusId": 16529152
+    },
+    "corpusId": 16529152
   },
   {
-    "title": "Video based animation synthesis with the essential graph",
-    "authors": "",
-    "venue": "",
-    "year": "2015"
+    "id": "a-bayesian-approach-to-multi-view-4d-modeling",
+    "title": "A Bayesian Approach to Multi-view 4D Modeling",
+    "authors": "C. Huang, Cedric Cagniart, Edmond Boyer, Slobodan Ilic",
+    "venue": "International Journal of Computer Vision",
+    "year": 2015,
+    "paper": "http://link.springer.com/content/pdf/10.1007/s11263-015-0832-y.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/s11263-015-0832-y",
+    "doi_url": "https://doi.org/10.1007/s11263-015-0832-y",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/6312b29459d49f004b5d13296c8475e2e11bbe40",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DOI": "10.1007/s11263-015-0832-y",
+      "CorpusId": 255109307
+    },
+    "corpusId": 255109307
   },
   {
+    "id": "dynamic-geometry-reconstruction",
     "title": "Dynamic Geometry Reconstruction",
-    "authors": "",
-    "venue": "",
-    "year": "2015"
+    "authors": "Edmond Boyer, A. Hilton, C. Loscos",
+    "venue": "Digital Representations of the Real World",
+    "year": 2015,
+    "paper": "https://doi.org/10.1201/b18154-15",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1201/b18154-15",
+    "doi_url": "https://doi.org/10.1201/b18154-15",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/c5fefbffe6985ee91564277036738b2029e84c1c",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "books/tf/15/BoyerHL15",
+      "MAG": "2275384519",
+      "DOI": "10.1201/b18154-15",
+      "CorpusId": 123304091
+    },
+    "corpusId": 123304091
   },
   {
-    "title": "Implicit B-spline surface reconstruction",
-    "authors": "",
-    "venue": "",
-    "year": "2014"
+    "id": "high-resolution-3d-shape-texture-from-multiple-videos",
+    "title": "High Resolution 3D Shape Texture from Multiple Videos",
+    "authors": "Vagia Tsiminaki, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "2014 IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": 2014,
+    "paper": "https://hal.inria.fr/hal-00977755/file/mvtexture_cvpr14.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2014.195",
+    "doi_url": "https://doi.org/10.1109/CVPR.2014.195",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/75b7f45c7453346ff5ac551517f0edb9f4ec4a4e",
+    "citationCount": 37,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/cvpr/TsiminakiFB14",
+      "MAG": "2048718583",
+      "DOI": "10.1109/CVPR.2014.195",
+      "CorpusId": 14066318
+    },
+    "corpusId": 14066318
   },
   {
-    "title": "Sparse multi-view consistency for object segmentation",
-    "authors": "",
-    "venue": "",
-    "year": "2014"
+    "id": "human-shape-and-pose-tracking-using-keyframes",
+    "title": "Human Shape and Pose Tracking Using Keyframes",
+    "authors": "C. Huang, Edmond Boyer, Nassir Navab, Slobodan Ilic",
+    "venue": "2014 IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": 2014,
+    "paper": "http://campar.in.tum.de/pub/huangc2014cvpr/huangc2014cvpr.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2014.440",
+    "doi_url": "https://doi.org/10.1109/CVPR.2014.440",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/81e0e46b857ef81876fab56d2f6b7e7d35394cb2",
+    "citationCount": 34,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/cvpr/HuangBNI14",
+      "MAG": "2138991968",
+      "DOI": "10.1109/CVPR.2014.440",
+      "CorpusId": 13227585
+    },
+    "corpusId": 13227585
   },
   {
-    "title": "Human shape and pose tracking using keyframes",
-    "authors": "",
-    "venue": "",
-    "year": "2014"
+    "id": "on-mean-pose-and-variability-of-3d-deformable-models",
+    "title": "On Mean Pose and Variability of 3D Deformable Models",
+    "authors": "Benjamin Allain, Jean-Sébastien Franco, Edmond Boyer, Tony Tung",
+    "venue": "European Conference on Computer Vision",
+    "year": 2014,
+    "paper": "https://hal.inria.fr/hal-01016981/file/Allain_ECCV2014_On_Mean_Pose_and_Variability.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-319-10605-2_19",
+    "doi_url": "https://doi.org/10.1007/978-3-319-10605-2_19",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/9f48f112c6f676577d7843bc7097593814bda916",
+    "citationCount": 17,
+    "influentialCitationCount": 3,
+    "externalIds": {
+      "DBLP": "conf/eccv/AllainFBT14",
+      "MAG": "159947774",
+      "DOI": "10.1007/978-3-319-10605-2_19",
+      "CorpusId": 8302421
+    },
+    "corpusId": 8302421
   },
   {
-    "title": "High resolution 3d shape texture from multiple videos",
-    "authors": "",
-    "venue": "",
-    "year": "2014"
+    "id": "non-rigid-registration-meets-surface-reconstruction",
+    "title": "Non-rigid Registration Meets Surface Reconstruction",
+    "authors": "Mohammad Rouhani, Edmond Boyer, A. Sappa",
+    "venue": "International Conference on 3D Vision",
+    "year": 2014,
+    "paper": "https://hal.inria.fr/hal-01063513/file/3DV_final%20%282%29.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV.2014.80",
+    "doi_url": "https://doi.org/10.1109/3DV.2014.80",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/246d4e625d8dc15c97d684d4cb79db52f8457980",
+    "citationCount": 8,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/3dim/RouhaniBS14a",
+      "MAG": "1599364786",
+      "DOI": "10.1109/3DV.2014.80",
+      "CorpusId": 16355425
+    },
+    "corpusId": 16355425
   },
   {
-    "title": "On mean pose and variability of 3d deformable models",
-    "authors": "",
-    "venue": "",
-    "year": "2014"
+    "id": "combined-visible-and-x-ray-3d-imaging",
+    "title": "Combined Visible and X-Ray 3D Imaging",
+    "authors": "J. Pansiot, L. Revéret, Edmond Boyer",
+    "venue": "Annual Conference on Medical Image Understanding and Analysis",
+    "year": 2014,
+    "paper": "https://doi.org/10.1364/isa.2014.im3c.2",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1364/isa.2014.im3c.2",
+    "doi_url": "https://doi.org/10.1364/isa.2014.im3c.2",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/cd782003372a91f9180a9020fe8bd1fc96f4cd18",
+    "citationCount": 2,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/miua/PansiotRB14",
+      "MAG": "2581743856",
+      "CorpusId": 16316370
+    },
+    "corpusId": 16316370
   },
   {
-    "title": "Non-rigid registration meets surface reconstruction",
-    "authors": "",
-    "venue": "",
-    "year": "2014"
+    "id": "non-rigid-registration-with-reliable-distance-field-for-dynamic-shape-completion",
+    "title": "Non-rigid Registration with Reliable Distance Field for Dynamic Shape Completion",
+    "authors": "Mohammad Rouhani, Edmond Boyer, A. Sappa",
+    "venue": "International Conference on 3D Vision",
+    "year": 2014,
+    "paper": "https://doi.org/10.1109/3dv.2014.111",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3dv.2014.111",
+    "doi_url": "https://doi.org/10.1109/3dv.2014.111",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/1d60d0eb2dd6cd77451f9fe87add8c754d647d42",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "CorpusId": 10922943
+    },
+    "corpusId": 10922943
   },
   {
-    "title": "Combined visible and X-ray 3D imaging",
-    "authors": "",
-    "venue": "",
-    "year": "2014"
+    "id": "multi-view-object-segmentation-in-space-and-time",
+    "title": "Multi-view Object Segmentation in Space and Time",
+    "authors": "Abdelaziz Djelouah, Jean-Sébastien Franco, Edmond Boyer, F. Clerc, P. Pérez",
+    "venue": "IEEE International Conference on Computer Vision",
+    "year": 2013,
+    "paper": "https://hal.inria.fr/hal-00873544/file/paper_final.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICCV.2013.328",
+    "doi_url": "https://doi.org/10.1109/ICCV.2013.328",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/1afb1b69c73cea6af29e5e8d4f129e8ad8d87690",
+    "citationCount": 46,
+    "influentialCitationCount": 5,
+    "externalIds": {
+      "DBLP": "conf/iccv/DjelouahFBCP13",
+      "MAG": "2150590906",
+      "DOI": "10.1109/ICCV.2013.328",
+      "CorpusId": 51902
+    },
+    "corpusId": 51902
   },
   {
-    "title": "Segmentation multi-vues par coupure de graphes",
-    "authors": "",
-    "venue": "",
-    "year": "2014"
+    "id": "robust-human-body-shape-and-pose-tracking",
+    "title": "Robust Human Body Shape and Pose Tracking",
+    "authors": "C. Huang, Edmond Boyer, Slobodan Ilic",
+    "venue": "International Conference on 3D Vision",
+    "year": 2013,
+    "paper": "https://hal.inria.fr/hal-00922934/file/paul.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DV.2013.45",
+    "doi_url": "https://doi.org/10.1109/3DV.2013.45",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/038db05341a6ffe511630f4601333a54ac4948c5",
+    "citationCount": 33,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/3dim/HuangBI13",
+      "MAG": "2083971851",
+      "DOI": "10.1109/3DV.2013.45",
+      "CorpusId": 16936054
+    },
+    "corpusId": 16936054
   },
   {
-    "title": "Multi-view object segmentation in space and time",
-    "authors": "",
-    "venue": "",
-    "year": "2013"
-  },
-  {
-    "title": "Robust human body shape and pose tracking",
-    "authors": "",
-    "venue": "",
-    "year": "2013"
-  },
-  {
+    "id": "segmentation-of-temporal-mesh-sequences-into-rigidly-moving-components",
     "title": "Segmentation of temporal mesh sequences into rigidly moving components",
-    "authors": "",
-    "venue": "",
-    "year": "2013"
+    "authors": "R. Arcila, Cedric Cagniart, Franck Hétroy, Edmond Boyer, F. Dupont",
+    "venue": "Graphical Models",
+    "year": 2013,
+    "paper": "https://hal.inria.fr/hal-00749302/file/seg_seq.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1016/j.gmod.2012.10.004",
+    "doi_url": "https://doi.org/10.1016/j.gmod.2012.10.004",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/605935d81294c5c1ebf56aa16443c724b7acedae",
+    "citationCount": 19,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "DBLP": "journals/cvgip/ArcilaCHBD13",
+      "MAG": "1972755925",
+      "DOI": "10.1016/j.gmod.2012.10.004",
+      "CorpusId": 17982760
+    },
+    "corpusId": 17982760
   },
   {
-    "title": "3d shape cropping",
-    "authors": "",
-    "venue": "",
-    "year": "2013"
+    "id": "3d-shape-cropping",
+    "title": "3D Shape Cropping",
+    "authors": "Jean-Sébastien Franco, B. Petit, Edmond Boyer",
+    "venue": "International Symposium on Vision, Modeling, and Visualization",
+    "year": 2013,
+    "paper": "https://inria.hal.science/hal-00904661/document",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.2312/PE.VMV.VMV13.065-072",
+    "doi_url": "https://doi.org/10.2312/PE.VMV.VMV13.065-072",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/c1ad69c243d887d9b1922b141e69d444a7485ffb",
+    "citationCount": 3,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2226423049",
+      "DBLP": "conf/vmv/FrancoPB13",
+      "DOI": "10.2312/PE.VMV.VMV13.065-072",
+      "CorpusId": 11099886
+    },
+    "corpusId": 11099886
   },
   {
-    "title": "Modélisation probabiliste pour la segmentation multi-vues",
-    "authors": "",
-    "venue": "",
-    "year": "2013"
-  },
-  {
-    "title": "PIGMENTED FILAMENTOUS FUNGI ISOLATED FROM TROPICAL MARINE ENVIRONMENTS AROUND REUNION ISLAND",
-    "authors": "",
-    "venue": "",
-    "year": "2013"
-  },
-  {
-    "title": "Publications in 2013",
-    "authors": "",
-    "venue": "",
-    "year": "2013"
-  },
-  {
-    "title": "Keypoints and local descriptors of scalar functions on 2D manifolds",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
-  },
-  {
+    "id": "progressive-shape-models",
     "title": "Progressive shape models",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
+    "authors": "A. Letouzey, Edmond Boyer",
+    "venue": "2012 IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": 2012,
+    "paper": "https://hal.inria.fr/hal-00677506/file/cvpr.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2012.6247675",
+    "doi_url": "https://doi.org/10.1109/CVPR.2012.6247675",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/12f8b248acc89ca4d2eaa24ee5adff0ba5eea430",
+    "citationCount": 20,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2171070730",
+      "DBLP": "conf/cvpr/LetouzeyB12",
+      "DOI": "10.1109/CVPR.2012.6247675",
+      "CorpusId": 17149872
+    },
+    "corpusId": 17149872
   },
   {
-    "title": "N-tuple color segmentation for multi-view silhouette extraction",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
+    "id": "n-tuple-color-segmentation-for-multi-view-silhouette-extraction",
+    "title": "N-tuple Color Segmentation for Multi-view Silhouette Extraction",
+    "authors": "Abdelaziz Djelouah, Jean-Sébastien Franco, Edmond Boyer, F. Clerc, P. Pérez",
+    "venue": "European Conference on Computer Vision",
+    "year": 2012,
+    "paper": "https://doi.org/10.1007/978-3-642-33715-4_59",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-642-33715-4_59",
+    "doi_url": "https://doi.org/10.1007/978-3-642-33715-4_59",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/2397beda34d646020d3b86d9343138ebb826781c",
+    "citationCount": 16,
+    "influentialCitationCount": 3,
+    "externalIds": {
+      "MAG": "93727908",
+      "DBLP": "conf/eccv/DjelouahFBCP12",
+      "DOI": "10.1007/978-3-642-33715-4_59",
+      "CorpusId": 10004327
+    },
+    "corpusId": 10004327
   },
   {
-    "title": "Cage-based motion recovery using manifold learning",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
+    "id": "cage-based-motion-recovery-using-manifold-learning",
+    "title": "Cage-Based Motion Recovery Using Manifold Learning",
+    "authors": "Estelle Duveau, S. Courtemanche, L. Revéret, Edmond Boyer",
+    "venue": "2012 Second International Conference on 3D Imaging, Modeling, Processing, Visualization & Transmission",
+    "year": 2012,
+    "paper": "http://morpheo.inrialpes.fr/people/reveret/gcm/gcm3DPimVT12.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DIMPVT.2012.29",
+    "doi_url": "https://doi.org/10.1109/3DIMPVT.2012.29",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/46e46657e140d6eeb20f41130a44f62136e36935",
+    "citationCount": 12,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2080642365",
+      "DBLP": "conf/3dim/DuveauCRB12",
+      "DOI": "10.1109/3DIMPVT.2012.29",
+      "CorpusId": 2794665
+    },
+    "corpusId": 2794665
   },
   {
-    "title": "A minimal solution for camera calibration using independent pairwise correspondences",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
+    "id": "a-minimal-solution-for-camera-calibration-using-independent-pairwise-correspondences",
+    "title": "A Minimal Solution for Camera Calibration Using Independent Pairwise Correspondences",
+    "authors": "F. Vasconcelos, J. Barreto, Edmond Boyer",
+    "venue": "European Conference on Computer Vision",
+    "year": 2012,
+    "paper": "https://hal.inria.fr/hal-00735728/file/typeinst.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-642-33783-3_52",
+    "doi_url": "https://doi.org/10.1007/978-3-642-33783-3_52",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/9ac990386544fe4e3781806ae3a5361cd480ac92",
+    "citationCount": 4,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/eccv/VasconcelosBB12",
+      "MAG": "121993223",
+      "DOI": "10.1007/978-3-642-33783-3_52",
+      "CorpusId": 8286298
+    },
+    "corpusId": 8286298
   },
   {
-    "title": "RE@ CT-immersive production and delivery of interactive 3d content",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
-  },
-  {
-    "title": "Flot de scène à partir d'images couleur et de cartes de profondeur",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
-  },
-  {
+    "id": "temporally-coherent-mesh-sequence-segmentations",
     "title": "Temporally coherent mesh sequence segmentations",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
+    "authors": "R. Arcila, Cedric Cagniart, Franck Hétroy, Edmond Boyer, F. Dupont",
+    "venue": "Proceedings of the 11th Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications",
+    "year": 2012,
+    "paper": "https://doi.org/10.5220/0005723501380145",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.5220/0005723501380145",
+    "doi_url": "https://doi.org/10.5220/0005723501380145",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/a19e97c624d32c23208a277f5ff89c3ae64a9f8f",
+    "citationCount": 2,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "1600321162",
+      "CorpusId": 411614
+    },
+    "corpusId": 411614
   },
   {
-    "title": "Antoine Letouzey, Edmond Boyer. Progressive Shape Models. CVPR-Computer Vision and Patern Recognition-2012, Jun 2012, Providence, United States. pp. 190-197,⟨ 10.1109/CVPR …",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
+    "id": "re-ct-immersive-production-and-delivery-of-interactive-3d-content",
+    "title": "RE@CT - Immersive Production and Delivery of Interactive 3D Content",
+    "authors": "O. Grau, Edmond Boyer, P. Huang, David Knossow, Emilio Maggio, David C. Schneider",
+    "venue": "Interactive 3D Multimedia Content",
+    "year": 2012,
+    "paper": "https://doi.org/10.1007/978-1-4471-2497-9_8",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-1-4471-2497-9_8",
+    "doi_url": "https://doi.org/10.1007/978-1-4471-2497-9_8",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/7a51f809d2224334f7540e20dc9f6e6bbbd3584f",
+    "citationCount": 1,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2296536497",
+      "CorpusId": 61941998
+    },
+    "corpusId": 61941998
   },
   {
-    "title": "Modèles progressifs de forme",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
-  },
-  {
-    "title": "Scene flow",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
-  },
-  {
-    "title": "Flot de scène",
-    "authors": "",
-    "venue": "",
-    "year": "2012"
-  },
-  {
+    "id": "a-survey-of-vision-based-methods-for-action-representation-segmentation-and-recognition",
     "title": "A survey of vision-based methods for action representation, segmentation and recognition",
-    "authors": "",
-    "venue": "",
-    "year": "2011"
+    "authors": "Daniel Weinland, Rémi Ronfard, Edmond Boyer",
+    "venue": "Computer Vision and Image Understanding",
+    "year": 2011,
+    "paper": "https://hal.inria.fr/hal-00640088/file/weinland10preprint.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1016/j.cviu.2010.10.002",
+    "doi_url": "https://doi.org/10.1016/j.cviu.2010.10.002",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/678b758cb1a057fd38d8e6808535f64686bfca71",
+    "citationCount": 1095,
+    "influentialCitationCount": 28,
+    "externalIds": {
+      "MAG": "2098339052",
+      "DBLP": "journals/cviu/WeinlandRB11",
+      "DOI": "10.1016/j.cviu.2010.10.002",
+      "CorpusId": 3467933
+    },
+    "corpusId": 3467933
   },
   {
+    "id": "shrec-2011-robust-feature-detection-and-description-benchmark",
     "title": "SHREC 2011: robust feature detection and description benchmark",
-    "authors": "",
-    "venue": "",
-    "year": "2011"
+    "authors": "Edmond Boyer, A. Bronstein, M. Bronstein, B. Bustos, T. Darom, R. Horaud, I. Hotz, Y. Keller, Johannes Keustermans, Artiom Kovnatsky, Roee Litman, Jan Reininghaus, I. Sipiran, D. Smeets, P. Suetens, D. Vandermeulen, Andrei Zaharescu, Valentin Zobel",
+    "venue": "arXiv.org",
+    "year": 2011,
+    "paper": "http://arxiv.org/pdf/1102.4258",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.2312/3DOR/3DOR11/071-078",
+    "doi_url": "https://doi.org/10.2312/3DOR/3DOR11/071-078",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/94de0c59b07f0814aeecbf2a0e1bcd47c1caf141",
+    "citationCount": 151,
+    "influentialCitationCount": 8,
+    "externalIds": {
+      "MAG": "2127486527",
+      "ArXiv": "1102.4258",
+      "DBLP": "journals/corr/abs-1102-4258",
+      "DOI": "10.2312/3DOR/3DOR11/071-078",
+      "CorpusId": 246601
+    },
+    "corpusId": 246601
   },
   {
+    "id": "topologically-robust-3d-shape-matching-based-on-diffusion-geometry-and-seed-growing",
     "title": "Topologically-robust 3D shape matching based on diffusion geometry and seed growing",
-    "authors": "",
-    "venue": "",
-    "year": "2011"
+    "authors": "Avinash Sharma, R. Horaud, Jan Cech, Edmond Boyer",
+    "venue": "Computer Vision and Pattern Recognition",
+    "year": 2011,
+    "paper": "http://perception.inrialpes.fr/Publications/2011/SHCB11/Sharma_CVPR2011.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2011.5995455",
+    "doi_url": "https://doi.org/10.1109/CVPR.2011.5995455",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/ba57444e6e1fbb7a81e2eca46457eca8b2ff2dbf",
+    "citationCount": 89,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "DBLP": "conf/cvpr/SharmaHCB11",
+      "MAG": "2100187127",
+      "DOI": "10.1109/CVPR.2011.5995455",
+      "CorpusId": 12359943
+    },
+    "corpusId": 12359943
   },
   {
-    "title": "Scene flow from depth and color images",
-    "authors": "",
-    "venue": "",
-    "year": "2011"
+    "id": "topology-adaptive-mesh-deformation-for-surface-evolution-morphing-and-multiview-reconstruction",
+    "title": "Topology-Adaptive Mesh Deformation for Surface Evolution, Morphing, and Multiview Reconstruction",
+    "authors": "Andrei Zaharescu, Edmond Boyer, R. Horaud",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "year": 2011,
+    "paper": "https://arxiv.org/pdf/2012.05536",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/TPAMI.2010.116",
+    "doi_url": "https://doi.org/10.1109/TPAMI.2010.116",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/e7920fa4eed28c9ec50deb91e26f5b62274be927",
+    "citationCount": 74,
+    "influentialCitationCount": 4,
+    "externalIds": {
+      "DBLP": "journals/pami/ZaharescuBH11",
+      "ArXiv": "2012.05536",
+      "MAG": "2156805002",
+      "DOI": "10.1109/TPAMI.2010.116",
+      "CorpusId": 13120665,
+      "PubMed": "20530809"
+    },
+    "corpusId": 13120665
   },
   {
+    "id": "scene-flow-from-depth-and-color-images",
+    "title": "Scene Flow from Depth and Color Images",
+    "authors": "A. Letouzey, B. Petit, Edmond Boyer",
+    "venue": "British Machine Vision Conference",
+    "year": 2011,
+    "paper": "http://www.bmva.org/bmvc/2011/proceedings/paper46/paper46.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.5244/C.25.46",
+    "doi_url": "https://doi.org/10.5244/C.25.46",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/7e630130f6667a9c93d4830b874761b3f8bcd691",
+    "citationCount": 46,
+    "influentialCitationCount": 4,
+    "externalIds": {
+      "DBLP": "conf/bmvc/LetouzeyPB11",
+      "MAG": "2134134344",
+      "DOI": "10.5244/C.25.46",
+      "CorpusId": 560203
+    },
+    "corpusId": 560203
+  },
+  {
+    "id": "silhouette-segmentation-in-multiple-views",
+    "title": "Silhouette Segmentation in Multiple Views",
+    "authors": "Wonwoo Lee, Woontack Woo, Edmond Boyer",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "year": 2011,
+    "paper": "https://hal.inria.fr/inria-00568915/file/LeePami.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/TPAMI.2010.196",
+    "doi_url": "https://doi.org/10.1109/TPAMI.2010.196",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/5db6db05ea80ab5a7575afb37c3d41a73bb60731",
+    "citationCount": 45,
+    "influentialCitationCount": 5,
+    "externalIds": {
+      "MAG": "2163046003",
+      "DBLP": "journals/pami/LeeWB11",
+      "DOI": "10.1109/TPAMI.2010.196",
+      "CorpusId": 9717577,
+      "PubMed": "21079278"
+    },
+    "corpusId": 9717577
+  },
+  {
+    "id": "learning-temporally-consistent-rigidities",
     "title": "Learning temporally consistent rigidities",
-    "authors": "",
-    "venue": "",
-    "year": "2011"
+    "authors": "Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "Computer Vision and Pattern Recognition",
+    "year": 2011,
+    "paper": "https://hal.inria.fr/inria-00583131/file/paper541.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2011.5995440",
+    "doi_url": "https://doi.org/10.1109/CVPR.2011.5995440",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/682a89a2bfeb8da397291e2a95b0bc1001714a9a",
+    "citationCount": 21,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "DBLP": "conf/cvpr/FrancoB11",
+      "MAG": "2044681510",
+      "DOI": "10.1109/CVPR.2011.5995440",
+      "CorpusId": 14876955
+    },
+    "corpusId": 14876955
   },
   {
-    "title": "Surface flow from visual cues",
-    "authors": "",
-    "venue": "",
-    "year": "2011"
+    "id": "surface-flow-from-visual-cues",
+    "title": "Surface Flow from Visual Cues",
+    "authors": "B. Petit, A. Letouzey, Edmond Boyer, Jean-Sébastien Franco",
+    "venue": "International Symposium on Vision, Modeling, and Visualization",
+    "year": 2011,
+    "paper": "https://doi.org/10.2312/PE/VMV/VMV11/001-008",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.2312/PE/VMV/VMV11/001-008",
+    "doi_url": "https://doi.org/10.2312/PE/VMV/VMV11/001-008",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/552d8f93f3f9561865cd2fad667ef877413072e4",
+    "citationCount": 12,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/vmv/PetitLBF11",
+      "MAG": "1576665344",
+      "DOI": "10.2312/PE/VMV/VMV11/001-008",
+      "CorpusId": 15275178
+    },
+    "corpusId": 15275178
   },
   {
+    "id": "contracts-and-grants-with-industry-contracts-with-technicolor",
+    "title": "Contracts and Grants with Industry - Contracts with Technicolor",
+    "authors": "Abdelaziz Djelouah, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "Federal Grants &amp; Contracts",
+    "year": 2011,
+    "paper": "https://doi.org/10.1002/fgc.v36:2",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1002/fgc.v36:2",
+    "doi_url": "https://doi.org/10.1002/fgc.v36:2",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/1dfe365d54902d0e5cbeb68f75d4db7e72d97418",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2588782680",
+      "CorpusId": 125856841
+    },
+    "corpusId": 125856841
+  },
+  {
+    "id": "new-results-surface-flow",
+    "title": "New Results - Surface Flow",
+    "authors": "A. Letouzey, B. Petit, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "Asian Journal of Earth Sciences",
+    "year": 2011,
+    "paper": "https://doi.org/10.3923/ajes.2011.145.145",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.3923/ajes.2011.145.145",
+    "doi_url": "https://doi.org/10.3923/ajes.2011.145.145",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/3381e172a1b9fbedafbf3a885c05bcf66cb7d621",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2218490227",
+      "CorpusId": 131049811
+    },
+    "corpusId": 131049811
+  },
+  {
+    "id": "new-results-learning-temporally-consistent-rigidities",
+    "title": "New Results - Learning Temporally Consistent Rigidities",
+    "authors": "Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "CVPR 2011",
+    "year": 2011,
+    "paper": "https://doi.org/10.1109/cvpr.2011.5995440",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/cvpr.2011.5995440",
+    "doi_url": "https://doi.org/10.1109/cvpr.2011.5995440",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/5443791d058332b674c4a040523a6441172c5eaa",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2586555071",
+      "CorpusId": 184966150
+    },
+    "corpusId": 184966150
+  },
+  {
+    "id": "scale-space-representation-of-scalar-functions-on-2d-manifolds",
     "title": "Scale-space representation of scalar functions on 2D manifolds",
-    "authors": "",
-    "venue": "",
-    "year": "2011"
+    "authors": "Andrei Zaharescu, Edmond Boyer, R. Horaud",
+    "venue": "IEEE International Conference on Computer Vision",
+    "year": 2011,
+    "paper": "http://perception.inrialpes.fr/Publications/2011/ZBH11a/Spectral-Scalespace.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICCVW.2011.6130299",
+    "doi_url": "https://doi.org/10.1109/ICCVW.2011.6130299",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/e4baabce9014443e880db3f8b39f297bd31c01e4",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/iccvw/ZaharescuBH11",
+      "MAG": "2142653763",
+      "DOI": "10.1109/ICCVW.2011.6130299",
+      "CorpusId": 2544828
+    },
+    "corpusId": 2544828
   },
   {
-    "title": "Flot de surface à partir d'indices visuels",
-    "authors": "",
-    "venue": "",
-    "year": "2011"
+    "id": "free-form-mesh-tracking-a-patch-based-approach",
+    "title": "Free-form mesh tracking: A patch-based approach",
+    "authors": "Cedric Cagniart, Edmond Boyer, Slobodan Ilic",
+    "venue": "2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+    "year": 2010,
+    "paper": "https://hal.inria.fr/inria-00568909/file/cagniart2010CVPR.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2010.5539814",
+    "doi_url": "https://doi.org/10.1109/CVPR.2010.5539814",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/b92a45152c78bcd477661903ed8260b2bb48f234",
+    "citationCount": 110,
+    "influentialCitationCount": 11,
+    "externalIds": {
+      "MAG": "2040322039",
+      "DBLP": "conf/cvpr/CagniartBI10",
+      "DOI": "10.1109/CVPR.2010.5539814",
+      "CorpusId": 1846045
+    },
+    "corpusId": 1846045
   },
   {
-    "title": "Probabilistic deformable surface tracking from multiple videos",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "Free-form mesh tracking: a patch-based approach",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "Multicamera Real‐Time 3D Modeling for Telepresence and Remote Collaboration",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "Topology-adaptive mesh deformation for surface evolution, morphing, and multiview reconstruction",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "Silhouette segmentation in multiple views",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "A 3d data intensive tele-immersive grid",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "An Unsupervised Framework for Action Recognition Using Actemes",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "Probabilistic 3D occupancy flow with latent silhouette cues",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "Temporally coherent segmentation of 3D reconstructions",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "Free-from mesh tracking: a patch-based approach",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "Iterative deformable surface tracking in multi-view setups",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "Region graphs for organizing image collections",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "Flot d'occupation 3D à partir de silhouettes latentes",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "HAL Id: hal-00514549 https://hal. science/hal-00514549v2",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "HAL Id: hal-00514549",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
-    "title": "Research Article Multicamera Real-Time 3D Modeling for Telepresence and Remote Collaboration",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
-  },
-  {
+    "id": "multicamera-real-time-3d-modeling-for-telepresence-and-remote-collaboration",
     "title": "Multicamera Real-Time 3D Modeling for Telepresence and Remote Collaboration",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
+    "authors": "B. Petit, Jean-Denis Lesage, C. Ménier, J. Allard, Jean-Sébastien Franco, B. Raffin, Edmond Boyer, F. Faure",
+    "venue": "Int. J. Digit. Multim. Broadcast.",
+    "year": 2010,
+    "paper": "https://downloads.hindawi.com/journals/ijdmb/2010/247108.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1155/2010/247108",
+    "doi_url": "https://doi.org/10.1155/2010/247108",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/e5e7e152bcd4adf8cc259eeae5e357c01b42f840",
+    "citationCount": 80,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "DBLP": "journals/ijdmbc/PetitLMAFRBF10",
+      "MAG": "2062330262",
+      "DOI": "10.1155/2010/247108",
+      "CorpusId": 9338676
+    },
+    "corpusId": 9338676
   },
   {
+    "id": "probabilistic-3d-occupancy-flow-with-latent-silhouette-cues",
+    "title": "Probabilistic 3D occupancy flow with latent silhouette cues",
+    "authors": "Li Guan, Jean-Sébastien Franco, Edmond Boyer, Marc Pollefeys",
+    "venue": "2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+    "year": 2010,
+    "paper": "http://perception.inrialpes.fr/Publications/2010/GFBP10/grid.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2010.5539807",
+    "doi_url": "https://doi.org/10.1109/CVPR.2010.5539807",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/54672e0841eeac930be0f80dc5e65d3a01d72d43",
+    "citationCount": 16,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/cvpr/GuanFBP10",
+      "MAG": "2111341588",
+      "DOI": "10.1109/CVPR.2010.5539807",
+      "CorpusId": 797515
+    },
+    "corpusId": 797515
+  },
+  {
+    "id": "temporally-coherent-segmentation-of-3d-reconstructions",
+    "title": "Temporally Coherent Segmentation of 3D Reconstructions",
+    "authors": "K. Varanasi, Edmond Boyer",
+    "venue": "International Journal of Computer Theory and Engineering",
+    "year": 2010,
+    "paper": "https://doi.org/10.7763/ijcte.2014.v6.907",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.7763/ijcte.2014.v6.907",
+    "doi_url": "https://doi.org/10.7763/ijcte.2014.v6.907",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/8a494c97473ccd758280ae51bc7a4fe0b0d1d127",
+    "citationCount": 13,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "154356846",
+      "CorpusId": 15041955
+    },
+    "corpusId": 15041955
+  },
+  {
+    "id": "a-3d-data-intensive-tele-immersive-grid",
+    "title": "A 3d data intensive tele-immersive grid",
+    "authors": "B. Petit, Thomas Dupeux, Benoît Bossavit, J. Legaux, B. Raffin, Emmanuel Melin, Jean-Sébastien Franco, I. Assenmacher, Edmond Boyer",
+    "venue": "ACM Multimedia",
+    "year": 2010,
+    "paper": "https://hal.archives-ouvertes.fr/hal-00514549/file/petit10b.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1145/1873951.1874210",
+    "doi_url": "https://doi.org/10.1145/1873951.1874210",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/b8a7960331f9af1f0c9621e7af6a8254ece14aea",
+    "citationCount": 13,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2016085010",
+      "DBLP": "conf/mm/PetitDBLRMFAB10",
+      "DOI": "10.1145/1873951.1874210",
+      "CorpusId": 17880936
+    },
+    "corpusId": 17880936
+  },
+  {
+    "id": "iterative-deformable-surface-tracking-in-multi-view-setups",
+    "title": "Iterative Deformable Surface Tracking in Multi-View Setups",
+    "authors": "Cedric Cagniart, Edmond Boyer, Slobodan Ilic",
+    "venue": "2010 IEEE International Conference on Image Processing",
+    "year": 2010,
+    "paper": "https://doi.org/10.1109/icip.2010.5651439",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/icip.2010.5651439",
+    "doi_url": "https://doi.org/10.1109/icip.2010.5651439",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/6ae87067a7c6027c0db65d61117b2d77fa7c3753",
+    "citationCount": 12,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "75114367",
+      "CorpusId": 6624821
+    },
+    "corpusId": 6624821
+  },
+  {
+    "id": "an-unsupervised-framework-for-action-recognition-using-actemes",
+    "title": "An Unsupervised Framework for Action Recognition Using Actemes",
+    "authors": "Kaustubh Kulkarni, Edmond Boyer, R. Horaud, A. Kale",
+    "venue": "Asian Conference on Computer Vision",
+    "year": 2010,
+    "paper": "https://hal.inria.fr/inria-00568906/file/accv2010_TemporalSeg.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-642-19282-1_47",
+    "doi_url": "https://doi.org/10.1007/978-3-642-19282-1_47",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/2585353bf26265ebc8295ef1d3cf54e78728e209",
+    "citationCount": 11,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "1505716359",
+      "DBLP": "conf/accv/KulkarniBHK10",
+      "DOI": "10.1007/978-3-642-19282-1_47",
+      "CorpusId": 5439868
+    },
+    "corpusId": 5439868
+  },
+  {
+    "id": "region-graphs-for-organizing-image-collections",
+    "title": "Region Graphs for Organizing Image Collections",
+    "authors": "A. Ladikos, Edmond Boyer, Nassir Navab, Slobodan Ilic",
+    "venue": "ECCV Workshops",
+    "year": 2010,
+    "paper": "https://link.springer.com/content/pdf/10.1007%2F978-3-642-35740-4_19.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-642-35740-4_19",
+    "doi_url": "https://doi.org/10.1007/978-3-642-35740-4_19",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/11fb9291b0cb84b639eefb94bd6e245e1f592af2",
+    "citationCount": 7,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/eccv/LadikosBNI10",
+      "MAG": "198509089",
+      "DOI": "10.1007/978-3-642-35740-4_19",
+      "CorpusId": 5663548
+    },
+    "corpusId": 5663548
+  },
+  {
+    "id": "the-virtualization-gate-project",
     "title": "The Virtualization Gate Project",
-    "authors": "",
-    "venue": "",
-    "year": "2010"
+    "authors": "Edmond Boyer, B. Petit, B. Raffin",
+    "venue": "ERCIM News",
+    "year": 2010,
+    "paper": "https://doi.org/10.1016/b978-1-59749-557-8.00002-3",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1016/b978-1-59749-557-8.00002-3",
+    "doi_url": "https://doi.org/10.1016/b978-1-59749-557-8.00002-3",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/3d0cd4407c638271a62f2df639be4098d7c950ef",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "1579494771",
+      "DBLP": "journals/ercim/BoyerPR10",
+      "CorpusId": 21808686
+    },
+    "corpusId": 21808686
   },
   {
-    "title": "Surface feature detection and description with applications to mesh matching",
-    "authors": "",
-    "venue": "",
-    "year": "2009"
+    "id": "new-results-human-action-recognition",
+    "title": "New Results - Human action recognition",
+    "authors": "Edmond Boyer, Rémi Ronfard, Daniel Weinland, V. Ferrari, Alessandro Prest, C. Schmid, Alexander Kläser, Marcin Marszalek, Andrew Zisserman",
+    "venue": "2010 20th International Conference on Pattern Recognition",
+    "year": 2010,
+    "paper": "https://doi.org/10.1109/icpr.2010.639",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/icpr.2010.639",
+    "doi_url": "https://doi.org/10.1109/icpr.2010.639",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/d0d22f60057ad90ebfbdc87994427d8ae26d0e2a",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "1124658342",
+      "CorpusId": 179948028
+    },
+    "corpusId": 179948028
   },
   {
+    "id": "flot-d-occupation-3d-partir-de-silhouettes-latentes",
+    "title": "Flot d'occupation 3D à partir de silhouettes latentes",
+    "authors": "Jean-Sébastien Franco, Li Guan, Edmond Boyer, M. Pollefeys",
+    "venue": "Journal of Computer Applications",
+    "year": 2010,
+    "paper": "https://doi.org/10.3724/sp.j.1087.2010.02998",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.3724/sp.j.1087.2010.02998",
+    "doi_url": "https://doi.org/10.3724/sp.j.1087.2010.02998",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/f0f91aba75347be57cfda7765f6367102a71d7ab",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "191495963",
+      "CorpusId": 56208902
+    },
+    "corpusId": 56208902
+  },
+  {
+    "id": "iterative-mesh-deformation-for-dense-surface-tracking",
     "title": "Iterative mesh deformation for dense surface tracking",
-    "authors": "",
-    "venue": "",
-    "year": "2009"
+    "authors": "Cedric Cagniart, Edmond Boyer, Slobodan Ilic",
+    "venue": "2009 IEEE 12th International Conference on Computer Vision Workshops, ICCV Workshops",
+    "year": 2009,
+    "paper": "https://hal.inria.fr/inria-00440389/file/3dim09.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICCVW.2009.5457440",
+    "doi_url": "https://doi.org/10.1109/ICCVW.2009.5457440",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/f056cbc72df684217b724224baa62cc000d30b46",
+    "citationCount": 22,
+    "influentialCitationCount": 5,
+    "externalIds": {
+      "DBLP": "conf/iccvw/CagniartBI09",
+      "MAG": "2002855393",
+      "DOI": "10.1109/ICCVW.2009.5457440",
+      "CorpusId": 7878412
+    },
+    "corpusId": 7878412
   },
   {
+    "id": "virtualization-gate",
     "title": "Virtualization gate",
-    "authors": "",
-    "venue": "",
-    "year": "2009"
+    "authors": "B. Petit, Jean-Denis Lesage, Edmond Boyer, B. Raffin",
+    "venue": "International Conference on Computer Graphics and Interactive Techniques",
+    "year": 2009,
+    "paper": "https://hal.inria.fr/inria-00418917/file/petit09b.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1145/1597956.1597982",
+    "doi_url": "https://doi.org/10.1145/1597956.1597982",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/7c69eac4191fce89b161a82ae31fc89fedec4342",
+    "citationCount": 11,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/siggraph/PetitLBR09",
+      "MAG": "2296337168",
+      "DOI": "10.1145/1597956.1597982",
+      "CorpusId": 15861881
+    },
+    "corpusId": 15861881
   },
   {
+    "id": "remote-and-collaborative-3d-interactions",
     "title": "Remote and collaborative 3D interactions",
-    "authors": "",
-    "venue": "",
-    "year": "2009"
+    "authors": "B. Petit, Jean-Denis Lesage, Edmond Boyer, Jean-Sébastien Franco, B. Raffin",
+    "venue": "3DTV-Conference",
+    "year": 2009,
+    "paper": "https://hal.inria.fr/inria-00405810/file/petit-3DTV-CON-2009.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DTV.2009.5069651",
+    "doi_url": "https://doi.org/10.1109/3DTV.2009.5069651",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/8a2ebdd010451bd7d360abe6d7eb1c9f17d249f4",
+    "citationCount": 8,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2122240384",
+      "DOI": "10.1109/3DTV.2009.5069651",
+      "CorpusId": 16985620
+    },
+    "corpusId": 16985620
   },
   {
-    "title": "Suivi de Surfaces par Déformations Itératives",
-    "authors": "",
-    "venue": "",
-    "year": "2009"
+    "id": "3d-modeling-of-dynamic-scenes",
+    "title": "3D modeling of dynamic scenes",
+    "authors": "Edmond Boyer",
+    "venue": "2009 IEEE International Conference on Multimedia and Expo",
+    "year": 2009,
+    "paper": "https://doi.org/10.1109/icme.2009.5202825",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/icme.2009.5202825",
+    "doi_url": "https://doi.org/10.1109/icme.2009.5202825",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/ed47df879fbd62fe77b4eb0f8dbfc83320fee537",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2273088171",
+      "CorpusId": 61625992
+    },
+    "corpusId": 61625992
   },
   {
-    "title": "Short Papers_",
-    "authors": "",
-    "venue": "",
-    "year": "2009"
+    "id": "articulated-shape-matching-using-laplacian-eigenfunctions-and-unsupervised-point-registration",
+    "title": "Articulated shape matching using Laplacian eigenfunctions and unsupervised point registration",
+    "authors": "D. Mateus, R. Horaud, David Knossow, Fabio Cuzzolin, Edmond Boyer",
+    "venue": "2008 IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": 2008,
+    "paper": "https://arxiv.org/pdf/2012.07340",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2008.4587538",
+    "doi_url": "https://doi.org/10.1109/CVPR.2008.4587538",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/c3b9c52b215b6549f027f15fba83b8866aa06a6d",
+    "citationCount": 246,
+    "influentialCitationCount": 24,
+    "externalIds": {
+      "MAG": "2154400678",
+      "DBLP": "journals/corr/abs-2012-07340",
+      "ArXiv": "2012.07340",
+      "DOI": "10.1109/CVPR.2008.4587538",
+      "CorpusId": 837530
+    },
+    "corpusId": 837530
   },
   {
+    "id": "action-recognition-using-exemplar-based-embedding",
     "title": "Action recognition using exemplar-based embedding",
-    "authors": "",
-    "venue": "",
-    "year": "2008"
+    "authors": "Daniel Weinland, Edmond Boyer",
+    "venue": "2008 IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": 2008,
+    "paper": "http://perception.inrialpes.fr/Publications/2008/WB08/weinland08.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2008.4587731",
+    "doi_url": "https://doi.org/10.1109/CVPR.2008.4587731",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/9d29865cbe2e66d6ae34d308edb17f636467b98b",
+    "citationCount": 207,
+    "influentialCitationCount": 31,
+    "externalIds": {
+      "DBLP": "conf/cvpr/WeinlandB08",
+      "MAG": "2163973188",
+      "DOI": "10.1109/CVPR.2008.4587731",
+      "CorpusId": 1267840
+    },
+    "corpusId": 1267840
   },
   {
-    "title": "Articulated shape matching using laplacian eigenfunctions and unsupervised point registration",
-    "authors": "",
-    "venue": "",
-    "year": "2008"
+    "id": "temporal-surface-tracking-using-mesh-evolution",
+    "title": "Temporal Surface Tracking Using Mesh Evolution",
+    "authors": "K. Varanasi, Andrei Zaharescu, Edmond Boyer, R. Horaud",
+    "venue": "European Conference on Computer Vision",
+    "year": 2008,
+    "paper": "https://doi.org/10.1007/978-3-540-88688-4_3",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-540-88688-4_3",
+    "doi_url": "https://doi.org/10.1007/978-3-540-88688-4_3",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/afeb0f90d458360501985438badcafcc994fbc8f",
+    "citationCount": 93,
+    "influentialCitationCount": 4,
+    "externalIds": {
+      "MAG": "2161318698",
+      "DBLP": "conf/eccv/VaranasiZBH08",
+      "DOI": "10.1007/978-3-540-88688-4_3",
+      "CorpusId": 8612969
+    },
+    "corpusId": 8612969
   },
   {
-    "title": "Efficient polyhedral modeling from silhouettes",
-    "authors": "",
-    "venue": "",
-    "year": "2008"
-  },
-  {
-    "title": "Temporal surface tracking using mesh evolution",
-    "authors": "",
-    "venue": "",
-    "year": "2008"
-  },
-  {
-    "title": "Human motion tracking by registering an articulated surface to 3D points and normals",
-    "authors": "",
-    "venue": "",
-    "year": "2008"
-  },
-  {
+    "id": "coherent-laplacian-3-d-protrusion-segmentation",
     "title": "Coherent Laplacian 3-D protrusion segmentation",
-    "authors": "",
-    "venue": "",
-    "year": "2008"
+    "authors": "Fabio Cuzzolin, D. Mateus, David Knossow, Edmond Boyer, R. Horaud",
+    "venue": "2008 IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": 2008,
+    "paper": "http://perception.inrialpes.fr/Publications/2008/CMKBH08/CuzzolinCVPR08.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2008.4587452",
+    "doi_url": "https://doi.org/10.1109/CVPR.2008.4587452",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/5d63ad13bbbdb8f9738a69178470a43650c00b4d",
+    "citationCount": 17,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/cvpr/CuzzolinMKBH08",
+      "MAG": "2103048238",
+      "DOI": "10.1109/CVPR.2008.4587452",
+      "CorpusId": 721166
+    },
+    "corpusId": 721166
   },
   {
-    "title": "Camera-Clustering for Multi-Resolution 3 D Surface Reconstruction",
-    "authors": "",
-    "venue": "",
-    "year": "2008"
+    "id": "camera-clustering-for-multi-resolution-3-d-surface-reconstruction",
+    "title": "Camera-Clustering for Multi-Resolution 3-D Surface Reconstruction",
+    "authors": "Andrei Zaharescu, Cedric Cagniart, Slobodan Ilic, Edmond Boyer, R. Horaud",
+    "venue": "2008 30th Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+    "year": 2008,
+    "paper": "https://doi.org/10.1109/iembs.2008.4649645",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/iembs.2008.4649645",
+    "doi_url": "https://doi.org/10.1109/iembs.2008.4649645",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/5214894816b4c1f94e4058a3c36040a3677cc7c5",
+    "citationCount": 14,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "33164367",
+      "CorpusId": 5719374
+    },
+    "corpusId": 5719374
   },
   {
+    "id": "grimage-3d-modeling-for-remote-collaboration-and-telepresence",
     "title": "Grimage: 3D modeling for remote collaboration and telepresence",
-    "authors": "",
-    "venue": "",
-    "year": "2008"
-  },
-  {
-    "title": "Robust coherent Laplacian 3D protrusion segmentation along 3D sequences",
-    "authors": "",
-    "venue": "",
-    "year": "2008"
-  },
-  {
-    "title": "Action recognition from arbitrary views using 3d exemplars",
-    "authors": "",
-    "venue": "",
-    "year": "2007"
-  },
-  {
-    "title": "Transformesh: a topology-adaptive mesh-based approach to surface evolution",
-    "authors": "",
-    "venue": "",
-    "year": "2007"
-  },
-  {
-    "title": "Grimage: markerless 3d interactions",
-    "authors": "",
-    "venue": "",
-    "year": "2007"
-  },
-  {
-    "title": "Identifying foreground from multiple images",
-    "authors": "",
-    "venue": "",
-    "year": "2007"
-  },
-  {
-    "title": "Articulated shape matching using locally linear embedding and orthogonal alignment",
-    "authors": "",
-    "venue": "",
-    "year": "2007"
-  },
-  {
-    "title": "Articulated shape matching by robust alignment of embedded representations",
-    "authors": "",
-    "venue": "",
-    "year": "2007"
-  },
-  {
-    "title": "Holographic and action capture techniques",
-    "authors": "",
-    "venue": "",
-    "year": "2007"
-  },
-  {
-    "title": "Robust spectral 3D-bodypart segmentation along time",
-    "authors": "",
-    "venue": "",
-    "year": "2007"
-  },
-  {
-    "title": "Modélisation de scènes dynamiques à partir de plusieurs caméras",
-    "authors": "",
-    "venue": "",
-    "year": "2007"
-  },
-  {
-    "title": "Free viewpoint action recognition using motion history volumes",
-    "authors": "",
-    "venue": "",
-    "year": "2006"
-  },
-  {
-    "title": "3d skeleton-based body pose recovery",
-    "authors": "",
-    "venue": "",
-    "year": "2006"
-  },
-  {
-    "title": "Automatic discovery of action taxonomies from multiple views",
-    "authors": "",
-    "venue": "",
-    "year": "2006"
-  },
-  {
-    "title": "Visual shapes of silhouette sets",
-    "authors": "",
-    "venue": "",
-    "year": "2006"
-  },
-  {
-    "title": "On using silhouettes for camera calibration",
-    "authors": "",
-    "venue": "",
-    "year": "2006"
-  },
-  {
-    "title": "The grimage platform: A mixed reality environment for interactions",
-    "authors": "",
-    "venue": "",
-    "year": "2006"
-  },
-  {
-    "title": "A factorization based self-calibration for radially symmetric cameras",
-    "authors": "",
-    "venue": "",
-    "year": "2006"
-  },
-  {
-    "title": "Visual shapes of Silhouette Sets",
-    "authors": "",
-    "venue": "",
-    "year": "2006"
-  },
-  {
-    "title": "Fusion multi-vue d'informations de silhouettes à l'aide d'une grille d'occupation 3D",
-    "authors": "",
-    "venue": "",
-    "year": "2006"
-  },
-  {
-    "title": "Bowden, Richard, 178",
-    "authors": "",
-    "venue": "",
-    "year": "2006"
-  },
-  {
-    "title": "Fusion of multiview silhouette cues using a space occupancy grid",
-    "authors": "",
-    "venue": "",
-    "year": "2005"
-  },
-  {
-    "title": "Using geometric constraints through parallelepipeds for calibration and 3D modeling",
-    "authors": "",
-    "venue": "",
-    "year": "2005"
-  },
-  {
-    "title": "Motion history volumes for free viewpoint action recognition",
-    "authors": "",
-    "venue": "",
-    "year": "2005"
-  },
-  {
-    "title": "Running large vr applications on a pc cluster: the flowvr experience",
-    "authors": "",
-    "venue": "",
-    "year": "2005"
-  },
-  {
-    "title": "Articulated motion capture from 3-D points and normals",
-    "authors": "",
-    "venue": "",
-    "year": "2005"
-  },
-  {
-    "title": "Camera calibration using silhouettes",
-    "authors": "",
-    "venue": "",
-    "year": "2005"
-  },
-  {
-    "title": "Motion history volumes for free viewpoint action recognition [J]",
-    "authors": "",
-    "venue": "",
-    "year": "2005"
-  },
-  {
-    "title": "Modélisation tri-dimensionnelle temps-réel et distribuée",
-    "authors": "",
-    "venue": "",
-    "year": "2005"
-  },
-  {
-    "title": "A distributed approach for real time 3D modeling",
-    "authors": "",
-    "venue": "",
-    "year": "2004"
-  },
-  {
-    "title": "Marker-less real time 3D modeling for virtual reality",
-    "authors": "",
-    "venue": "",
-    "year": "2004"
-  },
-  {
-    "title": "3D modeling from images using geometric constraints",
-    "authors": "",
-    "venue": "",
-    "year": "2004"
-  },
-  {
-    "title": "Using geometric constraints for camera calibration and positioning and 3d scene modelling",
-    "authors": "",
-    "venue": "",
-    "year": "2004"
-  },
-  {
-    "title": "Exact polyhedral visual hulls",
-    "authors": "",
-    "venue": "",
-    "year": "2003"
-  },
-  {
-    "title": "A hybrid approach for computing visual hulls of complex objects",
-    "authors": "",
-    "venue": "",
-    "year": "2003"
-  },
-  {
-    "title": "Real-time capture, reconstruction and insertion into virtual world of human actors",
-    "authors": "",
-    "venue": "",
-    "year": "2003"
-  },
-  {
-    "title": "Scene modeling based on constraint system decomposition techniques",
-    "authors": "",
-    "venue": "",
-    "year": "2003"
-  },
-  {
-    "title": "The analysis of ambiguous solutions in linear systems and its application to computer vision",
-    "authors": "",
-    "venue": "",
-    "year": "2003"
-  },
-  {
-    "title": "Une approche hybride pour calculer l'enveloppe visuelle d'objets complexes",
-    "authors": "",
-    "venue": "",
-    "year": "2003"
-  },
-  {
-    "title": "Une approche pour l'analyse et exploitation des contraintes géométriques en modélisation 3D",
-    "authors": "",
-    "venue": "",
-    "year": "2003"
-  },
-  {
-    "title": "Using Geometric Constraints Through Parallelepipeds for Calibration and 3D Modelling",
-    "authors": "",
-    "venue": "",
-    "year": "2003"
-  },
-  {
-    "title": "3D modelling using geometric constraints: A parallelepiped based approach",
-    "authors": "",
-    "venue": "",
-    "year": "2002"
-  },
-  {
-    "title": "Modélisation à partir d'Images",
-    "authors": "",
-    "venue": "",
-    "year": "2002"
-  },
-  {
-    "title": "Calibrage et Reconstruction à l'aide de Parallélépipèdes et de Parallélogrammes",
-    "authors": "",
-    "venue": "",
-    "year": "2002"
-  },
-  {
-    "title": "Calibration/Active and Real-Time and Robot Vision/Image and Video Indexing/Medical Image Understanding/Vision Systems/Engineering and Evaluations/Statistical Learning-3D …",
-    "authors": "",
-    "venue": "",
-    "year": "2002"
-  },
-  {
-    "title": "Camera calibration and 3D reconstruction from single images using parallelepipeds",
-    "authors": "",
-    "venue": "",
-    "year": "2001"
-  },
-  {
-    "title": "On computing exact visual hulls of solids bounded by smooth surfaces",
-    "authors": "",
-    "venue": "",
-    "year": "2001"
-  },
-  {
-    "title": "Regular and non-regular point sets: Properties and reconstruction",
-    "authors": "",
-    "venue": "",
-    "year": "2001"
-  },
-  {
-    "title": "Calibrage de caméra et reconstruction 3D à l'aide de parallélépipèdes",
-    "authors": "",
-    "venue": "",
-    "year": "2001"
-  },
-  {
-    "title": "Curve and surface reconstruction from regular and non-regular point sets",
-    "authors": "",
-    "venue": "",
-    "year": "2000"
-  },
-  {
-    "title": "Photobuilder-3D models of architectural scenes from uncalibrated images",
-    "authors": "",
-    "venue": "",
-    "year": "1999"
-  },
-  {
-    "title": "3D model acquisition from uncalibrated images",
-    "authors": "",
-    "venue": "",
-    "year": "1998"
-  },
-  {
-    "title": "Using local planar geometric invariants to match and model images of line segments",
-    "authors": "",
-    "venue": "",
-    "year": "1998"
-  },
-  {
-    "title": "Fisher, Robert B., 253 Fitzgibbon, Andrew W., 253 Flynn, Patrick J., 251",
-    "authors": "",
-    "venue": "",
-    "year": "1998"
-  },
-  {
-    "title": "3D surface reconstruction using occluding contours",
-    "authors": "",
-    "venue": "",
-    "year": "1997"
-  },
-  {
-    "title": "Object models from contour sequences",
-    "authors": "",
-    "venue": "",
-    "year": "1996"
-  },
-  {
-    "title": "Reconstruction de surfaces d'objets courbes en vision par ordinateur",
-    "authors": "",
-    "venue": "",
-    "year": "1996"
-  },
-  {
-    "title": "Reconstruction et r gularisation de la surface d'objets courbes",
-    "authors": "",
-    "venue": "",
-    "year": "1996"
-  },
-  {
-    "title": "Smooth Surface Reconstruction and Regularisation",
-    "authors": "",
-    "venue": "",
-    "year": "1996"
-  },
-  {
-    "title": "3d surface reconstruction using occluding contours",
-    "authors": "",
-    "venue": "",
-    "year": "1995"
-  },
-  {
-    "title": "Smooth surface reconstruction from image sequences",
-    "authors": "",
-    "venue": "",
-    "year": "1995"
-  },
-  {
-    "title": "3D Surface Reconstruction Using Occluding",
-    "authors": "",
-    "venue": "",
-    "year": "1995"
-  },
-  {
-    "title": "Projective Geometry: A Short Introduction",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Note: Page numbers followed by “n” indicate endnotes.",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Note: Page numbers followed by “n” indicate notes.",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Note: Page numbers followed by “n” indicate notes.",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "ANIM: Accurate Neural Implicit Model for Human Reconstruction from a single RGB-D image Supplementary Material",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Etude de la direction du regard dans le cadre d’interactions so-ciales incluant un robot Gaze Direction in the context of So-cial Human-Robot Interaction",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "American College Student Personnel As-sociation, 12 American Council of Education, 12 American Indian Higher Education Con-sortium, 67",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Collier, PJ, 38, 40 Commitment to change and justice, 18 Community assets, 86 Community Assistants, 66 Community-based research, 67–68",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "PIGMENTED FILAMENTOUS FUNGI ISOLATED FROM TROPICAL MARINE ENVIRONMENTS AROUND REUNION ISLAND, INDIAN OCEAN, FRANCE",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Synthèse d ‘Images",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Supplementary Materials: Multi-View Reconstruction using Signed Ray Distance Functions (SRDF)",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Supplementary Material Pyramidal Signed Distance Learning for Spatio-Temporal Human Shape Completion",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Area Chairs",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Volumetric 3D Tracking by Detection Supplementary Material",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Flot de scène Flot de scène",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Supplemental Material-Tracking-by-Detection of 3D Human Shapes: from Surfaces to Volumes",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "On Mean Pose and Variability of 3D Deformable",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Gehler, Peter 484 Giachetti, Andrea 418 Giles, Lee 542 Goldman, Dan 578",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Meta Reviewers",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Area Chairs",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "WACV 2018",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
-    "title": "Synthèse d’images",
-    "authors": "",
-    "venue": "",
-    "year": ""
-  },
-  {
+    "authors": "B. Petit, Jean-Denis Lesage, Jean-Sébastien Franco, Edmond Boyer, B. Raffin",
+    "venue": "Virtual Reality Software and Technology",
+    "year": 2008,
+    "paper": "https://hal.inria.fr/inria-00349127/file/p299-petit.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1145/1450579.1450662",
+    "doi_url": "https://doi.org/10.1145/1450579.1450662",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/d33e1dd6b92b238a14bdf244e3087cca60a12a5f",
+    "citationCount": 10,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/vrst/PetitLFBR08",
+      "MAG": "2093623672",
+      "DOI": "10.1145/1450579.1450662",
+      "CorpusId": 14390881
+    },
+    "corpusId": 14390881
+  },
+  {
+    "id": "robust-coherent-laplacian-3-d-protrusion-segmentation-along-3-d-sequences",
+    "title": "Robust coherent Laplacian 3 D protrusion segmentation along 3 D sequences",
+    "authors": "Fabio Cuzzolin, D. Mateus, David Knossow, Edmond Boyer, R. Horaud",
+    "venue": "2008 IEEE Conference on Computer Vision and Pattern Recognition",
+    "year": 2008,
+    "paper": "https://doi.org/10.1109/cvpr.2008.4587452",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/cvpr.2008.4587452",
+    "doi_url": "https://doi.org/10.1109/cvpr.2008.4587452",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/0af0c0df7ad75876407c16ca068aa761028feffb",
+    "citationCount": 1,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "CorpusId": 18749800
+    },
+    "corpusId": 18749800
+  },
+  {
+    "id": "action-recognition-from-arbitrary-views-using-3d-exemplars",
+    "title": "Action Recognition from Arbitrary Views using 3D Exemplars",
+    "authors": "Daniel Weinland, Edmond Boyer, Rémi Ronfard",
+    "venue": "IEEE International Conference on Computer Vision",
+    "year": 2007,
+    "paper": "https://hal.inria.fr/inria-00544741/file/WBR07.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICCV.2007.4408849",
+    "doi_url": "https://doi.org/10.1109/ICCV.2007.4408849",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/b50ca1dcdadeb8933cb0e35e6b80101ea8251718",
+    "citationCount": 519,
+    "influentialCitationCount": 83,
+    "externalIds": {
+      "DBLP": "conf/iccv/WeinlandBR07",
+      "MAG": "2166070055",
+      "DOI": "10.1109/ICCV.2007.4408849",
+      "CorpusId": 1407568
+    },
+    "corpusId": 1407568
+  },
+  {
+    "id": "transformesh-a-topology-adaptive-mesh-based-approach-to-surface-evolution",
+    "title": "TransforMesh : A Topology-Adaptive Mesh-Based Approach to Surface Evolution",
+    "authors": "Andrei Zaharescu, Edmond Boyer, R. Horaud",
+    "venue": "Asian Conference on Computer Vision",
+    "year": 2007,
+    "paper": "https://doi.org/10.1007/978-3-540-76390-1_17",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-540-76390-1_17",
+    "doi_url": "https://doi.org/10.1007/978-3-540-76390-1_17",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/41f933c6203665f6fabcc08b1f5999dcd9712bb3",
+    "citationCount": 144,
+    "influentialCitationCount": 8,
+    "externalIds": {
+      "DBLP": "conf/accv/ZaharescuBH07",
+      "MAG": "1536187505",
+      "DOI": "10.1007/978-3-540-76390-1_17",
+      "CorpusId": 5506916
+    },
+    "corpusId": 5506916
+  },
+  {
+    "id": "grimage-markerless-3d-interactions",
+    "title": "Grimage: markerless 3D interactions",
+    "authors": "J. Allard, C. Ménier, B. Raffin, Edmond Boyer, F. Faure",
+    "venue": "International Conference on Computer Graphics and Interactive Techniques",
+    "year": 2007,
+    "paper": "https://hal.inria.fr/inria-00516153/file/siggraph07.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1145/1278280.1278290",
+    "doi_url": "https://doi.org/10.1145/1278280.1278290",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/23df147c6707bf172e45facca6c2741af8b34613",
+    "citationCount": 57,
+    "influentialCitationCount": 3,
+    "externalIds": {
+      "DBLP": "conf/siggraph/AllardMRBF07",
+      "MAG": "2078178568",
+      "DOI": "10.1145/1278280.1278290",
+      "CorpusId": 12014672
+    },
+    "corpusId": 12014672
+  },
+  {
+    "id": "identifying-foreground-from-multiple-images",
+    "title": "Identifying Foreground from Multiple Images",
+    "authors": "Wonwoo Lee, Woontack Woo, Edmond Boyer",
+    "venue": "Asian Conference on Computer Vision",
+    "year": 2007,
+    "paper": "https://link.springer.com/content/pdf/10.1007%2F978-3-540-76390-1_57.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-540-76390-1_57",
+    "doi_url": "https://doi.org/10.1007/978-3-540-76390-1_57",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/6880b6ecae769ef7962a82c9f64d176a28b7709a",
+    "citationCount": 29,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "DBLP": "conf/accv/LeeWB07",
+      "MAG": "2160068788",
+      "DOI": "10.1007/978-3-540-76390-1_57",
+      "CorpusId": 9477649
+    },
+    "corpusId": 9477649
+  },
+  {
+    "id": "articulated-shape-matching-using-locally-linear-embedding-and-orthogonal-alignment",
+    "title": "Articulated Shape Matching Using Locally Linear Embedding and Orthogonal Alignment",
+    "authors": "D. Mateus, Fabio Cuzzolin, R. Horaud, Edmond Boyer",
+    "venue": "IEEE International Conference on Computer Vision",
+    "year": 2007,
+    "paper": "https://hal.inria.fr/inria-00590237/file/Mateus-NRTL2007.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICCV.2007.4409180",
+    "doi_url": "https://doi.org/10.1109/ICCV.2007.4409180",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/e56c8e9e6bf881b0ec0d6e947413f9aedcdbaf55",
+    "citationCount": 29,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/iccv/MateusCHB07a",
+      "MAG": "2130226625",
+      "DOI": "10.1109/ICCV.2007.4409180",
+      "CorpusId": 14797456
+    },
+    "corpusId": 14797456
+  },
+  {
+    "id": "articulated-shape-matching-by-robust-alignment-of-embedded-representations",
     "title": "Articulated Shape Matching by Robust Alignment of Embedded Representations",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "authors": "D. Mateus, Fabio Cuzzolin, R. Horaud, Edmond Boyer",
+    "venue": "IEEE International Conference on Computer Vision",
+    "year": 2007,
+    "paper": "https://hal.inria.fr/inria-00590238/file/3drr07.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICCV.2007.4408833",
+    "doi_url": "https://doi.org/10.1109/ICCV.2007.4408833",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/c6c972d1624ac66b18329fccdb40e29c746d377b",
+    "citationCount": 16,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2115796214",
+      "DBLP": "conf/iccv/MateusCHB07",
+      "DOI": "10.1109/ICCV.2007.4408833",
+      "CorpusId": 9804852
+    },
+    "corpusId": 9804852
   },
   {
-    "title": "Andrei Zaharescu Contributions to Spatial and Temporal 3-D Reconstruction from Multiple Cameras",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "holographic-and-action-capture-techniques",
+    "title": "Holographic and action capture techniques",
+    "authors": "Tomás Rodríguez, Adolfo Cabo de Leon, Bruno Uzzan, Nicolas Livet, Edmond Boyer, Florian Geffray, T. Balogh, Z. Megyesi, A. Barsi",
+    "venue": "International Conference on Computer Graphics and Interactive Techniques",
+    "year": 2007,
+    "paper": "https://doi.org/10.1145/1278280.1278292",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1145/1278280.1278292",
+    "doi_url": "https://doi.org/10.1145/1278280.1278292",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/aa4a09a39dec77fe81caf5f0a5b060724c60a706",
+    "citationCount": 12,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "1996845519",
+      "DBLP": "conf/siggraph/RodriguezLULBGB07",
+      "DOI": "10.1145/1278280.1278292",
+      "CorpusId": 18575103
+    },
+    "corpusId": 18575103
   },
   {
-    "title": "DELIVERABLE D5. 1.1 SPECIFICATION OF PLATFORM, ANIMATION MODULES AND INTERFACES",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "robust-spectral-3d-bodypart-segmentation-along-time",
+    "title": "Robust Spectral 3D-Bodypart Segmentation Along Time",
+    "authors": "Fabio Cuzzolin, D. Mateus, Edmond Boyer, R. Horaud",
+    "venue": "Workshop on Human Motion",
+    "year": 2007,
+    "paper": "https://link.springer.com/content/pdf/10.1007%2F978-3-540-75703-0_14.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/978-3-540-75703-0_14",
+    "doi_url": "https://doi.org/10.1007/978-3-540-75703-0_14",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/4047ae77b9243ee781b2adc7c870c924ca3d223d",
+    "citationCount": 6,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "1558899548",
+      "DBLP": "conf/humo/CuzzolinMBH07",
+      "DOI": "10.1007/978-3-540-75703-0_14",
+      "CorpusId": 339230
+    },
+    "corpusId": 339230
   },
   {
-    "title": "An Efficient Volumetric Framework for Shape Tracking Supplemental Material",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "free-viewpoint-action-recognition-using-motion-history-volumes",
+    "title": "Free viewpoint action recognition using motion history volumes",
+    "authors": "Daniel Weinland, Rémi Ronfard, Edmond Boyer",
+    "venue": "Computer Vision and Image Understanding",
+    "year": 2006,
+    "paper": "https://hal.inria.fr/inria-00544629/file/cviu_motion_history_volumes.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1016/j.cviu.2006.07.013",
+    "doi_url": "https://doi.org/10.1016/j.cviu.2006.07.013",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/84eaead21ee71d972f732801fc0acd9accc71b69",
+    "citationCount": 1000,
+    "influentialCitationCount": 109,
+    "externalIds": {
+      "DBLP": "journals/cviu/WeinlandRB06",
+      "MAG": "2013076218",
+      "DOI": "10.1016/j.cviu.2006.07.013",
+      "CorpusId": 6087524
+    },
+    "corpusId": 6087524
   },
   {
-    "title": "Segmentation multi-vues d’objet",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "3d-skeleton-based-body-pose-recovery",
+    "title": "3D Skeleton-Based Body Pose Recovery",
+    "authors": "C. Ménier, Edmond Boyer, B. Raffin",
+    "venue": "3D Data Processing Visualization and Transmission",
+    "year": 2006,
+    "paper": "https://hal.inria.fr/inria-00590212/file/3dpvt-skeleton.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DPVT.2006.7",
+    "doi_url": "https://doi.org/10.1109/3DPVT.2006.7",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/2742031afdb781c60e259770d63ce999fc634450",
+    "citationCount": 110,
+    "influentialCitationCount": 5,
+    "externalIds": {
+      "DBLP": "conf/3dpvt/MenierBR06",
+      "MAG": "2000569680",
+      "DOI": "10.1109/3DPVT.2006.7",
+      "CorpusId": 6933542
+    },
+    "corpusId": 6933542
   },
   {
-    "title": "Toward User-specific Tracking by Detection of Human Shapes in Multi-Cameras Supplementary Material",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "automatic-discovery-of-action-taxonomies-from-multiple-views",
+    "title": "Automatic Discovery of Action Taxonomies from Multiple Views",
+    "authors": "Daniel Weinland, Rémi Ronfard, Edmond Boyer",
+    "venue": "Computer Vision and Pattern Recognition",
+    "year": 2006,
+    "paper": "http://perception.inrialpes.fr/Publications/2006/WRB06/1137_weinland_d.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2006.65",
+    "doi_url": "https://doi.org/10.1109/CVPR.2006.65",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/48a6574b9d59e14aaaffc6dbf0a914cad0e1313a",
+    "citationCount": 88,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/cvpr/WeinlandRB06",
+      "MAG": "2117979342",
+      "DOI": "10.1109/CVPR.2006.65",
+      "CorpusId": 2770954
+    },
+    "corpusId": 2770954
   },
   {
-    "title": "DELIVERABLE D5. 1.2 UPDATE OF SPECIFICATION OF PLATFORM, ANIMATION MODULES AND INTERFACES",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "the-grimage-platform-a-mixed-reality-environment-for-interactions",
+    "title": "The GrImage Platform: A Mixed Reality Environment for Interactions",
+    "authors": "J. Allard, Jean-Sébastien Franco, C. Ménier, Edmond Boyer, B. Raffin",
+    "venue": "International Conference on Virtual Storytelling",
+    "year": 2006,
+    "paper": "https://inria.hal.science/inria-00349084/file/icvs-grimage.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICVS.2006.59",
+    "doi_url": "https://doi.org/10.1109/ICVS.2006.59",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/9e720fd768314bde2f63b165ef61bf3dc4b782d7",
+    "citationCount": 48,
+    "influentialCitationCount": 3,
+    "externalIds": {
+      "MAG": "2132541425",
+      "DBLP": "conf/icvs/AllardFMBR06",
+      "DOI": "10.1109/ICVS.2006.59",
+      "CorpusId": 6072319
+    },
+    "corpusId": 6072319
   },
   {
-    "title": "Human Shape and Pose Tracking Using Keyframes: Supplementary Material",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "on-using-silhouettes-for-camera-calibration",
+    "title": "On Using Silhouettes for Camera Calibration",
+    "authors": "Edmond Boyer",
+    "venue": "Asian Conference on Computer Vision",
+    "year": 2006,
+    "paper": "http://perception.inrialpes.fr/Publications/2006/Boy06/accv06.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/11612032_1",
+    "doi_url": "https://doi.org/10.1007/11612032_1",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/bddfa43d0152cb5e980d30dc24d93fb1f4bad38f",
+    "citationCount": 47,
+    "influentialCitationCount": 4,
+    "externalIds": {
+      "MAG": "2622681630",
+      "DBLP": "conf/accv/Boyer06",
+      "DOI": "10.1007/11612032_1",
+      "CorpusId": 16492641
+    },
+    "corpusId": 16492641
   },
   {
-    "title": "Bromley, DA, 247 Brooks, R., 60",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "visual-shapes-of-silhouette-sets",
+    "title": "Visual Shapes of Silhouette Sets",
+    "authors": "Jean-Sébastien Franco, M. Lapierre, Edmond Boyer",
+    "venue": "3D Data Processing Visualization and Transmission",
+    "year": 2006,
+    "paper": "http://perception.inrialpes.fr/Publications/2006/FLB06/visualshapes.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DPVT.2006.148",
+    "doi_url": "https://doi.org/10.1109/3DPVT.2006.148",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/d1efc1a0bb098d7dfe83e87d0a1463351c732086",
+    "citationCount": 45,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2093768878",
+      "DBLP": "conf/3dpvt/FrancoLB06",
+      "DOI": "10.1109/3DPVT.2006.148",
+      "CorpusId": 215813916
+    },
+    "corpusId": 215813916
   },
   {
-    "title": "CVPR 2013",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "flowvr-a-framework-for-distributed-virtual-reality-applications",
+    "title": "FlowVR: A Framework For Distributed Virtual Reality Applications",
+    "authors": "Thomas Arcila, J. Allard, C. Ménier, Edmond Boyer, B. Raffin",
+    "venue": "Proceedings of the 2008 ACM symposium on Virtual reality software and technology",
+    "year": 2006,
+    "paper": "https://doi.org/10.1145/1450579.1450638",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1145/1450579.1450638",
+    "doi_url": "https://doi.org/10.1145/1450579.1450638",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/b18bbb5778f5dfe5fe73db16ca5cf8c28191f315",
+    "citationCount": 19,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "1267497676",
+      "CorpusId": 56343154
+    },
+    "corpusId": 56343154
   },
   {
-    "title": "3DV 2013",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "a-factorization-based-self-calibration-for-radially-symmetric-cameras",
+    "title": "A Factorization Based Self-Calibration for Radially Symmetric Cameras",
+    "authors": "Srikumar Ramalingam, P. Sturm, Edmond Boyer",
+    "venue": "3D Data Processing Visualization and Transmission",
+    "year": 2006,
+    "paper": "http://perception.inrialpes.fr/Publications/2006/RSB06/RamalingamSturmBoyer_3DPVT06.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/3DPVT.2006.12",
+    "doi_url": "https://doi.org/10.1109/3DPVT.2006.12",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/cf3c486a1df3a843abfebff19746423cf2876f43",
+    "citationCount": 13,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/3dpvt/RamalingamSB06",
+      "MAG": "1978158281",
+      "DOI": "10.1109/3DPVT.2006.12",
+      "CorpusId": 9459575
+    },
+    "corpusId": 9459575
   },
   {
-    "title": "Daniel Aliaga-Purdue University Peter Allen-Columbia University Roland Angst-ETH Zürich Ilya Baran-Disney Research Zürich",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "camera-calibration-using-silhouettes",
+    "title": "Camera Calibration Using Silhouettes",
+    "authors": "Edmond Boyer",
+    "venue": "Lecture Notes in Computer Science",
+    "year": 2006,
+    "paper": "https://doi.org/10.1007/11612032_1",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/11612032_1",
+    "doi_url": "https://doi.org/10.1007/11612032_1",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/75d4f143bf778a34bf94a5a85d7b67899a4c0595",
+    "citationCount": 8,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2226407806",
+      "CorpusId": 124136083
+    },
+    "corpusId": 124136083
   },
   {
-    "title": "Signatures spatio-temporelles de formes en mouvement",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "fusion-multi-vue-d-informations-de-silhouettes-l-aide-d-une-grille-d-occupation-3d-fusion-of-multi-view-silhouette-cues-using-a-space-occupancy-grid",
+    "title": "Fusion multi-vue d'informations de silhouettes à l'aide d' une grille d'occupation 3D Fusion of Multi-View Silhouette Cues Using a Space Occupancy Grid",
+    "authors": "Jean-Sébastien Franco, Edmond Boyer, Inria Rhône-alpes",
+    "venue": "Tenth IEEE International Conference on Computer Vision (ICCV'05) Volume 1",
+    "year": 2006,
+    "paper": "https://doi.org/10.1109/iccv.2005.105",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/iccv.2005.105",
+    "doi_url": "https://doi.org/10.1109/iccv.2005.105",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/d53f42dc144b9d11547857dba0f90b7ae715209e",
+    "citationCount": 3,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2613976975",
+      "CorpusId": 135088458
+    },
+    "corpusId": 135088458
   },
   {
-    "title": "The MV Platform: A Real-Time Multi-Video Environment",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "new-results-modeling",
+    "title": "New Results - Modeling",
+    "authors": "Cengiz Öztireli, Gaël Guennebaud, M. Gross, William V. Baxter, Barla Pascal, K. Anjyo, B. Petit, Jean-Denis Lesage, Yann Savoye, Benoît Bossavit, Jean-Sébastien Franco, Edmond Boyer, B. Raffin, Li Guan, M. Pollefeys, R. Pacanowski, Xavier Granier, C. Schlick",
+    "venue": "SEG Technical Program Expanded Abstracts 2006",
+    "year": 2006,
+    "paper": "https://doi.org/10.1190/1.2372476",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1190/1.2372476",
+    "doi_url": "https://doi.org/10.1190/1.2372476",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/86fc6544e47e85f6b0dfdfaa6650b266b3db87ff",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2222830875",
+      "CorpusId": 176810076
+    },
+    "corpusId": 176810076
   },
   {
-    "title": "Sylvain Petitjean",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "fusion-of-multiview-silhouette-cues-using-a-space-occupancy-grid",
+    "title": "Fusion of multiview silhouette cues using a space occupancy grid",
+    "authors": "Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "Tenth IEEE International Conference on Computer Vision (ICCV'05) Volume 1",
+    "year": 2005,
+    "paper": "https://hal.inria.fr/inria-00349083/file/franco_boyer_iccv05.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICCV.2005.105",
+    "doi_url": "https://doi.org/10.1109/ICCV.2005.105",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/2ebcdec2f88777c17a9dd46ccfee733ee06846f9",
+    "citationCount": 178,
+    "influentialCitationCount": 11,
+    "externalIds": {
+      "MAG": "2113815908",
+      "DBLP": "conf/iccv/FrancoB05",
+      "DOI": "10.1109/ICCV.2005.105",
+      "CorpusId": 14577889
+    },
+    "corpusId": 14577889
   },
   {
-    "title": "3DIMPVT 2011",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "motion-history-volumes-for-free-viewpoint-action-recognition",
+    "title": "Motion History Volumes for Free Viewpoint Action Recognition",
+    "authors": "Daniel Weinland, Rémi Ronfard, Edmond Boyer",
+    "venue": "Computer Vision and Image Understanding",
+    "year": 2005,
+    "paper": "https://doi.org/10.1016/j.cviu.2006.07.013",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1016/j.cviu.2006.07.013",
+    "doi_url": "https://doi.org/10.1016/j.cviu.2006.07.013",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/c9b94d1f793a5dc48178a1fc77c6c174124dcf1b",
+    "citationCount": 62,
+    "influentialCitationCount": 4,
+    "externalIds": {
+      "MAG": "66091190",
+      "CorpusId": 1149845
+    },
+    "corpusId": 1149845
   },
   {
-    "title": "Workshop on Non-rigid Registration and Tracking through Learning-NRTL 2007",
-    "authors": "",
-    "venue": "",
-    "year": ""
+    "id": "running-large-vr-applications-on-a-pc-cluster-the-flow-vr-experience",
+    "title": "Running large VR applications on a PC cluster: the flow VR experience",
+    "authors": "J. Allard, C. Ménier, Edmond Boyer, B. Raffin",
+    "venue": "International Conference on Artificial Reality and Telexistence and Eurographics Symposium on Virtual Environments",
+    "year": 2005,
+    "paper": "https://doi.org/10.2312/EGVE/IPT_EGVE2005/059-068",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.2312/EGVE/IPT_EGVE2005/059-068",
+    "doi_url": "https://doi.org/10.2312/EGVE/IPT_EGVE2005/059-068",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/2226a5b28c18389ad57ce8c8d9e992920e765a26",
+    "citationCount": 25,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/egve/AllardMBR05",
+      "MAG": "2156438238",
+      "DOI": "10.2312/EGVE/IPT_EGVE2005/059-068",
+      "CorpusId": 1990577
+    },
+    "corpusId": 1990577
+  },
+  {
+    "id": "articulated-motion-capture-from-3-d-points-and-normals",
+    "title": "Articulated Motion Capture from 3-D Points and Normals",
+    "authors": "M. Niskanen, Edmond Boyer, R. Horaud",
+    "venue": "British Machine Vision Conference",
+    "year": 2005,
+    "paper": "https://hal.inria.fr/inria-00590195/file/bmvc05-85final.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.5244/C.19.45",
+    "doi_url": "https://doi.org/10.5244/C.19.45",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/55defdc696a0f45be4af0565c6a2c650a0eb351e",
+    "citationCount": 21,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2067044551",
+      "DBLP": "conf/bmvc/NiskanenBH05",
+      "DOI": "10.5244/C.19.45",
+      "CorpusId": 6388156
+    },
+    "corpusId": 6388156
+  },
+  {
+    "id": "computational-models-for-computer-vision",
+    "title": "Computational models for computer vision",
+    "authors": "R. Horaud, Anne Pasteur, Frederic Devernay, E. Prados, Rémi Ronfard, P. Sturm, Edmond Boyer, Ouideh Bentrah, T. Bonfort, G. Dewaele, Jean-Sébastien Franco, P. Gargallo, F. Huguet, Aude Jacquot, David Knossow, D. Mateus, C. Ménier, J. Morat, S. Ramalingam, Daniel Weinland, Andrei Zaharescu, Dana Cobzas, K. Sundaraj, H. Mathieu, Florian Geffray, Bertrand Holveck, M. Lapierre, L. Lefort, Philippe Martin, E. Taillant",
+    "venue": "Computational Imaging and Vision",
+    "year": 2005,
+    "paper": "http://link.springer.com/content/pdf/10.1007/1-4020-3275-7.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/1-4020-3275-7",
+    "doi_url": "https://doi.org/10.1007/1-4020-3275-7",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/da5cc65a5a83327e3c608ac4ad48dc76169d5835",
+    "citationCount": 1,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2729541988",
+      "CorpusId": 64532570
+    },
+    "corpusId": 64532570
+  },
+  {
+    "id": "a-distributed-approach-for-real-time-3d-modeling",
+    "title": "A Distributed Approach for Real Time 3D Modeling",
+    "authors": "Jean-Sébastien Franco, C. Ménier, Edmond Boyer, B. Raffin",
+    "venue": "2004 Conference on Computer Vision and Pattern Recognition Workshop",
+    "year": 2004,
+    "paper": "http://perception.inrialpes.fr/Publications/2004/FMBR04/RS_CVPR04.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2004.279",
+    "doi_url": "https://doi.org/10.1109/CVPR.2004.279",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/10e0a0ec9ca260130e76dab42dde21267652fd70",
+    "citationCount": 65,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/cvpr/FrancoMBR04",
+      "MAG": "2107426090",
+      "DOI": "10.1109/CVPR.2004.279",
+      "CorpusId": 336434
+    },
+    "corpusId": 336434
+  },
+  {
+    "id": "marker-less-real-time-3d-modeling-for-virtual-reality",
+    "title": "Marker-less Real Time 3D Modeling for Virtual Reality",
+    "authors": "J. Allard, Edmond Boyer, Jean-Sébastien Franco, C. Ménier, B. Raffin",
+    "venue": "Virtual Reality",
+    "year": 2004,
+    "paper": "http://link.springer.com/content/pdf/10.1007/s10055-011-0203-0.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/s10055-011-0203-0",
+    "doi_url": "https://doi.org/10.1007/s10055-011-0203-0",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/614a5371fc292862cff04fb6d27f0952987bdb4b",
+    "citationCount": 23,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "1575008388",
+      "CorpusId": 8850870
+    },
+    "corpusId": 8850870
+  },
+  {
+    "id": "using-geometric-constraints-for-camera-calibration-and-positioning-and-3d-scene-modelling",
+    "title": "Using Geometric Constraints for Camera Calibration and Positioning and 3D Scene Modelling",
+    "authors": "Marta Wilczkowiak, P. Sturm, Edmond Boyer",
+    "venue": "Optics Express",
+    "year": 2004,
+    "paper": "https://doi.org/10.1364/oe.21.004456",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1364/oe.21.004456",
+    "doi_url": "https://doi.org/10.1364/oe.21.004456",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/0d6ca1d5f91b75a127c5a2e2ef0d18e9882efeea",
+    "citationCount": 3,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "MAG": "2216930275",
+      "CorpusId": 13392144
+    },
+    "corpusId": 13392144
+  },
+  {
+    "id": "exact-polyhedral-visual-hulls",
+    "title": "Exact polyhedral visual hulls",
+    "authors": "Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "British Machine Vision Conference",
+    "year": 2003,
+    "paper": "https://hal.inria.fr/inria-00349075/file/franco_boyer_bmvc03.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.5244/C.17.32",
+    "doi_url": "https://doi.org/10.5244/C.17.32",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/fe20409b55a6f632f10e978830f474b99035cbcb",
+    "citationCount": 237,
+    "influentialCitationCount": 13,
+    "externalIds": {
+      "DBLP": "conf/bmvc/FrancoB03",
+      "MAG": "2058603116",
+      "DOI": "10.5244/C.17.32",
+      "CorpusId": 5752852
+    },
+    "corpusId": 5752852
+  },
+  {
+    "id": "using-geometric-constraints-through-parallelepipeds-for-calibration-and-3d-modelling",
+    "title": "Using Geometric Constraints Through Parallelepipeds for Calibration and 3D Modelling",
+    "authors": "Marta Wilczkowiak, P. Sturm, Edmond Boyer",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "year": 2003,
+    "paper": "https://doi.org/10.1109/tpami.2005.40",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/tpami.2005.40",
+    "doi_url": "https://doi.org/10.1109/tpami.2005.40",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/8be8190153f0050e11308038fb03598a8bdc6da8",
+    "citationCount": 100,
+    "influentialCitationCount": 4,
+    "externalIds": {
+      "CorpusId": 13398492
+    },
+    "corpusId": 13398492
+  },
+  {
+    "id": "a-hybrid-approach-for-computing-visual-hulls-of-complex-objects",
+    "title": "A hybrid approach for computing visual hulls of complex objects",
+    "authors": "Edmond Boyer, Jean-Sébastien Franco",
+    "venue": "2003 IEEE Computer Society Conference on Computer Vision and Pattern Recognition, 2003. Proceedings.",
+    "year": 2003,
+    "paper": "https://hal.inria.fr/inria-00349079/file/boyer_franco_cvpr03.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2003.1211421",
+    "doi_url": "https://doi.org/10.1109/CVPR.2003.1211421",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/2cb94945724087966710ead0d23ad5f2c2b0d733",
+    "citationCount": 92,
+    "influentialCitationCount": 5,
+    "externalIds": {
+      "DBLP": "conf/cvpr/BoyerF03",
+      "MAG": "2126683984",
+      "DOI": "10.1109/CVPR.2003.1211421",
+      "CorpusId": 2842502
+    },
+    "corpusId": 2842502
+  },
+  {
+    "id": "real-time-capture-reconstruction-and-insertion-into-virtual-world-of-human-actors",
+    "title": "Real-Time Capture, Reconstruction and Insertion into Virtual World of Human Actors",
+    "authors": "Jean-Marc Hasenfratz, M. Lapierre, J. Gascuel, Edmond Boyer",
+    "venue": "International Conference on Vision, Video and Graphics",
+    "year": 2003,
+    "paper": "https://doi.org/10.2312/vvg.20031007",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.2312/vvg.20031007",
+    "doi_url": "https://doi.org/10.2312/vvg.20031007",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/bb17b1f79e1f88ba08601ad5c75a3f7f0b41e556",
+    "citationCount": 65,
+    "influentialCitationCount": 3,
+    "externalIds": {
+      "DBLP": "conf/vvg/HasenfratzLGB03",
+      "MAG": "1483338062",
+      "DOI": "10.2312/vvg.20031007",
+      "CorpusId": 1559196
+    },
+    "corpusId": 1559196
+  },
+  {
+    "id": "scene-modeling-based-on-constraint-system-decomposition-techniques",
+    "title": "Scene modeling based on constraint system decomposition techniques",
+    "authors": "Marta Wilczkowiak, G. Trombettoni, C. Jermann, P. Sturm, Edmond Boyer",
+    "venue": "Proceedings Ninth IEEE International Conference on Computer Vision",
+    "year": 2003,
+    "paper": "http://lear.inrialpes.fr/people/triggs/events/iccv03/cdrom/iccv03/1004_wilczkowiak.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICCV.2003.1238458",
+    "doi_url": "https://doi.org/10.1109/ICCV.2003.1238458",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/97d2e24666338e0e1a12964628fb02c4d9914ef5",
+    "citationCount": 44,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/iccv/WilczkowiakTJSB03",
+      "MAG": "2143214694",
+      "DOI": "10.1109/ICCV.2003.1238458",
+      "CorpusId": 14597295
+    },
+    "corpusId": 14597295
+  },
+  {
+    "id": "the-analysis-of-ambiguous-solutions-in-linear-systems-and-its-application-to-computer-vision",
+    "title": "The Analysis of Ambiguous Solutions in Linear Systems and its Application to Computer Vision",
+    "authors": "Marta Wilczkowiak, P. Sturm, Edmond Boyer",
+    "venue": "British Machine Vision Conference",
+    "year": 2003,
+    "paper": "https://hal.inria.fr/inria-00525637/file/WilczkowiakSturmBoyer-bmvc03.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.5244/C.17.9",
+    "doi_url": "https://doi.org/10.5244/C.17.9",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/1c7f30a7037ba238e16de4570a1a0bdd79a782ed",
+    "citationCount": 15,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "conf/bmvc/WilczkowiakSB03",
+      "MAG": "2106116042",
+      "DOI": "10.5244/C.17.9",
+      "CorpusId": 1329816
+    },
+    "corpusId": 1329816
+  },
+  {
+    "id": "camera-calibration-and-3d-reconstruction-from-single-images-using-parallelepipeds",
+    "title": "Camera calibration and 3D reconstruction from single images using parallelepipeds",
+    "authors": "Marta Wilczkowiak, Edmond Boyer, P. Sturm",
+    "venue": "Proceedings Eighth IEEE International Conference on Computer Vision. ICCV 2001",
+    "year": 2001,
+    "paper": "http://perception.inrialpes.fr/Publications/2001/WBS01a/WilczkowiakBoyerSturm-iccv01.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICCV.2001.937510",
+    "doi_url": "https://doi.org/10.1109/ICCV.2001.937510",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/af623b5fba11e570118e599fd3bf7c82de109293",
+    "citationCount": 139,
+    "influentialCitationCount": 4,
+    "externalIds": {
+      "MAG": "2146311069",
+      "DBLP": "conf/iccv/WilczkowiakBS01",
+      "DOI": "10.1109/ICCV.2001.937510",
+      "CorpusId": 10153848
+    },
+    "corpusId": 10153848
+  },
+  {
+    "id": "on-computing-exact-visual-hulls-of-solids-bounded-by-smooth-surfaces",
+    "title": "On computing exact visual hulls of solids bounded by smooth surfaces",
+    "authors": "Svetlana Lazebnik, Edmond Boyer, J. Ponce",
+    "venue": "Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. CVPR 2001",
+    "year": 2001,
+    "paper": "https://hal.inria.fr/inria-00590147/file/LazebnikBoyerPonce_cvpr01.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2001.990469",
+    "doi_url": "https://doi.org/10.1109/CVPR.2001.990469",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/927f26961452436e0da4ec27045374712d7acc34",
+    "citationCount": 90,
+    "influentialCitationCount": 4,
+    "externalIds": {
+      "DBLP": "conf/cvpr/LazebnikBP01",
+      "MAG": "2147077691",
+      "DOI": "10.1109/CVPR.2001.990469",
+      "CorpusId": 16363614
+    },
+    "corpusId": 16363614
+  },
+  {
+    "id": "regular-and-non-regular-point-sets-properties-and-reconstruction",
+    "title": "Regular and non-regular point sets: Properties and reconstruction",
+    "authors": "Sylvain Petitjean, Edmond Boyer",
+    "venue": "Computational geometry",
+    "year": 2001,
+    "paper": "https://hal.inria.fr/inria-00100428/file/BoyerPetitjean_cgta01.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1016/S0925-7721(01)00016-5",
+    "doi_url": "https://doi.org/10.1016/S0925-7721(01)00016-5",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/23798619502440a353d39008dcba513e6d158edd",
+    "citationCount": 58,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "DBLP": "journals/comgeo/PetitjeanB01",
+      "MAG": "1990934335",
+      "DOI": "10.1016/S0925-7721(01)00016-5",
+      "CorpusId": 10023044
+    },
+    "corpusId": 10023044
+  },
+  {
+    "id": "curve-and-surface-reconstruction-from-regular-and-non-regular-point-sets",
+    "title": "Curve and surface reconstruction from regular and non-regular point sets",
+    "authors": "Edmond Boyer, Sylvain Petitjean",
+    "venue": "Proceedings IEEE Conference on Computer Vision and Pattern Recognition. CVPR 2000 (Cat. No.PR00662)",
+    "year": 2000,
+    "paper": "http://www.cs.jhu.edu/~misha/Fall05/Papers/boyer01.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/CVPR.2000.854937",
+    "doi_url": "https://doi.org/10.1109/CVPR.2000.854937",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/9f677aa6d1a32a1c8efd66fcee52e4da8fd828bd",
+    "citationCount": 12,
+    "influentialCitationCount": 1,
+    "externalIds": {
+      "MAG": "2171465505",
+      "DBLP": "conf/cvpr/BoyerP00",
+      "DOI": "10.1109/CVPR.2000.854937",
+      "CorpusId": 1066125
+    },
+    "corpusId": 1066125
+  },
+  {
+    "id": "photobuilder-3d-models-of-architectural-scenes-from-uncalibrated-images",
+    "title": "PhotoBuilder-3D models of architectural scenes from uncalibrated images",
+    "authors": "R. Cipolla, D. Robertson, Edmond Boyer",
+    "venue": "Proceedings IEEE International Conference on Multimedia Computing and Systems",
+    "year": 1999,
+    "paper": "http://perception.inrialpes.fr/Publications/1999/CRB99/00779115.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/MMCS.1999.779115",
+    "doi_url": "https://doi.org/10.1109/MMCS.1999.779115",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/c84b6aff4b5fc6af1429b62f99f62cb66d65c83e",
+    "citationCount": 71,
+    "influentialCitationCount": 4,
+    "externalIds": {
+      "MAG": "2123958071",
+      "DBLP": "conf/icmcs/CipollaRB99",
+      "DOI": "10.1109/MMCS.1999.779115",
+      "CorpusId": 7598127
+    },
+    "corpusId": 7598127
+  },
+  {
+    "id": "3d-model-acquisition-from-uncalibrated-images",
+    "title": "3D Model Acquisition from Uncalibrated Images",
+    "authors": "R. Cipolla, Edmond Boyer",
+    "venue": "IAPR International Workshop on Machine Vision Applications",
+    "year": 1998,
+    "paper": "https://doi.org/10.1007/3-540-49437-5_13",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/3-540-49437-5_13",
+    "doi_url": "https://doi.org/10.1007/3-540-49437-5_13",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/94e58a8ceee031f9e24768b63d95b5619602737f",
+    "citationCount": 51,
+    "influentialCitationCount": 4,
+    "externalIds": {
+      "DBLP": "conf/mva/CipollaB98",
+      "MAG": "2168926879",
+      "CorpusId": 11201102
+    },
+    "corpusId": 11201102
+  },
+  {
+    "id": "using-local-planar-geometric-invariants-to-match-and-model-images-of-line-segments",
+    "title": "Using Local Planar Geometric Invariants to Match and Model Images of Line Segments",
+    "authors": "P. Gros, Olivier Bournez, Edmond Boyer",
+    "venue": "Computer Vision and Image Understanding",
+    "year": 1998,
+    "paper": "https://hal.inria.fr/inria-00102944/file/Papier-CVIU-1997_1.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1006/cviu.1997.0565",
+    "doi_url": "https://doi.org/10.1006/cviu.1997.0565",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/bd9c3f11c26c2157812021b7210088299a84085e",
+    "citationCount": 50,
+    "influentialCitationCount": 2,
+    "externalIds": {
+      "DBLP": "journals/cviu/GrosBB98",
+      "MAG": "2041971794",
+      "DOI": "10.1006/cviu.1997.0565",
+      "CorpusId": 16158909
+    },
+    "corpusId": 16158909
+  },
+  {
+    "id": "object-models-from-contour-sequences",
+    "title": "Object Models from Contour Sequences",
+    "authors": "Edmond Boyer",
+    "venue": "European Conference on Computer Vision",
+    "year": 1996,
+    "paper": "https://link.springer.com/content/pdf/10.1007/3-540-61123-1_131.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1007/3-540-61123-1_131",
+    "doi_url": "https://doi.org/10.1007/3-540-61123-1_131",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/7d9f59139ecc989b774dedd405133e5c5f9ea107",
+    "citationCount": 55,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/eccv/Boyer96",
+      "MAG": "1563256861",
+      "DOI": "10.1007/3-540-61123-1_131",
+      "CorpusId": 16002343
+    },
+    "corpusId": 16002343
+  },
+  {
+    "id": "smooth-surface-reconstruction-from-image-sequences",
+    "title": "Smooth surface reconstruction from image sequences",
+    "authors": "Edmond Boyer, M. Berger",
+    "venue": "Proceedings., International Conference on Image Processing",
+    "year": 1995,
+    "paper": "https://hal.inria.fr/inria-00590050/file/icip95.pdf",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/ICIP.1995.529730",
+    "doi_url": "https://doi.org/10.1109/ICIP.1995.529730",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/25641b2b4f0e540e462f6bfe5d2a2fe63206b4b4",
+    "citationCount": 4,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "DBLP": "conf/icip/BoyerB95",
+      "MAG": "2098551831",
+      "DOI": "10.1109/ICIP.1995.529730",
+      "CorpusId": 1594750
+    },
+    "corpusId": 1594750
+  },
+  {
+    "id": "an-e-icient-volumetric-framework-for-shape-tracking",
+    "title": "An Eﬀicient Volumetric Framework for Shape Tracking",
+    "authors": "Benjamin Allain, Jean-Sébastien Franco, Edmond Boyer",
+    "venue": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "year": "",
+    "paper": "https://doi.org/10.1109/cvpr.2015.7298623",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1109/cvpr.2015.7298623",
+    "doi_url": "https://doi.org/10.1109/cvpr.2015.7298623",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/7192aa4f4f80966afc0192d3dd88ef4c5577a18d",
+    "citationCount": 10,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "CorpusId": 264296516
+    },
+    "corpusId": 264296516
+  },
+  {
+    "id": "the-mv-platform-a-real-time-multi-video-environment",
+    "title": "The MV Platform : A Real-Time Multi-Video Environment",
+    "authors": "Florian Geffray, C. Ménier, Jean-Sébastien-Franco, B. Raffin, Edmond Boyer",
+    "venue": "SPIE Proceedings",
+    "year": "",
+    "paper": "https://doi.org/10.1117/12.2228235",
+    "project": "",
+    "code": "",
+    "video": "",
+    "teaser": "",
+    "doi": "10.1117/12.2228235",
+    "doi_url": "https://doi.org/10.1117/12.2228235",
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/725da941389cc4b264073902b5651c06fab3fdae",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "externalIds": {
+      "CorpusId": 14836680
+    },
+    "corpusId": 14836680
   }
 ]
