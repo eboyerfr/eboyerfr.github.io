@@ -609,7 +609,7 @@
         <div class="pub-toolbar">
           <input id="pub-search" type="search" placeholder="Search by title, author, venue, keyword, or year" aria-label="Search publications" />
           <select id="pub-year" aria-label="Filter by year">
-            <option value="2024" selected>2024</option>
+            <option value="" selected>All Years</option>
           </select>
           <a class="button secondary" href="https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en" target="_blank" rel="noopener">Full Google Scholar profile</a>
         </div>
@@ -702,8 +702,6 @@
         teaser: safeText(item.teaser || item.thumbnail || item.image),
         pdf: safeText(item.pdf),
         video: safeText(item.video),
-        project: safeText(item.project || item.url),
-        scholar: safeText(item.scholar),
         code: safeText(item.code),
         keywords: Array.isArray(item.keywords) ? item.keywords.map(String) : []
       };
@@ -723,10 +721,8 @@
       const links = [];
       if (pub.pdf) links.push(`<a class="pub-link" href="${pub.pdf}" target="_blank" rel="noopener">PDF</a>`);
       if (pub.video) links.push(`<a class="pub-link" href="${pub.video}" target="_blank" rel="noopener">Video</a>`);
-      if (pub.project) links.push(`<a class="pub-link" href="${pub.project}" target="_blank" rel="noopener">Project</a>`);
       if (pub.code) links.push(`<a class="pub-link" href="${pub.code}" target="_blank" rel="noopener">Code</a>`);
       if (pub.scholar) links.push(`<a class="pub-link" href="${pub.scholar}" target="_blank" rel="noopener">Scholar</a>`);
-      if (!pub.scholar) links.push(`<a class="pub-link" href="${SCHOLAR_PROFILE}" target="_blank" rel="noopener">Scholar profile</a>`);
 
       article.innerHTML = `
         ${teaser}
@@ -746,7 +742,7 @@
         .sort((a, b) => Number(b) - Number(a));
 
       pubYearEl.innerHTML =
-        '<option value="">2024</option>' +
+        '<option value="">All Years</option>' +
         years.map((y) => `<option value="${y}">${y}</option>`).join("");
     }
 
