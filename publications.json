@@ -1,0 +1,1454 @@
+[
+  {
+    "title": "MedShapeNet – a large-scale dataset of 3D medical shapes for computer vision",
+    "authors": "",
+    "venue": "",
+    "year": "2025"
+  },
+  {
+    "title": "TSegLab: Multi-stage 3D dental scan segmentation and labeling",
+    "authors": "",
+    "venue": "",
+    "year": "2025"
+  },
+  {
+    "title": "Matching Shapes Under Different Topologies: A Topology-Adaptive Deformation Guided Approach",
+    "authors": "",
+    "venue": "",
+    "year": "2025"
+  },
+  {
+    "title": "VortSDF: 3D Modeling with Centroidal Voronoi Tessellation on Signed Distance Field",
+    "authors": "",
+    "venue": "",
+    "year": "2025"
+  },
+  {
+    "title": "Splatfields: Neural gaussian splats for sparse 3d and 4d reconstruction",
+    "authors": "",
+    "venue": "",
+    "year": "2024"
+  },
+  {
+    "title": "Anim: Accurate neural implicit model for human reconstruction from a single rgb-d image",
+    "authors": "",
+    "venue": "",
+    "year": "2024"
+  },
+  {
+    "title": "Millimetric Human Surface Capture in Minutes",
+    "authors": "",
+    "venue": "",
+    "year": "2024"
+  },
+  {
+    "title": "HISR: Hybrid implicit surface representation for photorealistic 3D human reconstruction",
+    "authors": "",
+    "venue": "",
+    "year": "2024"
+  },
+  {
+    "title": "Combining Neural Fields and Deformation Models for Non-Rigid 3D Motion Reconstruction from Partial Data",
+    "authors": "",
+    "venue": "",
+    "year": "2024"
+  },
+  {
+    "title": "NF3DM: Combining Neural Fields and Deformation Models for 3D Non-Rigid Motion Reconstruction",
+    "authors": "",
+    "venue": "",
+    "year": "2024"
+  },
+  {
+    "title": "3D Shape Modeling with Adaptive Centroidal Voronoi Tesselation on Signed Distance Field",
+    "authors": "",
+    "venue": "",
+    "year": "2024"
+  },
+  {
+    "title": "3DTeethSeg'22: 3D teeth scan segmentation and labeling challenge",
+    "authors": "",
+    "venue": "",
+    "year": "2023"
+  },
+  {
+    "title": "Vertebrae localization, segmentation and identification using a graph optimization and an anatomic consistency cycle",
+    "authors": "",
+    "venue": "",
+    "year": "2023"
+  },
+  {
+    "title": "4DHumanOutfit: a multi-subject 4D dataset of human motion sequences in varying outfits exhibiting large displacements",
+    "authors": "",
+    "venue": "",
+    "year": "2023"
+  },
+  {
+    "title": "Multi-view reconstruction using signed ray distance functions (srdf)",
+    "authors": "",
+    "venue": "",
+    "year": "2023"
+  },
+  {
+    "title": "Human body shape completion with implicit shape and flow learning",
+    "authors": "",
+    "venue": "",
+    "year": "2023"
+  },
+  {
+    "title": "Multi-modal data correspondence for the 4D analysis of the spine with adolescent idiopathic scoliosis",
+    "authors": "",
+    "venue": "",
+    "year": "2023"
+  },
+  {
+    "title": "Deformation-guided unsupervised non-rigid shape matching",
+    "authors": "",
+    "venue": "",
+    "year": "2023"
+  },
+  {
+    "title": "3D inference of the scoliotic spine from depth maps of the back",
+    "authors": "",
+    "venue": "",
+    "year": "2023"
+  },
+  {
+    "title": "Teeth3ds: a benchmark for teeth segmentation and labeling from intra-oral 3d scans",
+    "authors": "",
+    "venue": "",
+    "year": "2022"
+  },
+  {
+    "title": "Teeth3DS+: an extended benchmark for intraoral 3D scans analysis",
+    "authors": "",
+    "venue": "",
+    "year": "2022"
+  },
+  {
+    "title": "Temporal shape transfer network for 3d human motion",
+    "authors": "",
+    "venue": "",
+    "year": "2022"
+  },
+  {
+    "title": "Pyramidal signed distance learning for spatio-temporal human shape completion",
+    "authors": "",
+    "venue": "",
+    "year": "2022"
+  },
+  {
+    "title": "Data-driven 3d reconstruction of dressed humans from sparse views",
+    "authors": "",
+    "venue": "",
+    "year": "2021"
+  },
+  {
+    "title": "Volume sweeping: Learning photoconsistency for multi-view shape reconstruction",
+    "authors": "",
+    "venue": "",
+    "year": "2021"
+  },
+  {
+    "title": "Neural human deformation transfer",
+    "authors": "",
+    "venue": "",
+    "year": "2021"
+  },
+  {
+    "title": "Learning implicit 3d representations of dressed humans from sparse views",
+    "authors": "",
+    "venue": "",
+    "year": "2021"
+  },
+  {
+    "title": "Spatio-temporal human shape completion with implicit function networks",
+    "authors": "",
+    "venue": "",
+    "year": "2021"
+  },
+  {
+    "title": "Dual mesh convolutional networks for human shape correspondence",
+    "authors": "",
+    "venue": "",
+    "year": "2021"
+  },
+  {
+    "title": "3D human shape style transfer",
+    "authors": "",
+    "venue": "",
+    "year": "2021"
+  },
+  {
+    "title": "International Perspectives on Emerging Trends and Integrating Research-based Learning across the Curriculum",
+    "authors": "",
+    "venue": "",
+    "year": "2021"
+  },
+  {
+    "title": "Vertebrae segmentation, identification and localization using a graph optimization and a synergistic cycle.",
+    "authors": "",
+    "venue": "",
+    "year": "2021"
+  },
+  {
+    "title": "Discrete point flow networks for efficient point cloud generation",
+    "authors": "",
+    "venue": "",
+    "year": "2020"
+  },
+  {
+    "title": "Cross-modal deep face normals with deactivable skip connections",
+    "authors": "",
+    "venue": "",
+    "year": "2020"
+  },
+  {
+    "title": "Mesh denoising with facet graph convolutions",
+    "authors": "",
+    "venue": "",
+    "year": "2020"
+  },
+  {
+    "title": "Contact preserving shape transfer: Retargeting motion from one shape to another",
+    "authors": "",
+    "venue": "",
+    "year": "2020"
+  },
+  {
+    "title": "Learning a statistical full spine model from partial observations",
+    "authors": "",
+    "venue": "",
+    "year": "2020"
+  },
+  {
+    "title": "Reconstructing human body mesh from point clouds by adversarial gp network",
+    "authors": "",
+    "venue": "",
+    "year": "2020"
+  },
+  {
+    "title": "Note: Page numbers followed by\" n\" indicate notes. Aaltonen, P. Bell, S., 148, 149 Abazi, A., 89 Bellamy, R., 148, 149 Abbas, M., 148, 149 Abell, P.",
+    "authors": "",
+    "venue": "",
+    "year": "2020"
+  },
+  {
+    "title": "A decoupled 3d facial shape model by adversarial training",
+    "authors": "",
+    "venue": "",
+    "year": "2019"
+  },
+  {
+    "title": "Contact preserving shape transfer for rigging-free motion retargeting",
+    "authors": "",
+    "venue": "",
+    "year": "2019"
+  },
+  {
+    "title": "Probabilistic reconstruction networks for 3D shape inference from a single image",
+    "authors": "",
+    "venue": "",
+    "year": "2019"
+  },
+  {
+    "title": "A generative 3D facial model by adversarial training",
+    "authors": "",
+    "venue": "",
+    "year": "2019"
+  },
+  {
+    "title": "Adaptive mesh texture for multi-view appearance modeling",
+    "authors": "",
+    "venue": "",
+    "year": "2019"
+  },
+  {
+    "title": "A decoupled 3D facial shape model by adversarial training",
+    "authors": "",
+    "venue": "",
+    "year": "2019"
+  },
+  {
+    "title": "Feastnet: Feature-steered graph convolutions for 3d shape analysis",
+    "authors": "",
+    "venue": "",
+    "year": "2018"
+  },
+  {
+    "title": "Multilinear autoencoder for 3D face model learning",
+    "authors": "",
+    "venue": "",
+    "year": "2018"
+  },
+  {
+    "title": "Shape reconstruction using volume sweeping and learned photoconsistency",
+    "authors": "",
+    "venue": "",
+    "year": "2018"
+  },
+  {
+    "title": "Surface motion capture animation synthesis",
+    "authors": "",
+    "venue": "",
+    "year": "2018"
+  },
+  {
+    "title": "Spatiotemporal modeling for efficient registration of dynamic 3D faces",
+    "authors": "",
+    "venue": "",
+    "year": "2018"
+  },
+  {
+    "title": "CBCT of a moving sample from X-rays and multiple videos",
+    "authors": "",
+    "venue": "",
+    "year": "2018"
+  },
+  {
+    "title": "Apprentissage de la Cohérence Photométrique pour la Reconstruction de Formes Multi-Vues",
+    "authors": "",
+    "venue": "",
+    "year": "2018"
+  },
+  {
+    "title": "2017 Index IEEE Transactions on Pattern Analysis and Machine Intelligence Vol. 39",
+    "authors": "",
+    "venue": "",
+    "year": "2018"
+  },
+  {
+    "title": "Multi-view dynamic shape refinement using local temporal integration",
+    "authors": "",
+    "venue": "",
+    "year": "2017"
+  },
+  {
+    "title": "Automatic camera calibration using multiple sets of pairwise correspondences",
+    "authors": "",
+    "venue": "",
+    "year": "2017"
+  },
+  {
+    "title": "Tracking-by-detection of 3d human shapes: from surfaces to volumes",
+    "authors": "",
+    "venue": "",
+    "year": "2017"
+  },
+  {
+    "title": "Surface motion capture transfer with gaussian process regression",
+    "authors": "",
+    "venue": "",
+    "year": "2017"
+  },
+  {
+    "title": "Controllable variation synthesis for surface motion capture",
+    "authors": "",
+    "venue": "",
+    "year": "2017"
+  },
+  {
+    "title": "System and method for three-dimensional depth imaging",
+    "authors": "",
+    "venue": "",
+    "year": "2017"
+  },
+  {
+    "title": "CT from motion: Volumetric capture of moving shapes with X-rays and videos",
+    "authors": "",
+    "venue": "",
+    "year": "2017"
+  },
+  {
+    "title": "Super Résolution Temporelle de Formes Multi-Vues",
+    "authors": "",
+    "venue": "",
+    "year": "2017"
+  },
+  {
+    "title": "Volumetric 3d tracking by detection",
+    "authors": "",
+    "venue": "",
+    "year": "2016"
+  },
+  {
+    "title": "A hierarchical approach for regular centroidal Voronoi tessellations",
+    "authors": "",
+    "venue": "",
+    "year": "2016"
+  },
+  {
+    "title": "Eigen appearance maps of dynamic shapes",
+    "authors": "",
+    "venue": "",
+    "year": "2016"
+  },
+  {
+    "title": "A bayesian approach to multi-view 4d modeling",
+    "authors": "",
+    "venue": "",
+    "year": "2016"
+  },
+  {
+    "title": "On volumetric shape reconstruction from implicit forms",
+    "authors": "",
+    "venue": "",
+    "year": "2016"
+  },
+  {
+    "title": "Cotemporal multi-view video segmentation",
+    "authors": "",
+    "venue": "",
+    "year": "2016"
+  },
+  {
+    "title": "3D imaging from video and planar radiography",
+    "authors": "",
+    "venue": "",
+    "year": "2016"
+  },
+  {
+    "title": "Shape Animation with Combined Captured and Simulated Dynamics",
+    "authors": "",
+    "venue": "",
+    "year": "2016"
+  },
+  {
+    "title": "2015 Index IEEE Transactions on Pattern Analysis and Machine Intelligence Vol. 37",
+    "authors": "",
+    "venue": "",
+    "year": "2016"
+  },
+  {
+    "title": "An efficient volumetric framework for shape tracking",
+    "authors": "",
+    "venue": "",
+    "year": "2015"
+  },
+  {
+    "title": "Toward user-specific tracking by detection of human shapes in multi-cameras",
+    "authors": "",
+    "venue": "",
+    "year": "2015"
+  },
+  {
+    "title": "Segmentation of a foreground object in a 3d scene",
+    "authors": "",
+    "venue": "",
+    "year": "2015"
+  },
+  {
+    "title": "Video based animation synthesis with the essential graph",
+    "authors": "",
+    "venue": "",
+    "year": "2015"
+  },
+  {
+    "title": "Dynamic Geometry Reconstruction",
+    "authors": "",
+    "venue": "",
+    "year": "2015"
+  },
+  {
+    "title": "Implicit B-spline surface reconstruction",
+    "authors": "",
+    "venue": "",
+    "year": "2014"
+  },
+  {
+    "title": "Sparse multi-view consistency for object segmentation",
+    "authors": "",
+    "venue": "",
+    "year": "2014"
+  },
+  {
+    "title": "Human shape and pose tracking using keyframes",
+    "authors": "",
+    "venue": "",
+    "year": "2014"
+  },
+  {
+    "title": "High resolution 3d shape texture from multiple videos",
+    "authors": "",
+    "venue": "",
+    "year": "2014"
+  },
+  {
+    "title": "On mean pose and variability of 3d deformable models",
+    "authors": "",
+    "venue": "",
+    "year": "2014"
+  },
+  {
+    "title": "Non-rigid registration meets surface reconstruction",
+    "authors": "",
+    "venue": "",
+    "year": "2014"
+  },
+  {
+    "title": "Combined visible and X-ray 3D imaging",
+    "authors": "",
+    "venue": "",
+    "year": "2014"
+  },
+  {
+    "title": "Segmentation multi-vues par coupure de graphes",
+    "authors": "",
+    "venue": "",
+    "year": "2014"
+  },
+  {
+    "title": "Multi-view object segmentation in space and time",
+    "authors": "",
+    "venue": "",
+    "year": "2013"
+  },
+  {
+    "title": "Robust human body shape and pose tracking",
+    "authors": "",
+    "venue": "",
+    "year": "2013"
+  },
+  {
+    "title": "Segmentation of temporal mesh sequences into rigidly moving components",
+    "authors": "",
+    "venue": "",
+    "year": "2013"
+  },
+  {
+    "title": "3d shape cropping",
+    "authors": "",
+    "venue": "",
+    "year": "2013"
+  },
+  {
+    "title": "Modélisation probabiliste pour la segmentation multi-vues",
+    "authors": "",
+    "venue": "",
+    "year": "2013"
+  },
+  {
+    "title": "PIGMENTED FILAMENTOUS FUNGI ISOLATED FROM TROPICAL MARINE ENVIRONMENTS AROUND REUNION ISLAND",
+    "authors": "",
+    "venue": "",
+    "year": "2013"
+  },
+  {
+    "title": "Publications in 2013",
+    "authors": "",
+    "venue": "",
+    "year": "2013"
+  },
+  {
+    "title": "Keypoints and local descriptors of scalar functions on 2D manifolds",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "Progressive shape models",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "N-tuple color segmentation for multi-view silhouette extraction",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "Cage-based motion recovery using manifold learning",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "A minimal solution for camera calibration using independent pairwise correspondences",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "RE@ CT-immersive production and delivery of interactive 3d content",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "Flot de scène à partir d'images couleur et de cartes de profondeur",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "Temporally coherent mesh sequence segmentations",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "Antoine Letouzey, Edmond Boyer. Progressive Shape Models. CVPR-Computer Vision and Patern Recognition-2012, Jun 2012, Providence, United States. pp. 190-197,⟨ 10.1109/CVPR …",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "Modèles progressifs de forme",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "Scene flow",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "Flot de scène",
+    "authors": "",
+    "venue": "",
+    "year": "2012"
+  },
+  {
+    "title": "A survey of vision-based methods for action representation, segmentation and recognition",
+    "authors": "",
+    "venue": "",
+    "year": "2011"
+  },
+  {
+    "title": "SHREC 2011: robust feature detection and description benchmark",
+    "authors": "",
+    "venue": "",
+    "year": "2011"
+  },
+  {
+    "title": "Topologically-robust 3D shape matching based on diffusion geometry and seed growing",
+    "authors": "",
+    "venue": "",
+    "year": "2011"
+  },
+  {
+    "title": "Scene flow from depth and color images",
+    "authors": "",
+    "venue": "",
+    "year": "2011"
+  },
+  {
+    "title": "Learning temporally consistent rigidities",
+    "authors": "",
+    "venue": "",
+    "year": "2011"
+  },
+  {
+    "title": "Surface flow from visual cues",
+    "authors": "",
+    "venue": "",
+    "year": "2011"
+  },
+  {
+    "title": "Scale-space representation of scalar functions on 2D manifolds",
+    "authors": "",
+    "venue": "",
+    "year": "2011"
+  },
+  {
+    "title": "Flot de surface à partir d'indices visuels",
+    "authors": "",
+    "venue": "",
+    "year": "2011"
+  },
+  {
+    "title": "Probabilistic deformable surface tracking from multiple videos",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Free-form mesh tracking: a patch-based approach",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Multicamera Real‐Time 3D Modeling for Telepresence and Remote Collaboration",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Topology-adaptive mesh deformation for surface evolution, morphing, and multiview reconstruction",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Silhouette segmentation in multiple views",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "A 3d data intensive tele-immersive grid",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "An Unsupervised Framework for Action Recognition Using Actemes",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Probabilistic 3D occupancy flow with latent silhouette cues",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Temporally coherent segmentation of 3D reconstructions",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Free-from mesh tracking: a patch-based approach",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Iterative deformable surface tracking in multi-view setups",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Region graphs for organizing image collections",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Flot d'occupation 3D à partir de silhouettes latentes",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "HAL Id: hal-00514549 https://hal. science/hal-00514549v2",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "HAL Id: hal-00514549",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Research Article Multicamera Real-Time 3D Modeling for Telepresence and Remote Collaboration",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Multicamera Real-Time 3D Modeling for Telepresence and Remote Collaboration",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "The Virtualization Gate Project",
+    "authors": "",
+    "venue": "",
+    "year": "2010"
+  },
+  {
+    "title": "Surface feature detection and description with applications to mesh matching",
+    "authors": "",
+    "venue": "",
+    "year": "2009"
+  },
+  {
+    "title": "Iterative mesh deformation for dense surface tracking",
+    "authors": "",
+    "venue": "",
+    "year": "2009"
+  },
+  {
+    "title": "Virtualization gate",
+    "authors": "",
+    "venue": "",
+    "year": "2009"
+  },
+  {
+    "title": "Remote and collaborative 3D interactions",
+    "authors": "",
+    "venue": "",
+    "year": "2009"
+  },
+  {
+    "title": "Suivi de Surfaces par Déformations Itératives",
+    "authors": "",
+    "venue": "",
+    "year": "2009"
+  },
+  {
+    "title": "Short Papers_",
+    "authors": "",
+    "venue": "",
+    "year": "2009"
+  },
+  {
+    "title": "Action recognition using exemplar-based embedding",
+    "authors": "",
+    "venue": "",
+    "year": "2008"
+  },
+  {
+    "title": "Articulated shape matching using laplacian eigenfunctions and unsupervised point registration",
+    "authors": "",
+    "venue": "",
+    "year": "2008"
+  },
+  {
+    "title": "Efficient polyhedral modeling from silhouettes",
+    "authors": "",
+    "venue": "",
+    "year": "2008"
+  },
+  {
+    "title": "Temporal surface tracking using mesh evolution",
+    "authors": "",
+    "venue": "",
+    "year": "2008"
+  },
+  {
+    "title": "Human motion tracking by registering an articulated surface to 3D points and normals",
+    "authors": "",
+    "venue": "",
+    "year": "2008"
+  },
+  {
+    "title": "Coherent Laplacian 3-D protrusion segmentation",
+    "authors": "",
+    "venue": "",
+    "year": "2008"
+  },
+  {
+    "title": "Camera-Clustering for Multi-Resolution 3 D Surface Reconstruction",
+    "authors": "",
+    "venue": "",
+    "year": "2008"
+  },
+  {
+    "title": "Grimage: 3D modeling for remote collaboration and telepresence",
+    "authors": "",
+    "venue": "",
+    "year": "2008"
+  },
+  {
+    "title": "Robust coherent Laplacian 3D protrusion segmentation along 3D sequences",
+    "authors": "",
+    "venue": "",
+    "year": "2008"
+  },
+  {
+    "title": "Action recognition from arbitrary views using 3d exemplars",
+    "authors": "",
+    "venue": "",
+    "year": "2007"
+  },
+  {
+    "title": "Transformesh: a topology-adaptive mesh-based approach to surface evolution",
+    "authors": "",
+    "venue": "",
+    "year": "2007"
+  },
+  {
+    "title": "Grimage: markerless 3d interactions",
+    "authors": "",
+    "venue": "",
+    "year": "2007"
+  },
+  {
+    "title": "Identifying foreground from multiple images",
+    "authors": "",
+    "venue": "",
+    "year": "2007"
+  },
+  {
+    "title": "Articulated shape matching using locally linear embedding and orthogonal alignment",
+    "authors": "",
+    "venue": "",
+    "year": "2007"
+  },
+  {
+    "title": "Articulated shape matching by robust alignment of embedded representations",
+    "authors": "",
+    "venue": "",
+    "year": "2007"
+  },
+  {
+    "title": "Holographic and action capture techniques",
+    "authors": "",
+    "venue": "",
+    "year": "2007"
+  },
+  {
+    "title": "Robust spectral 3D-bodypart segmentation along time",
+    "authors": "",
+    "venue": "",
+    "year": "2007"
+  },
+  {
+    "title": "Modélisation de scènes dynamiques à partir de plusieurs caméras",
+    "authors": "",
+    "venue": "",
+    "year": "2007"
+  },
+  {
+    "title": "Free viewpoint action recognition using motion history volumes",
+    "authors": "",
+    "venue": "",
+    "year": "2006"
+  },
+  {
+    "title": "3d skeleton-based body pose recovery",
+    "authors": "",
+    "venue": "",
+    "year": "2006"
+  },
+  {
+    "title": "Automatic discovery of action taxonomies from multiple views",
+    "authors": "",
+    "venue": "",
+    "year": "2006"
+  },
+  {
+    "title": "Visual shapes of silhouette sets",
+    "authors": "",
+    "venue": "",
+    "year": "2006"
+  },
+  {
+    "title": "On using silhouettes for camera calibration",
+    "authors": "",
+    "venue": "",
+    "year": "2006"
+  },
+  {
+    "title": "The grimage platform: A mixed reality environment for interactions",
+    "authors": "",
+    "venue": "",
+    "year": "2006"
+  },
+  {
+    "title": "A factorization based self-calibration for radially symmetric cameras",
+    "authors": "",
+    "venue": "",
+    "year": "2006"
+  },
+  {
+    "title": "Visual shapes of Silhouette Sets",
+    "authors": "",
+    "venue": "",
+    "year": "2006"
+  },
+  {
+    "title": "Fusion multi-vue d'informations de silhouettes à l'aide d'une grille d'occupation 3D",
+    "authors": "",
+    "venue": "",
+    "year": "2006"
+  },
+  {
+    "title": "Bowden, Richard, 178",
+    "authors": "",
+    "venue": "",
+    "year": "2006"
+  },
+  {
+    "title": "Fusion of multiview silhouette cues using a space occupancy grid",
+    "authors": "",
+    "venue": "",
+    "year": "2005"
+  },
+  {
+    "title": "Using geometric constraints through parallelepipeds for calibration and 3D modeling",
+    "authors": "",
+    "venue": "",
+    "year": "2005"
+  },
+  {
+    "title": "Motion history volumes for free viewpoint action recognition",
+    "authors": "",
+    "venue": "",
+    "year": "2005"
+  },
+  {
+    "title": "Running large vr applications on a pc cluster: the flowvr experience",
+    "authors": "",
+    "venue": "",
+    "year": "2005"
+  },
+  {
+    "title": "Articulated motion capture from 3-D points and normals",
+    "authors": "",
+    "venue": "",
+    "year": "2005"
+  },
+  {
+    "title": "Camera calibration using silhouettes",
+    "authors": "",
+    "venue": "",
+    "year": "2005"
+  },
+  {
+    "title": "Motion history volumes for free viewpoint action recognition [J]",
+    "authors": "",
+    "venue": "",
+    "year": "2005"
+  },
+  {
+    "title": "Modélisation tri-dimensionnelle temps-réel et distribuée",
+    "authors": "",
+    "venue": "",
+    "year": "2005"
+  },
+  {
+    "title": "A distributed approach for real time 3D modeling",
+    "authors": "",
+    "venue": "",
+    "year": "2004"
+  },
+  {
+    "title": "Marker-less real time 3D modeling for virtual reality",
+    "authors": "",
+    "venue": "",
+    "year": "2004"
+  },
+  {
+    "title": "3D modeling from images using geometric constraints",
+    "authors": "",
+    "venue": "",
+    "year": "2004"
+  },
+  {
+    "title": "Using geometric constraints for camera calibration and positioning and 3d scene modelling",
+    "authors": "",
+    "venue": "",
+    "year": "2004"
+  },
+  {
+    "title": "Exact polyhedral visual hulls",
+    "authors": "",
+    "venue": "",
+    "year": "2003"
+  },
+  {
+    "title": "A hybrid approach for computing visual hulls of complex objects",
+    "authors": "",
+    "venue": "",
+    "year": "2003"
+  },
+  {
+    "title": "Real-time capture, reconstruction and insertion into virtual world of human actors",
+    "authors": "",
+    "venue": "",
+    "year": "2003"
+  },
+  {
+    "title": "Scene modeling based on constraint system decomposition techniques",
+    "authors": "",
+    "venue": "",
+    "year": "2003"
+  },
+  {
+    "title": "The analysis of ambiguous solutions in linear systems and its application to computer vision",
+    "authors": "",
+    "venue": "",
+    "year": "2003"
+  },
+  {
+    "title": "Une approche hybride pour calculer l'enveloppe visuelle d'objets complexes",
+    "authors": "",
+    "venue": "",
+    "year": "2003"
+  },
+  {
+    "title": "Une approche pour l'analyse et exploitation des contraintes géométriques en modélisation 3D",
+    "authors": "",
+    "venue": "",
+    "year": "2003"
+  },
+  {
+    "title": "Using Geometric Constraints Through Parallelepipeds for Calibration and 3D Modelling",
+    "authors": "",
+    "venue": "",
+    "year": "2003"
+  },
+  {
+    "title": "3D modelling using geometric constraints: A parallelepiped based approach",
+    "authors": "",
+    "venue": "",
+    "year": "2002"
+  },
+  {
+    "title": "Modélisation à partir d'Images",
+    "authors": "",
+    "venue": "",
+    "year": "2002"
+  },
+  {
+    "title": "Calibrage et Reconstruction à l'aide de Parallélépipèdes et de Parallélogrammes",
+    "authors": "",
+    "venue": "",
+    "year": "2002"
+  },
+  {
+    "title": "Calibration/Active and Real-Time and Robot Vision/Image and Video Indexing/Medical Image Understanding/Vision Systems/Engineering and Evaluations/Statistical Learning-3D …",
+    "authors": "",
+    "venue": "",
+    "year": "2002"
+  },
+  {
+    "title": "Camera calibration and 3D reconstruction from single images using parallelepipeds",
+    "authors": "",
+    "venue": "",
+    "year": "2001"
+  },
+  {
+    "title": "On computing exact visual hulls of solids bounded by smooth surfaces",
+    "authors": "",
+    "venue": "",
+    "year": "2001"
+  },
+  {
+    "title": "Regular and non-regular point sets: Properties and reconstruction",
+    "authors": "",
+    "venue": "",
+    "year": "2001"
+  },
+  {
+    "title": "Calibrage de caméra et reconstruction 3D à l'aide de parallélépipèdes",
+    "authors": "",
+    "venue": "",
+    "year": "2001"
+  },
+  {
+    "title": "Curve and surface reconstruction from regular and non-regular point sets",
+    "authors": "",
+    "venue": "",
+    "year": "2000"
+  },
+  {
+    "title": "Photobuilder-3D models of architectural scenes from uncalibrated images",
+    "authors": "",
+    "venue": "",
+    "year": "1999"
+  },
+  {
+    "title": "3D model acquisition from uncalibrated images",
+    "authors": "",
+    "venue": "",
+    "year": "1998"
+  },
+  {
+    "title": "Using local planar geometric invariants to match and model images of line segments",
+    "authors": "",
+    "venue": "",
+    "year": "1998"
+  },
+  {
+    "title": "Fisher, Robert B., 253 Fitzgibbon, Andrew W., 253 Flynn, Patrick J., 251",
+    "authors": "",
+    "venue": "",
+    "year": "1998"
+  },
+  {
+    "title": "3D surface reconstruction using occluding contours",
+    "authors": "",
+    "venue": "",
+    "year": "1997"
+  },
+  {
+    "title": "Object models from contour sequences",
+    "authors": "",
+    "venue": "",
+    "year": "1996"
+  },
+  {
+    "title": "Reconstruction de surfaces d'objets courbes en vision par ordinateur",
+    "authors": "",
+    "venue": "",
+    "year": "1996"
+  },
+  {
+    "title": "Reconstruction et r gularisation de la surface d'objets courbes",
+    "authors": "",
+    "venue": "",
+    "year": "1996"
+  },
+  {
+    "title": "Smooth Surface Reconstruction and Regularisation",
+    "authors": "",
+    "venue": "",
+    "year": "1996"
+  },
+  {
+    "title": "3d surface reconstruction using occluding contours",
+    "authors": "",
+    "venue": "",
+    "year": "1995"
+  },
+  {
+    "title": "Smooth surface reconstruction from image sequences",
+    "authors": "",
+    "venue": "",
+    "year": "1995"
+  },
+  {
+    "title": "3D Surface Reconstruction Using Occluding",
+    "authors": "",
+    "venue": "",
+    "year": "1995"
+  },
+  {
+    "title": "Projective Geometry: A Short Introduction",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Note: Page numbers followed by “n” indicate endnotes.",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Note: Page numbers followed by “n” indicate notes.",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Note: Page numbers followed by “n” indicate notes.",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "ANIM: Accurate Neural Implicit Model for Human Reconstruction from a single RGB-D image Supplementary Material",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Etude de la direction du regard dans le cadre d’interactions so-ciales incluant un robot Gaze Direction in the context of So-cial Human-Robot Interaction",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "American College Student Personnel As-sociation, 12 American Council of Education, 12 American Indian Higher Education Con-sortium, 67",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Collier, PJ, 38, 40 Commitment to change and justice, 18 Community assets, 86 Community Assistants, 66 Community-based research, 67–68",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "PIGMENTED FILAMENTOUS FUNGI ISOLATED FROM TROPICAL MARINE ENVIRONMENTS AROUND REUNION ISLAND, INDIAN OCEAN, FRANCE",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Synthèse d ‘Images",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Supplementary Materials: Multi-View Reconstruction using Signed Ray Distance Functions (SRDF)",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Supplementary Material Pyramidal Signed Distance Learning for Spatio-Temporal Human Shape Completion",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Area Chairs",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Volumetric 3D Tracking by Detection Supplementary Material",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Flot de scène Flot de scène",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Supplemental Material-Tracking-by-Detection of 3D Human Shapes: from Surfaces to Volumes",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "On Mean Pose and Variability of 3D Deformable",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Gehler, Peter 484 Giachetti, Andrea 418 Giles, Lee 542 Goldman, Dan 578",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Meta Reviewers",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Area Chairs",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "WACV 2018",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Synthèse d’images",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Articulated Shape Matching by Robust Alignment of Embedded Representations",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Andrei Zaharescu Contributions to Spatial and Temporal 3-D Reconstruction from Multiple Cameras",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "DELIVERABLE D5. 1.1 SPECIFICATION OF PLATFORM, ANIMATION MODULES AND INTERFACES",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "An Efficient Volumetric Framework for Shape Tracking Supplemental Material",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Segmentation multi-vues d’objet",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Toward User-specific Tracking by Detection of Human Shapes in Multi-Cameras Supplementary Material",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "DELIVERABLE D5. 1.2 UPDATE OF SPECIFICATION OF PLATFORM, ANIMATION MODULES AND INTERFACES",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Human Shape and Pose Tracking Using Keyframes: Supplementary Material",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Bromley, DA, 247 Brooks, R., 60",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "CVPR 2013",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "3DV 2013",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Daniel Aliaga-Purdue University Peter Allen-Columbia University Roland Angst-ETH Zürich Ilya Baran-Disney Research Zürich",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Signatures spatio-temporelles de formes en mouvement",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "The MV Platform: A Real-Time Multi-Video Environment",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Sylvain Petitjean",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "3DIMPVT 2011",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  },
+  {
+    "title": "Workshop on Non-rigid Registration and Tracking through Learning-NRTL 2007",
+    "authors": "",
+    "venue": "",
+    "year": ""
+  }
+]
