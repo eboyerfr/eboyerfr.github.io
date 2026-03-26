@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import hashlib
 import json
 import re
 from pathlib import Path
 from urllib.parse import urljoin
 
+import fitz  # PyMuPDF
 import requests
 from bs4 import BeautifulSoup
 
 URL = "https://morpheo.inrialpes.fr/people/Boyer/index.php?id=elements"
 OUTPUT = Path("publications.json")
+THUMB_DIR = Path("assets/publications")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
@@ -39,12 +42,12 @@ def shorten_authors(authors: str, max_authors: int = 5) -> str:
 def clean_venue(raw: str) -> str:
     s = clean(raw)
 
-    # enlever DOI
+    # enlève DOI
     s = re.sub(r"\?\s*10\.\S+\s*\?", "", s)
     s = re.sub(r"https?://dx\.doi\.org/\S+", "", s, flags=re.IGNORECASE)
     s = re.sub(r"\bdoi\s*:\s*\S+", "", s, flags=re.IGNORECASE)
 
-    # enlever pages
+    # enlève pages
     s = re.sub(r",?\s*pp\.\s*\d+\s*-\s*\d+\.?", "", s, flags=re.IGNORECASE)
     s = re.sub(r",?\s*pp\.\s*\d+\.?", "", s, flags=re.IGNORECASE)
 
@@ -58,24 +61,13 @@ def clean_venue(raw: str) -> str:
 
 
 def is_image_url(url: str) -> bool:
-    low = url.lower()
+    low = (url or "").lower()
     return any(ext in low for ext in [".png", ".jpg", ".jpeg", ".webp", ".gif"])
 
 
-def extract_thumbnail(dl, base_url: str) -> str:
-    # Meilleure qualité : le lien parent de la vignette
-    a = dl.select_one("dd.Vignette a")
-    if a and a.get("href"):
-        href = urljoin(base_url, a["href"])
-        if is_image_url(href):
-            return href
-
-    # Fallback : miniature affichée
-    img = dl.select_one("dd.Vignette img")
-    if img and img.get("src"):
-        return urljoin(base_url, img["src"])
-
-    return ""
+def slugify(text: str) -> str:
+    text = re.sub(r"[^a-zA-Z0-9]+", "-", (text or "").lower()).strip("-")
+    return text[:80] if text else "paper"
 
 
 def extract_title_and_url(dl, base_url: str):
@@ -126,7 +118,7 @@ def extract_links(dl, base_url: str):
         if not bibtex_url and low.endswith("/bibtex"):
             bibtex_url = href
 
-    # fallback : la vidéo est parfois dans un dd.video comme texte brut
+    # fallback : parfois la vidéo est en texte brut dans dd.video
     if not video:
         node = dl.select_one("dd.video, .video")
         if node:
@@ -137,7 +129,68 @@ def extract_links(dl, base_url: str):
     return pdf, video, bibtex_url
 
 
-def parse_publication(dl, base_url: str):
+def download_bytes(url: str, session: requests.Session, timeout: int = 45) -> bytes:
+    r = session.get(url, headers=HEADERS, timeout=timeout)
+    r.raise_for_status()
+    return r.content
+
+
+def render_pdf_first_page_thumbnail(pdf_url: str, title: str, session: requests.Session) -> str:
+    try:
+        THUMB_DIR.mkdir(parents=True, exist_ok=True)
+
+        h = hashlib.md5(pdf_url.encode("utf-8")).hexdigest()[:10]
+        stem = f"{slugify(title)}-{h}"
+        out_path = THUMB_DIR / f"{stem}.jpg"
+
+        if out_path.exists():
+            return str(out_path).replace("\\", "/")
+
+        pdf_bytes = download_bytes(pdf_url, session, timeout=45)
+        doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+        if len(doc) == 0:
+            return ""
+
+        page = doc[0]
+        mat = fitz.Matrix(2.0, 2.0)
+        pix = page.get_pixmap(matrix=mat, alpha=False)
+        pix.save(str(out_path))
+        doc.close()
+
+        return str(out_path).replace("\\", "/")
+    except Exception:
+        return ""
+
+
+def extract_thumbnail(dl, base_url: str, pdf_url: str, title: str, session: requests.Session) -> str:
+    # 1. meilleure option : lien parent de la vignette s'il pointe vers une vraie image
+    a = dl.select_one("dd.Vignette a")
+    if a and a.get("href"):
+        href = urljoin(base_url, a["href"])
+        if is_image_url(href):
+            return href
+
+    # 2. sinon, si l'image affichée n'est pas un simple thumb HAL, on la garde
+    img = dl.select_one("dd.Vignette img")
+    if img and img.get("src"):
+        src = urljoin(base_url, img["src"])
+        if is_image_url(src) and "/thumb/" not in src:
+            return src
+
+    # 3. sinon, génère une vignette locale depuis la première page du PDF
+    if pdf_url:
+        local_thumb = render_pdf_first_page_thumbnail(pdf_url, title, session)
+        if local_thumb:
+            return local_thumb
+
+    # 4. dernier recours : miniature HAL si disponible
+    if img and img.get("src"):
+        return urljoin(base_url, img["src"])
+
+    return ""
+
+
+def parse_publication(dl, base_url: str, session: requests.Session):
     title, page_url = extract_title_and_url(dl, base_url)
     if not title:
         return None
@@ -149,8 +202,8 @@ def parse_publication(dl, base_url: str):
     if not year:
         year = get_year(dl.get_text(" ", strip=True))
 
-    thumbnail = extract_thumbnail(dl, base_url)
     pdf, video, bibtex_url = extract_links(dl, base_url)
+    thumbnail = extract_thumbnail(dl, base_url, pdf, title, session)
 
     return {
         "title": title,
@@ -167,7 +220,9 @@ def parse_publication(dl, base_url: str):
 
 
 def main():
-    response = requests.get(URL, headers=HEADERS, timeout=30)
+    session = requests.Session()
+
+    response = session.get(URL, headers=HEADERS, timeout=30)
     response.raise_for_status()
 
     if not response.encoding or response.encoding.lower() == "iso-8859-1":
@@ -175,7 +230,7 @@ def main():
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # Chaque publication est un <dl class="NoticeRes...">
+    # Chaque publication correspond à un bloc <dl class="NoticeRes...">
     dls = soup.select("dl.NoticeRes, dl.NoticeResAvecVignette")
     print("Nombre de blocs <dl> :", len(dls))
 
@@ -183,7 +238,7 @@ def main():
     seen_titles = set()
 
     for i, dl in enumerate(dls, start=1):
-        pub = parse_publication(dl, URL)
+        pub = parse_publication(dl, URL, session)
         if not pub:
             continue
 

@@ -743,8 +743,11 @@
         .sort((a, b) => Number(b) - Number(a));
 
       pubYearEl.innerHTML =
-        '<option value="">All Years</option>' +
+        '<option value="all">All Years</option>' +
         years.map((y) => `<option value="${y}">${y}</option>`).join("");
+
+      const defaultYear = "2024";
+      pubYearEl.value = years.map(String).includes(defaultYear) ? defaultYear : "all";
     }
 
     function renderPublications(items) {

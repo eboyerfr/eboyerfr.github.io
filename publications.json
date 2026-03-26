@@ -7,7 +7,7 @@
     "venue": "WACV 2025 - IEEE/CVF Winter Conference on Applications of Computer Vision, Feb 2025, Tucson, United States.",
     "pdf": "https://inria.hal.science/hal-04902240/file/0660.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9607879/thumb/little",
+    "thumbnail": "assets/publications/vortsdf-3d-modeling-with-centroidal-voronoi-tessellation-on-signed-distance-fiel-8ff2682be0.jpg",
     "url": "https://inria.hal.science/hal-04902240v1",
     "bibtex_url": "https://inria.hal.science/hal-04902240v1/bibtex"
   },
@@ -31,7 +31,7 @@
     "venue": "2025",
     "pdf": "https://inria.hal.science/hal-05245551/file/topology_adaptive_matching_2025_final.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9752902/thumb/little",
+    "thumbnail": "assets/publications/matching-shapes-under-different-topologies-a-topology-adaptive-deformation-guide-91d99938c5.jpg",
     "url": "https://inria.hal.science/hal-05245551v1",
     "bibtex_url": "https://inria.hal.science/hal-05245551v1/bibtex"
   },
@@ -43,7 +43,7 @@
     "venue": "2024",
     "pdf": "https://inria.hal.science/hal-04724042/file/VortSDF.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9530233/thumb/little",
+    "thumbnail": "assets/publications/vortsdf-3d-modeling-with-centroidal-voronoi-tesselation-on-signed-distance-field-da81bbfab1.jpg",
     "url": "https://inria.hal.science/hal-04724042v1",
     "bibtex_url": "https://inria.hal.science/hal-04724042v1/bibtex"
   },
@@ -55,7 +55,7 @@
     "venue": "2024",
     "pdf": "https://inria.hal.science/hal-04832090/file/nf3dm_2025_final.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9752900/thumb/little",
+    "thumbnail": "assets/publications/nf3dm-combining-neural-fields-and-deformation-models-for-3d-non-rigid-motion-rec-492b6b131e.jpg",
     "url": "https://inria.hal.science/hal-04832090v2",
     "bibtex_url": "https://inria.hal.science/hal-04832090v2/bibtex"
   },
@@ -67,7 +67,7 @@
     "venue": "SIGGRAPH Asia 2024 - 17th ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia, Dec 2024, Tokyo, Japan.",
     "pdf": "https://inria.hal.science/hal-04724016/file/SiggraphAsia2024-Millimetric-Humans-in-Minutes-preprint.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9541648/thumb/little",
+    "thumbnail": "assets/publications/millimetric-human-surface-capture-in-minutes-01ffefc42d.jpg",
     "url": "https://inria.hal.science/hal-04724016v2",
     "bibtex_url": "https://inria.hal.science/hal-04724016v2/bibtex"
   },
@@ -79,7 +79,7 @@
     "venue": "MIRU 2024 - 27th Meeting on Image Recognition and Understanding, Aug 2024, Kumamoto, Japan.",
     "pdf": "https://inria.hal.science/hal-04902175/file/MIRU2024_VortSDF.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9607882/thumb/little",
+    "thumbnail": "assets/publications/3d-shape-modeling-with-adaptive-centroidal-voronoi-tesselation-on-signed-distanc-2539ee2ce2.jpg",
     "url": "https://inria.hal.science/hal-04902175v1",
     "bibtex_url": "https://inria.hal.science/hal-04902175v1/bibtex"
   },
@@ -91,7 +91,7 @@
     "venue": "Computerized Medical Imaging and Graphics, 2023, 107",
     "pdf": "https://inria.hal.science/hal-04397445/file/vertebrae_cycle.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9361317/thumb/little",
+    "thumbnail": "assets/publications/vertebrae-localization-segmentation-and-identification-using-a-graph-optimizatio-1f95b12914.jpg",
     "url": "https://inria.hal.science/hal-04397445v1",
     "bibtex_url": "https://inria.hal.science/hal-04397445v1/bibtex"
   },
@@ -103,7 +103,7 @@
     "venue": "CVPR 2023 - IEEE/CVF Conference on Computer Vision and Pattern Recognition, Jun 2023, Vancouver, Canada.",
     "pdf": "https://hal.science/hal-03766943/file/CVPR2023-9.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9186413/thumb/little",
+    "thumbnail": "assets/publications/multi-view-reconstruction-using-signed-ray-distance-functions-srdf-0095db3e62.jpg",
     "url": "https://hal.science/hal-03766943v2",
     "bibtex_url": "https://hal.science/hal-03766943v2/bibtex"
   },
@@ -115,7 +115,7 @@
     "venue": "Bioengineering, 2023, 10 (7)",
     "pdf": "https://inria.hal.science/hal-04213386/file/bioengineering-10-00874-2.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9282864/thumb/little",
+    "thumbnail": "assets/publications/multi-modal-data-correspondence-for-the-4d-analysis-of-the-spine-with-adolescent-e27888f512.jpg",
     "url": "https://inria.hal.science/hal-04213386v1",
     "bibtex_url": "https://inria.hal.science/hal-04213386v1/bibtex"
   },
@@ -139,7 +139,7 @@
     "venue": "CVPR 2023 - IEEE Conference on Computer Vision and Pattern Recognition, Jun 2023, Vancouver, Canada.",
     "pdf": "https://inria.hal.science/hal-04045719/file/CVPR2023ShapeFlow_mainpaper.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9211361/thumb/little",
+    "thumbnail": "assets/publications/human-body-shape-completion-with-implicit-shape-and-flow-learning-6a50e6fc84.jpg",
     "url": "https://inria.hal.science/hal-04045719v1",
     "bibtex_url": "https://inria.hal.science/hal-04045719v1/bibtex"
   },
@@ -151,7 +151,7 @@
     "venue": "BMVC 2023 - 34th British Machine Vision Conference, Nov 2023, Aberdeen, United Kingdom.",
     "pdf": "https://inria.hal.science/hal-04249563/file/main.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9323363/thumb/little",
+    "thumbnail": "assets/publications/deformation-guided-unsupervised-non-rigid-shape-matching-c3e42d340b.jpg",
     "url": "https://inria.hal.science/hal-04249563v1",
     "bibtex_url": "https://inria.hal.science/hal-04249563v1/bibtex"
   },
@@ -187,7 +187,7 @@
     "venue": "International Symposium on Computer Methods in Biomechanics and Biomedical Engineering, May 2023, Paris, France.",
     "pdf": "https://hal.science/hal-04362152/file/ncomte_skintospine_2023_notemp.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9347887/thumb/little",
+    "thumbnail": "assets/publications/3d-inference-of-the-scoliotic-spine-from-depth-maps-of-the-back-5ef1bc51e9.jpg",
     "url": "https://hal.science/hal-04362152v1",
     "bibtex_url": "https://hal.science/hal-04362152v1/bibtex"
   },
@@ -199,7 +199,7 @@
     "venue": "3DV 2022 - International Conference on 3D Vision, Sep 2022, Prague / Hybrid, Czech Republic.",
     "pdf": "https://inria.hal.science/hal-03782133/file/temporal_shape_transfer_network.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9086013/thumb/little",
+    "thumbnail": "assets/publications/temporal-shape-transfer-network-for-3d-human-motion-7a4b0024c9.jpg",
     "url": "https://inria.hal.science/hal-03782133v1",
     "bibtex_url": "https://inria.hal.science/hal-03782133v1/bibtex"
   },
@@ -211,7 +211,7 @@
     "venue": "16th Asian Conference on Computer Vision(ACCV2022), Dec 2022, Macau, China",
     "pdf": "https://inria.hal.science/hal-03806996/file/pyramidcomplete.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/9093939/thumb/little",
+    "thumbnail": "assets/publications/pyramidal-signed-distance-learning-for-spatio-temporal-human-shape-completion-00f45e5928.jpg",
     "url": "https://inria.hal.science/hal-03806996v1",
     "bibtex_url": "https://inria.hal.science/hal-03806996v1/bibtex"
   },
@@ -247,7 +247,7 @@
     "venue": "International Conference on 3D Vision, Dec 2021, Online, United Kingdom.",
     "pdf": "https://inria.hal.science/hal-03381387/file/STIF_hal.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8934872/thumb/little",
+    "thumbnail": "assets/publications/spatio-temporal-human-shape-completion-with-implicit-function-networks-ca46fbe0c5.jpg",
     "url": "https://inria.hal.science/hal-03381387v1",
     "bibtex_url": "https://inria.hal.science/hal-03381387v1/bibtex"
   },
@@ -271,7 +271,7 @@
     "venue": "3DV 2021 - International Conference on 3D Vision, Dec 2021, London, United Kingdom.",
     "pdf": "https://inria.hal.science/hal-03450573/file/3DV_DualConv.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8923352/thumb/little",
+    "thumbnail": "assets/publications/dual-mesh-convolutional-networks-for-human-shape-correspondence-1a0a59dc3f.jpg",
     "url": "https://inria.hal.science/hal-03450573v1",
     "bibtex_url": "https://inria.hal.science/hal-03450573v1/bibtex"
   },
@@ -283,7 +283,7 @@
     "venue": "3DV 2021 - International Conference on 3D Vision, Dec 2021, London, United Kingdom.",
     "pdf": "https://inria.hal.science/hal-03385107/file/3DV2021_pz.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8929639/thumb/little",
+    "thumbnail": "assets/publications/data-driven-3d-reconstruction-of-dressed-humans-from-sparse-views-b8f3732b14.jpg",
     "url": "https://inria.hal.science/hal-03385107v3",
     "bibtex_url": "https://inria.hal.science/hal-03385107v3/bibtex"
   },
@@ -295,7 +295,7 @@
     "venue": "ACCV - Asian Conference on Computer Vision, Nov 2020, Kyoto, Japan.",
     "pdf": "https://inria.hal.science/hal-02977388/file/accv.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8763530/thumb/little",
+    "thumbnail": "assets/publications/reconstructing-human-body-mesh-from-point-clouds-by-adversarial-gp-network-b039b7e734.jpg",
     "url": "https://inria.hal.science/hal-02977388v1",
     "bibtex_url": "https://inria.hal.science/hal-02977388v1/bibtex"
   },
@@ -319,7 +319,7 @@
     "venue": "ECCV 2020 - 16th European Conference on Computer Vision, Aug 2020, Glasgow, United Kingdom.",
     "pdf": "https://hal.science/hal-02903163/file/DPF-Nets.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8685250/thumb/little",
+    "thumbnail": "assets/publications/discrete-point-flow-networks-for-efficient-point-cloud-generation-fa611ec37f.jpg",
     "url": "https://hal.science/hal-02903163v1",
     "bibtex_url": "https://hal.science/hal-02903163v1/bibtex"
   },
@@ -331,7 +331,7 @@
     "venue": "CVPR 2020 - IEEE Conference on Computer Vision and Pattern Recognition, Jun 2020, Seattle, United States.",
     "pdf": "https://inria.hal.science/hal-02525049/file/abrevaya-et-al__cvpr-20.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8595380/thumb/little",
+    "thumbnail": "assets/publications/cross-modal-deep-face-normals-with-deactivable-skip-connections-fe82c2f1d7.jpg",
     "url": "https://inria.hal.science/hal-02525049v1",
     "bibtex_url": "https://inria.hal.science/hal-02525049v1/bibtex"
   },
@@ -367,7 +367,7 @@
     "venue": "BMVC 2019 - British Machine Vision Conference, Sep 2019, Cardiff, United Kingdom.",
     "pdf": "https://inria.hal.science/hal-02268466/file/PRN_BMVC19.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8493853/thumb/little",
+    "thumbnail": "assets/publications/probabilistic-reconstruction-networks-for-3d-shape-inference-from-a-single-image-225d584192.jpg",
     "url": "https://inria.hal.science/hal-02268466v1",
     "bibtex_url": "https://inria.hal.science/hal-02268466v1/bibtex"
   },
@@ -379,7 +379,7 @@
     "venue": "MIG 2019 - ACM SIGGRAPH Conference Motion Interaction and Games, Oct 2019, Newcastle Upon Tyne, United Kingdom.",
     "pdf": "https://hal.science/hal-02293308/file/paper.pdf",
     "video": "https://hal.science/hal-02293308/file/supplementary.mp4",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8515879/thumb/little",
+    "thumbnail": "assets/publications/contact-preserving-shape-transfer-for-rigging-free-motion-retargeting-11ce4676a4.jpg",
     "url": "https://hal.science/hal-02293308v3",
     "bibtex_url": "https://hal.science/hal-02293308v3/bibtex"
   },
@@ -403,7 +403,7 @@
     "venue": "3DV 2019 - 7th International Conference on 3D Vision, Sep 2019, Quebec City, Canada.",
     "pdf": "https://inria.hal.science/hal-02284101/file/3dv2019submission.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8500327/thumb/little",
+    "thumbnail": "assets/publications/adaptive-mesh-texture-for-multi-view-appearance-modeling-a4fff15eef.jpg",
     "url": "https://inria.hal.science/hal-02284101v1",
     "bibtex_url": "https://inria.hal.science/hal-02284101v1/bibtex"
   },
@@ -415,7 +415,7 @@
     "venue": "ICCV 2019 - International Conference on Computer Vision, Oct 2019, Seoul, South Korea.",
     "pdf": "https://hal.science/hal-02064711/file/paper-final.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8499277/thumb/little",
+    "thumbnail": "assets/publications/a-decoupled-3d-facial-shape-model-by-adversarial-training-0e57f18554.jpg",
     "url": "https://hal.science/hal-02064711v3",
     "bibtex_url": "https://hal.science/hal-02064711v3/bibtex"
   },
@@ -427,7 +427,7 @@
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2018, 40 (8)",
     "pdf": "https://inria.hal.science/hal-01588272/file/huangc2017pami.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8800432/thumb/little",
+    "thumbnail": "assets/publications/tracking-by-detection-of-3d-human-shapes-from-surfaces-to-volumes-10db5943fd.jpg",
     "url": "https://inria.hal.science/hal-01588272v1",
     "bibtex_url": "https://inria.hal.science/hal-01588272v1/bibtex"
   },
@@ -439,7 +439,7 @@
     "venue": "3DV 2018 - 6th International Conference on 3D Vision, Sep 2018, Verona, Italy.",
     "pdf": "https://inria.hal.science/hal-01855955/file/3DV18-registration-dynamic-faces.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8340389/thumb/little",
+    "thumbnail": "assets/publications/spatiotemporal-modeling-for-efficient-registration-of-dynamic-3d-faces-6ab3f90909.jpg",
     "url": "https://inria.hal.science/hal-01855955v1",
     "bibtex_url": "https://inria.hal.science/hal-01855955v1/bibtex"
   },
@@ -451,7 +451,7 @@
     "venue": "European Conference on Computer Vision, Sep 2018, Munich, Germany.",
     "pdf": "https://hal.science/hal-01849286/file/1217.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8354190/thumb/little",
+    "thumbnail": "assets/publications/shape-reconstruction-using-volume-sweeping-and-learned-photoconsistency-9b099f3301.jpg",
     "url": "https://hal.science/hal-01849286v2",
     "bibtex_url": "https://hal.science/hal-01849286v2/bibtex"
   },
@@ -487,7 +487,7 @@
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2018, 40 (4)",
     "pdf": "https://inria.hal.science/hal-01675686/file/pami2017a.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8254042/thumb/little",
+    "thumbnail": "assets/publications/automatic-camera-calibration-using-multiple-sets-of-pairwise-correspondences-ae6d254787.jpg",
     "url": "https://inria.hal.science/hal-01675686v1",
     "bibtex_url": "https://inria.hal.science/hal-01675686v1/bibtex"
   },
@@ -499,7 +499,7 @@
     "venue": "RFIAP 2018 - Reconnaissance des Formes, Image, Apprentissage et Perception, Jun 2018, Marne la Vallée, France",
     "pdf": "https://hal.science/hal-01857627/file/rfiap2018.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8341403/thumb/little",
+    "thumbnail": "assets/publications/apprentissage-de-la-coh-rence-photom-trique-pour-la-reconstruction-de-formes-mul-b39b877787.jpg",
     "url": "https://hal.science/hal-01857627v1",
     "bibtex_url": "https://hal.science/hal-01857627v1/bibtex"
   },
@@ -523,7 +523,7 @@
     "venue": "ORASIS 2017, GREYC, Jun 2017, Colleville-sur-Mer, France.",
     "pdf": "https://hal.science/hal-01866632/file/orasis2017.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8345699/thumb/little",
+    "thumbnail": "assets/publications/super-r-solution-temporelle-de-formes-multi-vues-33f24e6980.jpg",
     "url": "https://hal.science/hal-01866632v1",
     "bibtex_url": "https://hal.science/hal-01866632v1/bibtex"
   },
@@ -619,7 +619,7 @@
     "venue": "3DV 2016 -International Conference on 3D Vision, Oct 2016, Stanford, United States.",
     "pdf": "https://inria.hal.science/hal-01367430/file/final_umvseg_3dv.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8118213/thumb/little",
+    "thumbnail": "assets/publications/cotemporal-multi-view-video-segmentation-c5436224a5.jpg",
     "url": "https://inria.hal.science/hal-01367430v2",
     "bibtex_url": "https://inria.hal.science/hal-01367430v2/bibtex"
   },
@@ -679,7 +679,7 @@
     "venue": "CVPR 2015 - IEEE International Conference on Computer Vision and Pattern Recognition, Jun 2015, Boston, United States.",
     "pdf": "https://inria.hal.science/hal-01148449/file/huangc2015cvpr.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/6375170/thumb/little",
+    "thumbnail": "assets/publications/toward-user-specific-tracking-by-detection-of-human-shapes-in-multi-cameras-bf06a7e2bc.jpg",
     "url": "https://inria.hal.science/hal-01148449v1",
     "bibtex_url": "https://inria.hal.science/hal-01148449v1/bibtex"
   },
@@ -691,7 +691,7 @@
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2015, 37 (9)",
     "pdf": "https://inria.hal.science/hal-01115557/file/paper_V3.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5710657/thumb/little",
+    "thumbnail": "assets/publications/sparse-multi-view-consistency-for-object-segmentation-f823675d29.jpg",
     "url": "https://inria.hal.science/hal-01115557v1",
     "bibtex_url": "https://inria.hal.science/hal-01115557v1/bibtex"
   },
@@ -739,7 +739,7 @@
     "venue": "RFIA 2014 - Reconnaissance de Formes et Intelligence Artificielle, Jun 2014, Rouen, France",
     "pdf": "https://hal.science/hal-00988772/file/rfia2014_submission_29.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5182661/thumb/little",
+    "thumbnail": "assets/publications/segmentation-multi-vues-par-coupure-de-graphes-9e64cdcf08.jpg",
     "url": "https://hal.science/hal-00988772v1",
     "bibtex_url": "https://hal.science/hal-00988772v1/bibtex"
   },
@@ -763,7 +763,7 @@
     "venue": "3DV 2014 - International Conference on 3D Vision, Dec 2014, Tokyo, Japan.",
     "pdf": "https://inria.hal.science/hal-01063513/file/3DV_final%20%282%29.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5291353/thumb/little",
+    "thumbnail": "assets/publications/non-rigid-registration-meets-surface-reconstruction-c029d9f194.jpg",
     "url": "https://inria.hal.science/hal-01063513v3",
     "bibtex_url": "https://inria.hal.science/hal-01063513v3/bibtex"
   },
@@ -823,7 +823,7 @@
     "venue": "3DV - International Conference on 3D Vision - 2013, Jun 2013, Seattle, United States.",
     "pdf": "https://inria.hal.science/hal-00922934/file/paul.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5014800/thumb/little",
+    "thumbnail": "assets/publications/robust-human-body-shape-and-pose-tracking-d358117f52.jpg",
     "url": "https://inria.hal.science/hal-00922934v1",
     "bibtex_url": "https://inria.hal.science/hal-00922934v1/bibtex"
   },
@@ -835,7 +835,7 @@
     "venue": "ICCV 2013 - IEEE International Conference on Computer Vision, Dec 2013, Sydney, Australia.",
     "pdf": "https://inria.hal.science/hal-00873544/file/paper_final.pdf",
     "video": "https://inria.hal.science/hal-00873544/file/HalfPipe.wmv",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/8109392/thumb/little",
+    "thumbnail": "assets/publications/multi-view-object-segmentation-in-space-and-time-2ff6b6e2b5.jpg",
     "url": "https://inria.hal.science/hal-00873544v1",
     "bibtex_url": "https://inria.hal.science/hal-00873544v1/bibtex"
   },
@@ -847,7 +847,7 @@
     "venue": "ORASIS - Congrès des jeunes chercheurs en vision par ordinateur, Jun 2013, Cluny, France",
     "pdf": "https://hal.science/hal-00830762/file/06.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5267471/thumb/little",
+    "thumbnail": "assets/publications/mod-lisation-probabiliste-pour-la-segmentation-multi-vues-06258bcbf2.jpg",
     "url": "https://hal.science/hal-00830762v1",
     "bibtex_url": "https://hal.science/hal-00830762v1/bibtex"
   },
@@ -883,7 +883,7 @@
     "venue": "NEM Summit - Networked and Electronic Media - 2012, Oct 2012, Istanbul, Turkey",
     "pdf": "https://inria.hal.science/hal-00922956/file/REACT-NEM12_v10.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5014844/thumb/little",
+    "thumbnail": "assets/publications/re-ct-immersive-production-and-delivery-of-interactive-3d-content-723acb85c6.jpg",
     "url": "https://inria.hal.science/hal-00922956v1",
     "bibtex_url": "https://inria.hal.science/hal-00922956v1/bibtex"
   },
@@ -907,7 +907,7 @@
     "venue": "ECCV'12 - 12th European Conference on Computer Vision, University of Florence, Oct 2012, Firenze, Italy.",
     "pdf": "https://inria.hal.science/hal-00735718/file/Final_N-tuple_Multi-View_Silhouette_Extraction-1.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5063048/thumb/little",
+    "thumbnail": "assets/publications/n-tuple-color-segmentation-for-multi-view-silhouette-extraction-5431ef6992.jpg",
     "url": "https://inria.hal.science/hal-00735718v1",
     "bibtex_url": "https://inria.hal.science/hal-00735718v1/bibtex"
   },
@@ -931,7 +931,7 @@
     "venue": "International Journal of Computer Vision, 2012, 100 (1)",
     "pdf": "https://inria.hal.science/hal-00699620/file/meshhog_journal_ijcv_Final.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5212772/thumb/little",
+    "thumbnail": "assets/publications/keypoints-and-local-descriptors-of-scalar-functions-on-2d-manifolds-58822147a1.jpg",
     "url": "https://inria.hal.science/hal-00699620v1",
     "bibtex_url": "https://inria.hal.science/hal-00699620v1/bibtex"
   },
@@ -979,7 +979,7 @@
     "venue": "ECCV'12 - 12th European Conference on Computer Vision, Oct 2012, Firenze, Italy.",
     "pdf": "https://inria.hal.science/hal-00735728/file/typeinst.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5063093/thumb/little",
+    "thumbnail": "assets/publications/a-minimal-solution-for-camera-calibration-using-independent-pairwise-corresponde-3c621a4826.jpg",
     "url": "https://inria.hal.science/hal-00735728v1",
     "bibtex_url": "https://inria.hal.science/hal-00735728v1/bibtex"
   },
@@ -1003,7 +1003,7 @@
     "venue": "CVPR '11 - IEEE Conference on Computer Vision and Pattern Recognition, Jun 2011, Colorado Springs, United States.",
     "pdf": "https://inria.hal.science/inria-00590280/file/cvpr2011_camera_ready.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202666/thumb/little",
+    "thumbnail": "assets/publications/topologically-robust-3d-shape-matching-based-on-diffusion-geometry-and-seed-grow-826c4fe0ed.jpg",
     "url": "https://inria.hal.science/inria-00590280v1",
     "bibtex_url": "https://inria.hal.science/inria-00590280v1/bibtex"
   },
@@ -1063,7 +1063,7 @@
     "venue": "3dRR-11 - ICCV Workshop on 3D Representation and Recognition, Nov 2011, Barcelona, Spain.",
     "pdf": "https://inria.hal.science/hal-00653479/file/ws08_025.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5089632/thumb/little",
+    "thumbnail": "assets/publications/scale-space-representation-of-scalar-functions-on-2d-manifolds-ae61129772.jpg",
     "url": "https://inria.hal.science/hal-00653479v1",
     "bibtex_url": "https://inria.hal.science/hal-00653479v1/bibtex"
   },
@@ -1099,7 +1099,7 @@
     "venue": "Computer Vision and Image Understanding, 2011, 115 (2)",
     "pdf": "https://inria.hal.science/hal-00640088/file/weinland10preprint.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5051545/thumb/little",
+    "thumbnail": "assets/publications/a-survey-of-vision-based-methods-for-action-representation-segmentation-and-reco-64aabc1cd7.jpg",
     "url": "https://inria.hal.science/hal-00640088v1",
     "bibtex_url": "https://inria.hal.science/hal-00640088v1/bibtex"
   },
@@ -1219,7 +1219,7 @@
     "venue": "ACCV 2010 - 10th Asian Conference on Computer Vision, Nov 2010, Queenstown, New Zealand.",
     "pdf": "https://inria.hal.science/inria-00568906/file/accv2010_TemporalSeg.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5148707/thumb/little",
+    "thumbnail": "assets/publications/an-unsupervised-framework-for-action-recognition-using-actemes-97ed9cc9ab.jpg",
     "url": "https://inria.hal.science/inria-00568906v1",
     "bibtex_url": "https://inria.hal.science/inria-00568906v1/bibtex"
   },
@@ -1267,7 +1267,7 @@
     "venue": "AFIG 2009 - 22es journées de l'Association Française d'Informatique Graphique, Nov 2009, Arles, France",
     "pdf": "https://inria.hal.science/inria-00440425/file/latex.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5033504/thumb/little",
+    "thumbnail": "assets/publications/suivi-de-surfaces-par-d-formations-it-ratives-7f2e394895.jpg",
     "url": "https://inria.hal.science/inria-00440425v1",
     "bibtex_url": "https://inria.hal.science/inria-00440425v1/bibtex"
   },
@@ -1387,7 +1387,7 @@
     "venue": "CVPR 2008 - IEEE Conference on Computer Vision and Pattern Recognition, Jun 2008, Anchorage, United States.",
     "pdf": "https://inria.hal.science/inria-00590256/file/weinland08.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202625/thumb/little",
+    "thumbnail": "assets/publications/action-recognition-using-exemplar-based-embedding-7301d71523.jpg",
     "url": "https://inria.hal.science/inria-00590256v1",
     "bibtex_url": "https://inria.hal.science/inria-00590256v1/bibtex"
   },
@@ -1423,7 +1423,7 @@
     "venue": "Interface homme-machine [cs.HC]. Université Joseph-Fourier - Grenoble I, 2007",
     "pdf": "https://theses.hal.science/tel-00584185/file/habilitation.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5177482/thumb/little",
+    "thumbnail": "assets/publications/mod-lisation-de-sc-nes-dynamiques-partir-de-plusieurs-cam-ras-5f10b8fc5a.jpg",
     "url": "https://theses.hal.science/tel-00584185v1",
     "bibtex_url": "https://theses.hal.science/tel-00584185v1/bibtex"
   },
@@ -1435,7 +1435,7 @@
     "venue": "ACCV 2007 - 8th Asian Conference on Computer Vision, Nov 2007, Tokyo, Japan.",
     "pdf": "https://inria.hal.science/inria-00590236/file/wonwoo_accv07.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202589/thumb/little",
+    "thumbnail": "assets/publications/identifying-foreground-from-multiple-images-10cafddb76.jpg",
     "url": "https://inria.hal.science/inria-00590236v1",
     "bibtex_url": "https://inria.hal.science/inria-00590236v1/bibtex"
   },
@@ -1459,7 +1459,7 @@
     "venue": "NRTL 2007 - Workshop on Non-rigid Registration and Tracking through Learning, Oct 2007, Rio de Janeiro, Brazil.",
     "pdf": "https://inria.hal.science/inria-00590237/file/Mateus-NRTL2007.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202592/thumb/little",
+    "thumbnail": "assets/publications/articulated-shape-matching-using-locally-linear-embedding-and-orthogonal-alignme-e3c194316b.jpg",
     "url": "https://inria.hal.science/inria-00590237v1",
     "bibtex_url": "https://inria.hal.science/inria-00590237v1/bibtex"
   },
@@ -1471,7 +1471,7 @@
     "venue": "3DRR 2007 - IEEE Workshop on 3D Representation for Recognition, Oct 2007, Rio de Janeiro, Brazil.",
     "pdf": "https://inria.hal.science/inria-00590238/file/3drr07.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202593/thumb/little",
+    "thumbnail": "assets/publications/articulated-shape-matching-by-robust-alignment-of-embedded-representations-5c303bc0b8.jpg",
     "url": "https://inria.hal.science/inria-00590238v1",
     "bibtex_url": "https://inria.hal.science/inria-00590238v1/bibtex"
   },
@@ -1531,7 +1531,7 @@
     "venue": "15e congrès francophone AFRIF-AFIA Reconnaissance des Formes et Intelligence Artificielle, Jan 2006, Tours, France.--1753",
     "pdf": "https://inria.hal.science/inria-00349093/file/rfia2006.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5044531/thumb/little",
+    "thumbnail": "assets/publications/fusion-multi-vue-d-informations-de-silhouettes-l-aide-d-une-grille-d-occupation--0c23d5f1f1.jpg",
     "url": "https://inria.hal.science/inria-00349093v1",
     "bibtex_url": "https://inria.hal.science/inria-00349093v1/bibtex"
   },
@@ -1567,7 +1567,7 @@
     "venue": "International Symposium on 3D Data Processing, Visualization and Transmission, 2006, Chapel Hill, United States",
     "pdf": "https://inria.hal.science/inria-00384315/file/RamalingamSturmBoyer_3DPVT06.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5118876/thumb/little",
+    "thumbnail": "assets/publications/a-factorization-based-self-calibration-for-radially-symmetric-cameras-1b90317bce.jpg",
     "url": "https://inria.hal.science/inria-00384315v1",
     "bibtex_url": "https://inria.hal.science/inria-00384315v1/bibtex"
   },
@@ -1615,7 +1615,7 @@
     "venue": "Workshop on modeling People and Human Interaction (PHI'05), Oct 2005, Beijing, China",
     "pdf": "https://inria.hal.science/inria-00590197/file/wrb05.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202539/thumb/little",
+    "thumbnail": "assets/publications/motion-history-volumes-for-free-viewpoint-action-recognition-ec6ec9c600.jpg",
     "url": "https://inria.hal.science/inria-00590197v1",
     "bibtex_url": "https://inria.hal.science/inria-00590197v1/bibtex"
   },
@@ -1651,7 +1651,7 @@
     "venue": "RR-5559, INRIA. 2005",
     "pdf": "https://inria.hal.science/inria-00070447/file/RR-5559.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5148457/thumb/little",
+    "thumbnail": "assets/publications/camera-calibration-using-silhouettes-a0da9afdfe.jpg",
     "url": "https://inria.hal.science/inria-00070447v1",
     "bibtex_url": "https://inria.hal.science/inria-00070447v1/bibtex"
   },
@@ -1663,7 +1663,7 @@
     "venue": "British Machine Vision Conference (BMVC '05), Sep 2005, Oxford, United Kingdom.--448",
     "pdf": "https://inria.hal.science/inria-00590195/file/bmvc05-85final.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202538/thumb/little",
+    "thumbnail": "assets/publications/articulated-motion-capture-from-3-d-points-and-normals-c3162a009d.jpg",
     "url": "https://inria.hal.science/inria-00590195v1",
     "bibtex_url": "https://inria.hal.science/inria-00590195v1/bibtex"
   },
@@ -1675,7 +1675,7 @@
     "venue": "International Workshop on Vision Techniques Applied to the Rehabilitation of City Centres, Oct 2004, Lisbon, Portugal",
     "pdf": "https://inria.hal.science/inria-00524415/file/WilczkowiakSturmBoyer-cipa04.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5036961/thumb/little",
+    "thumbnail": "assets/publications/using-geometric-constraints-for-camera-calibration-and-positioning-and-3d-scene--6bb045a55f.jpg",
     "url": "https://inria.hal.science/inria-00524415v1",
     "bibtex_url": "https://inria.hal.science/inria-00524415v1/bibtex"
   },
@@ -1711,7 +1711,7 @@
     "venue": "Journées ORASIS, May 2003, Gérardmer, France.",
     "pdf": "https://inria.hal.science/inria-00525638/file/WilczkowiakSturmBoyer-orasis03.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5039489/thumb/little",
+    "thumbnail": "assets/publications/une-approche-pour-l-analyse-et-exploitation-des-contraintes-g-om-triques-en-mod--862dcab899.jpg",
     "url": "https://inria.hal.science/inria-00525638v1",
     "bibtex_url": "https://inria.hal.science/inria-00525638v1/bibtex"
   },
@@ -1723,7 +1723,7 @@
     "venue": "Actes des Journées ORASIS, May 2003, Gerardmer, France.--74",
     "pdf": "https://inria.hal.science/inria-00349086/file/franco_boyer_orasis03.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5044479/thumb/little",
+    "thumbnail": "assets/publications/une-approche-hybride-pour-calculer-l-enveloppe-visuelle-d-objets-complexes-dccb45e0b6.jpg",
     "url": "https://inria.hal.science/inria-00349086v1",
     "bibtex_url": "https://inria.hal.science/inria-00349086v1/bibtex"
   },
@@ -1735,7 +1735,7 @@
     "venue": "British Machine Vision Conference (BMVC '03), Sep 2003, Norwich, United Kingdom.",
     "pdf": "https://inria.hal.science/inria-00525637/file/WilczkowiakSturmBoyer-bmvc03.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5039477/thumb/little",
+    "thumbnail": "assets/publications/the-analysis-of-ambiguous-solutions-in-linear-systems-and-its-application-to-com-9760f43ef3.jpg",
     "url": "https://inria.hal.science/inria-00525637v1",
     "bibtex_url": "https://inria.hal.science/inria-00525637v1/bibtex"
   },
@@ -1747,7 +1747,7 @@
     "venue": "9th IEEE International Conference on Computer Vision (ICCV '03), Oct 2003, Nice, France.",
     "pdf": "https://inria.hal.science/inria-00525636/file/WilczkowiakTrombettoni-iccv03.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5039475/thumb/little",
+    "thumbnail": "assets/publications/scene-modeling-based-on-constraint-system-decomposition-techniques-45df810241.jpg",
     "url": "https://inria.hal.science/inria-00525636v1",
     "bibtex_url": "https://inria.hal.science/inria-00525636v1/bibtex"
   },
@@ -1795,7 +1795,7 @@
     "venue": "François Sillion. Synthèse d'Images Géographiques, Hermès Science Publications, 2002, 2-7462-0450-9",
     "pdf": "https://inria.hal.science/inria-00525651/file/igat.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5039516/thumb/little",
+    "thumbnail": "assets/publications/mod-lisation-partir-d-images-e8aad6abd0.jpg",
     "url": "https://inria.hal.science/inria-00525651v1",
     "bibtex_url": "https://inria.hal.science/inria-00525651v1/bibtex"
   },
@@ -1807,7 +1807,7 @@
     "venue": "13ème congrès francophone de Reconnaissance des formes et d'Intelligence artificielle (RFIA '02), Jan 2002, Angers, France.",
     "pdf": "https://inria.hal.science/inria-00525647/file/WilczkowiakSturmBoyer-rfia02.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5039513/thumb/little",
+    "thumbnail": "assets/publications/calibrage-et-reconstruction-l-aide-de-parall-l-pip-des-et-de-parall-logrammes-8c03e1aa2d.jpg",
     "url": "https://inria.hal.science/inria-00525647v1",
     "bibtex_url": "https://inria.hal.science/inria-00525647v1/bibtex"
   },
@@ -1819,7 +1819,7 @@
     "venue": "7th European Conference on Computer Vision (ECCV '02), May 2002, Copenhagen, Denmark.",
     "pdf": "https://inria.hal.science/inria-00525644/file/WilczkowiakBoyerSturm-eccv02.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5039499/thumb/little",
+    "thumbnail": "assets/publications/3d-modeling-using-geometric-constraints-a-parallelepiped-based-approach-3cc3ea6123.jpg",
     "url": "https://inria.hal.science/inria-00525644v1",
     "bibtex_url": "https://inria.hal.science/inria-00525644v1/bibtex"
   },
@@ -1831,7 +1831,7 @@
     "venue": "Computational Geometry, 2001, 19 (2-3)--126.",
     "pdf": "https://inria.hal.science/inria-00100428/file/BoyerPetitjean_cgta01.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/4904370/thumb/little",
+    "thumbnail": "assets/publications/regular-and-non-regular-point-sets-properties-and-reconstruction-131d103535.jpg",
     "url": "https://inria.hal.science/inria-00100428v1",
     "bibtex_url": "https://inria.hal.science/inria-00100428v1/bibtex"
   },
@@ -1843,7 +1843,7 @@
     "venue": "IEEE International Conference on Computer Vision and Pattern Recognition (CVPR '01), Dec 2001, Kauai, United States.--161",
     "pdf": "https://inria.hal.science/inria-00590147/file/LazebnikBoyerPonce_cvpr01.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202469/thumb/little",
+    "thumbnail": "assets/publications/on-computing-exact-visual-hulls-of-solids-bounded-by-smooth-surfaces-c9012ee7cc.jpg",
     "url": "https://inria.hal.science/inria-00590147v1",
     "bibtex_url": "https://inria.hal.science/inria-00590147v1/bibtex"
   },
@@ -1855,7 +1855,7 @@
     "venue": "8th International Conference on Computer Vision (ICCV '01), Jul 2001, Vancouver, Canada.",
     "pdf": "https://inria.hal.science/inria-00525657/file/WilczkowiakBoyerSturm-iccv01.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5039532/thumb/little",
+    "thumbnail": "assets/publications/camera-calibration-and-3d-reconstruction-from-single-images-using-parallelepiped-63d6c290f0.jpg",
     "url": "https://inria.hal.science/inria-00525657v1",
     "bibtex_url": "https://inria.hal.science/inria-00525657v1/bibtex"
   },
@@ -1867,7 +1867,7 @@
     "venue": "Journées ORASIS, Institut de Recherche en Informatique de Toulouse (IRIT), Jun 2001, Cahors, France.",
     "pdf": "https://inria.hal.science/inria-00525656/file/ORASIS01.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5039531/thumb/little",
+    "thumbnail": "assets/publications/calibrage-de-cam-ra-et-reconstruction-3d-l-aide-de-parall-l-pip-des-74a47f95bb.jpg",
     "url": "https://inria.hal.science/inria-00525656v1",
     "bibtex_url": "https://inria.hal.science/inria-00525656v1/bibtex"
   },
@@ -1879,7 +1879,7 @@
     "venue": "IEEE Conference on Computer Vision & Pattern Recognition (CVPR '00), Jun 2000, Hilton Head Island, United States.",
     "pdf": "https://inria.hal.science/inria-00099062/file/A00-R-408.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5206094/thumb/little",
+    "thumbnail": "assets/publications/curve-and-surface-reconstruction-from-regular-and-non-regular-point-sets-794a971260.jpg",
     "url": "https://inria.hal.science/inria-00099062v1",
     "bibtex_url": "https://inria.hal.science/inria-00099062v1/bibtex"
   },
@@ -1891,7 +1891,7 @@
     "venue": "IEEE International Conference on Multimedia Computing and Systems, Jun 1999, Florence, Italy.--31",
     "pdf": "https://inria.hal.science/inria-00590113/file/cipolla_ICMCS99.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202424/thumb/little",
+    "thumbnail": "assets/publications/photobuilder-3d-models-of-architectural-scenes-from-uncalibrated-images-9fde9696a7.jpg",
     "url": "https://inria.hal.science/inria-00590113v1",
     "bibtex_url": "https://inria.hal.science/inria-00590113v1/bibtex"
   },
@@ -1903,7 +1903,7 @@
     "venue": "Computer Vision and Image Understanding, 1998, 69 (2)",
     "pdf": "https://inria.hal.science/inria-00102944/file/Papier-CVIU-1997_1.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/4911940/thumb/little",
+    "thumbnail": "assets/publications/using-local-planar-geometric-invariants-to-match-and-model-images-of-line-segmen-5853fec751.jpg",
     "url": "https://inria.hal.science/inria-00102944v1",
     "bibtex_url": "https://inria.hal.science/inria-00102944v1/bibtex"
   },
@@ -1927,7 +1927,7 @@
     "venue": "IAPR Workshop on Machine Vision Applications (MVA '98), Nov 1998, Chiba, Japan.--568",
     "pdf": "https://inria.hal.science/inria-00590089/file/10.1.1.28.7582.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202394/thumb/little",
+    "thumbnail": "assets/publications/3d-model-acquisition-from-uncalibrated-images-a66d5907a9.jpg",
     "url": "https://inria.hal.science/inria-00590089v1",
     "bibtex_url": "https://inria.hal.science/inria-00590089v1/bibtex"
   },
@@ -1939,7 +1939,7 @@
     "venue": "International Journal of Computer Vision, 1997, 22 (3)--233.",
     "pdf": "https://inria.hal.science/inria-00590069/file/ijcvBB96.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202370/thumb/little",
+    "thumbnail": "assets/publications/3d-surface-reconstruction-using-occluding-contours-c38daed0c0.jpg",
     "url": "https://inria.hal.science/inria-00590069v1",
     "bibtex_url": "https://inria.hal.science/inria-00590069v1/bibtex"
   },
@@ -1951,7 +1951,7 @@
     "venue": "Interface homme-machine [cs.HC]. Institut National Polytechnique de Lorraine - INPL, 1996. Français. ?NNT : 1996INPL150N?",
     "pdf": "https://theses.hal.science/tel-00584012/file/these.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5176970/thumb/little",
+    "thumbnail": "assets/publications/reconstruction-of-curved-object-surfaces-in-computer-vision-c5d1cf29e8.jpg",
     "url": "https://theses.hal.science/tel-00584012v1",
     "bibtex_url": "https://theses.hal.science/tel-00584012v1/bibtex"
   },
@@ -1975,7 +1975,7 @@
     "venue": "4th European Conference on Computer Vision (ECCV'96), Apr 1996, Cambridge, United Kingdom.--118",
     "pdf": "https://inria.hal.science/inria-00590062/file/eccv96.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202359/thumb/little",
+    "thumbnail": "assets/publications/object-models-from-contour-sequences-974b8d4812.jpg",
     "url": "https://inria.hal.science/inria-00590062v1",
     "bibtex_url": "https://inria.hal.science/inria-00590062v1/bibtex"
   },
@@ -1987,7 +1987,7 @@
     "venue": "IEEE International Conference on Image Processing (ICIP '95), Oct 1995, Washington, United States.--401",
     "pdf": "https://inria.hal.science/inria-00590050/file/icip95.pdf",
     "video": "",
-    "thumbnail": "https://thumb.ccsd.cnrs.fr/5202341/thumb/little",
+    "thumbnail": "assets/publications/smooth-surface-reconstruction-from-image-sequences-1f229b372b.jpg",
     "url": "https://inria.hal.science/inria-00590050v1",
     "bibtex_url": "https://inria.hal.science/inria-00590050v1/bibtex"
   }
