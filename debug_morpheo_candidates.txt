@@ -1,0 +1,36 @@
+Nombre de candidats: 2
+Nombre de publications parsées avant déduplication: 2
+
+===== PUBLICATION 1 =====
+TITRE: Edmond Boyer
+AUTEURS: Home Publications Research Teaching
+ANNEE: None
+PDF: 
+VIDEO: 
+THUMBNAIL: 
+URL: http://morpheo.inrialpes.fr/people/Boyer/
+LIENS:
+  - [Edmond Boyer] http://morpheo.inrialpes.fr/people/Boyer/
+  - [Home] http://morpheo.inrialpes.fr/people/Boyer/
+  - [Publications] http://morpheo.inrialpes.fr/people/Boyer/index.php?id=elements
+  - [Research] http://morpheo.inrialpes.fr/people/Boyer/index.php?id=research
+  - [Teaching] http://morpheo.inrialpes.fr/people/Boyer/index.php?id=teaching
+TEXTE:
+Edmond Boyer Home Publications Research Teaching
+
+===== PUBLICATION 2 =====
+TITRE: Edmond Boyer
+AUTEURS: Home Publications Research Teaching
+ANNEE: None
+PDF: 
+VIDEO: 
+THUMBNAIL: 
+URL: http://morpheo.inrialpes.fr/people/Boyer/
+LIENS:
+  - [Edmond Boyer] http://morpheo.inrialpes.fr/people/Boyer/
+  - [Home] http://morpheo.inrialpes.fr/people/Boyer/
+  - [Publications] http://morpheo.inrialpes.fr/people/Boyer/index.php?id=elements
+  - [Research] http://morpheo.inrialpes.fr/people/Boyer/index.php?id=research
+  - [Teaching] http://morpheo.inrialpes.fr/people/Boyer/index.php?id=teaching
+TEXTE:
+Edmond Boyer Home Publications Research Teaching
