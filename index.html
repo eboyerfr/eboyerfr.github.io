@@ -789,7 +789,7 @@
 
     function applyFilters() {
       const selectedYear = pubYearEl.value || "";
-      const query = (pubSearchEl?.value || "").trim().toLowerCase();
+      const query = (pubSearchEl.value || "").trim().toLowerCase();
 
       visiblePublications = allPublications.filter((p) => {
         const matchYear = selectedYear === "" || String(p.year || "") === selectedYear;
