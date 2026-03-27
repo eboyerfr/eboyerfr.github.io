@@ -876,8 +876,8 @@
         }
       ].map(normalizePub);
 
-      populateYearFilter([]);
-      renderPublications([]);
+      populateYearFilter(publications);
+      renderPublications(publications);
       pubStatusEl.style.display = "block";
       pubStatusEl.innerHTML = `Using placeholder content. Add <code class="inline">publications.json</code> at the root of the repo, or set <code class="inline">PUBLICATIONS_ENDPOINT</code>.`;
     }
