@@ -134,11 +134,14 @@ def download_bytes(url: str, session: requests.Session, timeout: int = 45) -> by
     r.raise_for_status()
     return r.content
 
+######
+#####
 
 def render_pdf_first_page_thumbnail(pdf_url: str, title: str, session: requests.Session) -> str:
     try:
-        from PIL import Image
         import io
+        from pathlib import Path
+        from PIL import Image, ImageStat
 
         THUMB_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -149,82 +152,427 @@ def render_pdf_first_page_thumbnail(pdf_url: str, title: str, session: requests.
         if out_path.exists():
             return str(out_path).replace("\\", "/")
 
+        WEB_SIZE = (880, 495)   # 16:9, affiché en 220 px sur la page
+        JPEG_QUALITY = 88
+
         pdf_bytes = download_bytes(pdf_url, session, timeout=45)
         doc = fitz.open(stream=pdf_bytes, filetype="pdf")
         if len(doc) == 0:
-            return ""
+            return _generate_generic_3d4d_placeholder(out_path, title, WEB_SIZE, JPEG_QUALITY)
+
+        def normalize_text(s: str) -> str:
+            return " ".join((s or "").replace("\xa0", " ").lower().split())
 
         def is_hal_cover_page(page) -> bool:
-            """
-            Heuristique pour détecter une page de garde HAL.
-            """
-            text = page.get_text("text") or ""
-            text_low = " ".join(text.lower().split())
-
+            text = normalize_text(page.get_text("text") or "")
             hal_markers = [
-                "hal is a multi-disciplinary open access archive",
-                "archive ouverte pluridisciplinaire hal",
                 "hal open science",
+                "archive ouverte pluridisciplinaire hal",
+                "hal is a multi-disciplinary open access archive",
                 "hal author manuscript",
                 "submitted on",
-                "cel-",
-                "hal-",
             ]
+            return sum(1 for m in hal_markers if m in text) >= 2
 
-            score = sum(1 for marker in hal_markers if marker in text_low)
+        def page_text_blocks(page):
+            blocks = page.get_text("dict").get("blocks", [])
+            out = []
+            for b in blocks:
+                if b.get("type") != 0 or "bbox" not in b:
+                    continue
+                parts = []
+                for line in b.get("lines", []):
+                    for span in line.get("spans", []):
+                        txt = span.get("text", "")
+                        if txt.strip():
+                            parts.append(txt)
+                txt = " ".join(parts).strip()
+                if txt:
+                    out.append({"rect": fitz.Rect(b["bbox"]), "text": txt})
+            return out
 
-            # Cas fréquent : présence forte de HAL dans le texte
-            if score >= 2:
-                return True
+        def page_image_blocks(page):
+            blocks = page.get_text("dict").get("blocks", [])
+            out = []
+            for b in blocks:
+                if b.get("type") == 1 and "bbox" in b:
+                    rect = fitz.Rect(b["bbox"])
+                    if rect.width >= 50 and rect.height >= 50:
+                        out.append(rect)
+            return out
 
-            # Fallback : très forte occurrence de "hal"
-            if text_low.count("hal") >= 3 and (
-                "archive ouverte" in text_low or "open access archive" in text_low
-            ):
-                return True
+        def rect_intersection_area(r1, r2):
+            x0 = max(r1.x0, r2.x0)
+            y0 = max(r1.y0, r2.y0)
+            x1 = min(r1.x1, r2.x1)
+            y1 = min(r1.y1, r2.y1)
+            if x1 <= x0 or y1 <= y0:
+                return 0.0
+            return (x1 - x0) * (y1 - y0)
 
-            return False
+        def text_density(page, rect):
+            total = max(1.0, rect.width * rect.height)
+            text_area = 0.0
+            for tb in page_text_blocks(page):
+                txt = normalize_text(tb["text"])
+                if len(txt) < 8:
+                    continue
+                text_area += rect_intersection_area(rect, tb["rect"])
+            return min(1.0, text_area / total)
 
-        start_page = 0
-        if len(doc) > 1 and is_hal_cover_page(doc[0]):
-            start_page = 1
+        def caption_like_density(page, rect):
+            score = 0
+            for tb in page_text_blocks(page):
+                if rect_intersection_area(rect, tb["rect"]) <= 0:
+                    continue
+                txt = normalize_text(tb["text"])
+                if not txt:
+                    continue
+                if "figure" in txt or "fig." in txt or "fig " in txt:
+                    score += 2
+                if len(txt) > 80:
+                    score += 1
+            return score
 
-        first_img_bytes = None
+        def render_rect_from_page(page, rect):
+            mx = max(6, rect.width * 0.015)
+            my = max(6, rect.height * 0.015)
+            clip = fitz.Rect(
+                max(0, rect.x0 - mx),
+                max(0, rect.y0 - my),
+                min(page.rect.width, rect.x1 + mx),
+                min(page.rect.height, rect.y1 + my),
+            )
+            pix = page.get_pixmap(matrix=fitz.Matrix(2.6, 2.6), clip=clip, alpha=False)
+            return Image.open(io.BytesIO(pix.tobytes("png"))).convert("RGB")
 
-        for page_index in range(start_page, len(doc)):
-            page = doc[page_index]
-            images = page.get_images(full=True)
-            if not images:
-                continue
+        def fit_to_16_9_contain(img: Image.Image, size=(880, 495), bg=(245, 247, 250)) -> Image.Image:
+            target_w, target_h = size
+            src_w, src_h = img.size
+            if src_w <= 0 or src_h <= 0:
+                return Image.new("RGB", size, bg)
 
-            # Première image trouvée sur cette page
-            for img in images:
-                xref = img[0]
-                try:
-                    img_info = doc.extract_image(xref)
-                    img_bytes = img_info.get("image")
-                    if img_bytes:
-                        first_img_bytes = img_bytes
-                        break
-                except Exception:
+            scale = min(target_w / src_w, target_h / src_h)
+            new_w = max(1, int(src_w * scale))
+            new_h = max(1, int(src_h * scale))
+            resized = img.resize((new_w, new_h), Image.LANCZOS)
+
+            canvas = Image.new("RGB", size, bg)
+            x = (target_w - new_w) // 2
+            y = (target_h - new_h) // 2
+            canvas.paste(resized, (x, y))
+            return canvas
+
+        def caption_score(text: str) -> int:
+            t = normalize_text(text)
+            score = 0
+            if "figure 1" in t:
+                score += 100
+            if "fig. 1" in t or "fig 1" in t:
+                score += 95
+            if t.startswith("figure 1") or t.startswith("fig. 1") or t.startswith("fig 1"):
+                score += 15
+            return score
+
+        def is_good_teaser_region(page, rect):
+            area = rect.width * rect.height
+            if area < 18000:
+                return False
+            td = text_density(page, rect)
+            cap = caption_like_density(page, rect)
+            if td > 0.18:
+                return False
+            if cap >= 3 and td > 0.10:
+                return False
+            return True
+
+        def image_visual_score(img: Image.Image) -> float:
+            """
+            Préfère les zones avec un peu de contraste / contenu visuel,
+            et rejette les zones trop blanches / plates.
+            """
+            gray = img.convert("L")
+            stat = ImageStat.Stat(gray)
+            mean = stat.mean[0]
+            std = stat.stddev[0]
+
+            # pénalité si quasi blanc
+            white_penalty = 0.0
+            if mean > 242:
+                white_penalty = (mean - 242) * 4.0
+
+            # score simple
+            return std * 8.0 - white_penalty
+
+        def evaluate_candidate(page, rect, base_score):
+            if not is_good_teaser_region(page, rect):
+                return None
+
+            try:
+                crop = render_rect_from_page(page, rect)
+            except Exception:
+                return None
+
+            vis = image_visual_score(crop)
+            td = text_density(page, rect)
+            score = float(base_score) + vis - 250.0 * td
+
+            # élimine les crops trop ternes / trop blancs
+            if vis < 8:
+                return None
+
+            return score, crop
+
+        def find_figure1_candidate():
+            start_page = 1 if len(doc) > 1 and is_hal_cover_page(doc[0]) else 0
+            best = None
+
+            for page_index in range(start_page, min(len(doc), start_page + 4)):
+                page = doc[page_index]
+                text_blocks = page_text_blocks(page)
+                image_blocks = page_image_blocks(page)
+
+                if not text_blocks or not image_blocks:
                     continue
 
-            if first_img_bytes is not None:
-                break
+                captions = []
+                for tb in text_blocks:
+                    cs = caption_score(tb["text"])
+                    if cs > 0:
+                        captions.append((cs, tb["rect"]))
+
+                if not captions:
+                    continue
+
+                for cs, cap_rect in captions:
+                    for img_rect in image_blocks:
+                        overlap = max(
+                            0,
+                            min(img_rect.x1, cap_rect.x1) - max(img_rect.x0, cap_rect.x0)
+                        )
+                        overlap_ratio = overlap / max(1.0, min(img_rect.width, cap_rect.width))
+
+                        if img_rect.y1 <= cap_rect.y0:
+                            gap = cap_rect.y0 - img_rect.y1
+                            base_score = cs + 100 - min(gap, 150) + int(40 * overlap_ratio)
+                        elif img_rect.y0 >= cap_rect.y1:
+                            gap = img_rect.y0 - cap_rect.y1
+                            base_score = cs + 70 - min(gap, 150) + int(30 * overlap_ratio)
+                        else:
+                            continue
+
+                        base_score += min((img_rect.width * img_rect.height) / 5000.0, 50)
+
+                        evaluated = evaluate_candidate(page, img_rect, base_score)
+                        if evaluated is None:
+                            continue
+                        score, crop = evaluated
+
+                        cand = (score, crop)
+                        if best is None or cand[0] > best[0]:
+                            best = cand
+
+            return None if best is None else best[1]
+
+        def find_largest_meaningful_image():
+            start_page = 1 if len(doc) > 1 and is_hal_cover_page(doc[0]) else 0
+            best = None
+
+            for page_index in range(start_page, min(len(doc), start_page + 4)):
+                page = doc[page_index]
+                page_rect = page.rect
+
+                for rect in page_image_blocks(page):
+                    if rect.y0 < page_rect.height * 0.07:
+                        continue
+                    if rect.y1 > page_rect.height * 0.95:
+                        continue
+                    if rect.width * rect.height < 15000:
+                        continue
+
+                    cx = (rect.x0 + rect.x1) / 2.0
+                    center_dist = abs(cx - page_rect.width / 2.0) / max(1.0, page_rect.width / 2.0)
+                    center_bonus = 20.0 * (1.0 - min(center_dist, 1.0))
+
+                    base_score = (rect.width * rect.height) / 1000.0 + center_bonus * 8.0
+                    evaluated = evaluate_candidate(page, rect, base_score)
+                    if evaluated is None:
+                        continue
+                    score, crop = evaluated
+
+                    cand = (score, crop)
+                    if best is None or cand[0] > best[0]:
+                        best = cand
+
+            return None if best is None else best[1]
+
+        def smart_page_crop():
+            start_page = 1 if len(doc) > 1 and is_hal_cover_page(doc[0]) else 0
+            best = None
+
+            for page_index in range(start_page, min(len(doc), start_page + 3)):
+                page = doc[page_index]
+                pr = page.rect
+
+                windows = [
+                    fitz.Rect(pr.width * 0.08, pr.height * 0.18, pr.width * 0.92, pr.height * 0.56),
+                    fitz.Rect(pr.width * 0.08, pr.height * 0.22, pr.width * 0.92, pr.height * 0.66),
+                    fitz.Rect(pr.width * 0.10, pr.height * 0.28, pr.width * 0.90, pr.height * 0.74),
+                ]
+
+                for rect in windows:
+                    td = text_density(page, rect)
+                    cap = caption_like_density(page, rect)
+
+                    if td > 0.14:
+                        continue
+
+                    try:
+                        crop = render_rect_from_page(page, rect)
+                    except Exception:
+                        continue
+
+                    vis = image_visual_score(crop)
+                    score = (rect.width * rect.height) / 1000.0 + vis - 320.0 * td - 25.0 * cap
+
+                    if vis < 6:
+                        continue
+
+                    cand = (score, crop)
+                    if best is None or cand[0] > best[0]:
+                        best = cand
+
+            return None if best is None else best[1]
+
+        img = find_figure1_candidate()
+        if img is None:
+            img = find_largest_meaningful_image()
+        if img is None:
+            img = smart_page_crop()
 
         doc.close()
 
-        if first_img_bytes is None:
-            return ""
+        if img is not None:
+            teaser = fit_to_16_9_contain(img, WEB_SIZE)
+            teaser.save(out_path, format="JPEG", quality=JPEG_QUALITY)
+            return str(out_path).replace("\\", "/")
 
-        img = Image.open(io.BytesIO(first_img_bytes)).convert("RGB")
-        img.thumbnail((400, 400), Image.LANCZOS)
-        img.save(out_path, format="JPEG", quality=85)
-
-        return str(out_path).replace("\\", "/")
+        return _generate_generic_3d4d_placeholder(out_path, title, WEB_SIZE, JPEG_QUALITY)
 
     except Exception:
+        try:
+            return _generate_generic_3d4d_placeholder(
+                THUMB_DIR / f"{slugify(title)}-{hashlib.md5(pdf_url.encode('utf-8')).hexdigest()[:10]}.jpg",
+                title,
+                (880, 495),
+                88,
+            )
+        except Exception:
+            return ""
+
+def _generate_generic_3d4d_placeholder(out_path, title, web_size=(880, 495), jpeg_quality=88) -> str:
+    try:
+        import math
+        import random
+        from pathlib import Path
+        from PIL import Image, ImageDraw, ImageFilter
+
+        out_path = Path(out_path)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+
+        w, h = web_size
+        img = Image.new("RGB", (w, h), (244, 247, 251))
+        draw = ImageDraw.Draw(img)
+
+        # fond doux
+        for y in range(h):
+            t = y / max(1, h - 1)
+            r = int(246 - 18 * t)
+            g = int(248 - 12 * t)
+            b = int(252 - 6 * t)
+            draw.line([(0, y), (w, y)], fill=(r, g, b))
+
+        # grille perspective
+        horizon = int(h * 0.34)
+        for i in range(12):
+            x = int(i * w / 11)
+            draw.line([(x, h), (w // 2, horizon)], fill=(223, 229, 237), width=1)
+
+        for j in range(8):
+            yy = horizon + int((j / 7.0) ** 1.8 * (h - horizon - 24))
+            draw.line([(24, yy), (w - 24, yy)], fill=(228, 233, 240), width=1)
+
+        # ruban 4D
+        pts1 = []
+        pts2 = []
+        for i in range(140):
+            x = 70 + i * (w - 140) / 139.0
+            phase = i / 139.0 * 3.0 * math.pi
+            y = int(h * 0.53 + 42 * math.sin(phase) - 18 * math.cos(phase * 0.55))
+            z = 16 + 8 * math.sin(phase * 1.25)
+            pts1.append((x, y - z))
+            pts2.append((x, y + z))
+        draw.polygon(pts1 + list(reversed(pts2)), fill=(88, 138, 214), outline=(67, 108, 176))
+
+        # trajectoire temporelle
+        traj = []
+        for i in range(58):
+            x = 82 + i * (w - 164) / 57.0
+            y = int(h * 0.26 + 0.85 * i + 14 * math.sin(i * 0.25))
+            traj.append((x, y))
+        for i in range(len(traj) - 1):
+            draw.line([traj[i], traj[i + 1]], fill=(236, 96, 70), width=3)
+
+        # nuage de points
+        rng = random.Random(42)
+        colors = [
+            (45, 95, 170),
+            (72, 130, 210),
+            (236, 101, 72),
+            (120, 162, 221),
+        ]
+        for _ in range(130):
+            x = int(rng.uniform(w * 0.14, w * 0.86))
+            y = int(rng.uniform(h * 0.16, h * 0.80))
+            r = rng.randint(2, 3)
+            c = rng.choice(colors)
+            draw.ellipse((x - r, y - r, x + r, y + r), fill=c)
+
+        # deux volumes abstraits
+        for cx, cy, sx, sy in [
+            (int(w * 0.28), int(h * 0.60), 58, 82),
+            (int(w * 0.68), int(h * 0.53), 72, 98),
+        ]:
+            bbox = (cx - sx, cy - sy, cx + sx, cy + sy)
+            draw.ellipse(bbox, outline=(82, 116, 176), width=3)
+            draw.arc((bbox[0] + 10, bbox[1] + 16, bbox[2] - 10, bbox[3] - 16), 210, 25, fill=(82, 116, 176), width=2)
+
+        # bandeau discret
+        draw.rounded_rectangle(
+            (26, h - 74, w - 26, h - 18),
+            radius=16,
+            fill=(255, 255, 255),
+            outline=(221, 227, 235),
+            width=1,
+        )
+
+        label = "Generic 3D/4D Vision Figure"
+        title_short = (title or "").strip()
+        if len(title_short) > 82:
+            title_short = title_short[:79] + "..."
+
+        draw.text((42, h - 64), label, fill=(60, 78, 104))
+        if title_short:
+            draw.text((42, h - 40), title_short, fill=(95, 105, 120))
+
+        img = img.filter(ImageFilter.SMOOTH_MORE)
+        img.save(out_path, format="JPEG", quality=jpeg_quality)
+
+        return str(out_path).replace("\\", "/")
+    except Exception:
         return ""
+#####
+######
 def extract_thumbnail(dl, base_url: str, pdf_url: str, title: str, session: requests.Session) -> str:
     # 1. meilleure option : lien parent de la vignette s'il pointe vers une vraie image
     a = dl.select_one("dd.Vignette a")
@@ -240,7 +588,7 @@ def extract_thumbnail(dl, base_url: str, pdf_url: str, title: str, session: requ
         if is_image_url(src) and "/thumb/" not in src:
             return src
 
-    # 3. sinon, génère une vignette locale depuis la première page du PDF
+    # 3. sinon, génère une vignette locale robuste depuis le PDF
     if pdf_url:
         local_thumb = render_pdf_first_page_thumbnail(pdf_url, title, session)
         if local_thumb:
