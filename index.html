@@ -704,6 +704,7 @@
         pdf: safeText(item.pdf),
         video: safeText(item.video),
         code: safeText(item.code),
+        bibtex_url: safeText(item.bibtex_url),
         keywords: Array.isArray(item.keywords) ? item.keywords.map(String) : []
       };
     }
@@ -723,7 +724,7 @@
       if (pub.pdf) links.push(`<a class="pub-link" href="${pub.pdf}" target="_blank" rel="noopener">PDF</a>`);
       if (pub.video) links.push(`<a class="pub-link" href="${pub.video}" target="_blank" rel="noopener">Video</a>`);
       if (pub.code) links.push(`<a class="pub-link" href="${pub.code}" target="_blank" rel="noopener">Code</a>`);
-      if (pub.scholar) links.push(`<a class="pub-link" href="${pub.scholar}" target="_blank" rel="noopener">Scholar</a>`);
+      if (pub.bibtex_url) links.push(`<a class="pub-link" href="${pub.bibtex_url}" target="_blank" rel="noopener">Scholar</a>`);
 
       article.innerHTML = `
         ${teaser}
