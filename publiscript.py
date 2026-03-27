@@ -137,6 +137,9 @@ def download_bytes(url: str, session: requests.Session, timeout: int = 45) -> by
 
 def render_pdf_first_page_thumbnail(pdf_url: str, title: str, session: requests.Session) -> str:
     try:
+        from PIL import Image
+        import io
+
         THUMB_DIR.mkdir(parents=True, exist_ok=True)
 
         h = hashlib.md5(pdf_url.encode("utf-8")).hexdigest()[:10]
@@ -151,17 +154,77 @@ def render_pdf_first_page_thumbnail(pdf_url: str, title: str, session: requests.
         if len(doc) == 0:
             return ""
 
-        page = doc[0]
-        mat = fitz.Matrix(2.0, 2.0)
-        pix = page.get_pixmap(matrix=mat, alpha=False)
-        pix.save(str(out_path))
+        def is_hal_cover_page(page) -> bool:
+            """
+            Heuristique pour détecter une page de garde HAL.
+            """
+            text = page.get_text("text") or ""
+            text_low = " ".join(text.lower().split())
+
+            hal_markers = [
+                "hal is a multi-disciplinary open access archive",
+                "archive ouverte pluridisciplinaire hal",
+                "hal open science",
+                "hal author manuscript",
+                "submitted on",
+                "cel-",
+                "hal-",
+            ]
+
+            score = sum(1 for marker in hal_markers if marker in text_low)
+
+            # Cas fréquent : présence forte de HAL dans le texte
+            if score >= 2:
+                return True
+
+            # Fallback : très forte occurrence de "hal"
+            if text_low.count("hal") >= 3 and (
+                "archive ouverte" in text_low or "open access archive" in text_low
+            ):
+                return True
+
+            return False
+
+        start_page = 0
+        if len(doc) > 1 and is_hal_cover_page(doc[0]):
+            start_page = 1
+
+        first_img_bytes = None
+
+        for page_index in range(start_page, len(doc)):
+            page = doc[page_index]
+            images = page.get_images(full=True)
+            if not images:
+                continue
+
+            # Première image trouvée sur cette page
+            for img in images:
+                xref = img[0]
+                try:
+                    img_info = doc.extract_image(xref)
+                    img_bytes = img_info.get("image")
+                    if img_bytes:
+                        first_img_bytes = img_bytes
+                        break
+                except Exception:
+                    continue
+
+            if first_img_bytes is not None:
+                break
+
         doc.close()
 
+        if first_img_bytes is None:
+            return ""
+
+        img = Image.open(io.BytesIO(first_img_bytes)).convert("RGB")
+        img.thumbnail((400, 400), Image.LANCZOS)
+        img.save(out_path, format="JPEG", quality=85)
+
         return str(out_path).replace("\\", "/")
+
     except Exception:
         return ""
-
-
 def extract_thumbnail(dl, base_url: str, pdf_url: str, title: str, session: requests.Session) -> str:
     # 1. meilleure option : lien parent de la vignette s'il pointe vers une vraie image
     a = dl.select_one("dd.Vignette a")
