@@ -675,216 +675,195 @@
   </main>
 
   <script>
-    const e = ["edmond.boyer", "inria.fr"];
-    document.getElementById("email").innerHTML =
-      `<a href="mailto:${e[0]}@${e[1]}">${e[0]}@${e[1]}</a>`;
+  const e = ["edmond.boyer", "inria.fr"];
+  document.getElementById("email").innerHTML =
+    `<a href="mailto:${e[0]}@${e[1]}">${e[0]}@${e[1]}</a>`;
 
-    const SCHOLAR_PROFILE = "https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en";
-    const LOCAL_PUBLICATIONS_JSON = "publications.json";
-    const PUBLICATIONS_ENDPOINT = "";
+  const SCHOLAR_PROFILE = "https://scholar.google.com/citations?user=bxcnXn8AAAAJ&hl=en";
+  const LOCAL_PUBLICATIONS_JSON = "publications.json";
+  const PUBLICATIONS_ENDPOINT = "";
 
-    const pubListEl = document.getElementById("pub-list");
-    const pubStatusEl = document.getElementById("pub-status");
-    const pubSearchEl = document.getElementById("pub-search");
-    const pubYearEl = document.getElementById("pub-year");
-    const defaultpubYear = "2024";
-    pubYearEl.value=defaultpubYear;
-    let publications = [];
-    let allPublications = [];
-    let visiblePublications = [];
+  const pubListEl = document.getElementById("pub-list");
+  const pubStatusEl = document.getElementById("pub-status");
+  const pubSearchEl = document.getElementById("pub-search");
+  const pubYearEl = document.getElementById("pub-year");
 
-    function safeText(value) {
-      return (value ?? "").toString();
-    }
+  const defaultPubYear = "2024";
 
-    function normalizePub(item) {
-      return {
-        title: safeText(item.title) || "Untitled publication",
-        authors: safeText(item.authors),
-        venue: safeText(item.venue || item.journal || item.booktitle),
-        year: safeText(item.year),
-        abstract: safeText(item.abstract || item.summary || item.description),
-        teaser: safeText(item.teaser || item.thumbnail || item.image),
-        pdf: safeText(item.pdf),
-        video: safeText(item.video),
-        code: safeText(item.code),
-        bibtex_url: safeText(item.bibtex_url),
-        keywords: Array.isArray(item.keywords) ? item.keywords.map(String) : []
-      };
-    }
+  let publications = [];
+  let allPublications = [];
+  let visiblePublications = [];
 
-    function makePublicationCard(pub) {
-      const article = document.createElement("article");
-      article.className = "pub-item";
+  function safeText(value) {
+    return (value ?? "").toString();
+  }
 
-      const teaser = pub.teaser
-        ? `<img class="pub-thumb" src="${pub.teaser}" alt="Teaser for ${pub.title}" loading="lazy" />`
-        : `<div class="pub-thumb" aria-hidden="true"></div>`;
+  function normalizePub(item) {
+    return {
+      title: safeText(item.title) || "Untitled publication",
+      authors: safeText(item.authors),
+      venue: safeText(item.venue || item.journal || item.booktitle),
+      year: safeText(item.year),
+      abstract: safeText(item.abstract || item.summary || item.description),
+      teaser: safeText(item.teaser || item.thumbnail || item.image),
+      pdf: safeText(item.pdf),
+      video: safeText(item.video),
+      code: safeText(item.code),
+      bibtex_url: safeText(item.bibtex_url),
+      keywords: Array.isArray(item.keywords) ? item.keywords.map(String) : []
+    };
+  }
 
-      const meta = [pub.authors, pub.venue, pub.year].filter(Boolean).join(" · ");
-      const description = pub.abstract ? `<p class="pub-desc">${pub.abstract}</p>` : "";
+  function escapeHtml(str) {
+    return safeText(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
 
-      const links = [];
-      if (pub.pdf) links.push(`<a class="pub-link" href="${pub.pdf}" target="_blank" rel="noopener">PDF</a>`);
-      if (pub.video) links.push(`<a class="pub-link" href="${pub.video}" target="_blank" rel="noopener">Video</a>`);
-      if (pub.code) links.push(`<a class="pub-link" href="${pub.code}" target="_blank" rel="noopener">Code</a>`);
-      if (pub.bibtex_url) links.push(`<a class="pub-link" href="${pub.bibtex_url}" target="_blank" rel="noopener">Bibtex</a>`);
+  function makePublicationCard(pub) {
+    const article = document.createElement("article");
+    article.className = "pub-item";
 
-      article.innerHTML = `
-        ${teaser}
-        <div>
-          <h3 class="pub-title">${pub.title}</h3>
-          <p class="pub-meta">${meta}</p>
-          ${description}
-          <div class="pub-links">${links.join("")}</div>
-        </div>
-      `;
+    const teaser = pub.teaser
+      ? `<img class="pub-thumb" src="${escapeHtml(pub.teaser)}" alt="Teaser for ${escapeHtml(pub.title)}" loading="lazy" />`
+      : `<div class="pub-thumb" aria-hidden="true"></div>`;
 
-      return article;
-    }
+    const meta = [pub.authors, pub.venue, pub.year].filter(Boolean).join(" · ");
+    const description = pub.abstract ? `<p class="pub-desc">${escapeHtml(pub.abstract)}</p>` : "";
 
-    function populateYearFilter(items) {
-      const currentValue = pubYearEl.value || "";
+    const links = [];
+    if (pub.pdf) links.push(`<a class="pub-link" href="${escapeHtml(pub.pdf)}" target="_blank" rel="noopener">PDF</a>`);
+    if (pub.video) links.push(`<a class="pub-link" href="${escapeHtml(pub.video)}" target="_blank" rel="noopener">Video</a>`);
+    if (pub.code) links.push(`<a class="pub-link" href="${escapeHtml(pub.code)}" target="_blank" rel="noopener">Code</a>`);
+    if (pub.bibtex_url) links.push(`<a class="pub-link" href="${escapeHtml(pub.bibtex_url)}" target="_blank" rel="noopener">BibTeX</a>`);
 
-      const years = [...new Set(
-        items.map((p) => String(p.year || "").trim()).filter(Boolean)
-      )].sort((a, b) => Number(b) - Number(a));
+    article.innerHTML = `
+      ${teaser}
+      <div>
+        <h3 class="pub-title">${escapeHtml(pub.title)}</h3>
+        <p class="pub-meta">${escapeHtml(meta)}</p>
+        ${description}
+        <div class="pub-links">${links.join("")}</div>
+      </div>
+    `;
 
-      pubYearEl.innerHTML =
-        '<option value="">All Years</option>' +
-        years.map((y) => `<option value="${y}">${y}</option>`).join("");
+    return article;
+  }
 
-      if (years.includes(currentValue)) {
-        pubYearEl.value = currentValue;
-      } else {
+  function populateYearFilter(items) {
+    const years = [...new Set(
+      items.map((p) => String(p.year || "").trim()).filter(Boolean)
+    )].sort((a, b) => Number(b) - Number(a));
+
+    pubYearEl.innerHTML =
+      '<option value="">All Years</option>' +
+      years.map((y) => `<option value="${escapeHtml(y)}">${escapeHtml(y)}</option>`).join("");
+
+    if (years.includes(defaultPubYear)) {
+      pubYearEl.value = defaultPubYear;
+    } else {
       pubYearEl.value = "";
-      }
     }
+  }
 
+  function renderPublications(items) {
+    pubListEl.innerHTML = "";
 
-    function populateYearFilter2(items) {
-      const years = [...new Set(items.map((p) => p.year).filter(Boolean))]
-        .sort((a, b) => Number(b) - Number(a));
-
-      pubYearEl.innerHTML =
-        '<option value="all">All Years</option>' +
-        years.map((y) => `<option value="${y}">${y}</option>`).join("");
-
-      const defaultYear = "2024";
-      pubYearEl.value = years.map(String).includes(defaultYear) ? defaultYear : "2024";
-    }
-
-    function renderPublications(items) {
-      pubListEl.innerHTML = "";
-
-      if (!items.length) {
-        pubStatusEl.style.display = "block";
-        pubStatusEl.innerHTML = `No publication matches the current filters. You can still browse the <a href="${SCHOLAR_PROFILE}" target="_blank" rel="noopener">Google Scholar profile</a>.`;
-        return;
-      }
-
-      pubStatusEl.style.display = "none";
-      items.forEach((pub) => pubListEl.appendChild(makePublicationCard(pub)));
-    }
-
-    function applyFilters() {
-      const selectedYear = pubYearEl.value || "";
-      const query = (pubSearchEl.value || "").trim().toLowerCase();
-
-      visiblePublications = allPublications.filter((p) => {
-        const matchYear = selectedYear === "" || String(p.year || "") === selectedYear;
-
-        const haystack = [
-          p.title || "",
-          p.authors || "",
-          p.venue || "",
-          p.year || ""
-          ].join(" ").toLowerCase();
-
-        const matchSearch = query === "" || haystack.includes(query);
-
-        return matchYear && matchSearch;
-      });
-
-      renderPublications(visiblePublications);
-    }
-
-    function applyPubFilters() {
-      const query = pubSearchEl.value.trim().toLowerCase();
-      const year = pubYearEl.value;
-
-      const filtered = publications.filter((pub) => {
-        const haystack = [
-          pub.title,
-          pub.authors,
-          pub.venue,
-          pub.abstract,
-          pub.year,
-          ...(pub.keywords || [])
-        ].join(" ").toLowerCase();
-
-        const qOk = !query || haystack.includes(query);
-        const yOk = !year || pub.year === year;
-        return qOk && yOk;
-      });
-
-      renderPublications(filtered);
-    }
-
-    async function fetchJSON(url) {
-      const response = await fetch(url, { headers: { Accept: "application/json" } });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      return response.json();
-    }
-
-    async function loadPublications() {
-      const sources = [PUBLICATIONS_ENDPOINT, LOCAL_PUBLICATIONS_JSON].filter(Boolean);
-
-      for (const src of sources) {
-        try {
-          const data = await fetchJSON(src);
-          const items = Array.isArray(data) ? data : (data.items || []);
-          publications = items
-            .map(normalizePub)
-            .sort((a, b) => Number(b.year || 0) - Number(a.year || 0));
-
-          if (publications.length) {
-            populateYearFilter(publications);
-            renderPublications(publications);
-            pubStatusEl.innerHTML = `Loaded ${publications.length} publications.`;
-            return;
-          }
-        } catch (err) {
-          console.warn("Publication source failed:", src, err);
-        }
-      }
-
-      publications = [
-        {
-          title: "Example publication card",
-          authors: "A. Author, E. Boyer",
-          venue: "CVPR",
-          year: "2025",
-          abstract: "Replace this sample item by a generated publications.json file. The layout supports teaser images, PDFs, videos, project pages, and code links.",
-          teaser: "assets/publications/example.jpg",
-          pdf: "",
-          video: "",
-          project: "",
-          scholar: SCHOLAR_PROFILE,
-          code: "",
-          keywords: ["example"]
-        }
-      ].map(normalizePub);
-
-      populateYearFilter(publications);
-      renderPublications(publications);
+    if (!items.length) {
       pubStatusEl.style.display = "block";
-      pubStatusEl.innerHTML = `Using placeholder content. Add <code class="inline">publications.json</code> at the root of the repo, or set <code class="inline">PUBLICATIONS_ENDPOINT</code>.`;
+      pubStatusEl.innerHTML =
+        `No publication matches the current filters. You can still browse the <a href="${SCHOLAR_PROFILE}" target="_blank" rel="noopener">Google Scholar profile</a>.`;
+      return;
     }
 
-    pubSearchEl.addEventListener("input", applyFilters);
-    pubYearEl.addEventListener("change", applyFilters);
-    loadPublications();
-  </script>
+    pubStatusEl.style.display = "none";
+    items.forEach((pub) => pubListEl.appendChild(makePublicationCard(pub)));
+  }
+
+  function applyFilters() {
+    const selectedYear = pubYearEl.value || "";
+    const query = (pubSearchEl.value || "").trim().toLowerCase();
+
+    visiblePublications = allPublications.filter((p) => {
+      const matchYear = selectedYear === "" || String(p.year || "") === selectedYear;
+
+      const haystack = [
+        p.title || "",
+        p.authors || "",
+        p.venue || "",
+        p.year || "",
+        ...(Array.isArray(p.keywords) ? p.keywords : [])
+      ].join(" ").toLowerCase();
+
+      const matchSearch = query === "" || haystack.includes(query);
+
+      return matchYear && matchSearch;
+    });
+
+    renderPublications(visiblePublications);
+  }
+
+  async function fetchJSON(url) {
+    const response = await fetch(url, { headers: { Accept: "application/json" } });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  }
+
+  async function loadPublications() {
+    const sources = [PUBLICATIONS_ENDPOINT, LOCAL_PUBLICATIONS_JSON].filter(Boolean);
+
+    for (const src of sources) {
+      try {
+        const data = await fetchJSON(src);
+        const items = Array.isArray(data) ? data : (data.items || []);
+
+        publications = items
+          .map(normalizePub)
+          .sort((a, b) => Number(b.year || 0) - Number(a.year || 0));
+
+        if (publications.length) {
+          allPublications = publications;
+          populateYearFilter(allPublications);
+          applyFilters();
+          return;
+        }
+      } catch (err) {
+        console.warn("Publication source failed:", src, err);
+      }
+    }
+
+    publications = [
+      {
+        title: "Example publication card",
+        authors: "A. Author, E. Boyer",
+        venue: "CVPR",
+        year: "2025",
+        abstract: "Replace this sample item by a generated publications.json file. The layout supports teaser images, PDFs, videos, project pages, and code links.",
+        teaser: "assets/publications/example.jpg",
+        pdf: "",
+        video: "",
+        code: "",
+        bibtex_url: "",
+        keywords: ["example"]
+      }
+    ].map(normalizePub);
+
+    allPublications = publications;
+    populateYearFilter(allPublications);
+    applyFilters();
+
+    pubStatusEl.style.display = "block";
+    pubStatusEl.innerHTML =
+      `Using placeholder content. Add <code class="inline">publications.json</code> at the root of the repo, or set <code class="inline">PUBLICATIONS_ENDPOINT</code>.`;
+  }
+
+  pubSearchEl.addEventListener("input", applyFilters);
+  pubYearEl.addEventListener("change", applyFilters);
+
+  loadPublications();
+</script>
 </body>
 </html>
