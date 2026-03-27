@@ -225,9 +225,10 @@
       align-items: center;
       justify-content: center;
       border-radius: 999px;
-      padding: 0.4rem 0.7rem;
-      font-weight: 650;
-      font-size: 0.85 rem;
+      padding: 0.25rem 0.55rem;
+      font-weight: 600;
+      font-size: 0.75 rem;
+      line-height: 1;
     }
 
     .pill {
@@ -689,6 +690,8 @@
     const defaultpubYear = "2024";
     pubYearEl.value=defaultpubYear;
     let publications = [];
+    let allPublications = [];
+    let visiblePublications = [];
 
     function safeText(value) {
       return (value ?? "").toString();
@@ -741,6 +744,25 @@
     }
 
     function populateYearFilter(items) {
+      const currentValue = pubYearEl.value || "";
+
+      const years = [...new Set(
+        items.map((p) => String(p.year || "").trim()).filter(Boolean)
+      )].sort((a, b) => Number(b) - Number(a));
+
+      pubYearEl.innerHTML =
+        '<option value="">All Years</option>' +
+        years.map((y) => `<option value="${y}">${y}</option>`).join("");
+
+      if (years.includes(currentValue)) {
+        pubYearEl.value = currentValue;
+      } else {
+      pubYearEl.value = "";
+      }
+    }
+
+
+    function populateYearFilter2(items) {
       const years = [...new Set(items.map((p) => p.year).filter(Boolean))]
         .sort((a, b) => Number(b) - Number(a));
 
@@ -766,6 +788,28 @@
     }
 
     function applyFilters() {
+      const selectedYear = pubYearEl.value || "";
+      const query = (pubSearchEl?.value || "").trim().toLowerCase();
+
+      visiblePublications = allPublications.filter((p) => {
+        const matchYear = selectedYear === "" || String(p.year || "") === selectedYear;
+
+        const haystack = [
+          p.title || "",
+          p.authors || "",
+          p.venue || "",
+          p.year || ""
+          ].join(" ").toLowerCase();
+
+        const matchSearch = query === "" || haystack.includes(query);
+
+        return matchYear && matchSearch;
+      });
+
+      renderPublications(visiblePublications);
+    }
+
+    function applyPubFilters() {
       const query = pubSearchEl.value.trim().toLowerCase();
       const year = pubYearEl.value;
 
@@ -832,8 +876,8 @@
         }
       ].map(normalizePub);
 
-      populateYearFilter(publications);
-      renderPublications(publications);
+      populateYearFilter([]]);
+      renderPublications([]);
       pubStatusEl.style.display = "block";
       pubStatusEl.innerHTML = `Using placeholder content. Add <code class="inline">publications.json</code> at the root of the repo, or set <code class="inline">PUBLICATIONS_ENDPOINT</code>.`;
     }
