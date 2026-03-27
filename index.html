@@ -225,8 +225,9 @@
       align-items: center;
       justify-content: center;
       border-radius: 999px;
-      padding: 0.72rem 1rem;
+      padding: 0.4rem 0.7rem;
       font-weight: 650;
+      font-size: 0.85 rem;
     }
 
     .pill {
@@ -533,7 +534,7 @@
             <h1>Edmond Boyer</h1>
 
             <div class="hero-subtitle">
-              Senior researcher at INRIA working on 3D dynamic modeling from images and videos, motion perception, and immersive visual computing.
+              Senior researcher at INRIA working on 3D dynamic modeling from images and videos.
             </div>
 
             <p class="hero-text">
@@ -748,7 +749,7 @@
         years.map((y) => `<option value="${y}">${y}</option>`).join("");
 
       const defaultYear = "2024";
-      pubYearEl.value = years.map(String).includes(defaultYear) ? defaultYear : "all";
+      pubYearEl.value = years.map(String).includes(defaultYear) ? defaultYear : "2024";
     }
 
     function renderPublications(items) {
