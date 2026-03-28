@@ -574,6 +574,16 @@ def _generate_generic_3d4d_placeholder(out_path, title, web_size=(880, 495), jpe
 #####
 ######
 def extract_thumbnail(dl, base_url: str, pdf_url: str, title: str, session: requests.Session) -> str:
+
+    # Si il y a deja une vignette dans assets
+    THUMB_DIR.mkdir(parents=True, exist_ok=True)
+
+    h = hashlib.md5(pdf_url.encode("utf-8")).hexdigest()[:10]
+    stem = f"{slugify(title)}-{h}"
+    out_path = THUMB_DIR / f"{stem}.jpg"
+    if out_path.exists():
+            return str(out_path).replace("\\", "/")
+     
     # 1. meilleure option : lien parent de la vignette s'il pointe vers une vraie image
     a = dl.select_one("dd.Vignette a")
     if a and a.get("href"):

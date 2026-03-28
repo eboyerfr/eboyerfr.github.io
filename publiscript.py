@@ -14,6 +14,8 @@ URL = "https://morpheo.inrialpes.fr/people/Boyer/index.php?id=elements"
 OUTPUT = Path("publications.json")
 MANUAL_FILE = Path("pubmanual.json")
 GITHUB_CACHE_FILE = Path("github_cache.json")
+THUMB_DIR = Path("assets/publications")
+
 
 HEADERS = {
     "User-Agent": (
@@ -103,6 +105,7 @@ def extract_venue(dl):
 
 def extract_links(dl, base_url: str):
     pdf = ""
+    github = ""
     video = ""
     bibtex_url = ""
 
@@ -112,6 +115,14 @@ def extract_links(dl, base_url: str):
 
         if not pdf and ".pdf" in low:
             pdf = href
+
+        # github repository
+        if not github and (
+            "github.com" in low
+            or "gitlab.com" in low
+        ):
+            github = href
+            continue
 
         if not video and (
             ".mp4" in low
