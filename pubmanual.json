@@ -1,0 +1,76 @@
+[
+  {
+    "title": "HISR: Hybrid Implicit Surface Representation for Photorealistic 3D Human Reconstruction",
+    "authors": [
+      "Angtian Wang",
+      "Yuanlu Xu",
+      "Nikolaos Sarafianos",
+      "Robert Maier",
+      "Edmond Boyer",
+      "Alan Yuille",
+      "Tony Tung"
+    ],
+    "venue": "AAAI 2024",
+    "year": 2024,
+    "pdf": "https://www.rmaier.net/pub/wang2024hisr.pdf",
+    "video": "",
+    "thumbnail":"assets/publications/hsir.jpg",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:3utUx_xxzcoC"
+  },
+  {
+    "title": "TSegLab: Multi-stage 3D dental scan segmentation and labeling",
+    "authors": [
+      "Ahmed Rekik",
+      "Achraf Ben-Hamadou",
+      "Oussama Smaoui",
+      "Firas Bouzguenda",
+      "Sergi Pujades",
+      "Edmond Boyer"
+    ],
+    "venue": "Computers in Biology and Medicine",
+    "year": 2025,
+    "pdf": "",
+    "video": "https://crns-smartvision.github.io/tseglab",
+    "thumbnail": "assets/publications/Tseglab.jpg",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:41b8sTJFDYwC"
+  },
+  {
+    "title": "SplatFields: Neural Gaussian Splats for Sparse 3D and 4D Reconstruction",
+    "authors": [
+      "Marko Mihajlovic",
+      "Sergey Prokudin",
+      "Siyu Tang",
+      "Robert Maier",
+      "Federica Bogo",
+      "Tony Tung",
+      "Edmond Boyer"
+    ],
+    "venue": "ECCV 2024",
+    "year": 2024,
+    "pdf": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00254.pdf",
+    "video": "https://markomih.github.io/SplatFields/",
+    "thumbnail":  "assets/publications/splatfield.jpg",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:BN2gBF5gczIC"
+  },
+  {
+    "title": "ANIM: Accurate Neural Implicit Model for Human Reconstruction from a single RGB-D Image",
+    "authors": [
+      "Marco Pesavento",
+      "Yuanlu Xu",
+      "Nikolaos Sarafianos",
+      "Robert Maier",
+      "Ziyan Wang",
+      "Chun-Han Yao",
+      "Marco Volino",
+      "Edmond Boyer",
+      "Adrian Hilton",
+      "Tony Tung"
+    ],
+    "venue": "CVPR 2024",
+    "year": 2024,
+    "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Pesavento_ANIM_Accurate_Neural_Implicit_Model_for_Human_Reconstruction_from_a_CVPR_2024_paper.pdf",
+    "video": "https://marcopesavento.github.io/ANIM/",
+    "thumbnail":"assets/publications/anim.jpg",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:gToihe7qpOEC"
+  }
+]

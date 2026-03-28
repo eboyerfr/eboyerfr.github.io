@@ -1,31 +1,25 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import hashlib
 import json
 import re
 from pathlib import Path
-from urllib.parse import urlparse, unquote
 from urllib.parse import urljoin
 
+import fitz  # PyMuPDF
 import requests
 from bs4 import BeautifulSoup
 
-# ---------------------------------------------------------------------
-# A garder selon ton script existant
-# ---------------------------------------------------------------------
 URL = "https://morpheo.inrialpes.fr/people/Boyer/index.php?id=elements"
 OUTPUT = Path("publications.json")
-MANUAL_FILE = Path("pubmanual.json")
-GITHUB_CACHE_FILE = Path("github_cache.json")
+THUMB_DIR = Path("assets/publications")
 
 HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/122.0.0.0 Safari/537.36"
-    )
+    "User-Agent": "Mozilla/5.0"
 }
 
-# ---------------------------------------------------------------------
-# Ton parse_publication existant doit rester tel quel
-# ---------------------------------------------------------------------
+
 def clean(text: str) -> str:
     if not text:
         return ""
@@ -636,190 +630,6 @@ def parse_publication(dl, base_url: str, session: requests.Session):
     }
 
 
-# ---------------------------------------------------------------------
-# Utilitaires
-# ---------------------------------------------------------------------
-def normalize_title(title: str) -> str:
-    return " ".join((title or "").strip().lower().split())
-
-
-def normalize_text(s: str) -> str:
-    s = (s or "").lower()
-    s = re.sub(r"[^a-z0-9\s]+", " ", s)
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
-
-
-def title_tokens(title: str):
-    stop = {
-        "a", "an", "the", "for", "of", "on", "and", "with", "from", "to",
-        "in", "by", "via", "using", "towards", "toward", "into", "based",
-        "single", "image", "images", "model", "models", "neural", "implicit"
-    }
-    return [t for t in normalize_text(title).split() if len(t) > 2 and t not in stop]
-
-
-def load_json_file(path: Path, default):
-    if path.exists():
-        try:
-            return json.loads(path.read_text(encoding="utf-8"))
-        except Exception:
-            return default
-    return default
-
-
-def save_json_file(path: Path, data):
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
-
-
-# ---------------------------------------------------------------------
-# Recherche GitHub
-# ---------------------------------------------------------------------
-def looks_like_valid_github_url(url: str) -> bool:
-    if not url:
-        return False
-
-    parsed = urlparse(url)
-    host = parsed.netloc.lower()
-    path = parsed.path.lower()
-
-    bad_patterns = [
-        "/issues", "/pull", "/pulls", "/actions", "/commits", "/commit/",
-        "/releases", "/release/", "/packages", "/projects", "/discussions",
-        "/stargazers", "/watchers", "/network", "/search", "/wiki", "/users/"
-    ]
-    if any(p in path for p in bad_patterns):
-        return False
-
-    if host.endswith(".github.io"):
-        return True
-
-    if host == "github.com":
-        parts = [p for p in path.split("/") if p]
-        return len(parts) >= 2
-
-    return False
-
-
-def score_github_candidate(url: str, title: str) -> int:
-    score = 0
-    parsed = urlparse(url)
-    host = parsed.netloc.lower()
-    path = unquote(parsed.path.lower())
-
-    toks = title_tokens(title)
-    overlap = sum(1 for t in toks if t in path)
-
-    if host.endswith(".github.io"):
-        score += 30
-    elif host == "github.com":
-        score += 20
-
-    score += min(overlap, 6) * 5
-
-    if toks and toks[0] in path:
-        score += 10
-
-    return score
-
-
-def extract_result_links_from_duckduckgo(html: str):
-    soup = BeautifulSoup(html, "html.parser")
-    links = []
-
-    for a in soup.select("a.result__a"):
-        href = a.get("href", "").strip()
-        if href:
-            links.append(href)
-
-    return links
-
-
-def search_github_from_title(title: str, session: requests.Session, github_cache: dict) -> str:
-    key = normalize_title(title)
-    if key in github_cache:
-        return github_cache[key]
-
-    queries = [
-        f'"{title}" github',
-        f'"{title}" site:github.com',
-        f'"{title}" site:github.io',
-    ]
-
-    candidates = []
-
-    for q in queries:
-        try:
-            r = session.get(
-                "https://html.duckduckgo.com/html/",
-                params={"q": q},
-                headers=HEADERS,
-                timeout=20,
-            )
-            r.raise_for_status()
-
-            for href in extract_result_links_from_duckduckgo(r.text):
-                if looks_like_valid_github_url(href):
-                    candidates.append(href)
-
-        except Exception:
-            continue
-
-    candidates = list(dict.fromkeys(candidates))
-
-    if not candidates:
-        github_cache[key] = ""
-        return ""
-
-    ranked = sorted(
-        candidates,
-        key=lambda u: score_github_candidate(u, title),
-        reverse=True
-    )
-
-    best = ranked[0]
-    best_score = score_github_candidate(best, title)
-
-    result = best if best_score >= 20 else ""
-    github_cache[key] = result
-    return result
-
-
-# ---------------------------------------------------------------------
-# Enrichissement
-# ---------------------------------------------------------------------
-def ensure_publication_fields(pub: dict):
-    defaults = {
-        "title": "",
-        "authors": [],
-        "venue": "",
-        "year": None,
-        "pdf": "",
-        "video": "",
-        "thumbnail": "",
-        "scholar_url": "",
-        "github": "",
-    }
-    for k, v in defaults.items():
-        if k not in pub:
-            pub[k] = v
-    return pub
-
-
-def enrich_publications_with_github(publications, session, github_cache):
-    for idx, pub in enumerate(publications, start=1):
-        ensure_publication_fields(pub)
-
-        if not pub.get("github") and pub.get("title"):
-            pub["github"] = search_github_from_title(pub["title"], session, github_cache)
-
-        if idx % 25 == 0:
-            print(f"GitHub enrichissement : {idx}/{len(publications)}")
-
-
-# ---------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------
 def main():
     session = requests.Session()
 
@@ -831,6 +641,7 @@ def main():
 
     soup = BeautifulSoup(response.text, "html.parser")
 
+    # Chaque publication correspond à un bloc <dl class="NoticeRes...">
     dls = soup.select("dl.NoticeRes, dl.NoticeResAvecVignette")
     print("Nombre de blocs <dl> :", len(dls))
 
@@ -842,9 +653,7 @@ def main():
         if not pub:
             continue
 
-        pub = ensure_publication_fields(pub)
-
-        key = normalize_title(pub["title"])
+        key = pub["title"].strip().lower()
         if key in seen_titles:
             continue
         seen_titles.add(key)
@@ -854,19 +663,8 @@ def main():
         if i % 25 == 0:
             print(f"Traitement : {i}/{len(dls)}")
 
-    # Ajout des publications manuelles
-    if MANUAL_FILE.exists():
-        manual_pubs = load_json_file(MANUAL_FILE, [])
-        for pub in manual_pubs:
-            publications.append(ensure_publication_fields(pub))
-
-    # Enrichissement GitHub avec cache
-    github_cache = load_json_file(GITHUB_CACHE_FILE, {})
-    enrich_publications_with_github(publications, session, github_cache)
-    save_json_file(GITHUB_CACHE_FILE, github_cache)
-
     publications.sort(
-        key=lambda x: ((x.get("year") or 0), x.get("title", "").lower()),
+        key=lambda x: ((x["year"] or 0), x["title"].lower()),
         reverse=True
     )
 
@@ -876,7 +674,6 @@ def main():
     )
 
     print(f"{len(publications)} publications écrites dans {OUTPUT}")
-    print(f"Cache GitHub écrit dans {GITHUB_CACHE_FILE}")
 
 
 if __name__ == "__main__":

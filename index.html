@@ -709,6 +709,7 @@
       pdf: safeText(item.pdf),
       video: safeText(item.video),
       code: safeText(item.code),
+      github: safeText(item.github),
       bibtex_url: safeText(item.bibtex_url),
       keywords: Array.isArray(item.keywords) ? item.keywords.map(String) : []
     };
@@ -738,6 +739,7 @@
     if (pub.pdf) links.push(`<a class="pub-link" href="${escapeHtml(pub.pdf)}" target="_blank" rel="noopener">PDF</a>`);
     if (pub.video) links.push(`<a class="pub-link" href="${escapeHtml(pub.video)}" target="_blank" rel="noopener">Video</a>`);
     if (pub.code) links.push(`<a class="pub-link" href="${escapeHtml(pub.code)}" target="_blank" rel="noopener">Code</a>`);
+    if (pub.github) links.push(`<a class="pub-link" href="${escapeHtml(pub.github)}" target="_blank" rel="noopener">Github</a>`);
     if (pub.bibtex_url) links.push(`<a class="pub-link" href="${escapeHtml(pub.bibtex_url)}" target="_blank" rel="noopener">BibTeX</a>`);
 
     article.innerHTML = `
