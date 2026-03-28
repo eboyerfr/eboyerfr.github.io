@@ -663,7 +663,14 @@ def extract_thumbnail(dl, base_url: str, pdf_url: str, title: str, session: requ
     if img and img.get("src"):
         return urljoin(base_url, img["src"])
 
-    return ""
+    # 5. fallback FINAL → placeholder (IMPORTANT)
+    placeholder = _generate_generic_3d4d_placeholder(
+        out_path,
+        title,
+        (880, 495),
+        88,
+    )
+    return placeholder
 
 def ensure_publication_fields(pub: dict):
     defaults = {
