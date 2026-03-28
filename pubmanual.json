@@ -30,7 +30,7 @@
     "venue": "Computers in Biology and Medicine",
     "year": 2025,
     "pdf": "",
-    "video": "https://crns-smartvision.github.io/tseglab",
+    "github": "https://crns-smartvision.github.io/tseglab",
     "thumbnail": "assets/publications/Tseglab.jpg",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:41b8sTJFDYwC"
   },
@@ -48,7 +48,7 @@
     "venue": "ECCV 2024",
     "year": 2024,
     "pdf": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00254.pdf",
-    "video": "https://markomih.github.io/SplatFields/",
+    "github": "https://markomih.github.io/SplatFields/",
     "thumbnail":  "assets/publications/splatfield.jpg",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:BN2gBF5gczIC"
   },
@@ -69,7 +69,7 @@
     "venue": "CVPR 2024",
     "year": 2024,
     "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Pesavento_ANIM_Accurate_Neural_Implicit_Model_for_Human_Reconstruction_from_a_CVPR_2024_paper.pdf",
-    "video": "https://marcopesavento.github.io/ANIM/",
+    "github": "https://marcopesavento.github.io/ANIM/",
     "thumbnail":"assets/publications/anim.jpg",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:gToihe7qpOEC"
   }

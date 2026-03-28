@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 from urllib.parse import urlparse, unquote
 from urllib.parse import urljoin
+import hashlib
 
 import requests
 from bs4 import BeautifulSoup
@@ -102,48 +103,85 @@ def extract_venue(dl):
         return ""
     return clean_venue(node.get_text(" ", strip=True))
 
+def classify_url(url: str) -> str:
+    low = (url or "").strip().lower()
+
+    if not low:
+        return ""
+
+    if "github.com" in low or "gitlab.com" in low or "bitbucket.org" in low:
+        return "code"
+
+    if low.endswith("/bibtex") or "bibtex" in low:
+        return "bibtex_url"
+
+    if ".pdf" in low:
+        return "pdf"
+
+    if (
+        ".mp4" in low
+        or ".webm" in low
+        or ".mov" in low
+        or "youtube.com" in low
+        or "youtu.be" in low
+        or "vimeo.com" in low
+    ):
+        return "video"
+
+    return ""
+
 
 def extract_links(dl, base_url: str):
     pdf = ""
-    github = ""
     video = ""
+    code = ""
     bibtex_url = ""
 
-    for a in dl.find_all("a", href=True):
-        href = urljoin(base_url, a["href"])
-        low = href.lower()
+    def register_url(raw_url: str):
+        nonlocal pdf, video, code, bibtex_url
 
-        if not pdf and ".pdf" in low:
+        href = urljoin(base_url, raw_url).strip()
+        kind = classify_url(href)
+
+        if kind == "pdf" and not pdf:
             pdf = href
-
-        # github repository
-        if not github and (
-            "github.com" in low
-            or "gitlab.com" in low
-        ):
-            github = href
-            continue
-
-        if not video and (
-            ".mp4" in low
-            or "youtube" in low
-            or "youtu.be" in low
-            or "vimeo" in low
-        ):
+        elif kind == "video" and not video:
             video = href
-
-        if not bibtex_url and low.endswith("/bibtex"):
+        elif kind == "code" and not code:
+            code = href
+        elif kind == "bibtex_url" and not bibtex_url:
             bibtex_url = href
 
-    # fallback : parfois la vidéo est en texte brut dans dd.video
+    # 1) Tous les liens <a href=...>
+    for a in dl.find_all("a", href=True):
+        register_url(a["href"])
+
+    # 2) URLs brutes dans les blocs potentiels
+    for node in dl.select("dd.video, .video, dd.Url, .Url, dd.Notes, .Notes"):
+        txt = clean(node.get_text(" ", strip=True))
+        urls = re.findall(r"https?://[^\s<>\"]+", txt)
+        for u in urls:
+            register_url(u)
+
+    return pdf, video, bibtex_url, code
+
+    # Fallback : n'accepter comme vidéo que de vraies URLs vidéo
     if not video:
         node = dl.select_one("dd.video, .video")
         if node:
-            txt = clean(node.get_text())
-            if txt.startswith("http"):
+            txt = clean(node.get_text()).strip()
+            low = txt.lower()
+            if txt.startswith("http") and (
+                ".mp4" in low
+                or ".webm" in low
+                or ".mov" in low
+                or "youtube.com" in low
+                or "youtu.be" in low
+                or "vimeo.com" in low
+            ):
                 video = txt
 
-    return pdf, video, bibtex_url
+    return pdf, video, bibtex_url, github
 
 
 def download_bytes(url: str, session: requests.Session, timeout: int = 45) -> bytes:
@@ -591,6 +629,16 @@ def _generate_generic_3d4d_placeholder(out_path, title, web_size=(880, 495), jpe
 #####
 ######
 def extract_thumbnail(dl, base_url: str, pdf_url: str, title: str, session: requests.Session) -> str:
+
+    # Si il y a deja une vignette dans assets
+    THUMB_DIR.mkdir(parents=True, exist_ok=True)
+
+    h = hashlib.md5(pdf_url.encode("utf-8")).hexdigest()[:10]
+    stem = f"{slugify(title)}-{h}"
+    out_path = THUMB_DIR / f"{stem}.jpg"
+    if out_path.exists():
+            return str(out_path).replace("\\", "/")
+    
     # 1. meilleure option : lien parent de la vignette s'il pointe vers une vraie image
     a = dl.select_one("dd.Vignette a")
     if a and a.get("href"):
@@ -617,6 +665,34 @@ def extract_thumbnail(dl, base_url: str, pdf_url: str, title: str, session: requ
 
     return ""
 
+def ensure_publication_fields(pub: dict):
+    defaults = {
+        "title": "",
+        "authors": [],
+        "venue": "",
+        "year": None,
+        "pdf": "",
+        "video": "",
+        "thumbnail": "",
+        "scholar_url": "",
+        "code": "",
+    }
+    for k, v in defaults.items():
+        if k not in pub:
+            pub[k] = v
+
+    # compatibilité ancien format
+    if not pub.get("code") and pub.get("github"):
+        pub["code"] = pub["github"]
+
+    # sécurité : si un ancien JSON a mis github dans video, on corrige
+    v = (pub.get("video") or "").lower()
+    if ("github.com" in v or "gitlab.com" in v or "bitbucket.org" in v):
+        if not pub.get("code"):
+            pub["code"] = pub["video"]
+        pub["video"] = ""
+
+    return pub
 
 def parse_publication(dl, base_url: str, session: requests.Session):
     title, page_url = extract_title_and_url(dl, base_url)
@@ -630,7 +706,7 @@ def parse_publication(dl, base_url: str, session: requests.Session):
     if not year:
         year = get_year(dl.get_text(" ", strip=True))
 
-    pdf, video, bibtex_url = extract_links(dl, base_url)
+    pdf, video, bibtex_url, code = extract_links(dl, base_url)
     thumbnail = extract_thumbnail(dl, base_url, pdf, title, session)
 
     return {
@@ -644,9 +720,8 @@ def parse_publication(dl, base_url: str, session: requests.Session):
         "thumbnail": thumbnail,
         "url": page_url,
         "bibtex_url": bibtex_url,
+        "code": code,
     }
-
-
 # ---------------------------------------------------------------------
 # Utilitaires
 # ---------------------------------------------------------------------
@@ -821,8 +896,8 @@ def enrich_publications_with_github(publications, session, github_cache):
     for idx, pub in enumerate(publications, start=1):
         ensure_publication_fields(pub)
 
-        if not pub.get("github") and pub.get("title"):
-            pub["github"] = search_github_from_title(pub["title"], session, github_cache)
+        if not pub.get("code") and pub.get("title"):
+            pub["code"] = search_github_from_title(pub["title"], session, github_cache)
 
         if idx % 25 == 0:
             print(f"GitHub enrichissement : {idx}/{len(publications)}")
