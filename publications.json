@@ -115,7 +115,9 @@
   },
   {
     "title": "Millimetric Human Surface Capture in Minutes",
-    "authors": "Briac Toussaint, Laurence Boissieux, Diego Thomas, Edmond Boyer, Jean-Sébastien Franco",
+    "authors": [
+      "Briac Toussaint, Laurence Boissieux, Diego Thomas, Edmond Boyer, Jean-Sébastien Franco"
+    ],
     "authors_full": "Briac Toussaint, Laurence Boissieux, Diego Thomas, Edmond Boyer, Jean-Sébastien Franco",
     "year": 2024,
     "venue": "SIGGRAPH Asia 2024 - 17th ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia, Dec 2024, Tokyo, Japan.",
@@ -126,7 +128,7 @@
     "bibtex_url": "https://inria.hal.science/hal-04724016v2/bibtex",
     "code": "",
     "scholar_url": "",
-    "github": ""
+    "github": "https://projects-morpheo.gitlabpages.inria.fr/millimetrichumans/"
   },
   {
     "title": "HISR: Hybrid Implicit Surface Representation for Photorealistic 3D Human Reconstruction",
@@ -233,21 +235,6 @@
     "github": ""
   },
   {
-    "title": "MedShapeNet -- A Large-Scale Dataset of 3D Medical Shapes for Computer Vision",
-    "authors": "Jianning Li, Zongwei Zhou, Jiancheng Yang, Antonio Pepe, Christina Gsaxner, et al.",
-    "authors_full": "Jianning Li, Zongwei Zhou, Jiancheng Yang, Antonio Pepe, Christina Gsaxner, Gijs Luijten, Chongyu Qu, Tiezheng Zhang, Xiaoxi Chen, Wenxuan Li, Marek Wodzinski, Paul Friedrich, Kangxian Xie, Yuan Jin, Narmada Ambigapathy, Enrico Nasca, Naida Solak, Gian Marco Melito, Viet Duc Vu, Afaque R. Memon, Christopher Schlachta, Sandrine de Ribaupierre, Rajnikant Patel, Roy Eagleson, Xiaojun Chen, Heinrich Mächler, Jan Stefan Kirschke, Ezequiel de la Rosa, Patrick Ferdinand Christ, Hongwei Bran Li, David G. Ellis, Michele R. Aizenberg, Sergios Gatidis, Thomas Küstner, Nadya Shusharina, Nicholas Heller, Vincent Andrearczyk, Adrien Depeursinge, Mathieu Hatt, Anjany Sekuboyina, Maximilian Löffler, Hans Liebl, Reuben Dorent, Tom Vercauteren, Jonathan Shapey, Aaron Kujawa, Stefan Cornelissen, Patrick Langenhuizen, Achraf Ben-Hamadou, Ahmed Rekik, Sergi Pujades, Edmond Boyer, Federico Bolelli, Costantino Grana, Luca Lumetti, Hamidreza Salehi, Jun Ma, Yao Zhang, Ramtin Gharleghi, Susann Beier, Arcot Sowmya, Eduardo A. Garza-Villarreal, Thania Balducci, Diego Angeles-Valdez, Roberto Souza, Leticia Rittner, Richard Frayne, Yuanfeng Ji, Vincenzo Ferrari, Soumick Chatterjee, Florian Dubost, Stefanie Schreiber, Hendrik Mattern, Oliver Speck, Daniel Haehn, Christoph John, Andreas Nürnberger, João Pedrosa, Carlos Ferreira, Guilherme Aresta, António Cunha, Aurélio Campilho, Yannick Suter, Jose Garcia, Alain Lalande, Vicky Vandenbossche, Aline van Oevelen, Kate Duquesne, Hamza Mekhzoum, Jef Vandemeulebroucke, Emmanuel Audenaert, Claudia Krebs, Timo van Leeuwen, Evie Vereecke, Hauke Heidemeyer, Rainer Röhrig, Frank Hölzle, Vahid Badeli, Kathrin Krieger, Matthias Gunzer, Jianxu Chen, Timo van Meegdenburg, Amin Dada, Miriam Balzer, Jana Fragemann, Frederic Jonske, Moritz Rempe, Stanislav Malorodov, Fin H. Bahnsen, Constantin Seibold, Alexander Jaus, Zdravko Marinov, Paul F. Jaeger, Rainer Stiefelhagen, Ana Sofia Santos, Mariana Lindo, André Ferreira, Victor Alves, Michael Kamp, Amr Abourayya, Felix Nensa, Fabian Hörst, Alexander Brehmer, Lukas Heine, Yannik Hanusrichter, Martin Weßling, Marcel Dudda, Lars E. Podleska, Matthias A. Fink, Julius Keyl, Konstantinos Tserpes, Moon-Sung Kim, Shireen Elhabian, Hans Lamecker, D?enan Zuki?, Beatriz Paniagua, Christian Wachinger, Martin Urschler, Luc Duong, Jakob Wasserthal, Peter F. Hoyer, Oliver Basu, Thomas Maal, Max J. H. Witjes, Gregor Schiele, Ti-Chiun Chang, Seyed-Ahmad Ahmadi, Ping Luo, Bjoern Menze, Mauricio Reyes, Thomas M. Deserno, Christos Davatzikos, Behrus Puladi, Pascal Fua, Alan L. Yuille, Jens Kleesiek, Jan Egger",
-    "year": 2023,
-    "venue": "2023",
-    "pdf": "",
-    "video": "",
-    "thumbnail": "assets/publications/medshapenet-a-large-scale-dataset-of-3d-medical-shapes-for-computer-vision-d41d8cd98f.jpg",
-    "url": "https://inria.hal.science/hal-04397470v1",
-    "bibtex_url": "https://inria.hal.science/hal-04397470v1/bibtex",
-    "code": "",
-    "scholar_url": "",
-    "github": ""
-  },
-  {
     "title": "Human Body Shape Completion with Implicit Shape and Flow Learning",
     "authors": "Boyao Zhou, Di Meng, Jean-Sébastien Franco, Edmond Boyer",
     "authors_full": "Boyao Zhou, Di Meng, Jean-Sébastien Franco, Edmond Boyer",
@@ -279,7 +266,9 @@
   },
   {
     "title": "4DHumanOutfit: a multi-subject 4D dataset of human motion sequences in varying outfits exhibiting large displacements",
-    "authors": "Matthieu Armando, Laurence Boissieux, Edmond Boyer, Jean-Sébastien Franco, Martin Humenberger, et al.",
+    "authors": [
+      "Matthieu Armando, Laurence Boissieux, Edmond Boyer, Jean-Sébastien Franco, Martin Humenberger, et al."
+    ],
     "authors_full": "Matthieu Armando, Laurence Boissieux, Edmond Boyer, Jean-Sébastien Franco, Martin Humenberger, Christophe Legras, Vincent Leroy, Mathieu Marsot, Julien Pansiot, Sergi Pujades, Rim Rekik Dit Nekhili, Grégory Rogez, Anilkumar Swamy, Stefanie Wuhrer",
     "year": 2023,
     "venue": "Computer Vision and Image Understanding, 2023, 237",
@@ -290,7 +279,7 @@
     "bibtex_url": "https://inria.hal.science/hal-04129186v1/bibtex",
     "code": "",
     "scholar_url": "",
-    "github": ""
+    "github": "https://kinovis.inria.fr/4dhumanoutfit/"
   },
   {
     "title": "3DTeethSeg'22: 3D Teeth Scan Segmentation and Labeling Challenge",

@@ -733,7 +733,10 @@ def parse_publication(dl, base_url: str, session: requests.Session):
 # Utilitaires
 # ---------------------------------------------------------------------
 def normalize_title(title: str) -> str:
-    return " ".join((title or "").strip().lower().split())
+    s = (title or "").lower().strip()
+    s = re.sub(r"[^a-z0-9\s]+", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
 
 
 def normalize_text(s: str) -> str:
@@ -947,16 +950,32 @@ def main():
         if i % 25 == 0:
             print(f"Traitement : {i}/{len(dls)}")
 
-    # Ajout des publications manuelles
+    # Index des publications auto par titre normalisé
+    pub_index = {
+        normalize_title(p.get("title", "")): p
+        for p in publications
+    }
+
+    # Ajout / override des publications manuelles
     if MANUAL_FILE.exists():
         manual_pubs = load_json_file(MANUAL_FILE, [])
+
         for pub in manual_pubs:
             pub = ensure_publication_fields(pub)
             key = normalize_title(pub.get("title", ""))
-            if not key or key in seen_titles:
+
+            if not key:
                 continue
-            seen_titles.add(key)
-            publications.append(pub)
+
+            #  suppression de l'entrée auto si elle existe
+            if key in pub_index:
+                del pub_index[key]
+
+            # ajout de la version manuelle
+            pub_index[key] = pub
+
+    # reconstruction finale
+    publications = list(pub_index.values())
 
     # Enrichissement GitHub avec cache
     github_cache = load_json_file(GITHUB_CACHE_FILE, {})
