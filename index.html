@@ -390,13 +390,20 @@
       background: rgba(255,255,255,0.05);
     }
 
-    .pub-thumb {
+    .pub-thumb2 {
       aspect-ratio: 16 / 9;
       width: 100%;
       object-fit: cover;
       border-radius: 16px;
       border: 1px solid rgba(255,255,255,0.1);
       background: linear-gradient(135deg, rgba(127,212,255,0.16), rgba(121,240,207,0.12));
+    }
+    .pub-thumb {
+      width: 220px;
+      aspect-ratio: 2 / 1;   /* plus large que 16:9 */
+      object-fit: cover;
+      object-position: center;
+      border-radius: 12px;
     }
 
     .pub-title {
