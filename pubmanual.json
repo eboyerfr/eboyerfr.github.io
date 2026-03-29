@@ -69,8 +69,41 @@
     "venue": "CVPR 2024",
     "year": 2024,
     "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Pesavento_ANIM_Accurate_Neural_Implicit_Model_for_Human_Reconstruction_from_a_CVPR_2024_paper.pdf",
-    "github": "https://marcopesavento.github.io/ANIM/",
+    "g": "https://marcopesavento.github.io/ANIM/",
     "thumbnail":"assets/publications/anim.jpg",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:gToihe7qpOEC"
+  },
+   {
+    "title": "4DHumanOutfit: a multi-subject 4D dataset of human motion sequences in varying outfits exhibiting large displacements",
+    "authors": ["Matthieu Armando, Laurence Boissieux, Edmond Boyer, Jean-Sébastien Franco, Martin Humenberger, et al."],
+    "authors_full": "Matthieu Armando, Laurence Boissieux, Edmond Boyer, Jean-Sébastien Franco, Martin Humenberger, Christophe Legras, Vincent Leroy, Mathieu Marsot, Julien Pansiot, Sergi Pujades, Rim Rekik Dit Nekhili, Grégory Rogez, Anilkumar Swamy, Stefanie Wuhrer",
+    "year": 2023,
+    "venue": "Computer Vision and Image Understanding, 2023, 237",
+    "pdf": "https://inria.hal.science/hal-04129186/file/4DHumanOutfit-HAL.pdf",
+    "video": "",
+    "thumbnail": "https://inria.hal.science/hal-04129186/file/DataCube_teaser.png",
+    "url": "https://inria.hal.science/hal-04129186v1",
+    "bibtex_url": "https://inria.hal.science/hal-04129186v1/bibtex",
+    "code": "",
+    "scholar_url": "",
+    "github": "https://kinovis.inria.fr/4dhumanoutfit/"
+  },
+   {
+    "title": "Millimetric Human Surface Capture in Minutes",
+    "authors": ["Briac Toussaint, Laurence Boissieux, Diego Thomas, Edmond Boyer, Jean-Sébastien Franco"],
+    "authors_full": "Briac Toussaint, Laurence Boissieux, Diego Thomas, Edmond Boyer, Jean-Sébastien Franco",
+    "year": 2024,
+    "venue": "SIGGRAPH Asia 2024 - 17th ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia, Dec 2024, Tokyo, Japan.",
+    "pdf": "https://inria.hal.science/hal-04724016/file/SiggraphAsia2024-Millimetric-Humans-in-Minutes-preprint.pdf",
+    "video": "",
+    "thumbnail": "assets/publications/millimetric-human-surface-capture-in-minutes-01ffefc42d.jpg",
+    "url": "https://inria.hal.science/hal-04724016v2",
+    "bibtex_url": "https://inria.hal.science/hal-04724016v2/bibtex",
+    "code": "",
+    "scholar_url": "",
+    "github": "https://projects-morpheo.gitlabpages.inria.fr/millimetrichumans/"
   }
+
+
+
 ]

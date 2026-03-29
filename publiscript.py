@@ -951,7 +951,12 @@ def main():
     if MANUAL_FILE.exists():
         manual_pubs = load_json_file(MANUAL_FILE, [])
         for pub in manual_pubs:
-            publications.append(ensure_publication_fields(pub))
+            pub = ensure_publication_fields(pub)
+            key = normalize_title(pub.get("title", ""))
+            if not key or key in seen_titles:
+                continue
+            seen_titles.add(key)
+            publications.append(pub)
 
     # Enrichissement GitHub avec cache
     github_cache = load_json_file(GITHUB_CACHE_FILE, {})
