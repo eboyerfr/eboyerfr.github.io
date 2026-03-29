@@ -964,9 +964,6 @@ def main():
             pub = ensure_publication_fields(pub)
             key = normalize_title(pub.get("title", ""))
 
-            if not key:
-                continue
-
             #  suppression de l'entrée auto si elle existe
             if key in pub_index:
                 del pub_index[key]
