@@ -7,12 +7,11 @@
     "venue": "WACV 2025 - IEEE/CVF Winter Conference on Applications of Computer Vision, Feb 2025, Tucson, United States.",
     "pdf": "https://inria.hal.science/hal-04902240/file/0660.pdf",
     "video": "",
-    "thumbnail": "assets/publications/vortsdf-3d-modeling-with-centroidal-voronoi-tessellation-on-signed-distance-fiel-8ff2682be0.jpg",
+    "thumbnail": "assets/publications/vortsdf-3d-modeling-with-centroidal-voronoi-tessellation-on-signed-distance-field.jpg",
     "url": "https://inria.hal.science/hal-04902240v1",
     "bibtex_url": "https://inria.hal.science/hal-04902240v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "TSegLab: Multi-stage 3D dental scan segmentation and labeling",
@@ -30,8 +29,11 @@
     "github": "https://crns-smartvision.github.io/tseglab",
     "thumbnail": "assets/publications/Tseglab.jpg",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:41b8sTJFDYwC",
+    "authors_full": "",
     "video": "",
-    "code": ""
+    "code": "https://crns-smartvision.github.io/tseglab",
+    "url": "",
+    "bibtex_url": ""
   },
   {
     "title": "MedShapeNet ? a large-scale dataset of 3D medical shapes for computer vision",
@@ -41,12 +43,11 @@
     "venue": "Biomedical Engineering = Biomedizinische Technik, 2025, 70 (1)",
     "pdf": "",
     "video": "",
-    "thumbnail": "assets/publications/medshapenet-a-large-scale-dataset-of-3d-medical-shapes-for-computer-vision-d41d8cd98f.jpg",
+    "thumbnail": "assets/publications/medshapenet-a-large-scale-dataset-of-3d-medical-shapes-for-computer-vision-90aeefd817.jpg",
     "url": "https://hal.univ-brest.fr/hal-05264425v1",
     "bibtex_url": "https://hal.univ-brest.fr/hal-05264425v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Matching Shapes Under Different Topologies: A Topology-Adaptive Deformation Guided Approach",
@@ -56,12 +57,11 @@
     "venue": "2025",
     "pdf": "https://inria.hal.science/hal-05245551/file/topology_adaptive_matching_2025_final.pdf",
     "video": "",
-    "thumbnail": "assets/publications/matching-shapes-under-different-topologies-a-topology-adaptive-deformation-guide-91d99938c5.jpg",
+    "thumbnail": "assets/publications/matching-shapes-under-different-topologies-a-topology-adaptive-deformation-guided-approach.jpg",
     "url": "https://inria.hal.science/hal-05245551v1",
     "bibtex_url": "https://inria.hal.science/hal-05245551v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "VortSDF: 3D Modeling with Centroidal Voronoi Tesselation on Signed Distance Field",
@@ -75,8 +75,7 @@
     "url": "https://inria.hal.science/hal-04724042v1",
     "bibtex_url": "https://inria.hal.science/hal-04724042v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "SplatFields: Neural Gaussian Splats for Sparse 3D and 4D Reconstruction",
@@ -95,8 +94,11 @@
     "github": "https://markomih.github.io/SplatFields/",
     "thumbnail": "assets/publications/splatfield.jpg",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:BN2gBF5gczIC",
+    "authors_full": "",
     "video": "",
-    "code": ""
+    "code": "https://markomih.github.io/SplatFields/",
+    "url": "",
+    "bibtex_url": ""
   },
   {
     "title": "NF3DM: Combining Neural Fields and Deformation Models for 3D Non-Rigid Motion Reconstruction",
@@ -106,12 +108,11 @@
     "venue": "2024",
     "pdf": "https://inria.hal.science/hal-04832090/file/nf3dm_2025_final.pdf",
     "video": "",
-    "thumbnail": "assets/publications/nf3dm-combining-neural-fields-and-deformation-models-for-3d-non-rigid-motion-rec-492b6b131e.jpg",
+    "thumbnail": "assets/publications/nf3dm-combining-neural-fields-and-deformation-models-for-3d-non-rigid-motion-reconstruction.jpg",
     "url": "https://inria.hal.science/hal-04832090v2",
     "bibtex_url": "https://inria.hal.science/hal-04832090v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Millimetric Human Surface Capture in Minutes",
@@ -126,7 +127,7 @@
     "thumbnail": "assets/publications/millimetric-human-surface-capture-in-minutes-01ffefc42d.jpg",
     "url": "https://inria.hal.science/hal-04724016v2",
     "bibtex_url": "https://inria.hal.science/hal-04724016v2/bibtex",
-    "code": "",
+    "code": "https://projects-morpheo.gitlabpages.inria.fr/millimetrichumans/",
     "scholar_url": "",
     "github": "https://projects-morpheo.gitlabpages.inria.fr/millimetrichumans/"
   },
@@ -147,8 +148,10 @@
     "video": "",
     "thumbnail": "assets/publications/hsir.jpg",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:3utUx_xxzcoC",
-    "github": "",
-    "code": ""
+    "authors_full": "",
+    "code": "",
+    "url": "",
+    "bibtex_url": ""
   },
   {
     "title": "ANIM: Accurate Neural Implicit Model for Human Reconstruction from a single RGB-D Image",
@@ -170,9 +173,11 @@
     "g": "https://marcopesavento.github.io/ANIM/",
     "thumbnail": "assets/publications/anim.jpg",
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:gToihe7qpOEC",
+    "authors_full": "",
     "video": "",
-    "github": "",
-    "code": ""
+    "code": "",
+    "url": "",
+    "bibtex_url": ""
   },
   {
     "title": "3D Shape Modeling with Adaptive Centroidal Voronoi Tesselation on Signed Distance Field",
@@ -182,12 +187,11 @@
     "venue": "MIRU 2024 - 27th Meeting on Image Recognition and Understanding, Aug 2024, Kumamoto, Japan.",
     "pdf": "https://inria.hal.science/hal-04902175/file/MIRU2024_VortSDF.pdf",
     "video": "",
-    "thumbnail": "assets/publications/3d-shape-modeling-with-adaptive-centroidal-voronoi-tesselation-on-signed-distanc-2539ee2ce2.jpg",
+    "thumbnail": "assets/publications/3d-shape-modeling-with-adaptive-centroidal-voronoi-tesselation-on-signed-distance-field.jpg",
     "url": "https://inria.hal.science/hal-04902175v1",
     "bibtex_url": "https://inria.hal.science/hal-04902175v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Vertebrae localization, segmentation and identification using a graph optimization and an anatomic consistency cycle",
@@ -197,12 +201,11 @@
     "venue": "Computerized Medical Imaging and Graphics, 2023, 107",
     "pdf": "https://inria.hal.science/hal-04397445/file/vertebrae_cycle.pdf",
     "video": "",
-    "thumbnail": "assets/publications/vertebrae-localization-segmentation-and-identification-using-a-graph-optimizatio-1f95b12914.jpg",
+    "thumbnail": "assets/publications/vertebrae-localization-segmentation-and-identification-using-a-graph-optimization-and-an-anatomic-co.jpg",
     "url": "https://inria.hal.science/hal-04397445v1",
     "bibtex_url": "https://inria.hal.science/hal-04397445v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Multi-View Reconstruction using Signed Ray Distance Functions (SRDF)",
@@ -216,8 +219,7 @@
     "url": "https://hal.science/hal-03766943v2",
     "bibtex_url": "https://hal.science/hal-03766943v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Multi-Modal Data Correspondence for the 4D Analysis of the Spine with Adolescent Idiopathic Scoliosis",
@@ -227,12 +229,11 @@
     "venue": "Bioengineering, 2023, 10 (7)",
     "pdf": "https://inria.hal.science/hal-04213386/file/bioengineering-10-00874-2.pdf",
     "video": "",
-    "thumbnail": "assets/publications/multi-modal-data-correspondence-for-the-4d-analysis-of-the-spine-with-adolescent-e27888f512.jpg",
+    "thumbnail": "assets/publications/multi-modal-data-correspondence-for-the-4d-analysis-of-the-spine-with-adolescent-idiopathic-scoliosi.jpg",
     "url": "https://inria.hal.science/hal-04213386v1",
     "bibtex_url": "https://inria.hal.science/hal-04213386v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Human Body Shape Completion with Implicit Shape and Flow Learning",
@@ -246,8 +247,7 @@
     "url": "https://inria.hal.science/hal-04045719v1",
     "bibtex_url": "https://inria.hal.science/hal-04045719v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Deformation-Guided Unsupervised Non-Rigid Shape Matching",
@@ -261,8 +261,7 @@
     "url": "https://inria.hal.science/hal-04249563v1",
     "bibtex_url": "https://inria.hal.science/hal-04249563v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "4DHumanOutfit: a multi-subject 4D dataset of human motion sequences in varying outfits exhibiting large displacements",
@@ -277,7 +276,7 @@
     "thumbnail": "assets/publications/DataCube_teaser_web.jpg",
     "url": "https://inria.hal.science/hal-04129186v1",
     "bibtex_url": "https://inria.hal.science/hal-04129186v1/bibtex",
-    "code": "",
+    "code": "https://kinovis.inria.fr/4dhumanoutfit/",
     "scholar_url": "",
     "github": "https://kinovis.inria.fr/4dhumanoutfit/"
   },
@@ -289,12 +288,11 @@
     "venue": "2023",
     "pdf": "",
     "video": "",
-    "thumbnail": "assets/publications/3dteethseg-22-3d-teeth-scan-segmentation-and-labeling-challenge-d41d8cd98f.jpg",
+    "thumbnail": "assets/publications/3dteethseg-22-3d-teeth-scan-segmentation-and-labeling-challenge-80a44aace5.jpg",
     "url": "https://inria.hal.science/hal-04397404v1",
     "bibtex_url": "https://inria.hal.science/hal-04397404v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "3D inference of the scoliotic spine from depth maps of the back",
@@ -308,8 +306,7 @@
     "url": "https://hal.science/hal-04362152v1",
     "bibtex_url": "https://hal.science/hal-04362152v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Temporal Shape Transfer Network for 3D Human Motion",
@@ -323,8 +320,7 @@
     "url": "https://inria.hal.science/hal-03782133v1",
     "bibtex_url": "https://inria.hal.science/hal-03782133v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Pyramidal Signed Distance Learning for Spatio-Temporal Human Shape Completion",
@@ -338,8 +334,7 @@
     "url": "https://inria.hal.science/hal-03806996v1",
     "bibtex_url": "https://inria.hal.science/hal-03806996v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Mesh Denoising with Facet Graph Convolutions",
@@ -349,12 +344,11 @@
     "venue": "IEEE Transactions on Visualization and Computer Graphics, 2022, 28 (8)",
     "pdf": "https://inria.hal.science/hal-03066322/file/tvcg2019_final_file.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-03066322/file/mesh_denoising_child_cropped%20%281%29.png",
+    "thumbnail": "assets/publications/mesh-denoising-with-facet-graph-convolutions.png",
     "url": "https://inria.hal.science/hal-03066322v1",
     "bibtex_url": "https://inria.hal.science/hal-03066322v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Volume Sweeping: Learning Photoconsistency for Multi-View Shape Reconstruction",
@@ -364,12 +358,11 @@
     "venue": "International Journal of Computer Vision, 2021, 129",
     "pdf": "https://inria.hal.science/hal-02975479/file/IJCV2019submission.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-02975479/file/Teaser.png",
+    "thumbnail": "assets/publications/volume-sweeping-learning-photoconsistency-for-multi-view-shape-reconstruction.png",
     "url": "https://inria.hal.science/hal-02975479v1",
     "bibtex_url": "https://inria.hal.science/hal-02975479v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Spatio-Temporal Human Shape Completion With Implicit Function Networks",
@@ -383,8 +376,7 @@
     "url": "https://inria.hal.science/hal-03381387v1",
     "bibtex_url": "https://inria.hal.science/hal-03381387v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Neural Human Deformation Transfer",
@@ -394,12 +386,11 @@
     "venue": "3DV 2021 - 9th International Conference on 3D Vision, Dec 2021, Londres (on line event), United Kingdom.",
     "pdf": "https://hal.science/hal-03440562/file/Neural%20Human%20Deformation%20Transfer.pdf",
     "video": "https://hal.science/hal-03440562/file/Neural%20Human%20Deformation%20Transfer.mp4",
-    "thumbnail": "https://hal.science/hal-03440562/file/architecture.png",
+    "thumbnail": "assets/publications/neural-human-deformation-transfer.png",
     "url": "https://hal.science/hal-03440562v1",
     "bibtex_url": "https://hal.science/hal-03440562v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Dual Mesh Convolutional Networks for Human Shape Correspondence",
@@ -413,8 +404,7 @@
     "url": "https://inria.hal.science/hal-03450573v1",
     "bibtex_url": "https://inria.hal.science/hal-03450573v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Data-Driven 3D Reconstruction of Dressed Humans From Sparse Views",
@@ -428,8 +418,7 @@
     "url": "https://inria.hal.science/hal-03385107v3",
     "bibtex_url": "https://inria.hal.science/hal-03385107v3/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Reconstructing Human Body Mesh from Point Clouds by Adversarial GP Network",
@@ -443,8 +432,7 @@
     "url": "https://inria.hal.science/hal-02977388v1",
     "bibtex_url": "https://inria.hal.science/hal-02977388v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Learning a Statistical Full Spine Model from Partial Observations",
@@ -454,12 +442,11 @@
     "venue": "Shape in Medical Imaging. ShapeMI 2020, 12474, Springer, 2020, Lecture Notes in Computer Science",
     "pdf": "https://inria.hal.science/hal-02983880/file/spine_surface_model.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-02983880/file/spine_thumbnail%20%281%29.png",
+    "thumbnail": "assets/publications/learning-a-statistical-full-spine-model-from-partial-observations.png",
     "url": "https://inria.hal.science/hal-02983880v1",
     "bibtex_url": "https://inria.hal.science/hal-02983880v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Discrete Point Flow Networks for Efficient Point Cloud Generation",
@@ -473,8 +460,7 @@
     "url": "https://hal.science/hal-02903163v1",
     "bibtex_url": "https://hal.science/hal-02903163v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Cross-modal Deep Face Normals with Deactivable Skip Connections",
@@ -488,8 +474,7 @@
     "url": "https://inria.hal.science/hal-02525049v1",
     "bibtex_url": "https://inria.hal.science/hal-02525049v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Contact Preserving Shape Transfer: retargeting motion from one shape to another",
@@ -499,12 +484,11 @@
     "venue": "Computers and Graphics, 2020, 89",
     "pdf": "https://hal.science/hal-02613783/file/ContactPreservingShapeTransfer_hal%20%281%29.pdf",
     "video": "https://hal.science/hal-02613783/file/ContactPreservingShapeTransfer_supplementary.mp4",
-    "thumbnail": "https://hal.science/hal-02613783/file/shape_transfer.png",
+    "thumbnail": "assets/publications/contact-preserving-shape-transfer-retargeting-motion-from-one-shape-to-another.png",
     "url": "https://hal.science/hal-02613783v1",
     "bibtex_url": "https://hal.science/hal-02613783v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Surface Motion Capture Animation Synthesis",
@@ -514,12 +498,11 @@
     "venue": "IEEE Transactions on Visualization and Computer Graphics, 2019, 25 (6)",
     "pdf": "https://inria.hal.science/hal-01781164/file/paper.pdf",
     "video": "https://inria.hal.science/hal-01781164/file/supplemental.mp4",
-    "thumbnail": "https://inria.hal.science/hal-01781164/file/teaser.png",
+    "thumbnail": "assets/publications/surface-motion-capture-animation-synthesis.png",
     "url": "https://inria.hal.science/hal-01781164v1",
     "bibtex_url": "https://inria.hal.science/hal-01781164v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Probabilistic Reconstruction Networks for 3D Shape Inference from a Single Image",
@@ -533,8 +516,7 @@
     "url": "https://inria.hal.science/hal-02268466v1",
     "bibtex_url": "https://inria.hal.science/hal-02268466v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Contact Preserving Shape Transfer For Rigging-Free Motion Retargeting",
@@ -548,8 +530,7 @@
     "url": "https://hal.science/hal-02293308v3",
     "bibtex_url": "https://hal.science/hal-02293308v3/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "CBCT of a Moving Sample from X-rays and Multiple Videos",
@@ -559,12 +540,11 @@
     "venue": "IEEE Transactions on Medical Imaging, 2019, 38 (2)",
     "pdf": "https://inria.hal.science/hal-01857487/file/2018_Pansiot_TMI_CBCT.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-01857487/file/pansiot18cbct_64.png",
+    "thumbnail": "assets/publications/cbct-of-a-moving-sample-from-x-rays-and-multiple-videos.jpg",
     "url": "https://inria.hal.science/hal-01857487v1",
     "bibtex_url": "https://inria.hal.science/hal-01857487v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Adaptive Mesh Texture for Multi-View Appearance Modeling",
@@ -578,8 +558,7 @@
     "url": "https://inria.hal.science/hal-02284101v1",
     "bibtex_url": "https://inria.hal.science/hal-02284101v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "A Decoupled 3D Facial Shape Model by Adversarial Training",
@@ -593,8 +572,7 @@
     "url": "https://hal.science/hal-02064711v3",
     "bibtex_url": "https://hal.science/hal-02064711v3/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Tracking-by-Detection of 3D Human Shapes: from Surfaces to Volumes",
@@ -608,8 +586,7 @@
     "url": "https://inria.hal.science/hal-01588272v1",
     "bibtex_url": "https://inria.hal.science/hal-01588272v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Spatiotemporal Modeling for Efficient Registration of Dynamic 3D Faces",
@@ -623,8 +600,7 @@
     "url": "https://inria.hal.science/hal-01855955v1",
     "bibtex_url": "https://inria.hal.science/hal-01855955v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Shape Reconstruction Using Volume Sweeping and Learned Photoconsistency",
@@ -634,12 +610,11 @@
     "venue": "European Conference on Computer Vision, Sep 2018, Munich, Germany.",
     "pdf": "https://hal.science/hal-01849286/file/1217.pdf",
     "video": "",
-    "thumbnail": "assets/publications/shape-reconstruction-using-volume-sweeping-and-learned-photoconsistency-9b099f3301.jpg",
+    "thumbnail": "assets/publications/shape-reconstruction-using-volume-sweeping-and-learned-photoconsistency-9b099f3301 copie.jpg",
     "url": "https://hal.science/hal-01849286v2",
     "bibtex_url": "https://hal.science/hal-01849286v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Multilinear Autoencoder for 3D Face Model Learning",
@@ -649,12 +624,11 @@
     "venue": "WACV 2018 - IEEE Winter Conference on Applications of Computer Vision, Mar 2018, Lake Tahoe, NV/CA, United States.",
     "pdf": "https://hal.science/hal-01700934/file/mae-wacv-18.pdf",
     "video": "https://hal.science/hal-01700934/file/final.mp4",
-    "thumbnail": "https://hal.science/hal-01700934/file/mae.png",
+    "thumbnail": "assets/publications/multilinear-autoencoder-for-3d-face-model-learning.png",
     "url": "https://hal.science/hal-01700934v1",
     "bibtex_url": "https://hal.science/hal-01700934v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "FeaStNet: Feature-Steered Graph Convolutions for 3D Shape Analysis",
@@ -664,12 +638,11 @@
     "venue": "CVPR - IEEE Conference on Computer Vision & Pattern Recognition, Jun 2018, Salt Lake City, United States.",
     "pdf": "https://inria.hal.science/hal-01540389/file/2589%2Bsupp.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-01540389/file/FeastNetHal.png",
+    "thumbnail": "assets/publications/feastnet-feature-steered-graph-convolutions-for-3d-shape-analysis.png",
     "url": "https://inria.hal.science/hal-01540389v2",
     "bibtex_url": "https://inria.hal.science/hal-01540389v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Automatic camera calibration using multiple sets of pairwise correspondences",
@@ -683,8 +656,7 @@
     "url": "https://inria.hal.science/hal-01675686v1",
     "bibtex_url": "https://inria.hal.science/hal-01675686v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Apprentissage de la Cohérence Photométrique pour la Reconstruction de Formes Multi-Vues",
@@ -694,12 +666,11 @@
     "venue": "RFIAP 2018 - Reconnaissance des Formes, Image, Apprentissage et Perception, Jun 2018, Marne la Vallée, France",
     "pdf": "https://hal.science/hal-01857627/file/rfiap2018.pdf",
     "video": "",
-    "thumbnail": "assets/publications/apprentissage-de-la-coh-rence-photom-trique-pour-la-reconstruction-de-formes-mul-b39b877787.jpg",
+    "thumbnail": "assets/publications/apprentissage-de-la-coh-rence-photom-trique-pour-la-reconstruction-de-formes-multi-vues.jpg",
     "url": "https://hal.science/hal-01857627v1",
     "bibtex_url": "https://hal.science/hal-01857627v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Surface Motion Capture Transfer with Gaussian Process Regression",
@@ -709,12 +680,11 @@
     "venue": "CVPR 2017 - IEEE Conference on Computer Vision and Pattern Recognition, Jul 2017, Honolulu, United States.",
     "pdf": "https://inria.hal.science/hal-01491386/file/SurfMoTransf.pdf",
     "video": "https://inria.hal.science/hal-01491386/file/68.mp4",
-    "thumbnail": "https://inria.hal.science/hal-01491386/file/teaser.jpg",
+    "thumbnail": "assets/publications/surface-motion-capture-transfer-with-gaussian-process-regression.jpg",
     "url": "https://inria.hal.science/hal-01491386v2",
     "bibtex_url": "https://inria.hal.science/hal-01491386v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Super Résolution Temporelle de Formes Multi-Vues",
@@ -728,8 +698,7 @@
     "url": "https://hal.science/hal-01866632v1",
     "bibtex_url": "https://hal.science/hal-01866632v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Multi-View Dynamic Shape Refinement Using Local Temporal Integration",
@@ -739,12 +708,11 @@
     "venue": "IEEE, International Conference on Computer Vision 2017, Oct 2017, Venice, Italy.",
     "pdf": "https://hal.science/hal-01567758/file/paper_final.pdf",
     "video": "https://hal.science/hal-01567758/file/1361-supp.mp4",
-    "thumbnail": "https://hal.science/hal-01567758/file/test_banner_specular.png",
+    "thumbnail": "assets/publications/multi-view-dynamic-shape-refinement-using-local-temporal-integration.jpg",
     "url": "https://hal.science/hal-01567758v2",
     "bibtex_url": "https://hal.science/hal-01567758v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "CT from Motion: Volumetric Capture of Moving Shapes with X-rays and Videos",
@@ -754,12 +722,11 @@
     "venue": "British Machine Vision Conference (BMVC), Sep 2017, London, United Kingdom.",
     "pdf": "https://inria.hal.science/hal-01585344/file/2017_Pansiot_BMVC_CTfM.pdf",
     "video": "https://inria.hal.science/hal-01585344/file/2017_Pansiot_BMVC_CTfM.mp4",
-    "thumbnail": "https://inria.hal.science/hal-01585344/file/pansiot17ctfm_64.jpg",
+    "thumbnail": "assets/publications/ct-from-motion-volumetric-capture-of-moving-shapes-with-x-rays-and-videos.jpg",
     "url": "https://inria.hal.science/hal-01585344v1",
     "bibtex_url": "https://inria.hal.science/hal-01585344v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Controllable Variation Synthesis for Surface Motion Capture",
@@ -769,12 +736,11 @@
     "venue": "3DV 2017 - International Conference on 3D Vision, Oct 2017, Qingdao, China.",
     "pdf": "https://inria.hal.science/hal-01590648/file/SurfMoVar.pdf",
     "video": "https://inria.hal.science/hal-01590648/file/3.mp4",
-    "thumbnail": "https://inria.hal.science/hal-01590648/file/pipe.png",
+    "thumbnail": "assets/publications/controllable-variation-synthesis-for-surface-motion-capture.png",
     "url": "https://inria.hal.science/hal-01590648v1",
     "bibtex_url": "https://inria.hal.science/hal-01590648v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Volumetric 3D Tracking by Detection",
@@ -788,8 +754,7 @@
     "url": "https://inria.hal.science/hal-01300191v1",
     "bibtex_url": "https://inria.hal.science/hal-01300191v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Shape Animation with Combined Captured and Simulated Dynamics",
@@ -799,12 +764,11 @@
     "venue": "[Research Report] arXiv:1601.01232, ArXiv. 2016",
     "pdf": "https://inria.hal.science/hal-01255337/file/augmentedanimation.pdf",
     "video": "https://inria.hal.science/hal-01255337/file/KinovisANIM2.mp4",
-    "thumbnail": "https://inria.hal.science/hal-01255337/file/teaser_version2_cut%20%281%29.png",
+    "thumbnail": "assets/publications/shape-animation-with-combined-captured-and-simulated-dynamics.png",
     "url": "https://inria.hal.science/hal-01255337v1",
     "bibtex_url": "https://inria.hal.science/hal-01255337v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "On Volumetric Shape Reconstruction from Implicit Forms",
@@ -814,12 +778,11 @@
     "venue": "ECCV 2016 - European Conference on Computer Vision, Oct 2016, Amsterdam, Netherlands.",
     "pdf": "https://inria.hal.science/hal-01349059/file/OnVolumetric%20ShapeReconstructionfromImplicitForms.pdf",
     "video": "https://inria.hal.science/hal-01349059/file/OnVolumetricShapeReconstructionFromImplicitForms-ECCV-2016.mp4",
-    "thumbnail": "https://inria.hal.science/hal-01349059/file/teasergargoyle.jpg",
+    "thumbnail": "assets/publications/on-volumetric-shape-reconstruction-from-implicit-forms.jpg",
     "url": "https://inria.hal.science/hal-01349059v1",
     "bibtex_url": "https://inria.hal.science/hal-01349059v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Eigen Appearance Maps of Dynamic Shapes",
@@ -829,12 +792,11 @@
     "venue": "ECCV 2016 - European Conference on Computer Vision, Oct 2016, Amsterdam, Netherlands.",
     "pdf": "https://inria.hal.science/hal-01348837/file/EigenAppearance.pdf",
     "video": "https://inria.hal.science/hal-01348837/file/EigenAppearance.mp4",
-    "thumbnail": "https://inria.hal.science/hal-01348837/file/inst.png",
+    "thumbnail": "assets/publications/eigen-appearance-maps-of-dynamic-shapes.jpg",
     "url": "https://inria.hal.science/hal-01348837v1",
     "bibtex_url": "https://inria.hal.science/hal-01348837v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Cotemporal Multi-View Video Segmentation",
@@ -848,8 +810,7 @@
     "url": "https://inria.hal.science/hal-01367430v2",
     "bibtex_url": "https://inria.hal.science/hal-01367430v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "A Hierarchical Approach for Regular Centroidal Voronoi Tessellations",
@@ -859,12 +820,11 @@
     "venue": "Computer Graphics Forum, 2016, 35 (1)",
     "pdf": "https://inria.hal.science/hal-01185210/file/wang-CGF2015-HierarchicalRegularCVT.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-01185210/file/teaser.jpg",
+    "thumbnail": "assets/publications/a-hierarchical-approach-for-regular-centroidal-voronoi-tessellations.jpg",
     "url": "https://inria.hal.science/hal-01185210v1",
     "bibtex_url": "https://inria.hal.science/hal-01185210v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "A Bayesian Approach to Multi-view 4D Modeling",
@@ -874,12 +834,11 @@
     "venue": "International Journal of Computer Vision, 2016, 116 (2)",
     "pdf": "",
     "video": "",
-    "thumbnail": "assets/publications/a-bayesian-approach-to-multi-view-4d-modeling-d41d8cd98f.jpg",
+    "thumbnail": "assets/publications/a-bayesian-approach-to-multi-view-4d-modeling-b49c3edbb4.jpg",
     "url": "https://inria.hal.science/hal-01211810v1",
     "bibtex_url": "https://inria.hal.science/hal-01211810v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "3D Imaging from Video and Planar Radiography",
@@ -889,12 +848,11 @@
     "venue": "MICCAI 2016 - 19th International Conference on Medical Image Computing and Computer Assisted Intervention, Oct 2016, Athènes, Greece.",
     "pdf": "https://inria.hal.science/hal-01348939/file/2016_Pansiot_MICCAI_Xrays3d_HALv2.pdf",
     "video": "https://inria.hal.science/hal-01348939/file/2016_Pansiot_MICCAI_Xrays3d.mp4",
-    "thumbnail": "https://inria.hal.science/hal-01348939/file/pansiot16xrays3d_64.jpg",
+    "thumbnail": "assets/publications/3d-imaging-from-video-and-planar-radiography.jpg",
     "url": "https://inria.hal.science/hal-01348939v2",
     "bibtex_url": "https://inria.hal.science/hal-01348939v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Video based Animation Synthesis with the Essential Graph",
@@ -904,12 +862,11 @@
     "venue": "3DV 2015 - International Conference on 3D Vision, Oct 2015, Lyon, France.",
     "pdf": "https://inria.hal.science/hal-01212168/file/EssentialGraph.pdf",
     "video": "https://inria.hal.science/hal-01212168/file/EssGraph%20%281%29.mp4",
-    "thumbnail": "https://inria.hal.science/hal-01212168/file/out%20%283%29.png",
+    "thumbnail": "assets/publications/video-based-animation-synthesis-with-the-essential-graph.jpg",
     "url": "https://inria.hal.science/hal-01212168v1",
     "bibtex_url": "https://inria.hal.science/hal-01212168v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Toward User-specific Tracking by Detection of Human Shapes in Multi-Cameras",
@@ -923,8 +880,7 @@
     "url": "https://inria.hal.science/hal-01148449v1",
     "bibtex_url": "https://inria.hal.science/hal-01148449v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Sparse Multi-View Consistency for Object Segmentation",
@@ -938,8 +894,7 @@
     "url": "https://inria.hal.science/hal-01115557v1",
     "bibtex_url": "https://inria.hal.science/hal-01115557v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Implicit B-Spline Surface Reconstruction",
@@ -949,12 +904,11 @@
     "venue": "IEEE Transactions on Image Processing, 2015, 24 (1)",
     "pdf": "https://inria.hal.science/hal-01101037/file/TIP_2014_v4_double_column.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-01101037/file/Shape2.jpg",
+    "thumbnail": "assets/publications/implicit-b-spline-surface-reconstruction.jpg",
     "url": "https://inria.hal.science/hal-01101037v1",
     "bibtex_url": "https://inria.hal.science/hal-01101037v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Dynamic Geometry Reconstruction",
@@ -964,12 +918,11 @@
     "venue": "M. Magnor and O. Grau and O. Sorkine-Hornung and C. Theobalt. Digital Representations of the Real World: How to Capture, Model, and Render Visual Reality, CRC Press, 2015",
     "pdf": "",
     "video": "",
-    "thumbnail": "assets/publications/dynamic-geometry-reconstruction-d41d8cd98f.jpg",
+    "thumbnail": "assets/publications/dynamic-geometry-reconstruction-c87c2bdd57.jpg",
     "url": "https://inria.hal.science/hal-01159497v1",
     "bibtex_url": "https://inria.hal.science/hal-01159497v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "An Efficient Volumetric Framework for Shape Tracking",
@@ -979,12 +932,11 @@
     "venue": "CVPR 2015 - IEEE International Conference on Computer Vision and Pattern Recognition, Jun 2015, Boston, United States.",
     "pdf": "https://inria.hal.science/hal-01141207/file/1399.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-01141207/file/thumbnailCVPR2015_250px.jpg",
+    "thumbnail": "assets/publications/an-efficient-volumetric-framework-for-shape-tracking.jpg",
     "url": "https://inria.hal.science/hal-01141207v1",
     "bibtex_url": "https://inria.hal.science/hal-01141207v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Segmentation multi-vues par coupure de graphes",
@@ -998,8 +950,7 @@
     "url": "https://hal.science/hal-00988772v1",
     "bibtex_url": "https://hal.science/hal-00988772v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "On Mean Pose and Variability of 3D Deformable Models",
@@ -1009,12 +960,11 @@
     "venue": "ECCV 2014 - European Conference on Computer Vision, Sep 2014, Zurich, Switzerland.",
     "pdf": "https://inria.hal.science/hal-01016981/file/Allain_ECCV2014_On_Mean_Pose_and_Variability.pdf",
     "video": "https://inria.hal.science/hal-01016981/file/Allain_ECCV2014_On_Mean_Pose_and_Variabiliy.mp4",
-    "thumbnail": "https://inria.hal.science/hal-01016981/file/ThumbnailECCV2014_300px.png",
+    "thumbnail": "assets/publications/on-mean-pose-and-variability-of-3d-deformable-models.jpg",
     "url": "https://inria.hal.science/hal-01016981v1",
     "bibtex_url": "https://inria.hal.science/hal-01016981v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Non-Rigid Registration meets Surface Reconstruction",
@@ -1028,8 +978,7 @@
     "url": "https://inria.hal.science/hal-01063513v3",
     "bibtex_url": "https://inria.hal.science/hal-01063513v3/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Human Shape and Pose Tracking Using Keyframes",
@@ -1039,12 +988,11 @@
     "venue": "CVPR 2014 - IEEE International Conference on Computer Vision and Pattern Recognition, Jun 2014, Columbus, United States.",
     "pdf": "https://inria.hal.science/hal-00995681/file/huangc2014cvpr.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-00995681/file/PaulCVPR14.png",
+    "thumbnail": "assets/publications/human-shape-and-pose-tracking-using-keyframes.jpg",
     "url": "https://inria.hal.science/hal-00995681v1",
     "bibtex_url": "https://inria.hal.science/hal-00995681v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "High Resolution 3D Shape Texture from Multiple Videos",
@@ -1054,12 +1002,11 @@
     "venue": "CVPR 2014 - IEEE International Conference on Computer Vision and Pattern Recognition, Jun 2014, Columbus, OH, United States.",
     "pdf": "https://inria.hal.science/hal-00977755/file/mvtexture_cvpr14.pdf",
     "video": "https://inria.hal.science/hal-00977755/file/CVPR2014-HR-3D-Shape-Texture-from-Videos.mp4",
-    "thumbnail": "https://inria.hal.science/hal-00977755/file/TeaserBeethoven.jpg",
+    "thumbnail": "assets/publications/high-resolution-3d-shape-texture-from-multiple-videos.jpg",
     "url": "https://inria.hal.science/hal-00977755v2",
     "bibtex_url": "https://inria.hal.science/hal-00977755v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Combined Visible and X-Ray 3D Imaging",
@@ -1069,12 +1016,11 @@
     "venue": "Medical Image Understanding and Analysis, Jul 2014, London, United Kingdom.",
     "pdf": "https://inria.hal.science/hal-00994974/file/2014_Pansiot_MIUA_Xrays.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-00994974/file/pansiot14xrays_64.png",
+    "thumbnail": "assets/publications/combined-visible-and-x-ray-3d-imaging.png",
     "url": "https://inria.hal.science/hal-00994974v1",
     "bibtex_url": "https://inria.hal.science/hal-00994974v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Segmentation of temporal mesh sequences into rigidly moving components",
@@ -1084,12 +1030,11 @@
     "venue": "Graphical Models, 2013, 75 (1)",
     "pdf": "https://inria.hal.science/hal-00749302/file/seg_seq.pdf",
     "video": "https://inria.hal.science/hal-00749302/file/arcila_et_al-gmod2012.mp4",
-    "thumbnail": "https://inria.hal.science/hal-00749302/file/graphical_abstract.png",
+    "thumbnail": "assets/publications/segmentation-of-temporal-mesh-sequences-into-rigidly-moving-components.png",
     "url": "https://inria.hal.science/hal-00749302v1",
     "bibtex_url": "https://inria.hal.science/hal-00749302v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Robust Human Body Shape and Pose Tracking",
@@ -1103,8 +1048,7 @@
     "url": "https://inria.hal.science/hal-00922934v1",
     "bibtex_url": "https://inria.hal.science/hal-00922934v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Multi-View Object Segmentation in Space and Time",
@@ -1118,8 +1062,7 @@
     "url": "https://inria.hal.science/hal-00873544v1",
     "bibtex_url": "https://inria.hal.science/hal-00873544v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Modélisation probabiliste pour la segmentation multi-vues",
@@ -1133,8 +1076,7 @@
     "url": "https://hal.science/hal-00830762v1",
     "bibtex_url": "https://hal.science/hal-00830762v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "3D Shape Cropping",
@@ -1144,12 +1086,11 @@
     "venue": "Vision, Modeling and Visualization, Sep 2013, Lugano, Switzerland.",
     "pdf": "https://inria.hal.science/hal-00904661/file/paper.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-00904661/file/teaser.png",
+    "thumbnail": "assets/publications/3d-shape-cropping.jpg",
     "url": "https://inria.hal.science/hal-00904661v1",
     "bibtex_url": "https://inria.hal.science/hal-00904661v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Temporally coherent mesh sequence segmentations",
@@ -1159,12 +1100,11 @@
     "venue": "[Research Report] RR-7856, INRIA. 2012",
     "pdf": "https://inria.hal.science/hal-00658060/file/RR-7856.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-00658060/file/time_varying_segmentation.png",
+    "thumbnail": "assets/publications/temporally-coherent-mesh-sequence-segmentations.png",
     "url": "https://inria.hal.science/hal-00658060v2",
     "bibtex_url": "https://inria.hal.science/hal-00658060v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "RE@CT - Immersive Production and Delivery of Interactive 3D Content",
@@ -1178,8 +1118,7 @@
     "url": "https://inria.hal.science/hal-00922956v1",
     "bibtex_url": "https://inria.hal.science/hal-00922956v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Progressive Shape Models",
@@ -1189,12 +1128,11 @@
     "venue": "CVPR - Computer Vision and Patern Recognition - 2012, Jun 2012, Providence, United States.",
     "pdf": "https://inria.hal.science/hal-00677506/file/cvpr.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-00677506/file/res1.png",
+    "thumbnail": "assets/publications/progressive-shape-models.png",
     "url": "https://inria.hal.science/hal-00677506v1",
     "bibtex_url": "https://inria.hal.science/hal-00677506v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "N-Tuple Color Segmentation for Multi-View Silhouette Extraction",
@@ -1208,8 +1146,7 @@
     "url": "https://inria.hal.science/hal-00735718v1",
     "bibtex_url": "https://inria.hal.science/hal-00735718v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Modèles progressifs de forme",
@@ -1219,12 +1156,11 @@
     "venue": "CORESA - COmpression et REprésentation des Signaux Audiovisuels - 2012, Mohamed Daoudi, May 2012, Lille, France",
     "pdf": "https://inria.hal.science/hal-00683549/file/coresa_PSM.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-00683549/file/improve.png",
+    "thumbnail": "assets/publications/mod-les-progressifs-de-forme.png",
     "url": "https://inria.hal.science/hal-00683549v1",
     "bibtex_url": "https://inria.hal.science/hal-00683549v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Keypoints and Local Descriptors of Scalar Functions on 2D Manifolds",
@@ -1238,8 +1174,7 @@
     "url": "https://inria.hal.science/hal-00699620v1",
     "bibtex_url": "https://inria.hal.science/hal-00699620v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Flot de scène à partir d'images couleur et de cartes de profondeur",
@@ -1249,12 +1184,11 @@
     "venue": "RFIA 2012 - Reconnaissance des Formes et Intelligence Artificielle, Jan 2012, Lyon, France.-9539515-2-3",
     "pdf": "https://hal.science/hal-00656484/file/rfia2012_submission_4.pdf",
     "video": "",
-    "thumbnail": "https://hal.science/hal-00656484/file/pipeline.jpg",
+    "thumbnail": "assets/publications/flot-de-sc-ne-partir-d-images-couleur-et-de-cartes-de-profondeur.jpg",
     "url": "https://hal.science/hal-00656484v2",
     "bibtex_url": "https://hal.science/hal-00656484v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Flot de scène",
@@ -1264,12 +1198,11 @@
     "venue": "Traitement du Signal, 2012, 29 (3-5)",
     "pdf": "https://inria.hal.science/hal-00746460/file/TS.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-00746460/file/res_1.png",
+    "thumbnail": "assets/publications/flot-de-sc-ne.png",
     "url": "https://inria.hal.science/hal-00746460v1",
     "bibtex_url": "https://inria.hal.science/hal-00746460v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Cage-based Motion Recovery using Manifold Learning",
@@ -1279,12 +1212,11 @@
     "venue": "3DIMPVT 2012 - Second International Conference on 3D Imaging, Modeling, Processing, Visualization and Transmission, Oct 2012, Zürich, Switzerland.",
     "pdf": "https://inria.hal.science/hal-00737329/file/gcm3DPimVT12.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/hal-00737329/file/gcmOverview.jpg",
+    "thumbnail": "assets/publications/cage-based-motion-recovery-using-manifold-learning.jpg",
     "url": "https://inria.hal.science/hal-00737329v1",
     "bibtex_url": "https://inria.hal.science/hal-00737329v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "A Minimal Solution for Camera Calibration Using Independent Pairwise Correspondences",
@@ -1294,12 +1226,11 @@
     "venue": "ECCV'12 - 12th European Conference on Computer Vision, Oct 2012, Firenze, Italy.",
     "pdf": "https://inria.hal.science/hal-00735728/file/typeinst.pdf",
     "video": "",
-    "thumbnail": "assets/publications/a-minimal-solution-for-camera-calibration-using-independent-pairwise-corresponde-3c621a4826.jpg",
+    "thumbnail": "assets/publications/a-minimal-solution-for-camera-calibration-using-independent-pairwise-correspondences.jpg",
     "url": "https://inria.hal.science/hal-00735728v1",
     "bibtex_url": "https://inria.hal.science/hal-00735728v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Topology-Adaptive Mesh Deformation for Surface Evolution, Morphing, and Multi-View Reconstruction",
@@ -1309,12 +1240,11 @@
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2011, 33 (4)",
     "pdf": "https://inria.hal.science/inria-00590271/file/ZaharescuBoyerHoraud-TPAMI2011.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/inria-00590271/file/result.png",
+    "thumbnail": "assets/publications/topology-adaptive-mesh-deformation-for-surface-evolution-morphing-and-multi-view-reconstruction.jpg",
     "url": "https://inria.hal.science/inria-00590271v1",
     "bibtex_url": "https://inria.hal.science/inria-00590271v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Topologically-Robust 3D Shape Matching Based on Diffusion Geometry and Seed Growing",
@@ -1324,12 +1254,11 @@
     "venue": "CVPR '11 - IEEE Conference on Computer Vision and Pattern Recognition, Jun 2011, Colorado Springs, United States.",
     "pdf": "https://inria.hal.science/inria-00590280/file/cvpr2011_camera_ready.pdf",
     "video": "",
-    "thumbnail": "assets/publications/topologically-robust-3d-shape-matching-based-on-diffusion-geometry-and-seed-grow-826c4fe0ed.jpg",
+    "thumbnail": "assets/publications/topologically-robust-3d-shape-matching-based-on-diffusion-geometry-and-seed-growing.jpg",
     "url": "https://inria.hal.science/inria-00590280v1",
     "bibtex_url": "https://inria.hal.science/inria-00590280v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Surface Flow from Visual Cues",
@@ -1339,12 +1268,11 @@
     "venue": "VMV 2011 - Vision, Modeling and Visualization Workshop, Oct 2011, Berlin, Germany.",
     "pdf": "https://inria.hal.science/inria-00631476/file/surface_flow_from_visual_cues.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/inria-00631476/file/FlashKickSceneFlowCst0.png",
+    "thumbnail": "assets/publications/surface-flow-from-visual-cues.png",
     "url": "https://inria.hal.science/inria-00631476v1",
     "bibtex_url": "https://inria.hal.science/inria-00631476v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Silhouette Segmentation in Multiple Views",
@@ -1354,12 +1282,11 @@
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2011, 33 (7)",
     "pdf": "https://inria.hal.science/inria-00568915/file/LeePami.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/inria-00568915/file/img.png",
+    "thumbnail": "assets/publications/silhouette-segmentation-in-multiple-views.png",
     "url": "https://inria.hal.science/inria-00568915v1",
     "bibtex_url": "https://inria.hal.science/inria-00568915v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "SHREC 2011: robust feature detection and description benchmark",
@@ -1369,12 +1296,11 @@
     "venue": "3DOR2011 - Eurographics Workshop on 3D Object Retrieval, ACM Siggraph, Apr 2011, Llandudno, United Kingdom.",
     "pdf": "",
     "video": "",
-    "thumbnail": "assets/publications/shrec-2011-robust-feature-detection-and-description-benchmark-d41d8cd98f.jpg",
+    "thumbnail": "assets/publications/shrec-2011-robust-feature-detection-and-description-benchmark-0ce089b9d8.jpg",
     "url": "https://inria.hal.science/hal-00752990v1",
     "bibtex_url": "https://inria.hal.science/hal-00752990v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Scene Flow from Depth and Color Images",
@@ -1384,12 +1310,11 @@
     "venue": "BMVC 2011 - British Machine Vision Conference, Aug 2011, Dundee, United Kingdom.:1-11",
     "pdf": "https://inria.hal.science/inria-00616353/file/main.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/inria-00616353/file/overview.jpg",
+    "thumbnail": "assets/publications/scene-flow-from-depth-and-color-images.jpg",
     "url": "https://inria.hal.science/inria-00616353v1",
     "bibtex_url": "https://inria.hal.science/inria-00616353v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Scale-Space Representation of Scalar Functions on 2D Manifolds",
@@ -1403,8 +1328,7 @@
     "url": "https://inria.hal.science/hal-00653479v1",
     "bibtex_url": "https://inria.hal.science/hal-00653479v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Learning Temporally Consistent Rigidities",
@@ -1414,12 +1338,11 @@
     "venue": "CVPR 2011 - IEEE Computer Vision and Pattern Recognition, Jun 2011, Colorado Springs, United States.",
     "pdf": "https://inria.hal.science/inria-00583131/file/paper541.pdf",
     "video": "https://inria.hal.science/inria-00583131/file/CVPR2011-Learning-Temporally-Consistent-Rigidities.mp4",
-    "thumbnail": "https://inria.hal.science/inria-00583131/file/lock30-iteration.jpg",
+    "thumbnail": "assets/publications/learning-temporally-consistent-rigidities.jpg",
     "url": "https://inria.hal.science/inria-00583131v1",
     "bibtex_url": "https://inria.hal.science/inria-00583131v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Flot de surface à partir d'indices visuels",
@@ -1429,12 +1352,11 @@
     "venue": "ORASIS - Congrès des jeunes chercheurs en vision par ordinateur, INRIA Grenoble Rhône-Alpes, Jun 2011, Praz-sur-Arly, France",
     "pdf": "https://inria.hal.science/inria-00595247/file/orasis_id_11.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/inria-00595247/file/BenAngeTrajectories.png",
+    "thumbnail": "assets/publications/flot-de-surface-partir-d-indices-visuels.png",
     "url": "https://inria.hal.science/inria-00595247v2",
     "bibtex_url": "https://inria.hal.science/inria-00595247v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "A survey of vision-based methods for action representation, segmentation and recognition",
@@ -1444,12 +1366,11 @@
     "venue": "Computer Vision and Image Understanding, 2011, 115 (2)",
     "pdf": "https://inria.hal.science/hal-00640088/file/weinland10preprint.pdf",
     "video": "",
-    "thumbnail": "assets/publications/a-survey-of-vision-based-methods-for-action-representation-segmentation-and-reco-64aabc1cd7.jpg",
+    "thumbnail": "https://inria.hal.science/hal-00640088v1",
     "url": "https://inria.hal.science/hal-00640088v1",
     "bibtex_url": "https://inria.hal.science/hal-00640088v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "The Virtualization Gate Project",
@@ -1459,12 +1380,11 @@
     "venue": "ERCIM News, 2010, Digital Preservation, 80",
     "pdf": "https://inria.hal.science/inria-00568917/file/ercim.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/inria-00568917/file/img.png",
+    "thumbnail": "assets/publications/the-virtualization-gate-project.png",
     "url": "https://inria.hal.science/inria-00568917v1",
     "bibtex_url": "https://inria.hal.science/inria-00568917v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Temporally Coherent Segmentation of 3D Reconstructions",
@@ -1478,8 +1398,7 @@
     "url": "https://inria.hal.science/inria-00568905v1",
     "bibtex_url": "https://inria.hal.science/inria-00568905v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Region Graphs for Organizing Image Collections",
@@ -1493,8 +1412,7 @@
     "url": "https://inria.hal.science/inria-00568914v1",
     "bibtex_url": "https://inria.hal.science/inria-00568914v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Probabilistic Deformable Surface Tracking From Multiple Videos",
@@ -1508,8 +1426,7 @@
     "url": "https://inria.hal.science/inria-00568912v1",
     "bibtex_url": "https://inria.hal.science/inria-00568912v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Probabilistic 3D Occupancy Flow with Latent Silhouette Cues",
@@ -1523,8 +1440,7 @@
     "url": "https://inria.hal.science/inria-00463031v3",
     "bibtex_url": "https://inria.hal.science/inria-00463031v3/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Multicamera Real-Time 3D Modeling for Telepresence and Remote Collaboration",
@@ -1534,12 +1450,11 @@
     "venue": "International Journal of Digital Multimedia Broadcasting, 2010, Advances in 3DTV: Theory and Practice, 2010, Article ID 247108, 12 p.",
     "pdf": "https://inria.hal.science/inria-00436467/file/ijdmb-grimage.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/inria-00436467/file/2MCS2.jpg",
+    "thumbnail": "assets/publications/multicamera-real-time-3d-modeling-for-telepresence-and-remote-collaboration.jpg",
     "url": "https://inria.hal.science/inria-00436467v3",
     "bibtex_url": "https://inria.hal.science/inria-00436467v3/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Iterative Deformable Surface Tracking in Multi-View Setups",
@@ -1553,8 +1468,7 @@
     "url": "https://inria.hal.science/inria-00568910v1",
     "bibtex_url": "https://inria.hal.science/inria-00568910v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Free-Form Mesh Tracking: a Patch-Based Approach",
@@ -1568,8 +1482,7 @@
     "url": "https://inria.hal.science/inria-00568909v1",
     "bibtex_url": "https://inria.hal.science/inria-00568909v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Flot d'occupation 3D à partir de silhouettes latentes",
@@ -1583,8 +1496,7 @@
     "url": "https://inria.hal.science/inria-00463032v1",
     "bibtex_url": "https://inria.hal.science/inria-00463032v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "An Unsupervised Framework for Action Recognition Using Actemes",
@@ -1598,8 +1510,7 @@
     "url": "https://inria.hal.science/inria-00568906v1",
     "bibtex_url": "https://inria.hal.science/inria-00568906v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "A 3D Data Intensive Tele-immersive Grid",
@@ -1609,12 +1520,11 @@
     "venue": "MM'10 - International Multimedia Conference, Oct 2010, Firenze, Italy.",
     "pdf": "https://hal.science/hal-00514549/file/petit10b.pdf",
     "video": "https://hal.science/hal-00514549/file/ACMM10-Dalia.mp4",
-    "thumbnail": "https://hal.science/hal-00514549/file/handshake.png",
+    "thumbnail": "assets/publications/a-3d-data-intensive-tele-immersive-grid.png",
     "url": "https://hal.science/hal-00514549v2",
     "bibtex_url": "https://hal.science/hal-00514549v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Virtualization Gate",
@@ -1624,12 +1534,11 @@
     "venue": "SIGGRAPH 2009 - Emerging Technologies, Aug 2009, New Orleans, LA, United States. pp.Article No.: 26",
     "pdf": "https://inria.hal.science/inria-00418917/file/petit09b.pdf",
     "video": "https://inria.hal.science/inria-00418917/file/Siggraph09-VGate.mp4",
-    "thumbnail": "https://inria.hal.science/inria-00418917/file/teaser.jpeg",
+    "thumbnail": "assets/publications/the-virtualization-gate-project.png",
     "url": "https://inria.hal.science/inria-00418917v3",
     "bibtex_url": "https://inria.hal.science/inria-00418917v3/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Surface Feature Detection and Description with Applications to Mesh Matching",
@@ -1643,8 +1552,7 @@
     "url": "https://inria.hal.science/inria-00440407v1",
     "bibtex_url": "https://inria.hal.science/inria-00440407v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Suivi de Surfaces par Déformations Itératives",
@@ -1658,8 +1566,7 @@
     "url": "https://inria.hal.science/inria-00440425v1",
     "bibtex_url": "https://inria.hal.science/inria-00440425v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Remote and Collaborative 3D Interactions",
@@ -1673,8 +1580,7 @@
     "url": "https://inria.hal.science/inria-00405810v1",
     "bibtex_url": "https://inria.hal.science/inria-00405810v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Iterative Mesh Deformation for Dense Surface Tracking",
@@ -1688,8 +1594,7 @@
     "url": "https://inria.hal.science/inria-00440389v1",
     "bibtex_url": "https://inria.hal.science/inria-00440389v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Human Motion Tracking by Registering an Articulated Surface to 3-D Points and Normals",
@@ -1703,8 +1608,7 @@
     "url": "https://inria.hal.science/inria-00446898v1",
     "bibtex_url": "https://inria.hal.science/inria-00446898v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Efficient Polyhedral Modeling from Silhouettes",
@@ -1718,8 +1622,7 @@
     "url": "https://inria.hal.science/inria-00349103v1",
     "bibtex_url": "https://inria.hal.science/inria-00349103v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Temporal Surface Tracking Using Mesh Evolution",
@@ -1733,8 +1636,7 @@
     "url": "https://inria.hal.science/inria-00590255v1",
     "bibtex_url": "https://inria.hal.science/inria-00590255v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Grimage: 3D modeling for remote collaboration and telepresence",
@@ -1748,8 +1650,7 @@
     "url": "https://inria.hal.science/inria-00349127v1",
     "bibtex_url": "https://inria.hal.science/inria-00349127v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Coherent Laplacian 3-D Protrusion Segmentation",
@@ -1763,8 +1664,7 @@
     "url": "https://inria.hal.science/inria-00590250v1",
     "bibtex_url": "https://inria.hal.science/inria-00590250v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Camera-Clustering for Multi-Resolution 3-D Surface Reconstruction",
@@ -1778,8 +1678,7 @@
     "url": "https://inria.hal.science/inria-00326778v1",
     "bibtex_url": "https://inria.hal.science/inria-00326778v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Articulated Shape Matching Using Laplacian Eigenfunctions and Unsupervised Point Registration",
@@ -1793,8 +1692,7 @@
     "url": "https://inria.hal.science/inria-00590251v1",
     "bibtex_url": "https://inria.hal.science/inria-00590251v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Action Recognition using Exemplar-based Embedding",
@@ -1808,8 +1706,7 @@
     "url": "https://inria.hal.science/inria-00590256v1",
     "bibtex_url": "https://inria.hal.science/inria-00590256v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "TransforMesh: a topology-adaptive mesh-based approach to surface evolution",
@@ -1823,8 +1720,7 @@
     "url": "https://inria.hal.science/inria-00590245v1",
     "bibtex_url": "https://inria.hal.science/inria-00590245v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Robust Spectral 3D-bodypart Segmentation along Time",
@@ -1834,12 +1730,11 @@
     "venue": "2nd Workshop on Human Motion, Understanding, Modeling, Capture and Animation, Oct 2007, Rio de Janeiro, Brazil.",
     "pdf": "",
     "video": "",
-    "thumbnail": "assets/publications/robust-spectral-3d-bodypart-segmentation-along-time-d41d8cd98f.jpg",
+    "thumbnail": "assets/publications/robust-spectral-3d-bodypart-segmentation-along-time-00228132a5.jpg",
     "url": "https://inria.hal.science/inria-00590229v1",
     "bibtex_url": "https://inria.hal.science/inria-00590229v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Modélisation de scènes dynamiques à partir de plusieurs caméras",
@@ -1853,8 +1748,7 @@
     "url": "https://theses.hal.science/tel-00584185v1",
     "bibtex_url": "https://theses.hal.science/tel-00584185v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Identifying Foreground from Multiple Images",
@@ -1868,8 +1762,7 @@
     "url": "https://inria.hal.science/inria-00590236v1",
     "bibtex_url": "https://inria.hal.science/inria-00590236v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Grimage: markerless 3D interactions",
@@ -1883,8 +1776,7 @@
     "url": "https://inria.hal.science/inria-00516153v1",
     "bibtex_url": "https://inria.hal.science/inria-00516153v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Articulated Shape Matching Using Locally Linear Embedding and Orthogonal Alignment",
@@ -1894,12 +1786,11 @@
     "venue": "NRTL 2007 - Workshop on Non-rigid Registration and Tracking through Learning, Oct 2007, Rio de Janeiro, Brazil.",
     "pdf": "https://inria.hal.science/inria-00590237/file/Mateus-NRTL2007.pdf",
     "video": "",
-    "thumbnail": "assets/publications/articulated-shape-matching-using-locally-linear-embedding-and-orthogonal-alignme-e3c194316b.jpg",
+    "thumbnail": "https://inria.hal.science/inria-00590237v1",
     "url": "https://inria.hal.science/inria-00590237v1",
     "bibtex_url": "https://inria.hal.science/inria-00590237v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Articulated Shape Matching by Robust Alignment of Embedded Representations",
@@ -1909,12 +1800,11 @@
     "venue": "3DRR 2007 - IEEE Workshop on 3D Representation for Recognition, Oct 2007, Rio de Janeiro, Brazil.",
     "pdf": "https://inria.hal.science/inria-00590238/file/3drr07.pdf",
     "video": "",
-    "thumbnail": "assets/publications/articulated-shape-matching-by-robust-alignment-of-embedded-representations-5c303bc0b8.jpg",
+    "thumbnail": "https://inria.hal.science/inria-00590238v1",
     "url": "https://inria.hal.science/inria-00590238v1",
     "bibtex_url": "https://inria.hal.science/inria-00590238v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Action Recognition from Arbitrary Views using 3D Exemplars",
@@ -1928,8 +1818,7 @@
     "url": "https://inria.hal.science/inria-00544741v1",
     "bibtex_url": "https://inria.hal.science/inria-00544741v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Visual Shapes of Silhouette Sets",
@@ -1943,8 +1832,7 @@
     "url": "https://hal.science/hal-00349020v1",
     "bibtex_url": "https://hal.science/hal-00349020v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "The GrImage Platform: A Mixed Reality Environment for Interactions",
@@ -1958,8 +1846,7 @@
     "url": "https://inria.hal.science/inria-00349084v1",
     "bibtex_url": "https://inria.hal.science/inria-00349084v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "On Using Silhouettes for Camera Calibration",
@@ -1969,12 +1856,11 @@
     "venue": "7th Asian Conference on Computer Vision (ACCV '06), Jan 2006, Hyderabad, India.",
     "pdf": "",
     "video": "",
-    "thumbnail": "assets/publications/on-using-silhouettes-for-camera-calibration-d41d8cd98f.jpg",
+    "thumbnail": "assets/publications/on-using-silhouettes-for-camera-calibration-42be3b933f.jpg",
     "url": "https://inria.hal.science/inria-00590207v1",
     "bibtex_url": "https://inria.hal.science/inria-00590207v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Fusion multi-vue d'informations de silhouettes à l'aide d'une grille d'occupation 3D",
@@ -1984,12 +1870,11 @@
     "venue": "15e congrès francophone AFRIF-AFIA Reconnaissance des Formes et Intelligence Artificielle, Jan 2006, Tours, France.--1753",
     "pdf": "https://inria.hal.science/inria-00349093/file/rfia2006.pdf",
     "video": "",
-    "thumbnail": "assets/publications/fusion-multi-vue-d-informations-de-silhouettes-l-aide-d-une-grille-d-occupation--0c23d5f1f1.jpg",
+    "thumbnail": "https://inria.hal.science/inria-00349093v1",
     "url": "https://inria.hal.science/inria-00349093v1",
     "bibtex_url": "https://inria.hal.science/inria-00349093v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Free viewpoint action recognition using motion history volumes",
@@ -2003,8 +1888,7 @@
     "url": "https://inria.hal.science/inria-00544629v1",
     "bibtex_url": "https://inria.hal.science/inria-00544629v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Automatic Discovery of Action Taxonomies from Multiple Views",
@@ -2018,8 +1902,7 @@
     "url": "https://inria.hal.science/inria-00590216v1",
     "bibtex_url": "https://inria.hal.science/inria-00590216v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "A Factorization Based Self-Calibration for Radially Symmetric Cameras",
@@ -2033,8 +1916,7 @@
     "url": "https://inria.hal.science/inria-00384315v1",
     "bibtex_url": "https://inria.hal.science/inria-00384315v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "3D Skeleton-Based Body Pose Recovery",
@@ -2048,8 +1930,7 @@
     "url": "https://inria.hal.science/inria-00590212v1",
     "bibtex_url": "https://inria.hal.science/inria-00590212v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Using Geometric Constraints Through Parallelepipeds for Calibration and 3D Modelling",
@@ -2059,12 +1940,11 @@
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2005, 27 (2)",
     "pdf": "",
     "video": "",
-    "thumbnail": "assets/publications/using-geometric-constraints-through-parallelepipeds-for-calibration-and-3d-model-d41d8cd98f.jpg",
+    "thumbnail": "",
     "url": "https://inria.hal.science/inria-00524409v1",
     "bibtex_url": "https://inria.hal.science/inria-00524409v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Running Large VR Applications on a PC Cluster: the FlowVR Experience",
@@ -2078,8 +1958,7 @@
     "url": "https://inria.hal.science/inria-00590188v1",
     "bibtex_url": "https://inria.hal.science/inria-00590188v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Motion History Volumes for Free Viewpoint Action Recognition",
@@ -2093,8 +1972,7 @@
     "url": "https://inria.hal.science/inria-00590197v1",
     "bibtex_url": "https://inria.hal.science/inria-00590197v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Modélisation tri-dimensionnelle temps-réel et distribuée",
@@ -2108,8 +1986,7 @@
     "url": "https://inria.hal.science/inria-00349096v1",
     "bibtex_url": "https://inria.hal.science/inria-00349096v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Fusion of Multi-View Silhouette Cues Using a Space Occupancy Grid",
@@ -2123,8 +2000,7 @@
     "url": "https://inria.hal.science/inria-00349083v1",
     "bibtex_url": "https://inria.hal.science/inria-00349083v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Camera Calibration Using Silhouettes",
@@ -2138,8 +2014,7 @@
     "url": "https://inria.hal.science/inria-00070447v1",
     "bibtex_url": "https://inria.hal.science/inria-00070447v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Articulated Motion Capture from 3-D Points and Normals",
@@ -2153,8 +2028,7 @@
     "url": "https://inria.hal.science/inria-00590195v1",
     "bibtex_url": "https://inria.hal.science/inria-00590195v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Using Geometric Constraints for Camera Calibration and Positioning and 3D Scene Modelling",
@@ -2164,12 +2038,11 @@
     "venue": "International Workshop on Vision Techniques Applied to the Rehabilitation of City Centres, Oct 2004, Lisbon, Portugal",
     "pdf": "https://inria.hal.science/inria-00524415/file/WilczkowiakSturmBoyer-cipa04.pdf",
     "video": "",
-    "thumbnail": "assets/publications/using-geometric-constraints-for-camera-calibration-and-positioning-and-3d-scene--6bb045a55f.jpg",
+    "thumbnail": "https://inria.hal.science/inria-00524415v1",
     "url": "https://inria.hal.science/inria-00524415v1",
     "bibtex_url": "https://inria.hal.science/inria-00524415v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Marker-less Real Time 3D Modeling for Virtual Reality",
@@ -2183,8 +2056,7 @@
     "url": "https://inria.hal.science/inria-00349066v1",
     "bibtex_url": "https://inria.hal.science/inria-00349066v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "A Distributed Approach for Real Time 3D Modeling",
@@ -2198,8 +2070,7 @@
     "url": "https://inria.hal.science/inria-00349062v1",
     "bibtex_url": "https://inria.hal.science/inria-00349062v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Une approche pour l'analyse et exploitation des contraintes géométriques en modélisation 3D",
@@ -2209,12 +2080,11 @@
     "venue": "Journées ORASIS, May 2003, Gérardmer, France.",
     "pdf": "https://inria.hal.science/inria-00525638/file/WilczkowiakSturmBoyer-orasis03.pdf",
     "video": "",
-    "thumbnail": "assets/publications/une-approche-pour-l-analyse-et-exploitation-des-contraintes-g-om-triques-en-mod--862dcab899.jpg",
+    "thumbnail": "https://inria.hal.science/inria-00525638v1",
     "url": "https://inria.hal.science/inria-00525638v1",
     "bibtex_url": "https://inria.hal.science/inria-00525638v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Une approche hybride pour calculer l'enveloppe visuelle d'objets complexes",
@@ -2228,8 +2098,7 @@
     "url": "https://inria.hal.science/inria-00349086v1",
     "bibtex_url": "https://inria.hal.science/inria-00349086v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "The Analysis of Ambiguous Solutions in Linear Systems and its Application to Computer Vision",
@@ -2239,12 +2108,11 @@
     "venue": "British Machine Vision Conference (BMVC '03), Sep 2003, Norwich, United Kingdom.",
     "pdf": "https://inria.hal.science/inria-00525637/file/WilczkowiakSturmBoyer-bmvc03.pdf",
     "video": "",
-    "thumbnail": "assets/publications/the-analysis-of-ambiguous-solutions-in-linear-systems-and-its-application-to-com-9760f43ef3.jpg",
+    "thumbnail": "https://inria.hal.science/inria-00525637v1",
     "url": "https://inria.hal.science/inria-00525637v1",
     "bibtex_url": "https://inria.hal.science/inria-00525637v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Scene Modeling Based on Constraint System Decomposition Techniques",
@@ -2258,8 +2126,7 @@
     "url": "https://inria.hal.science/inria-00525636v1",
     "bibtex_url": "https://inria.hal.science/inria-00525636v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Real-Time Capture, Reconstruction and Insertion into Virtual World of Human Actors",
@@ -2273,8 +2140,7 @@
     "url": "https://inria.hal.science/inria-00510183v1",
     "bibtex_url": "https://inria.hal.science/inria-00510183v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Exact polyhedral visual hulls",
@@ -2288,8 +2154,7 @@
     "url": "https://inria.hal.science/inria-00349075v2",
     "bibtex_url": "https://inria.hal.science/inria-00349075v2/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "A Hybrid Approach for Computing Visual Hulls of Complex Objects",
@@ -2303,8 +2168,7 @@
     "url": "https://inria.hal.science/inria-00349079v1",
     "bibtex_url": "https://inria.hal.science/inria-00349079v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Modélisation à partir d'Images",
@@ -2314,12 +2178,11 @@
     "venue": "François Sillion. Synthèse d'Images Géographiques, Hermès Science Publications, 2002, 2-7462-0450-9",
     "pdf": "https://inria.hal.science/inria-00525651/file/igat.pdf",
     "video": "",
-    "thumbnail": "assets/publications/mod-lisation-partir-d-images-e8aad6abd0.jpg",
+    "thumbnail": "https://inria.hal.science/inria-00525651v1",
     "url": "https://inria.hal.science/inria-00525651v1",
     "bibtex_url": "https://inria.hal.science/inria-00525651v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Calibrage et Reconstruction à l'aide de Parallélépipèdes et de Parallélogrammes",
@@ -2333,8 +2196,7 @@
     "url": "https://inria.hal.science/inria-00525647v1",
     "bibtex_url": "https://inria.hal.science/inria-00525647v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "3D Modeling Using Geometric Constraints: A Parallelepiped Based Approach",
@@ -2348,8 +2210,7 @@
     "url": "https://inria.hal.science/inria-00525644v1",
     "bibtex_url": "https://inria.hal.science/inria-00525644v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Regular and non-regular point sets: properties and reconstruction",
@@ -2363,8 +2224,7 @@
     "url": "https://inria.hal.science/inria-00100428v1",
     "bibtex_url": "https://inria.hal.science/inria-00100428v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "On computing exact visual hulls of solids bounded by smooth surfaces",
@@ -2374,12 +2234,11 @@
     "venue": "IEEE International Conference on Computer Vision and Pattern Recognition (CVPR '01), Dec 2001, Kauai, United States.--161",
     "pdf": "https://inria.hal.science/inria-00590147/file/LazebnikBoyerPonce_cvpr01.pdf",
     "video": "",
-    "thumbnail": "assets/publications/on-computing-exact-visual-hulls-of-solids-bounded-by-smooth-surfaces-c9012ee7cc.jpg",
+    "thumbnail": "https://inria.hal.science/inria-00590147v1",
     "url": "https://inria.hal.science/inria-00590147v1",
     "bibtex_url": "https://inria.hal.science/inria-00590147v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Camera Calibration and 3D Reconstruction from Single Images Using Parallelepipeds",
@@ -2389,12 +2248,11 @@
     "venue": "8th International Conference on Computer Vision (ICCV '01), Jul 2001, Vancouver, Canada.",
     "pdf": "https://inria.hal.science/inria-00525657/file/WilczkowiakBoyerSturm-iccv01.pdf",
     "video": "",
-    "thumbnail": "assets/publications/camera-calibration-and-3d-reconstruction-from-single-images-using-parallelepiped-63d6c290f0.jpg",
+    "thumbnail": "https://inria.hal.science/inria-00525657v1",
     "url": "https://inria.hal.science/inria-00525657v1",
     "bibtex_url": "https://inria.hal.science/inria-00525657v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Calibrage de caméra et reconstruction 3D à l'aide de parallélépipèdes",
@@ -2408,8 +2266,7 @@
     "url": "https://inria.hal.science/inria-00525656v1",
     "bibtex_url": "https://inria.hal.science/inria-00525656v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Curve and surface reconstruction from regular and non-regular point sets",
@@ -2423,8 +2280,7 @@
     "url": "https://inria.hal.science/inria-00099062v1",
     "bibtex_url": "https://inria.hal.science/inria-00099062v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Photobuilder -- 3D models of architectural scenes from uncalibrated images",
@@ -2438,8 +2294,7 @@
     "url": "https://inria.hal.science/inria-00590113v1",
     "bibtex_url": "https://inria.hal.science/inria-00590113v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Using local planar geometric invariants to match and model images of line segments",
@@ -2449,12 +2304,11 @@
     "venue": "Computer Vision and Image Understanding, 1998, 69 (2)",
     "pdf": "https://inria.hal.science/inria-00102944/file/Papier-CVIU-1997_1.pdf",
     "video": "",
-    "thumbnail": "assets/publications/using-local-planar-geometric-invariants-to-match-and-model-images-of-line-segmen-5853fec751.jpg",
+    "thumbnail": "https://inria.hal.science/inria-00102944v1",
     "url": "https://inria.hal.science/inria-00102944v1",
     "bibtex_url": "https://inria.hal.science/inria-00102944v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Using geometric quasi-invariants to match and model images of line segments",
@@ -2464,12 +2318,11 @@
     "venue": "Computer Vision and Image Understanding, 1998, 69 (2)",
     "pdf": "",
     "video": "",
-    "thumbnail": "assets/publications/using-geometric-quasi-invariants-to-match-and-model-images-of-line-segments-d41d8cd98f.jpg",
+    "thumbnail": "assets/publications/using-geometric-quasi-invariants-to-match-and-model-images-of-line-segments-9d621bdd13.jpg",
     "url": "https://inria.hal.science/inria-00108038v1",
     "bibtex_url": "https://inria.hal.science/inria-00108038v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "3D model acquisition from uncalibrated images",
@@ -2483,8 +2336,7 @@
     "url": "https://inria.hal.science/inria-00590089v1",
     "bibtex_url": "https://inria.hal.science/inria-00590089v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "3D Surface Reconstruction Using Occluding Contours",
@@ -2498,8 +2350,7 @@
     "url": "https://inria.hal.science/inria-00590069v1",
     "bibtex_url": "https://inria.hal.science/inria-00590069v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Reconstruction of curved object surfaces in computer vision",
@@ -2513,8 +2364,7 @@
     "url": "https://theses.hal.science/tel-00584012v1",
     "bibtex_url": "https://theses.hal.science/tel-00584012v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Reconstruction et régularisation de surfaces d'objets courbes",
@@ -2524,12 +2374,11 @@
     "venue": "Traitement du Signal, 1996, 13 (6)--589",
     "pdf": "",
     "video": "",
-    "thumbnail": "assets/publications/reconstruction-et-r-gularisation-de-surfaces-d-objets-courbes-d41d8cd98f.jpg",
+    "thumbnail": "assets/publications/reconstruction-et-r-gularisation-de-surfaces-d-objets-courbes-ba699c29fa.jpg",
     "url": "https://inria.hal.science/inria-00590056v1",
     "bibtex_url": "https://inria.hal.science/inria-00590056v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Object Models From Contour Sequences",
@@ -2543,8 +2392,7 @@
     "url": "https://inria.hal.science/inria-00590062v1",
     "bibtex_url": "https://inria.hal.science/inria-00590062v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   },
   {
     "title": "Smooth Surface Reconstruction from Image Sequences",
@@ -2558,7 +2406,6 @@
     "url": "https://inria.hal.science/inria-00590050v1",
     "bibtex_url": "https://inria.hal.science/inria-00590050v1/bibtex",
     "code": "",
-    "scholar_url": "",
-    "github": ""
+    "scholar_url": ""
   }
 ]
