@@ -31,7 +31,7 @@
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:41b8sTJFDYwC",
     "authors_full": "",
     "video": "",
-    "code": "https://crns-smartvision.github.io/tseglab",
+    "code": "",
     "url": "",
     "bibtex_url": ""
   },
@@ -96,7 +96,7 @@
     "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bxcnXn8AAAAJ&sortby=pubdate&citation_for_view=bxcnXn8AAAAJ:BN2gBF5gczIC",
     "authors_full": "",
     "video": "",
-    "code": "https://markomih.github.io/SplatFields/",
+    "code": "",
     "url": "",
     "bibtex_url": ""
   },
@@ -127,7 +127,7 @@
     "thumbnail": "assets/publications/millimetric-human-surface-capture-in-minutes-01ffefc42d.jpg",
     "url": "https://inria.hal.science/hal-04724016v2",
     "bibtex_url": "https://inria.hal.science/hal-04724016v2/bibtex",
-    "code": "https://projects-morpheo.gitlabpages.inria.fr/millimetrichumans/",
+    "code": "",
     "scholar_url": "",
     "github": "https://projects-morpheo.gitlabpages.inria.fr/millimetrichumans/"
   },
@@ -276,7 +276,7 @@
     "thumbnail": "assets/publications/DataCube_teaser_web.jpg",
     "url": "https://inria.hal.science/hal-04129186v1",
     "bibtex_url": "https://inria.hal.science/hal-04129186v1/bibtex",
-    "code": "https://kinovis.inria.fr/4dhumanoutfit/",
+    "code": "",
     "scholar_url": "",
     "github": "https://kinovis.inria.fr/4dhumanoutfit/"
   },
@@ -2178,7 +2178,7 @@
     "venue": "François Sillion. Synthèse d'Images Géographiques, Hermès Science Publications, 2002, 2-7462-0450-9",
     "pdf": "https://inria.hal.science/inria-00525651/file/igat.pdf",
     "video": "",
-    "thumbnail": "https://inria.hal.science/inria-00525651v1",
+    "thumbnail": "assets/publications/mod-lisation-partir-d-images.jpg",
     "url": "https://inria.hal.science/inria-00525651v1",
     "bibtex_url": "https://inria.hal.science/inria-00525651v1/bibtex",
     "code": "",
